@@ -50,7 +50,7 @@ export class InputItemComponent implements OnInit, AfterViewInit, ControlValueAc
   private _maxLength: number;
   private _error: boolean = false;
   private _extra: string | TemplateRef<any> = '';
-  private _labelNumber: number = 5;
+  private _labelNumber: number = 10;
   private _updatePlaceholder: boolean = false;
   private _prefixListCls: string = 'am-list';
   private _name: string;
