@@ -1,5 +1,6 @@
 import { OnInit, EventEmitter, TemplateRef, AfterContentChecked, ElementRef, Renderer2 } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
+import * as ɵngcc0 from '@angular/core';
 export declare class TextareaItemComponent implements OnInit, AfterContentChecked, ControlValueAccessor {
     private element;
     private render;
@@ -87,4 +88,8 @@ export declare class TextareaItemComponent implements OnInit, AfterContentChecke
     registerOnTouched(fn: any): void;
     ngOnInit(): void;
     ngAfterContentChecked(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<TextareaItemComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<TextareaItemComponent, "TextareaItem , nzm-textarea-item", never, { "value": "value"; "defaultValue": "defaultValue"; "placeholder": "placeholder"; "editable": "editable"; "disabled": "disabled"; "clear": "clear"; "rows": "rows"; "error": "error"; "labelNumber": "labelNumber"; "count": "count"; "prefixListCls": "prefixListCls"; "name": "name"; "autoHeight": "autoHeight"; "title": "title"; "focus": "focus"; "autoFocus": "autoFocus"; }, { "onChange": "onChange"; "onBlur": "onBlur"; "onFocus": "onFocus"; "onErrorClick": "onErrorClick"; }, never, never>;
 }
+
+//# sourceMappingURL=textarea-item.component.d.ts.map

@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PopoverItemComponent } from './popover-item.component';
 import { IconModule } from '../../icon/icon.module';
+import * as ɵngcc0 from '@angular/core';
 export class PopoverItemModule {
 }
-PopoverItemModule.decorators = [
-    { type: NgModule, args: [{
+PopoverItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PopoverItemModule });
+PopoverItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PopoverItemModule_Factory(t) { return new (t || PopoverItemModule)(); }, imports: [[CommonModule, IconModule]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PopoverItemModule, { declarations: function () { return [PopoverItemComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [PopoverItemComponent]; } }); })();
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverItemModule, [{
+        type: NgModule,
+        args: [{
                 imports: [CommonModule, IconModule],
                 exports: [PopoverItemComponent],
                 declarations: [PopoverItemComponent]
-            },] }
-];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicG9wb3Zlci1pdGVtLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIuLi8uLi9jb21wb25lbnRzLyIsInNvdXJjZXMiOlsicG9wb3Zlci9wb3BvdmVyLWl0ZW0vcG9wb3Zlci1pdGVtLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUsb0JBQW9CLEVBQUUsTUFBTSwwQkFBMEIsQ0FBQztBQUNoRSxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sd0JBQXdCLENBQUM7QUFPcEQsTUFBTSxPQUFPLGlCQUFpQjs7O1lBTDdCLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDO2dCQUNuQyxPQUFPLEVBQUUsQ0FBQyxvQkFBb0IsQ0FBQztnQkFDL0IsWUFBWSxFQUFFLENBQUMsb0JBQW9CLENBQUM7YUFDckMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IFBvcG92ZXJJdGVtQ29tcG9uZW50IH0gZnJvbSAnLi9wb3BvdmVyLWl0ZW0uY29tcG9uZW50JztcbmltcG9ydCB7IEljb25Nb2R1bGUgfSBmcm9tICcuLi8uLi9pY29uL2ljb24ubW9kdWxlJztcblxuQE5nTW9kdWxlKHtcbiAgaW1wb3J0czogW0NvbW1vbk1vZHVsZSwgSWNvbk1vZHVsZV0sXG4gIGV4cG9ydHM6IFtQb3BvdmVySXRlbUNvbXBvbmVudF0sXG4gIGRlY2xhcmF0aW9uczogW1BvcG92ZXJJdGVtQ29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBQb3BvdmVySXRlbU1vZHVsZSB7fVxuIl19
+            }]
+    }], null, null); })();
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicG9wb3Zlci1pdGVtLm1vZHVsZS5qcyIsInNvdXJjZXMiOlsiLi4vLi4vY29tcG9uZW50cy9wb3BvdmVyL3BvcG92ZXItaXRlbS9wb3BvdmVyLWl0ZW0ubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxvQkFBb0IsRUFBRSxNQUFNLDBCQUEwQixDQUFDO0FBQ2hFLE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSx3QkFBd0IsQ0FBQzs7QUFPcEQsTUFBTSxPQUFPLGlCQUFpQjtBQUFHOzZDQUxoQyxRQUFRLFNBQUM7Q0FDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDLGtCQUNuQyxPQUFPLEVBQUUsQ0FBQyxvQkFBb0IsQ0FBQyxrQkFDL0IsWUFBWSxFQUFFLENBQUMsb0JBQW9CLENBQUMsY0FDckM7Ozs7Ozs7OzswQkFDSTtBQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBQb3BvdmVySXRlbUNvbXBvbmVudCB9IGZyb20gJy4vcG9wb3Zlci1pdGVtLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBJY29uTW9kdWxlIH0gZnJvbSAnLi4vLi4vaWNvbi9pY29uLm1vZHVsZSc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIEljb25Nb2R1bGVdLFxuICBleHBvcnRzOiBbUG9wb3Zlckl0ZW1Db21wb25lbnRdLFxuICBkZWNsYXJhdGlvbnM6IFtQb3BvdmVySXRlbUNvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgUG9wb3Zlckl0ZW1Nb2R1bGUge31cbiJdfQ==

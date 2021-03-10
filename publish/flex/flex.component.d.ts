@@ -1,3 +1,4 @@
+import * as ɵngcc0 from '@angular/core';
 export declare class FlexComponent {
     defaultProps: {
         prefixCls: string;
@@ -37,6 +38,8 @@ export declare class FlexComponent {
     get amFlexboxAlignContentAround(): boolean;
     get amFlexboxAlignContentStretch(): boolean;
     constructor();
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<FlexComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<FlexComponent, "Flex, nzm-flex", never, { "direction": "direction"; "wrap": "wrap"; "justify": "justify"; "align": "align"; "alignContent": "alignContent"; }, {}, never, ["*"]>;
 }
 export declare class FlexItemComponent {
     defaultProps: {
@@ -44,4 +47,8 @@ export declare class FlexItemComponent {
         align: string;
     };
     flexboxItem: boolean;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<FlexItemComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<FlexItemComponent, "FlexItem, nzm-flex-item", never, {}, {}, never, ["*"]>;
 }
+
+//# sourceMappingURL=flex.component.d.ts.map

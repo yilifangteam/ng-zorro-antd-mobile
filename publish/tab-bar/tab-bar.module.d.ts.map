@@ -1,0 +1,1 @@
+{"version":3,"file":"tab-bar.module.d.ts","sources":["tab-bar.module.d.ts"],"names":[],"mappings":";;;;;;AAAA;;;AACA","sourcesContent":["export declare class TabBarModule {\n}\n"]}

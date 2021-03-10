@@ -1,3 +1,4 @@
+import * as ɵngcc0 from '@angular/core';
 export declare class IconHandler {
     constructor();
     contents: any[];
@@ -28,4 +29,8 @@ export declare class IconHandler {
     };
     renderSvgSprite(): string;
     load(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<IconHandler, never>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDef<IconHandler>;
 }
+
+//# sourceMappingURL=icon.d.ts.map

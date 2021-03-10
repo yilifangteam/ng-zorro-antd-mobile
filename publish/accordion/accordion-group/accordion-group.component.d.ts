@@ -1,6 +1,7 @@
 import { ChangeDetectorRef, EventEmitter, TemplateRef } from '@angular/core';
 import { AccordionService } from '../accordion.service';
 import { isTemplateRef } from '../../core/util/check';
+import * as ɵngcc0 from '@angular/core';
 export declare class AccordionGroupComponent {
     private _accordionService;
     private _cdr;
@@ -22,4 +23,8 @@ export declare class AccordionGroupComponent {
     toggle(): void;
     openOnInitialization(): void;
     slideAnimationDoen(event: any): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<AccordionGroupComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<AccordionGroupComponent, "AccordionPanel, nzm-accordion-panel", never, { "isOpened": "isOpened"; "disabled": "disabled"; "key": "key"; "header": "header"; }, { "onOpen": "onOpen"; "onClose": "onClose"; "onChange": "onChange"; }, never, ["*"]>;
 }
+
+//# sourceMappingURL=accordion-group.component.d.ts.map

@@ -1,6 +1,7 @@
 import { OnInit, ElementRef, AfterViewInit } from '@angular/core';
 import { DateModels } from '../date/DataTypes';
 import { CalendarSingleMonthPropsType } from './PropsType';
+import * as ɵngcc0 from '@angular/core';
 export declare class CalendarSingleMonthComponent implements OnInit, AfterViewInit {
     private _elementRef;
     props: CalendarSingleMonthPropsType;
@@ -18,4 +19,8 @@ export declare class CalendarSingleMonthComponent implements OnInit, AfterViewIn
     onClickCell(item: any): void;
     ngOnInit(): void;
     ngAfterViewInit(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<CalendarSingleMonthComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CalendarSingleMonthComponent, "CalendarSingleMonth, nzm-single-month", never, { "data": "data"; }, {}, never, never>;
 }
+
+//# sourceMappingURL=single-month.component.d.ts.map

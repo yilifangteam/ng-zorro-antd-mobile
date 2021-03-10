@@ -1,6 +1,7 @@
 import { DoCheck, AfterContentInit, QueryList, ElementRef, TemplateRef, EventEmitter } from '@angular/core';
 import { TabPaneComponent } from './tab-pane.component';
 import { TabDirection, TabBarPositionType, TabsOnChangeEvent } from './PropsType';
+import * as ɵngcc0 from '@angular/core';
 export declare class TabsComponent implements DoCheck, AfterContentInit {
     prefixCls: string;
     selectedKey: number;
@@ -54,4 +55,8 @@ export declare class TabsComponent implements DoCheck, AfterContentInit {
     ngDoCheck(): void;
     private selectTabPane;
     private getVelocity;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<TabsComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<TabsComponent, "Tabs, nzm-tabs", never, { "page": "page"; "swipeable": "swipeable"; "useOnPan": "useOnPan"; "animated": "animated"; "distanceToChangeTab": "distanceToChangeTab"; "tabTitleSize": "tabTitleSize"; "tabBarActiveTextColor": "tabBarActiveTextColor"; "tabBarInactiveTextColor": "tabBarInactiveTextColor"; "renderTabBar": "renderTabBar"; "tabBarBackgroundColor": "tabBarBackgroundColor"; "prerenderingSiblingsNumber": "prerenderingSiblingsNumber"; "tabBarTextStyle": "tabBarTextStyle"; "tabPanesContent": "tabPanesContent"; "activeTab": "activeTab"; "tabBarPosition": "tabBarPosition"; "tabDirection": "tabDirection"; "tabBarUnderlineStyle": "tabBarUnderlineStyle"; }, { "onChange": "onChange"; "onTabClick": "onTabClick"; }, ["tabPanes"], never>;
 }
+
+//# sourceMappingURL=tabs.component.d.ts.map

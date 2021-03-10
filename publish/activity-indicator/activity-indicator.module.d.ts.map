@@ -1,0 +1,1 @@
+{"version":3,"file":"activity-indicator.module.d.ts","sources":["activity-indicator.module.d.ts"],"names":[],"mappings":";;;;AAAA;;;AACA","sourcesContent":["export declare class ActivityIndicatorModule {\n}\n"]}

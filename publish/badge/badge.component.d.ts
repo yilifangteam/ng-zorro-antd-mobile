@@ -1,4 +1,5 @@
 import { OnInit, OnChanges, ElementRef, AfterViewInit, Renderer2 } from '@angular/core';
+import * as ɵngcc0 from '@angular/core';
 export declare class BadgeComponent implements OnChanges, OnInit, AfterViewInit {
     private _ref;
     private render;
@@ -33,4 +34,8 @@ export declare class BadgeComponent implements OnChanges, OnInit, AfterViewInit 
     ngOnChanges(): void;
     ngOnInit(): void;
     ngAfterViewInit(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<BadgeComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<BadgeComponent, "Badge, nzm-badge", never, { "size": "size"; "text": "text"; "corner": "corner"; "dot": "dot"; "overflowCount": "overflowCount"; "hot": "hot"; "setStyle": "setStyle"; "className": "className"; }, {}, never, ["*"]>;
 }
+
+//# sourceMappingURL=badge.component.d.ts.map

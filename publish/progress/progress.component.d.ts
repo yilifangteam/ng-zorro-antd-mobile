@@ -1,3 +1,4 @@
+import * as ɵngcc0 from '@angular/core';
 export declare type PositionType = 'normal' | 'fixed';
 export declare class ProgressComponent {
     prefixCls: string;
@@ -16,4 +17,8 @@ export declare class ProgressComponent {
     get hideOuter(): boolean;
     get exceedance(): boolean;
     constructor();
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<ProgressComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ProgressComponent, "Progress, nzm-progress", never, { "unfilled": "unfilled"; "position": "position"; "barStyle": "barStyle"; "percent": "percent"; }, {}, never, never>;
 }
+
+//# sourceMappingURL=progress.component.d.ts.map

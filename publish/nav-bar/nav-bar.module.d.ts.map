@@ -1,0 +1,1 @@
+{"version":3,"file":"nav-bar.module.d.ts","sources":["nav-bar.module.d.ts"],"names":[],"mappings":";;;;AAAA;;;AACA","sourcesContent":["export declare class NavBarModule {\n}\n"]}

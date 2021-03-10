@@ -1,0 +1,1 @@
+{"version":3,"file":"carousel-slide.component.d.ts","sources":["carousel-slide.component.d.ts"],"names":[],"mappings":";AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;AACA","sourcesContent":["export declare class CarouselSlideComponent {\n    container: boolean;\n    width: any;\n    height: string;\n    left: any;\n    top: any;\n    margin: any;\n    overflow: string;\n}\n"]}

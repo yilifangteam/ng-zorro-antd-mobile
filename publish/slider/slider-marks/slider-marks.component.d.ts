@@ -1,4 +1,5 @@
 import { OnInit, ElementRef, EventEmitter, AfterViewInit } from '@angular/core';
+import * as ɵngcc0 from '@angular/core';
 export declare class SliderMarksComponent implements OnInit, AfterViewInit {
     private _elf;
     markArray: Array<any>;
@@ -26,4 +27,8 @@ export declare class SliderMarksComponent implements OnInit, AfterViewInit {
     setMarksLable(): void;
     ngOnInit(): void;
     ngAfterViewInit(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<SliderMarksComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SliderMarksComponent, "SliderMarks, nzm-slider-marks", never, { "min": "min"; "max": "max"; "marks": "marks"; "included": "included"; "upperBound": "upperBound"; "lowerBound": "lowerBound"; }, { "onChange": "onChange"; "onAfterChange": "onAfterChange"; }, never, never>;
 }
+
+//# sourceMappingURL=slider-marks.component.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"popover.module.d.ts","sources":["popover.module.d.ts"],"names":[],"mappings":"AAAA;;;;;AACA;AACA;;;AACA","sourcesContent":["import { PopoverOptions } from './popover-options.provider';\nexport declare function PopoverOptionsFactory(userOptions: PopoverOptions): PopoverOptions;\nexport declare class PopoverModule {\n}\n"]}

@@ -1,5 +1,6 @@
 import { ElementRef, OnChanges } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import * as ɵngcc0 from '@angular/core';
 export declare class SliderTrackComponent implements OnChanges {
     private _elf;
     private _sanitizer;
@@ -19,4 +20,8 @@ export declare class SliderTrackComponent implements OnChanges {
     set style(value: object);
     constructor(_elf: ElementRef, _sanitizer: DomSanitizer);
     ngOnChanges(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<SliderTrackComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SliderTrackComponent, "SliderTrack, nzm-slider-track", never, { "className": "className"; "included": "included"; "offset": "offset"; "length": "length"; "style": "style"; }, {}, never, never>;
 }
+
+//# sourceMappingURL=slider-track.component.d.ts.map

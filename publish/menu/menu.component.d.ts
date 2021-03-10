@@ -1,5 +1,6 @@
 import { OnInit, EventEmitter, OnDestroy } from '@angular/core';
 import { LocaleProviderService } from '../locale-provider/locale-provider.service';
+import * as ɵngcc0 from '@angular/core';
 interface LocaleValue {
     okText: string;
     cancelText: string;
@@ -40,5 +41,9 @@ export declare class MenuComponent implements OnInit, OnDestroy {
     dataItemSelected(dataItem: any): boolean;
     ngOnInit(): void;
     ngOnDestroy(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<MenuComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<MenuComponent, "Menu, nzm-menu", never, { "level": "level"; "value": "value"; "height": "height"; "multiSelect": "multiSelect"; "data": "data"; }, { "onChange": "onChange"; "onOk": "onOk"; "onCancel": "onCancel"; }, never, never>;
 }
 export {};
+
+//# sourceMappingURL=menu.component.d.ts.map

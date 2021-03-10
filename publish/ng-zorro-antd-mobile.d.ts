@@ -10,3 +10,5 @@ export { PopupService as ɵh } from './core/services/popup.service';
 export { IconHandler as ɵe } from './core/util/icon';
 export { LOCALE_PROVIDER_SERVICE_FACTORY as ɵc, LOCALE_PROVIDER_SERVICE_PROVIDER as ɵd } from './locale-provider/locale-provider.service';
 export { RADIO_ITEM_GROUP_VALUE_ACCESSOR as ɵa } from './radio/radio-item-group.component';
+
+//# sourceMappingURL=ng-zorro-antd-mobile.d.ts.map

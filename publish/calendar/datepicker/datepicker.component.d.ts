@@ -1,6 +1,7 @@
 import { OnInit, ElementRef } from '@angular/core';
 import { DateModels } from '../date/DataTypes';
 import { CalendarDatePickerBaseComponent } from './datepicker.base.component';
+import * as ɵngcc0 from '@angular/core';
 export declare class CalendarDatePickerComponent extends CalendarDatePickerBaseComponent implements OnInit {
     constructor();
     transform: string;
@@ -36,4 +37,8 @@ export declare class CalendarDatePickerComponent extends CalendarDatePickerBaseC
     setTransform(nodeStyle: CSSStyleDeclaration, value: any): void;
     setTransition(nodeStyle: CSSStyleDeclaration, value: any): void;
     ngOnInit(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<CalendarDatePickerComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CalendarDatePickerComponent, "CalendarDatePicker, nzm-calendar-date-picker", never, { "onCellClick": "onCellClick"; "endDate": "endDate"; "startDate": "startDate"; "propsData": "propsData"; "onSelectHasDisableDate": "onSelectHasDisableDate"; "onLayout": "onLayout"; }, {}, never, never>;
 }
+
+//# sourceMappingURL=datepicker.component.d.ts.map

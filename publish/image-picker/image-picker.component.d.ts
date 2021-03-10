@@ -1,4 +1,5 @@
 import { EventEmitter } from '@angular/core';
+import * as ɵngcc0 from '@angular/core';
 export interface ElementType {
     type: string;
     backgroundImage: string;
@@ -39,4 +40,8 @@ export declare class ImagePickerComponent {
     fileChange(event: any): void;
     getRotation(orientation?: number): number;
     getOrientation(file: any, callback: (_: number) => void): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<ImagePickerComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ImagePickerComponent, "ImagePicker, nzm-image-picker", never, { "capture": "capture"; "disableDelete": "disableDelete"; "files": "files"; "accept": "accept"; "length": "length"; "multiple": "multiple"; "selectable": "selectable"; }, { "onFail": "onFail"; "onChange": "onChange"; "onImageClick": "onImageClick"; "onAddImageClick": "onAddImageClick"; }, never, never>;
 }
+
+//# sourceMappingURL=image-picker.component.d.ts.map

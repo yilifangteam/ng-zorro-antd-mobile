@@ -1,5 +1,6 @@
 import { OnInit, ElementRef, EventEmitter, OnDestroy } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import * as ɵngcc0 from '@angular/core';
 export declare class SliderHandleComponent implements OnInit, OnDestroy {
     private _elf;
     private _sanitizer;
@@ -50,4 +51,8 @@ export declare class SliderHandleComponent implements OnInit, OnDestroy {
     toConsumableArray(arr: any): any[];
     ngOnInit(): void;
     ngOnDestroy(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<SliderHandleComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SliderHandleComponent, "SliderHandle, nzm-slider-handle", never, { "min": "min"; "max": "max"; "minBound": "minBound"; "maxBound": "maxBound"; "step": "step"; "value": "value"; "disabled": "disabled"; "sliderLength": "sliderLength"; "sliderStart": "sliderStart"; "handleStyle": "handleStyle"; }, { "onChange": "onChange"; "onAfterChange": "onAfterChange"; }, never, never>;
 }
+
+//# sourceMappingURL=slider-handle.component.d.ts.map

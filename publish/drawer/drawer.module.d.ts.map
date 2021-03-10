@@ -1,0 +1,1 @@
+{"version":3,"file":"drawer.module.d.ts","sources":["drawer.module.d.ts"],"names":[],"mappings":";;;AAAA;;;AACA","sourcesContent":["export declare class DrawerModule {\n}\n"]}

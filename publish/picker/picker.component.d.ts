@@ -2,6 +2,7 @@ import { OnInit, OnDestroy, ElementRef, AfterViewInit } from '@angular/core';
 import { PickerOptions } from './picker-options.provider';
 import { LocaleProviderService } from '../locale-provider/locale-provider.service';
 import { PickerRef } from './picker-ref.class';
+import * as ɵngcc0 from '@angular/core';
 export declare class PickerComponent<T = any, R = any> extends PickerRef<T, R> implements OnInit, AfterViewInit, OnDestroy {
     elementRef: ElementRef;
     options: PickerOptions;
@@ -48,4 +49,8 @@ export declare class PickerComponent<T = any, R = any> extends PickerRef<T, R> i
     ngOnInit(): void;
     ngAfterViewInit(): void;
     ngOnDestroy(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<PickerComponent<any, any>, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<PickerComponent<any, any>, "Picker", never, {}, {}, never, never>;
 }
+
+//# sourceMappingURL=picker.component.d.ts.map

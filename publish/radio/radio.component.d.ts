@@ -1,5 +1,6 @@
 import { OnInit, EventEmitter } from '@angular/core';
 import { RadioStatus } from './PropsType';
+import * as ɵngcc0 from '@angular/core';
 export declare class RadioComponent implements OnInit {
     prefixCls: string;
     classMap: object;
@@ -18,4 +19,8 @@ export declare class RadioComponent implements OnInit {
     updateValue(checkValue: boolean): void;
     ngOnInit(): void;
     private updateClassMap;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<RadioComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<RadioComponent, "[Radio], [nzm-radio]", never, { "checked": "checked"; "disabled": "disabled"; "name": "name"; "value": "value"; }, { "onChange": "onChange"; }, never, ["*"]>;
 }
+
+//# sourceMappingURL=radio.component.d.ts.map

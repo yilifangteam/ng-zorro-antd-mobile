@@ -1,0 +1,1 @@
+{"version":3,"file":"accordion.service.d.ts","sources":["accordion.service.d.ts"],"names":[],"mappings":";AAAA;AACA;AACA;AACA;;;AACA","sourcesContent":["export declare class AccordionService {\n    component: any;\n    accordion: boolean;\n    getComponent(component: any): void;\n}\n"]}

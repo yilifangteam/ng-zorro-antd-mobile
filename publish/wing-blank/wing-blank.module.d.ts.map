@@ -1,0 +1,1 @@
+{"version":3,"file":"wing-blank.module.d.ts","sources":["wing-blank.module.d.ts"],"names":[],"mappings":";;;AAAA;;;AACA","sourcesContent":["export declare class WingBlankModule {\n}\n"]}

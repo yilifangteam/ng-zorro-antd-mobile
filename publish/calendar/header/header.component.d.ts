@@ -1,5 +1,6 @@
 import { TemplateRef, EventEmitter } from '@angular/core';
 import { DateModels } from '../date/DataTypes';
+import * as ɵngcc0 from '@angular/core';
 export declare class CalendarHeaderComponent {
     title: string;
     closeIcon_component: boolean;
@@ -19,4 +20,8 @@ export declare class CalendarHeaderComponent {
     constructor();
     triggerCancel(): void;
     triggerClear(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<CalendarHeaderComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CalendarHeaderComponent, "CalendarHeader, nzm-calendar-header", never, { "locale": "locale"; "closeIcon": "closeIcon"; "showClear": "showClear"; }, { "onCancel": "onCancel"; "onClear": "onClear"; }, never, never>;
 }
+
+//# sourceMappingURL=header.component.d.ts.map

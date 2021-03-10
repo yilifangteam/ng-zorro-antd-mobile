@@ -1,4 +1,5 @@
 import { AfterContentInit, ElementRef, TemplateRef, EventEmitter } from '@angular/core';
+import * as ɵngcc0 from '@angular/core';
 export declare class PopoverItemComponent implements AfterContentInit {
     private _elementRef;
     defaultProps: {
@@ -20,4 +21,8 @@ export declare class PopoverItemComponent implements AfterContentInit {
     touchStart(e: any): void;
     constructor(_elementRef: ElementRef);
     ngAfterContentInit(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<PopoverItemComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<PopoverItemComponent, "PopoverItem, nzm-popover-item", never, { "icon": "icon"; "style": "style"; "disabled": "disabled"; }, { "select": "select"; }, never, ["*"]>;
 }
+
+//# sourceMappingURL=popover-item.component.d.ts.map

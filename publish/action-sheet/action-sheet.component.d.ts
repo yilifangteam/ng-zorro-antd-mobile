@@ -2,6 +2,7 @@ import { OnInit, OnDestroy, ElementRef, TemplateRef } from '@angular/core';
 import { Subject } from 'rxjs';
 import { LocaleProviderService } from '../locale-provider/locale-provider.service';
 import { ActionSheetRef } from './action-sheet-ref.class';
+import * as ɵngcc0 from '@angular/core';
 export declare class ActionSheetComponent<T = any, R = any> extends ActionSheetRef<T, R> implements OnInit, OnDestroy {
     private localeProviderService;
     elementRef: ElementRef;
@@ -23,4 +24,8 @@ export declare class ActionSheetComponent<T = any, R = any> extends ActionSheetR
     close(): void;
     destroy(): void;
     ngOnDestroy(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<ActionSheetComponent<any, any>, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ActionSheetComponent<any, any>, "ActionSheet", never, {}, {}, never, never>;
 }
+
+//# sourceMappingURL=action-sheet.component.d.ts.map

@@ -1,4 +1,5 @@
 import { OnInit, EventEmitter } from '@angular/core';
+import * as ɵngcc0 from '@angular/core';
 export declare class GridComponent implements OnInit {
     wrapCls: {};
     itemCls: {};
@@ -43,4 +44,8 @@ export declare class GridComponent implements OnInit {
     getRows(rowCount: number, dataLength: number): any[];
     click(data: any, index: any): void;
     ngOnInit(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<GridComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<GridComponent, "Grid, nzm-grid", never, { "itemStyle": "itemStyle"; "square": "square"; "hasLine": "hasLine"; "activeStyle": "activeStyle"; "columnNum": "columnNum"; "carouselMaxRow": "carouselMaxRow"; "isCarousel": "isCarousel"; "data": "data"; }, { "onClick": "onClick"; }, never, ["*"]>;
 }
+
+//# sourceMappingURL=grid.component.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"flex.module.d.ts","sources":["flex.module.d.ts"],"names":[],"mappings":";;;AAAA;;;AACA","sourcesContent":["export declare class FlexModule {\n}\n"]}

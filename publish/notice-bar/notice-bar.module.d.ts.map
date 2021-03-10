@@ -1,0 +1,1 @@
+{"version":3,"file":"notice-bar.module.d.ts","sources":["notice-bar.module.d.ts"],"names":[],"mappings":";;;;;AAAA;;;AACA","sourcesContent":["export declare class NoticeBarModule {\n}\n"]}

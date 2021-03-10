@@ -1,0 +1,1 @@
+{"version":3,"file":"touch-feedback.module.d.ts","sources":["touch-feedback.module.d.ts"],"names":[],"mappings":";;;AAAA;;;AACA","sourcesContent":["export declare class TouchFeedbackModule {\n}\n"]}

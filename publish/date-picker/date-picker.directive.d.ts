@@ -2,6 +2,7 @@ import { OnInit, OnChanges, OnDestroy, EventEmitter, ComponentRef, SimpleChanges
 import { DatePickerComponent } from './date-picker.component';
 import { DatePickerOptions } from './date-picker-options.provider';
 import { ControlValueAccessor } from '@angular/forms';
+import * as ɵngcc0 from '@angular/core';
 export declare class DatePickerDirective implements OnDestroy, OnChanges, OnInit, ControlValueAccessor {
     private _viewContainerRef;
     private _defaultOptions;
@@ -42,4 +43,8 @@ export declare class DatePickerDirective implements OnDestroy, OnChanges, OnInit
     ngOnInit(): void;
     ngOnChanges(changes: SimpleChanges): void;
     ngOnDestroy(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatePickerDirective, never>;
+    static ɵdir: ɵngcc0.ɵɵDirectiveDefWithMeta<DatePickerDirective, "[DatePicker]", never, { "minuteStep": "minuteStep"; "value": "value"; "disabled": "disabled"; "isOpen": "isOpen"; "mode": "mode"; "minDate": "minDate"; "maxDate": "maxDate"; "use12Hours": "use12Hours"; "mask": "mask"; "title": "title"; "okText": "okText"; "dismissText": "dismissText"; "locale": "locale"; "appendToBody": "appendToBody"; "showErrorToast": "showErrorToast"; "showErrorToastInterval": "showErrorToastInterval"; }, { "onVisibleChange": "onVisibleChange"; "onValueChange": "onValueChange"; "onOk": "onOk"; "onDismiss": "onDismiss"; }, never>;
 }
+
+//# sourceMappingURL=date-picker.directive.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"tabs.module.d.ts","sources":["tabs.module.d.ts"],"names":[],"mappings":";;;;;;;AAAA;AACA;;;AACA","sourcesContent":["export { TabPaneComponent } from './tab-pane.component';\nexport declare class TabsModule {\n}\n"]}
