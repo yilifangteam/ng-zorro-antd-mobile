@@ -1,0 +1,5 @@
+export default {
+    prevText: 'Prev',
+    nextText: 'Next'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW5fVVMuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBhZ2luYXRpb24vbG9jYWxlL2VuX1VTLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixRQUFRLEVBQUUsTUFBTTtJQUNoQixRQUFRLEVBQUUsTUFBTTtDQUNqQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBwcmV2VGV4dDogJ1ByZXYnLFxuICBuZXh0VGV4dDogJ05leHQnXG59O1xuIl19

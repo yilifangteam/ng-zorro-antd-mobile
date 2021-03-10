@@ -1,0 +1,4 @@
+export default {
+    cancelText: '取消'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemhfQ04uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInNlYXJjaC1iYXIvbG9jYWxlL3poX0NOLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixVQUFVLEVBQUUsSUFBSTtDQUNqQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBjYW5jZWxUZXh0OiAn5Y+W5raIJ1xufTtcbiJdfQ==

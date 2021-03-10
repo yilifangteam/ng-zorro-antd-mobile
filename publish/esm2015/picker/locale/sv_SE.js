@@ -1,0 +1,6 @@
+export default {
+    okText: 'Ok',
+    dismissText: 'Avbryt',
+    extra: 'vänligen välj'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3ZfU0UuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBpY2tlci9sb2NhbGUvc3ZfU0UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNiLE1BQU0sRUFBRSxJQUFJO0lBQ1osV0FBVyxFQUFFLFFBQVE7SUFDckIsS0FBSyxFQUFFLGVBQWU7Q0FDdkIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgb2tUZXh0OiAnT2snLFxuICBkaXNtaXNzVGV4dDogJ0F2YnJ5dCcsXG4gIGV4dHJhOiAndsOkbmxpZ2VuIHbDpGxqJ1xufTtcbiJdfQ==

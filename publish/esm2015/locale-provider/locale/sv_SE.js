@@ -1,0 +1,24 @@
+import Picker from '../../picker/locale/sv_SE';
+import DatePicker from '../../date-picker/locale/sv_SE';
+import DatePickerView from '../../date-picker-view/locale/sv_SE';
+import Menu from '../../menu/locale/sv_SE';
+// import Calendar from '../../calendar/locale/sv_SE';
+import SearchBar from '../../search-bar/locale/sv_SE';
+import InputItem from '../../input-item/locale/sv_SE';
+import Pagination from '../../pagination/locale/sv_SE';
+import PullToRefresh from '../../pull-to-refresh/locale/sv_SE';
+import ActionSheet from '../../action-sheet/locale/sv_SE';
+export default {
+    locale: 'sv_SE',
+    Picker,
+    DatePicker,
+    DatePickerView,
+    Menu,
+    // Calendar,
+    SearchBar,
+    InputItem,
+    Pagination,
+    PullToRefresh,
+    ActionSheet
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3ZfU0UuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbImxvY2FsZS1wcm92aWRlci9sb2NhbGUvc3ZfU0UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxNQUFNLE1BQU0sMkJBQTJCLENBQUM7QUFDL0MsT0FBTyxVQUFVLE1BQU0sZ0NBQWdDLENBQUM7QUFDeEQsT0FBTyxjQUFjLE1BQU0scUNBQXFDLENBQUM7QUFDakUsT0FBTyxJQUFJLE1BQU0seUJBQXlCLENBQUM7QUFDM0Msc0RBQXNEO0FBQ3RELE9BQU8sU0FBUyxNQUFNLCtCQUErQixDQUFDO0FBQ3RELE9BQU8sU0FBUyxNQUFNLCtCQUErQixDQUFDO0FBQ3RELE9BQU8sVUFBVSxNQUFNLCtCQUErQixDQUFDO0FBQ3ZELE9BQU8sYUFBYSxNQUFNLG9DQUFvQyxDQUFDO0FBQy9ELE9BQU8sV0FBVyxNQUFNLGlDQUFpQyxDQUFDO0FBRTFELGVBQWU7SUFDYixNQUFNLEVBQUUsT0FBTztJQUNmLE1BQU07SUFDTixVQUFVO0lBQ1YsY0FBYztJQUNkLElBQUk7SUFDSixZQUFZO0lBQ1osU0FBUztJQUNULFNBQVM7SUFDVCxVQUFVO0lBQ1YsYUFBYTtJQUNiLFdBQVc7Q0FDWixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFBpY2tlciBmcm9tICcuLi8uLi9waWNrZXIvbG9jYWxlL3N2X1NFJztcbmltcG9ydCBEYXRlUGlja2VyIGZyb20gJy4uLy4uL2RhdGUtcGlja2VyL2xvY2FsZS9zdl9TRSc7XG5pbXBvcnQgRGF0ZVBpY2tlclZpZXcgZnJvbSAnLi4vLi4vZGF0ZS1waWNrZXItdmlldy9sb2NhbGUvc3ZfU0UnO1xuaW1wb3J0IE1lbnUgZnJvbSAnLi4vLi4vbWVudS9sb2NhbGUvc3ZfU0UnO1xuLy8gaW1wb3J0IENhbGVuZGFyIGZyb20gJy4uLy4uL2NhbGVuZGFyL2xvY2FsZS9zdl9TRSc7XG5pbXBvcnQgU2VhcmNoQmFyIGZyb20gJy4uLy4uL3NlYXJjaC1iYXIvbG9jYWxlL3N2X1NFJztcbmltcG9ydCBJbnB1dEl0ZW0gZnJvbSAnLi4vLi4vaW5wdXQtaXRlbS9sb2NhbGUvc3ZfU0UnO1xuaW1wb3J0IFBhZ2luYXRpb24gZnJvbSAnLi4vLi4vcGFnaW5hdGlvbi9sb2NhbGUvc3ZfU0UnO1xuaW1wb3J0IFB1bGxUb1JlZnJlc2ggZnJvbSAnLi4vLi4vcHVsbC10by1yZWZyZXNoL2xvY2FsZS9zdl9TRSc7XG5pbXBvcnQgQWN0aW9uU2hlZXQgZnJvbSAnLi4vLi4vYWN0aW9uLXNoZWV0L2xvY2FsZS9zdl9TRSc7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgbG9jYWxlOiAnc3ZfU0UnLFxuICBQaWNrZXIsXG4gIERhdGVQaWNrZXIsXG4gIERhdGVQaWNrZXJWaWV3LFxuICBNZW51LFxuICAvLyBDYWxlbmRhcixcbiAgU2VhcmNoQmFyLFxuICBJbnB1dEl0ZW0sXG4gIFBhZ2luYXRpb24sXG4gIFB1bGxUb1JlZnJlc2gsXG4gIEFjdGlvblNoZWV0XG59O1xuIl19

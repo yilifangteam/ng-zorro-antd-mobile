@@ -1,0 +1,6 @@
+export default {
+    okText: 'Ok',
+    dismissText: 'Annuller',
+    extra: 'Vælg venligst'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGFfREsuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBpY2tlci9sb2NhbGUvZGFfREsudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNiLE1BQU0sRUFBRSxJQUFJO0lBQ1osV0FBVyxFQUFFLFVBQVU7SUFDdkIsS0FBSyxFQUFFLGVBQWU7Q0FDdkIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgb2tUZXh0OiAnT2snLFxuICBkaXNtaXNzVGV4dDogJ0FubnVsbGVyJyxcbiAgZXh0cmE6ICdWw6ZsZyB2ZW5saWdzdCdcbn07XG4iXX0=

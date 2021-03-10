@@ -1,0 +1,5 @@
+export default {
+    prevText: 'Назад',
+    nextText: 'Вперёд'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicnVfUlUuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBhZ2luYXRpb24vbG9jYWxlL3J1X1JVLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixRQUFRLEVBQUUsT0FBTztJQUNqQixRQUFRLEVBQUUsUUFBUTtDQUNuQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBwcmV2VGV4dDogJ9Cd0LDQt9Cw0LQnLFxuICBuZXh0VGV4dDogJ9CS0L/QtdGA0ZHQtCdcbn07XG4iXX0=

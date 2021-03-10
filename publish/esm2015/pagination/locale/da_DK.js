@@ -1,0 +1,5 @@
+export default {
+    prevText: 'Forrige',
+    nextText: 'Næste'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGFfREsuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBhZ2luYXRpb24vbG9jYWxlL2RhX0RLLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixRQUFRLEVBQUUsU0FBUztJQUNuQixRQUFRLEVBQUUsT0FBTztDQUNsQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBwcmV2VGV4dDogJ0ZvcnJpZ2UnLFxuICBuZXh0VGV4dDogJ07DpnN0ZSdcbn07XG4iXX0=

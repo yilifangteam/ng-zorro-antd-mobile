@@ -1,0 +1,5 @@
+export default {
+    prevText: '上一页',
+    nextText: '下一页'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemhfQ04uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBhZ2luYXRpb24vbG9jYWxlL3poX0NOLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixRQUFRLEVBQUUsS0FBSztJQUNmLFFBQVEsRUFBRSxLQUFLO0NBQ2hCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gIHByZXZUZXh0OiAn5LiK5LiA6aG1JyxcbiAgbmV4dFRleHQ6ICfkuIvkuIDpobUnXG59O1xuIl19

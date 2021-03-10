@@ -1,0 +1,48 @@
+@radioWarpPrefixCls: am-radio;
+@listPrefixCls: am-list;
+
+radioitem {
+  display: block;
+}
+
+.@{listPrefixCls} {
+  & .@{radioWarpPrefixCls}-item {
+    .@{listPrefixCls}-line {
+      .@{listPrefixCls}-content {
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+.@{listPrefixCls}-item {
+  &.@{radioWarpPrefixCls}-item {
+    .@{listPrefixCls}-line {
+      .@{listPrefixCls}-extra {
+        flex: 0;
+
+        .@{radioWarpPrefixCls} {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: @list-item-height;
+          overflow: visible;
+
+          &-inner {
+            right: @v-spacing-lg;
+            top: @h-spacing-lg;
+          }
+        }
+      }
+    }
+
+    &.@{radioWarpPrefixCls}-item-disabled {
+      .@{listPrefixCls}-content {
+        color: @color-text-disabled;
+      }
+    }
+  }
+}

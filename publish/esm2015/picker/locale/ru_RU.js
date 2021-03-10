@@ -1,0 +1,6 @@
+export default {
+    okText: 'Ок',
+    dismissText: 'Отмена',
+    extra: ''
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicnVfUlUuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBpY2tlci9sb2NhbGUvcnVfUlUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNiLE1BQU0sRUFBRSxJQUFJO0lBQ1osV0FBVyxFQUFFLFFBQVE7SUFDckIsS0FBSyxFQUFFLEVBQUU7Q0FDVixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBva1RleHQ6ICfQntC6JyxcbiAgZGlzbWlzc1RleHQ6ICfQntGC0LzQtdC90LAnLFxuICBleHRyYTogJydcbn07XG4iXX0=

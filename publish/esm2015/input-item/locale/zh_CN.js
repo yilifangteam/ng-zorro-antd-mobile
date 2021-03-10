@@ -1,0 +1,6 @@
+export default {
+    confirmLabel: '确定',
+    backspaceLabel: '退格',
+    cancelKeyboardLabel: '收起键盘'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemhfQ04uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbImlucHV0LWl0ZW0vbG9jYWxlL3poX0NOLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixZQUFZLEVBQUUsSUFBSTtJQUNsQixjQUFjLEVBQUUsSUFBSTtJQUNwQixtQkFBbUIsRUFBRSxNQUFNO0NBQzVCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gIGNvbmZpcm1MYWJlbDogJ+ehruWumicsXG4gIGJhY2tzcGFjZUxhYmVsOiAn6YCA5qC8JyxcbiAgY2FuY2VsS2V5Ym9hcmRMYWJlbDogJ+aUtui1t+mUruebmCdcbn07XG4iXX0=

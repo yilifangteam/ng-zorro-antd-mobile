@@ -1,0 +1,11 @@
+
+    <ImagePicker
+      [files]="files"
+      [multiple]="multiple"
+      [selectable]="files.length < 5"
+      [accept]="'image/gif,image/jpeg,image/jpg,image/png'"
+      (onChange)="fileChange($event)"
+      (onImageClick)="imageClick($event)"
+      (onImageChange)="ImageChange($event)"
+    ></ImagePicker>
+  

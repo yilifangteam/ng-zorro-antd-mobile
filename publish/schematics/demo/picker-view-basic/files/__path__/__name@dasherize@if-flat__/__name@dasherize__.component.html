@@ -1,0 +1,4 @@
+
+    <div>{{ getValue(value) }}</div>
+    <PickerView [data]="seasons" [cascade]="false" [(ngModel)]="value" (ngModelChange)="onChange($event)"></PickerView>
+  

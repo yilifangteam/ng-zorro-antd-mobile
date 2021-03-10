@@ -1,0 +1,6 @@
+export default {
+    okText: '确定',
+    dismissText: '取消',
+    extra: '请选择'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemhfQ04uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInBpY2tlci9sb2NhbGUvemhfQ04udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNiLE1BQU0sRUFBRSxJQUFJO0lBQ1osV0FBVyxFQUFFLElBQUk7SUFDakIsS0FBSyxFQUFFLEtBQUs7Q0FDYixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBva1RleHQ6ICfnoa7lrponLFxuICBkaXNtaXNzVGV4dDogJ+WPlua2iCcsXG4gIGV4dHJhOiAn6K+36YCJ5oupJ1xufTtcbiJdfQ==

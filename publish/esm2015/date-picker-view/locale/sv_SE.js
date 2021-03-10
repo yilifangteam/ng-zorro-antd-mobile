@@ -1,0 +1,15 @@
+// import DatePickerLocale from 'rmc-date-picker/lib/locale/en_US';
+export default {
+    okText: 'Ok',
+    dismissText: 'Avbryt',
+    extra: 'vänligen välj',
+    // DatePickerLocale,
+    year: '',
+    month: '',
+    day: '',
+    hour: '',
+    minute: '',
+    am: 'AM',
+    pm: 'PM'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3ZfU0UuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbImRhdGUtcGlja2VyLXZpZXcvbG9jYWxlL3N2X1NFLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLG1FQUFtRTtBQUVuRSxlQUFlO0lBQ2IsTUFBTSxFQUFFLElBQUk7SUFDWixXQUFXLEVBQUUsUUFBUTtJQUNyQixLQUFLLEVBQUUsZUFBZTtJQUN0QixvQkFBb0I7SUFDcEIsSUFBSSxFQUFFLEVBQUU7SUFDUixLQUFLLEVBQUUsRUFBRTtJQUNULEdBQUcsRUFBRSxFQUFFO0lBQ1AsSUFBSSxFQUFFLEVBQUU7SUFDUixNQUFNLEVBQUUsRUFBRTtJQUNWLEVBQUUsRUFBRSxJQUFJO0lBQ1IsRUFBRSxFQUFFLElBQUk7Q0FDVCxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLy8gaW1wb3J0IERhdGVQaWNrZXJMb2NhbGUgZnJvbSAncm1jLWRhdGUtcGlja2VyL2xpYi9sb2NhbGUvZW5fVVMnO1xuXG5leHBvcnQgZGVmYXVsdCB7XG4gIG9rVGV4dDogJ09rJyxcbiAgZGlzbWlzc1RleHQ6ICdBdmJyeXQnLFxuICBleHRyYTogJ3bDpG5saWdlbiB2w6RsaicsXG4gIC8vIERhdGVQaWNrZXJMb2NhbGUsXG4gIHllYXI6ICcnLFxuICBtb250aDogJycsXG4gIGRheTogJycsXG4gIGhvdXI6ICcnLFxuICBtaW51dGU6ICcnLFxuICBhbTogJ0FNJyxcbiAgcG06ICdQTSdcbn07XG4iXX0=

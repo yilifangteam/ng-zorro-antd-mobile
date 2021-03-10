@@ -1,0 +1,5 @@
+export default {
+    okText: 'Ok',
+    cancelText: 'Annuller'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGFfREsuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbIm1lbnUvbG9jYWxlL2RhX0RLLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixNQUFNLEVBQUUsSUFBSTtJQUNaLFVBQVUsRUFBRSxVQUFVO0NBQ3ZCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gIG9rVGV4dDogJ09rJyxcbiAgY2FuY2VsVGV4dDogJ0FubnVsbGVyJ1xufTtcbiJdfQ==

@@ -1,0 +1,5 @@
+export default {
+    okText: '确定',
+    cancelText: '取消'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemhfQ04uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbIm1lbnUvbG9jYWxlL3poX0NOLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7SUFDYixNQUFNLEVBQUUsSUFBSTtJQUNaLFVBQVUsRUFBRSxJQUFJO0NBQ2pCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gIG9rVGV4dDogJ+ehruWumicsXG4gIGNhbmNlbFRleHQ6ICflj5bmtognXG59O1xuIl19

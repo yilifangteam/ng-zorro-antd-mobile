@@ -5,7 +5,6 @@
 /site/
 /tmp
 /out-tsc
-/publish/
 dist/
 integration/**/lib/
 integration/**/*.ngfactory.ts

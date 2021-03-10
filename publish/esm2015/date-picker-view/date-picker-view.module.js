@@ -1,0 +1,17 @@
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { DatePickerViewComponent } from './date-picker-view.component';
+import { LocaleProviderModule } from '../locale-provider/locale-provider.module';
+import { DatePickerModule } from '../date-picker/date-picker.module';
+import { ToastModule } from '../toast/toast.module';
+export class DatePickerViewModule {
+}
+DatePickerViewModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule],
+                exports: [DatePickerViewComponent],
+                declarations: [DatePickerViewComponent]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGF0ZS1waWNrZXItdmlldy5tb2R1bGUuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbImRhdGUtcGlja2VyLXZpZXcvZGF0ZS1waWNrZXItdmlldy5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsV0FBVyxFQUFFLE1BQU0sZ0JBQWdCLENBQUM7QUFDN0MsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSx1QkFBdUIsRUFBRSxNQUFNLDhCQUE4QixDQUFDO0FBQ3ZFLE9BQU8sRUFBRSxvQkFBb0IsRUFBRSxNQUFNLDJDQUEyQyxDQUFDO0FBQ2pGLE9BQU8sRUFBRSxnQkFBZ0IsRUFBRSxNQUFNLG1DQUFtQyxDQUFDO0FBQ3JFLE9BQU8sRUFBRSxXQUFXLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQU9wRCxNQUFNLE9BQU8sb0JBQW9COzs7WUFMaEMsUUFBUSxTQUFDO2dCQUNSLE9BQU8sRUFBRSxDQUFDLFlBQVksRUFBRSxnQkFBZ0IsRUFBRSxvQkFBb0IsRUFBRSxXQUFXLEVBQUUsV0FBVyxDQUFDO2dCQUN6RixPQUFPLEVBQUUsQ0FBQyx1QkFBdUIsQ0FBQztnQkFDbEMsWUFBWSxFQUFFLENBQUMsdUJBQXVCLENBQUM7YUFDeEMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgRm9ybXNNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9mb3Jtcyc7XG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgRGF0ZVBpY2tlclZpZXdDb21wb25lbnQgfSBmcm9tICcuL2RhdGUtcGlja2VyLXZpZXcuY29tcG9uZW50JztcbmltcG9ydCB7IExvY2FsZVByb3ZpZGVyTW9kdWxlIH0gZnJvbSAnLi4vbG9jYWxlLXByb3ZpZGVyL2xvY2FsZS1wcm92aWRlci5tb2R1bGUnO1xuaW1wb3J0IHsgRGF0ZVBpY2tlck1vZHVsZSB9IGZyb20gJy4uL2RhdGUtcGlja2VyL2RhdGUtcGlja2VyLm1vZHVsZSc7XG5pbXBvcnQgeyBUb2FzdE1vZHVsZSB9IGZyb20gJy4uL3RvYXN0L3RvYXN0Lm1vZHVsZSc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIERhdGVQaWNrZXJNb2R1bGUsIExvY2FsZVByb3ZpZGVyTW9kdWxlLCBUb2FzdE1vZHVsZSwgRm9ybXNNb2R1bGVdLFxuICBleHBvcnRzOiBbRGF0ZVBpY2tlclZpZXdDb21wb25lbnRdLFxuICBkZWNsYXJhdGlvbnM6IFtEYXRlUGlja2VyVmlld0NvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgRGF0ZVBpY2tlclZpZXdNb2R1bGUge31cbiJdfQ==

@@ -1,0 +1,6 @@
+export default {
+    activateText: '松开立即刷新',
+    deactivateText: '下拉可以刷新',
+    finishText: '完成刷新'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemhfQ04uanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbInB1bGwtdG8tcmVmcmVzaC9sb2NhbGUvemhfQ04udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNiLFlBQVksRUFBRSxRQUFRO0lBQ3RCLGNBQWMsRUFBRSxRQUFRO0lBQ3hCLFVBQVUsRUFBRSxNQUFNO0NBQ25CLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gIGFjdGl2YXRlVGV4dDogJ+advuW8gOeri+WNs+WIt+aWsCcsXG4gIGRlYWN0aXZhdGVUZXh0OiAn5LiL5ouJ5Y+v5Lul5Yi35pawJyxcbiAgZmluaXNoVGV4dDogJ+WujOaIkOWIt+aWsCdcbn07XG4iXX0=
