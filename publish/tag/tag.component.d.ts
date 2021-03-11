@@ -1,5 +1,4 @@
 import { OnInit, EventEmitter } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class TagComponent implements OnInit {
     prefixCls: string;
     closed: boolean;
@@ -23,8 +22,4 @@ export declare class TagComponent implements OnInit {
     onTagClose(): void;
     setClassMap(): void;
     ngOnInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<TagComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<TagComponent, "Tag, nzm-tag", never, { "small": "small"; "closable": "closable"; "selected": "selected"; "disabled": "disabled"; }, { "onChange": "onChange"; "onClose": "onClose"; "afterClose": "afterClose"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=tag.component.d.ts.map

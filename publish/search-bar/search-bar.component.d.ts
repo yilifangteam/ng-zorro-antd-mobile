@@ -1,7 +1,6 @@
 import { OnInit, AfterViewInit, AfterViewChecked, ElementRef, EventEmitter, OnDestroy } from '@angular/core';
 import { LocaleProviderService } from '../locale-provider/locale-provider.service';
 import { ControlValueAccessor } from '@angular/forms';
-import * as ɵngcc0 from '@angular/core';
 export declare class SearchBarComponent implements OnInit, AfterViewInit, AfterViewChecked, OnDestroy, ControlValueAccessor {
     private _elementRef;
     private _localeProvider;
@@ -69,8 +68,4 @@ export declare class SearchBarComponent implements OnInit, AfterViewInit, AfterV
     ngAfterViewInit(): void;
     ngAfterViewChecked(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<SearchBarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SearchBarComponent, "SearchBar, nzm-search-bar", never, { "defaultValue": "defaultValue"; "value": "value"; "placeholder": "placeholder"; "showCancelButton": "showCancelButton"; "cancelText": "cancelText"; "disabled": "disabled"; "maxLength": "maxLength"; "setFocus": "setFocus"; }, { "onSubmit": "onSubmit"; "onChange": "onChange"; "onFocus": "onFocus"; "onBlur": "onBlur"; "onCancel": "onCancel"; "onClear": "onClear"; }, never, never>;
 }
-
-//# sourceMappingURL=search-bar.component.d.ts.map

@@ -1,5 +1,4 @@
 import { AfterViewInit, EventEmitter, OnDestroy, OnInit } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class SwipeActionComponent implements OnInit, AfterViewInit, OnDestroy {
     prefixCls: string;
     wrapCls: object;
@@ -37,8 +36,4 @@ export declare class SwipeActionComponent implements OnInit, AfterViewInit, OnDe
     ngOnInit(): void;
     ngAfterViewInit(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<SwipeActionComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SwipeActionComponent, "SwipeAction, nzm-swipe-action", never, { "left": "left"; "right": "right"; "autoClose": "autoClose"; "disabled": "disabled"; }, { "onOpen": "onOpen"; "onClose": "onClose"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=swipe-action.component.d.ts.map

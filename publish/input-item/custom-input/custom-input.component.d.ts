@@ -1,6 +1,5 @@
 import { ElementRef, EventEmitter, OnInit, OnDestroy, NgZone } from '@angular/core';
 import { CustomInputService } from './custom-input.service';
-import * as ɵngcc0 from '@angular/core';
 export declare class CustomInputComponent implements OnInit, OnDestroy {
     private _ref;
     private _customInputService;
@@ -48,8 +47,4 @@ export declare class CustomInputComponent implements OnInit, OnDestroy {
     onKeyboardClick: (keyboardItemValue: any) => void;
     ngOnInit(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<CustomInputComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CustomInputComponent, "CustomInput", never, { "value": "value"; "defaultValue": "defaultValue"; "maxLength": "maxLength"; "placeholder": "placeholder"; "editable": "editable"; "disabled": "disabled"; "fontColor": "fontColor"; "moneyKeyboardAlign": "moneyKeyboardAlign"; "setFocus": "setFocus"; }, { "onChange": "onChange"; "onBlur": "onBlur"; "onFocus": "onFocus"; }, never, never>;
 }
-
-//# sourceMappingURL=custom-input.component.d.ts.map

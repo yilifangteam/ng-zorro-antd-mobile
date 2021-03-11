@@ -1,6 +1,5 @@
 import { EventEmitter, ElementRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import * as ɵngcc0 from '@angular/core';
 export interface Indicator {
     activate?: any;
     deactivate?: any;
@@ -51,8 +50,4 @@ export declare class PullToRefreshComponent implements ControlValueAccessor {
     writeValue(value: object): void;
     registerOnChange(fn: (_: object) => {}): void;
     registerOnTouched(fn: () => {}): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<PullToRefreshComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<PullToRefreshComponent, "PullToRefresh, nzm-pull-to-refresh", never, { "distanceToRefresh": "distanceToRefresh"; "damping": "damping"; "endReachedRefresh": "endReachedRefresh"; "refreshing": "refreshing"; "direction": "direction"; "headerIndicator": "headerIndicator"; "footerIndicator": "footerIndicator"; }, { "onRefresh": "onRefresh"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=pull-to-refresh.component.d.ts.map

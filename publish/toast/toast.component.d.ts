@@ -1,5 +1,4 @@
 import { TemplateRef, NgZone } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class ToastComponent {
     private _zone;
     prefixCls: string;
@@ -15,8 +14,4 @@ export declare class ToastComponent {
     set iconType(value: string);
     position: string;
     constructor(_zone: NgZone);
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ToastComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ToastComponent, "Toast", never, { "mask": "mask"; "position": "position"; "content": "content"; "iconType": "iconType"; }, {}, never, never>;
 }
-
-//# sourceMappingURL=toast.component.d.ts.map

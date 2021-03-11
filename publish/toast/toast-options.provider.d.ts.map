@@ -1,1 +1,0 @@
-{"version":3,"file":"toast-options.provider.d.ts","sources":["toast-options.provider.d.ts"],"names":[],"mappings":";AAAA;AACA;AACA;AACA;AACA;;;AACA","sourcesContent":["export declare class ToastOptions {\n    content: any;\n    mask: boolean;\n    iconType: string;\n    position: string;\n}\n"]}

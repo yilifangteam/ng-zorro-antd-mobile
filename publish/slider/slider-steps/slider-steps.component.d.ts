@@ -1,5 +1,4 @@
 import { OnInit, ElementRef } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class SliderStepsComponent implements OnInit {
     private _elf;
     prefixCls: string;
@@ -28,8 +27,4 @@ export declare class SliderStepsComponent implements OnInit {
     getSteps(points: any): void;
     setActiveCls(): void;
     ngOnInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<SliderStepsComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SliderStepsComponent, "SliderSteps, nzm-slider-steps", never, { "min": "min"; "max": "max"; "marks": "marks"; "step": "step"; "included": "included"; "dots": "dots"; "upperBound": "upperBound"; "lowerBound": "lowerBound"; }, {}, never, never>;
 }
-
-//# sourceMappingURL=slider-steps.component.d.ts.map

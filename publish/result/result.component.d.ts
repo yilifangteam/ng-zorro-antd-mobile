@@ -1,5 +1,4 @@
 import { EventEmitter, TemplateRef } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class ResultComponent {
     prefixCls: string;
     isTitleString: boolean;
@@ -20,8 +19,4 @@ export declare class ResultComponent {
     constructor();
     buttonClick(event: any): void;
     isTemplateRef(value: any): boolean;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ResultComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ResultComponent, "Result, nzm-result", never, { "title": "title"; "message": "message"; "imgUrl": "imgUrl"; "buttonText": "buttonText"; "buttonType": "buttonType"; "img": "img"; }, { "onButtonClick": "onButtonClick"; }, never, never>;
 }
-
-//# sourceMappingURL=result.component.d.ts.map

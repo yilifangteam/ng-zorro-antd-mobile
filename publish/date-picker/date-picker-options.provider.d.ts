@@ -1,5 +1,4 @@
 import { EventEmitter } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export interface DatePickerOptionsInterface {
     mode: string;
     value: Date;
@@ -40,8 +39,4 @@ export declare class DatePickerOptions implements DatePickerOptionsInterface {
     onChange: EventEmitter<any>;
     hidePicker: () => void;
     updateNgModel?: (value: Date) => void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatePickerOptions, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<DatePickerOptions>;
 }
-
-//# sourceMappingURL=date-picker-options.provider.d.ts.map

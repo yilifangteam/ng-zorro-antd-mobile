@@ -1,5 +1,4 @@
 import { EventEmitter, OnChanges, SimpleChanges } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class SubMenuComponent implements OnChanges {
     prefixCls: string;
     private _subMenuPrefixCls;
@@ -20,8 +19,4 @@ export declare class SubMenuComponent implements OnChanges {
     selected(dataItem: any): boolean;
     getClass(dataItem: any): string;
     ngOnChanges(changes: SimpleChanges): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<SubMenuComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SubMenuComponent, "SubMenu, nzm-sub-menu", never, { "subMenuPrefixCls": "subMenuPrefixCls"; "subMenuData": "subMenuData"; "multiSelect": "multiSelect"; "radioPrefixCls": "radioPrefixCls"; "showSelect": "showSelect"; "selItem": "selItem"; }, { "onSel": "onSel"; }, never, never>;
 }
-
-//# sourceMappingURL=sub-menu.component.d.ts.map

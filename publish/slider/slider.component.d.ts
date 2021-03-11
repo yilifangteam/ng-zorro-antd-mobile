@@ -1,6 +1,5 @@
 import { OnInit, EventEmitter, ElementRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import * as ɵngcc0 from '@angular/core';
 export declare class SliderComponent implements OnInit, ControlValueAccessor {
     private _elf;
     prefixCls: string;
@@ -60,8 +59,4 @@ export declare class SliderComponent implements OnInit, ControlValueAccessor {
     setTrack(e: any): void;
     registerOnChange(fn: (value: number) => void): void;
     registerOnTouched(fn: (value: number) => void): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<SliderComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<SliderComponent, "Slider , nzm-slider", never, { "min": "min"; "max": "max"; "step": "step"; "value": "value"; "defaultValue": "defaultValue"; "disabled": "disabled"; "marks": "marks"; "dots": "dots"; "included": "included"; "handleStyle": "handleStyle"; "trackStyle": "trackStyle"; "railStyle": "railStyle"; }, { "onAfterChange": "onAfterChange"; "onChange": "onChange"; }, never, never>;
 }
-
-//# sourceMappingURL=slider.component.d.ts.map

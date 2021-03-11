@@ -1,6 +1,5 @@
 import { QueryList, EventEmitter, OnDestroy, ElementRef, AfterViewInit } from '@angular/core';
 import { CarouselSlideComponent } from './carousel-slide/carousel-slide.component';
-import * as ɵngcc0 from '@angular/core';
 export declare class CarouselComponent implements AfterViewInit, OnDestroy {
     private _ele;
     slideHeight: number;
@@ -76,8 +75,4 @@ export declare class CarouselComponent implements AfterViewInit, OnDestroy {
     get dotindicatorStatus(): boolean;
     ngAfterViewInit(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<CarouselComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CarouselComponent, "Carousel, nzm-carousel", never, { "speed": "speed"; "dots": "dots"; "vertical": "vertical"; "autoplay": "autoplay"; "autoplayInterval": "autoplayInterval"; "infinite": "infinite"; "dotStyle": "dotStyle"; "dotActiveStyle": "dotActiveStyle"; "frameOverflow": "frameOverflow"; "cellSpacing": "cellSpacing"; "slideWidth": "slideWidth"; "swipeSpeed": "swipeSpeed"; "dragging": "dragging"; "selectedIndex": "selectedIndex"; }, { "afterChange": "afterChange"; "beforeChange": "beforeChange"; }, ["items"], ["*"]>;
 }
-
-//# sourceMappingURL=carousel.component.d.ts.map

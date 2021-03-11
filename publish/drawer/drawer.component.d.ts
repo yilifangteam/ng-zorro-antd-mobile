@@ -1,5 +1,4 @@
 import { EventEmitter, ElementRef, OnChanges, AfterViewChecked } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class DrawerComponent implements AfterViewChecked, OnChanges {
     private _el;
     prefixCls: string;
@@ -77,8 +76,4 @@ export declare class DrawerComponent implements AfterViewChecked, OnChanges {
     };
     ngAfterViewChecked(): void;
     ngOnChanges(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DrawerComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<DrawerComponent, "Drawer, nzm-drawer", never, { "sidebarStyle": "sidebarStyle"; "contentStyle": "contentStyle"; "overlayStyle": "overlayStyle"; "dragHandleStyle": "dragHandleStyle"; "transitions": "transitions"; "touch": "touch"; "enableDragHandle": "enableDragHandle"; "dragToggleDistance": "dragToggleDistance"; "docked": "docked"; "open": "open"; "position": "position"; "sidebar": "sidebar"; }, { "onOpenChange": "onOpenChange"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=drawer.component.d.ts.map

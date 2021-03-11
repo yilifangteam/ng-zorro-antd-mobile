@@ -1,7 +1,6 @@
 import { OnInit, QueryList, AfterContentInit, Renderer2, ElementRef } from '@angular/core';
 import { StepStatusEnum, StepDirectionEnum } from './step/step.component';
 import { StepComponent } from './step/step.component';
-import * as ɵngcc0 from '@angular/core';
 export declare class StepsComponent implements OnInit, AfterContentInit {
     private _elf;
     private _render;
@@ -25,8 +24,4 @@ export declare class StepsComponent implements OnInit, AfterContentInit {
     setCls(): void;
     ngOnInit(): void;
     ngAfterContentInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<StepsComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<StepsComponent, "Steps,nzm-steps", never, { "current": "current"; "size": "size"; "status": "status"; "direction": "direction"; }, {}, ["stepItems"], ["*"]>;
 }
-
-//# sourceMappingURL=steps.component.d.ts.map

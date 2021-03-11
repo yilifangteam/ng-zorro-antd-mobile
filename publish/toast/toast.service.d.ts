@@ -1,7 +1,6 @@
 import { ComponentRef, ComponentFactory, ApplicationRef, NgZone, ComponentFactoryResolver } from '@angular/core';
 import { ToastComponent } from './toast.component';
 import { ToastOptions } from './toast-options.provider';
-import * as ɵngcc0 from '@angular/core';
 export interface ConfigInterface {
     content?: any;
     iconType?: string;
@@ -33,8 +32,4 @@ export declare class ToastService {
     offline(content?: string, timeInterval?: number, onClose?: () => void, mask?: boolean, position?: string): any;
     loading(content?: string, timeInterval?: number, onClose?: () => void, mask?: boolean, position?: string): any;
     hide(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ToastService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<ToastService>;
 }
-
-//# sourceMappingURL=toast.service.d.ts.map

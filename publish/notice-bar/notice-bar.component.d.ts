@@ -1,6 +1,5 @@
 import { OnInit, EventEmitter, OnDestroy } from '@angular/core';
 import { IconHandler } from '../core/util/icon';
-import * as ɵngcc0 from '@angular/core';
 export declare class NoticeBarComponent implements OnInit, OnDestroy {
     private _iconHandler;
     visiable: boolean;
@@ -45,8 +44,4 @@ export declare class NoticeBarComponent implements OnInit, OnDestroy {
     insetKeyframe(animationName: any): void;
     ngOnInit(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NoticeBarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NoticeBarComponent, "NoticeBar, nzm-notice-bar", never, { "option": "option"; }, { "onClick": "onClick"; }, never, never>;
 }
-
-//# sourceMappingURL=notice-bar.component.d.ts.map

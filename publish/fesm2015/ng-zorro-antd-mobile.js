@@ -9,2895 +9,6 @@ import { ComponentPortal } from '@angular/cdk/portal';
 import { DomSanitizer } from '@angular/platform-browser';
 import { ObserversModule } from '@angular/cdk/observers';
 
-import * as ɵngcc0 from '@angular/core';
-import * as ɵngcc1 from '@angular/common';
-import * as ɵngcc2 from '@angular/forms';
-import * as ɵngcc3 from '@angular/cdk/overlay';
-import * as ɵngcc4 from '@angular/platform-browser';
-import * as ɵngcc5 from '@angular/cdk/observers';
-
-function ActivityIndicatorComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵelement(2, "span", 1);
-    ɵngcc0.ɵɵelementStart(3, "span");
-    ɵngcc0.ɵɵtext(4);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.spinnerClass);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-toast");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.text);
-} }
-function ActivityIndicatorComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵelement(2, "span", 2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r1.spinnerClass);
-} }
-function ActivityIndicatorComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelement(1, "span", 3);
-    ɵngcc0.ɵɵelementStart(2, "span");
-    ɵngcc0.ɵɵtext(3);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r2.spinnerClass);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.prefixCls, "-tip");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r2.text);
-} }
-function ActivityIndicatorComponent_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelement(1, "span", 4);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r3.spinnerClass);
-} }
-const _c0 = ["*"];
-function CardHeaderComponent_img_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "img", 6);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate("src", ctx_r0.thumb, ɵngcc0.ɵɵsanitizeUrl);
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r0.thumbStyle);
-} }
-function CardHeaderComponent_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainer(0, 7);
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.thumb);
-} }
-function CardHeaderComponent_ng_container_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r2.title);
-} }
-function CardHeaderComponent_div_4_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r8.extra);
-} }
-function CardHeaderComponent_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, CardHeaderComponent_div_4_ng_container_1_Template, 2, 1, "ng-container", 2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    const _r6 = ɵngcc0.ɵɵreference(8);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.prefixCls, "-extra");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r3.isTemplateRef(ctx_r3.extra))("ngIfElse", _r6);
-} }
-function CardHeaderComponent_ng_template_5_ng_template_0_Template(rf, ctx) { }
-function CardHeaderComponent_ng_template_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, CardHeaderComponent_ng_template_5_ng_template_0_Template, 0, 0, "ng-template", 7);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r5.title);
-} }
-function CardHeaderComponent_ng_template_7_ng_template_0_Template(rf, ctx) { }
-function CardHeaderComponent_ng_template_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, CardHeaderComponent_ng_template_7_ng_template_0_Template, 0, 0, "ng-template", 7);
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r7.extra);
-} }
-function CardFooterComponent_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.content);
-} }
-function CardFooterComponent_div_2_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r6.extra);
-} }
-function CardFooterComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, CardFooterComponent_div_2_ng_container_1_Template, 2, 1, "ng-container", 0);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    const _r4 = ɵngcc0.ɵɵreference(6);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-extra");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r1.isTemplateRef(ctx_r1.extra))("ngIfElse", _r4);
-} }
-function CardFooterComponent_ng_template_3_ng_template_0_Template(rf, ctx) { }
-function CardFooterComponent_ng_template_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, CardFooterComponent_ng_template_3_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r3.content);
-} }
-function CardFooterComponent_ng_template_5_ng_template_0_Template(rf, ctx) { }
-function CardFooterComponent_ng_template_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, CardFooterComponent_ng_template_5_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r5.extra);
-} }
-function BadgeComponent_sup_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "sup", 1);
-    ɵngcc0.ɵɵelementStart(1, "span");
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.scrollNumberCls)("ngStyle", ctx_r0.style);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.text);
-} }
-const _c1 = ["lableContent"];
-const _c2 = ["inputElement"];
-function InputItemComponent_3_ng_template_0_Template(rf, ctx) { }
-function InputItemComponent_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, InputItemComponent_3_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.content);
-} }
-function InputItemComponent_ng_container_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r2.content);
-} }
-function InputItemComponent_CustomInput_6_Template(rf, ctx) { if (rf & 1) {
-    const _r10 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "CustomInput", 6);
-    ɵngcc0.ɵɵlistener("onChange", function InputItemComponent_CustomInput_6_Template_CustomInput_onChange_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r9 = ɵngcc0.ɵɵnextContext(); return ctx_r9.inputChange($event); })("onBlur", function InputItemComponent_CustomInput_6_Template_CustomInput_onBlur_0_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r11 = ɵngcc0.ɵɵnextContext(); return ctx_r11.inputBlur(ctx_r11.value); })("onFocus", function InputItemComponent_CustomInput_6_Template_CustomInput_onFocus_0_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r12 = ɵngcc0.ɵɵnextContext(); return ctx_r12.inputFocus(ctx_r12.value); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("value", ctx_r3.value)("defaultValue", ctx_r3.defaultValue)("placeholder", ctx_r3.placeholder)("disabled", ctx_r3.disabled)("editable", ctx_r3.editable)("fontColor", ctx_r3.fontColor)("moneyKeyboardAlign", ctx_r3.moneyKeyboardAlign)("setFocus", ctx_r3.setFocus)("maxLength", ctx_r3.maxLength);
-} }
-function InputItemComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    const _r15 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "input", 7, 8);
-    ɵngcc0.ɵɵlistener("ngModelChange", function InputItemComponent_div_7_Template_input_ngModelChange_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r14 = ɵngcc0.ɵɵnextContext(); return ctx_r14.value = $event; })("ngModelChange", function InputItemComponent_div_7_Template_input_ngModelChange_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r16 = ɵngcc0.ɵɵnextContext(); return ctx_r16.inputChange($event); })("compositionstart", function InputItemComponent_div_7_Template_input_compositionstart_1_listener() { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r17 = ɵngcc0.ɵɵnextContext(); return ctx_r17.compositionStart(); })("compositionend", function InputItemComponent_div_7_Template_input_compositionend_1_listener() { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r18 = ɵngcc0.ɵɵnextContext(); return ctx_r18.compositionEnd(); })("blur", function InputItemComponent_div_7_Template_input_blur_1_listener() { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r19 = ɵngcc0.ɵɵnextContext(); return ctx_r19.inputBlur(ctx_r19.value); })("focus", function InputItemComponent_div_7_Template_input_focus_1_listener() { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r20 = ɵngcc0.ɵɵnextContext(); return ctx_r20.inputFocus(ctx_r20.value); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵstyleProp("color", ctx_r4.fontColor);
-    ɵngcc0.ɵɵproperty("type", ctx_r4.type)("name", ctx_r4.name)("required", ctx_r4.required)("ngModel", ctx_r4.value)("defaultValue", ctx_r4.defaultValue)("placeholder", ctx_r4.placeholder)("disabled", ctx_r4.disabled)("readOnly", !ctx_r4.editable)("autofocus", ctx_r4.autoFocus)("maxlength", ctx_r4.maxLength)("pattern", ctx_r4.pattern);
-} }
-function InputItemComponent_div_8_Template(rf, ctx) { if (rf & 1) {
-    const _r22 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵlistener("click", function InputItemComponent_div_8_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r22); const ctx_r21 = ɵngcc0.ɵɵnextContext(); return ctx_r21.clearInput(); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r5.prefixCls, "-clear");
-} }
-function InputItemComponent_div_9_Template(rf, ctx) { if (rf & 1) {
-    const _r24 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵlistener("click", function InputItemComponent_div_9_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r24); const ctx_r23 = ɵngcc0.ɵɵnextContext(); return ctx_r23.errorClick($event); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r6.prefixCls, "-error-extra");
-} }
-function InputItemComponent_div_10_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r25 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r25.extra);
-} }
-function InputItemComponent_div_10_2_ng_template_0_Template(rf, ctx) { }
-function InputItemComponent_div_10_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, InputItemComponent_div_10_2_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const ctx_r26 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r26.extra);
-} }
-function InputItemComponent_div_10_Template(rf, ctx) { if (rf & 1) {
-    const _r29 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵlistener("click", function InputItemComponent_div_10_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r29); const ctx_r28 = ɵngcc0.ɵɵnextContext(); return ctx_r28.extraClick($event); });
-    ɵngcc0.ɵɵtemplate(1, InputItemComponent_div_10_ng_container_1_Template, 2, 1, "ng-container", 2);
-    ɵngcc0.ɵɵtemplate(2, InputItemComponent_div_10_2_Template, 1, 1, undefined, 2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r7.prefixCls, "-extra");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r7.ngTemplate);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r7.ngTemplate);
-} }
-function CustomInputComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 2);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r0.placeholder, "\n");
-} }
-const _c3 = ["Button", ""];
-function ButtonComponent_Icon_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 2);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-icon");
-    ɵngcc0.ɵɵproperty("type", ctx_r0.iconType)("size", ctx_r0.size === "small" ? "xxs" : "md");
-} }
-function ButtonComponent_1_ng_template_0_Template(rf, ctx) { }
-function ButtonComponent_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ButtonComponent_1_ng_template_0_Template, 0, 0, "ng-template", 3);
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.icon);
-} }
-const _c4 = [[["img"]], "*"];
-const _c5 = ["img", "*"];
-const _c6 = function (a0) { return { color: a0 }; };
-function IconComponent__svg_svg_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵnamespaceSVG();
-    ɵngcc0.ɵɵelementStart(0, "svg", 2);
-    ɵngcc0.ɵɵelement(1, "use", 3);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.clsMap)("ngStyle", ɵngcc0.ɵɵpureFunction1(3, _c6, ctx_r0.color));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵattributeInterpolate1("href", "#", ctx_r0.type, "", null, "xlink");
-} }
-function IconComponent_img_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "img", 4);
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate("src", ctx_r1.src, ɵngcc0.ɵɵsanitizeUrl);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r1.clsMap);
-} }
-function ListComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 3);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.defaultProps.prefixCls, "-header");
-    ɵngcc0.ɵɵproperty("innerHTML", ctx_r0.renderHeader, ɵngcc0.ɵɵsanitizeHtml);
-} }
-function ListComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.defaultProps.prefixCls, "-header");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r1.renderHeader(), "\n");
-} }
-function ListComponent_2_ng_template_0_Template(rf, ctx) { }
-function ListComponent_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ListComponent_2_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r2.renderHeader);
-} }
-function ListComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 3);
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.defaultProps.prefixCls, "-footer");
-    ɵngcc0.ɵɵproperty("innerHTML", ctx_r3.renderFooter, ɵngcc0.ɵɵsanitizeHtml);
-} }
-function ListComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r4.defaultProps.prefixCls, "-footer");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r4.renderFooter(), "\n");
-} }
-function ListComponent_7_ng_template_0_Template(rf, ctx) { }
-function ListComponent_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ListComponent_7_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r5.renderFooter);
-} }
-function ListItemComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelement(1, "img", 5);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.defaultProps.prefixCls, "-thumb");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate("src", ctx_r0.thumb_src, ɵngcc0.ɵɵsanitizeUrl);
-} }
-function ListItemComponent_div_1_ng_template_1_Template(rf, ctx) { }
-function ListItemComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ListItemComponent_div_1_ng_template_1_Template, 0, 0, "ng-template", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.defaultProps.prefixCls, "-thumb");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.thumb);
-} }
-function ListItemComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 7);
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.defaultProps.prefixCls, "-extra");
-    ɵngcc0.ɵɵproperty("innerHTML", ctx_r2.extra_title, ɵngcc0.ɵɵsanitizeHtml);
-} }
-function ListItemComponent_div_6_ng_template_1_Template(rf, ctx) { }
-function ListItemComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ListItemComponent_div_6_ng_template_1_Template, 0, 0, "ng-template", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.defaultProps.prefixCls, "-extra");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r3.extra);
-} }
-function ListItemComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 7);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r4.defaultProps.prefixCls, "-extra");
-    ɵngcc0.ɵɵproperty("innerHTML", ctx_r4.extraTip, ɵngcc0.ɵɵsanitizeHtml);
-} }
-function ListItemComponent_div_8_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 8);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r5.arrowCls);
-} }
-const _c7 = ["search"];
-const _c8 = function (a0) { return { visibility: a0 }; };
-function StepComponent_span_4_ng_template_1_Template(rf, ctx) { }
-function StepComponent_span_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span", 0);
-    ɵngcc0.ɵɵtemplate(1, StepComponent_span_4_ng_template_1_Template, 0, 0, "ng-template", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.iconCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r0.icon);
-} }
-function StepComponent_span_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span", 0);
-    ɵngcc0.ɵɵelement(1, "Icon", 7);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r1.iconCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", ctx_r1.icon)("size", ctx_r1.iconSize);
-} }
-function StepComponent_span_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span", 0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r2.iconCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1("", ctx_r2.stepNumber, " ");
-} }
-function StepComponent_ng_container_9_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r3.title);
-} }
-function StepComponent_div_10_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r10.description);
-} }
-function StepComponent_div_10_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, StepComponent_div_10_ng_container_1_Template, 2, 1, "ng-container", 2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    const _r7 = ɵngcc0.ɵɵreference(14);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r4.prefixCls, "-item-description");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r4.isTemplateRef(ctx_r4.description))("ngIfElse", _r7);
-} }
-function StepComponent_ng_template_11_ng_template_0_Template(rf, ctx) { }
-function StepComponent_ng_template_11_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, StepComponent_ng_template_11_ng_template_0_Template, 0, 0, "ng-template", 6);
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r6.title);
-} }
-function StepComponent_ng_template_13_ng_template_0_Template(rf, ctx) { }
-function StepComponent_ng_template_13_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, StepComponent_ng_template_13_ng_template_0_Template, 0, 0, "ng-template", 6);
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r8.description);
-} }
-function CarouselComponent_DotIndicator_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "DotIndicator", 3);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("page", ctx_r0.page)("dotStyle", ctx_r0.dotStyle)("pageCount", ctx_r0.pageCount)("dotActiveStyle", ctx_r0.dotActiveStyle);
-} }
-const _c9 = function (a0) { return { overflow: a0 }; };
-function DotIndicatorComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 2);
-    ɵngcc0.ɵɵelement(1, "span", 3);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r1 = ctx.$implicit;
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassProp("am-carousel-wrap-dot-active", item_r1.active);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngStyle", item_r1.active ? ctx_r0.dotActiveStyle : ctx_r0.dotStyle);
-} }
-const _c10 = ["Checkbox", ""];
-function CheckboxItemComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    const _r3 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "label", 2);
-    ɵngcc0.ɵɵlistener("onChange", function CheckboxItemComponent_ng_template_2_Template_label_onChange_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r2 = ɵngcc0.ɵɵnextContext(); return ctx_r2.change($event); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("name", ctx_r1.name)("value", ctx_r1.value)("checked", ctx_r1.checked)("disabled", ctx_r1.disabled);
-} }
-const _c11 = ["Radio", ""];
-function RadioItemComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    const _r3 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "label", 2);
-    ɵngcc0.ɵɵlistener("onChange", function RadioItemComponent_ng_template_2_Template_label_onChange_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r2 = ɵngcc0.ɵɵnextContext(); return ctx_r2.change($event); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("name", ctx_r1.name)("value", ctx_r1.value)("checked", ctx_r1.checked)("disabled", ctx_r1.disabled);
-} }
-function AccordionGroupComponent_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.header);
-} }
-function AccordionGroupComponent_3_ng_template_0_Template(rf, ctx) { }
-function AccordionGroupComponent_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, AccordionGroupComponent_3_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.header);
-} }
-function AccordionGroupComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 6);
-    ɵngcc0.ɵɵprojection(1);
-    ɵngcc0.ɵɵelementEnd();
-} }
-const _c12 = function (a0) { return { "am-accordion-content-active": a0 }; };
-function NoticeBarComponent_div_0_div_1_ng_template_1_Template(rf, ctx) { }
-function NoticeBarComponent_div_0_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 10);
-    ɵngcc0.ɵɵtemplate(1, NoticeBarComponent_div_0_div_1_ng_template_1_Template, 0, 0, "ng-template", 11);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    const _r1 = ɵngcc0.ɵɵreference(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r7.option.icon || _r1);
-} }
-function NoticeBarComponent_div_0_div_9_1_ng_template_0_Template(rf, ctx) { }
-function NoticeBarComponent_div_0_div_9_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, NoticeBarComponent_div_0_div_9_1_ng_template_0_Template, 0, 0, "ng-template", 11);
-} if (rf & 2) {
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(3);
-    const _r3 = ɵngcc0.ɵɵreference(4);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r10.option.action || _r3);
-} }
-function NoticeBarComponent_div_0_div_9_2_ng_template_0_Template(rf, ctx) { }
-function NoticeBarComponent_div_0_div_9_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, NoticeBarComponent_div_0_div_9_2_ng_template_0_Template, 0, 0, "ng-template", 11);
-} if (rf & 2) {
-    const ctx_r11 = ɵngcc0.ɵɵnextContext(3);
-    const _r5 = ɵngcc0.ɵɵreference(6);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r11.option.action || _r5);
-} }
-function NoticeBarComponent_div_0_div_9_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 12);
-    ɵngcc0.ɵɵtemplate(1, NoticeBarComponent_div_0_div_9_1_Template, 1, 1, undefined, 13);
-    ɵngcc0.ɵɵtemplate(2, NoticeBarComponent_div_0_div_9_2_Template, 1, 1, undefined, 13);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r8.option.mode === "closable");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r8.option.mode === "link");
-} }
-function NoticeBarComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r15 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 4);
-    ɵngcc0.ɵɵlistener("click", function NoticeBarComponent_div_0_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r15); const ctx_r14 = ɵngcc0.ɵɵnextContext(); return ctx_r14.click(); });
-    ɵngcc0.ɵɵtemplate(1, NoticeBarComponent_div_0_div_1_Template, 2, 1, "div", 5);
-    ɵngcc0.ɵɵelementStart(2, "div", 6);
-    ɵngcc0.ɵɵelementStart(3, "div", 7);
-    ɵngcc0.ɵɵelementStart(4, "div", 8);
-    ɵngcc0.ɵɵelementStart(5, "span");
-    ɵngcc0.ɵɵtext(6);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(7, "span");
-    ɵngcc0.ɵɵtext(8);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵtemplate(9, NoticeBarComponent_div_0_div_9_Template, 3, 2, "div", 9);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.icon !== null);
-    ɵngcc0.ɵɵadvance(3);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.marqueeScroll)("ngStyle", ctx_r0.style);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.option.content);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.option.content);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.mode && ctx_r0.option.action !== null);
-} }
-function NoticeBarComponent_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 14);
-} if (rf & 2) {
-    ɵngcc0.ɵɵproperty("type", "voice")("size", "xxs");
-} }
-function NoticeBarComponent_ng_template_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 14);
-} if (rf & 2) {
-    ɵngcc0.ɵɵproperty("type", "cross")("size", "md");
-} }
-function NoticeBarComponent_ng_template_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 14);
-} if (rf & 2) {
-    ɵngcc0.ɵɵproperty("type", "right")("size", "md");
-} }
-function ToastComponent_div_2_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.prefixCls, "-text-info");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r2.content);
-} }
-function ToastComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵelement(1, "Icon", 2);
-    ɵngcc0.ɵɵtemplate(2, ToastComponent_div_2_div_2_Template, 2, 4, "div", 3);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.prefixCls, "-text ", ctx_r0.prefixCls, "-text-icon");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", ctx_r0.iconType)("size", "lg");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isContentString);
-} }
-function ToastComponent_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.prefixCls, "-text-info");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r3.content);
-} }
-function ToastComponent_div_3_2_ng_template_0_Template(rf, ctx) { }
-function ToastComponent_div_3_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ToastComponent_div_3_2_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r4.content);
-} }
-function ToastComponent_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵtemplate(1, ToastComponent_div_3_div_1_Template, 2, 4, "div", 3);
-    ɵngcc0.ɵɵtemplate(2, ToastComponent_div_3_2_Template, 1, 1, undefined, 4);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.isContentString);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r1.isContentString);
-} }
-function ModalComponent_div_0_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 10);
-    ɵngcc0.ɵɵelementStart(1, "div", 11);
-    ɵngcc0.ɵɵelement(2, "span", 11);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r7.option.prefixCls, "-close");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r7.option.prefixCls, "-close-x");
-} }
-function ModalComponent_div_0_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r15 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r15.option.prefixCls, "-title");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r15.option.title);
-} }
-function ModalComponent_div_0_div_6_2_ng_template_0_Template(rf, ctx) { }
-function ModalComponent_div_0_div_6_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalComponent_div_0_div_6_2_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    const ctx_r16 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r16.option.title);
-} }
-function ModalComponent_div_0_div_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ModalComponent_div_0_div_6_div_1_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵtemplate(2, ModalComponent_div_0_div_6_2_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r8.option.prefixCls, "-header");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r8.isTemplateRef(ctx_r8.option.title));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r8.isTemplateRef(ctx_r8.option.title));
-} }
-function ModalComponent_div_0_div_9_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r9 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r9.option.prefixCls, "-alert-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r9.option.message, " ");
-} }
-function ModalComponent_div_0_10_ng_template_0_Template(rf, ctx) { }
-function ModalComponent_div_0_10_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalComponent_div_0_10_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r10.option.message);
-} }
-function ModalComponent_div_0_11_ng_template_0_Template(rf, ctx) { }
-function ModalComponent_div_0_11_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalComponent_div_0_11_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    ɵngcc0.ɵɵnextContext(2);
-    const _r5 = ɵngcc0.ɵɵreference(6);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r5);
-} }
-function ModalComponent_div_0_12_ng_template_0_Template(rf, ctx) { }
-function ModalComponent_div_0_12_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalComponent_div_0_12_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    ɵngcc0.ɵɵnextContext(2);
-    const _r3 = ɵngcc0.ɵɵreference(4);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r3);
-} }
-function ModalComponent_div_0_13_ng_template_0_Template(rf, ctx) { }
-function ModalComponent_div_0_13_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalComponent_div_0_13_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    ɵngcc0.ɵɵnextContext(2);
-    const _r1 = ɵngcc0.ɵɵreference(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r1);
-} }
-function ModalComponent_div_0_div_16_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 13);
-    ɵngcc0.ɵɵlistener("onClick", function ModalComponent_div_0_div_16_Template_div_onClick_0_listener() { const button_r22 = ctx.$implicit; return button_r22.onPress(); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const button_r22 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("className", "am-modal-button")("ngStyle", button_r22.style);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", button_r22.text, " ");
-} }
-function ModalComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelement(1, "div");
-    ɵngcc0.ɵɵelementStart(2, "div", 4);
-    ɵngcc0.ɵɵelementStart(3, "div", 5);
-    ɵngcc0.ɵɵelementStart(4, "div");
-    ɵngcc0.ɵɵtemplate(5, ModalComponent_div_0_div_5_Template, 3, 6, "div", 6);
-    ɵngcc0.ɵɵtemplate(6, ModalComponent_div_0_div_6_Template, 3, 5, "div", 7);
-    ɵngcc0.ɵɵelementStart(7, "div");
-    ɵngcc0.ɵɵprojection(8);
-    ɵngcc0.ɵɵtemplate(9, ModalComponent_div_0_div_9_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵtemplate(10, ModalComponent_div_0_10_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵtemplate(11, ModalComponent_div_0_11_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵtemplate(12, ModalComponent_div_0_12_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵtemplate(13, ModalComponent_div_0_13_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(14, "div");
-    ɵngcc0.ɵɵelementStart(15, "div", 8);
-    ɵngcc0.ɵɵtemplate(16, ModalComponent_div_0_div_16_Template, 2, 3, "div", 9);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.option.prefixCls, "-mask ", ctx_r0.maskTransitionName, "");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.option.prefixCls, "-wrap ", ctx_r0.transitionName, "");
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.wrapCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMap(ctx_r0.option.prefixCls);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.cls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.option.prefixCls, "-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.closable);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isNoTitle(ctx_r0.option.title));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.option.prefixCls, "-body");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isTemplateRef(ctx_r0.option.message));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isTemplateRef(ctx_r0.option.message));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.type === "default");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.type === "secure-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.type === "login-password");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.option.prefixCls, "-footer");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.btnGroupClass);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r0.option.footer);
-} }
-function ModalComponent_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    const _r27 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵelementStart(2, "input", 14, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalComponent_ng_template_1_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r26 = ɵngcc0.ɵɵnextContext(); return (ctx_r26.option.defaultValue[0] = $event); })("ngModelChange", function ModalComponent_ng_template_1_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r28 = ɵngcc0.ɵɵnextContext(); return ctx_r28.inputChange("text", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(4, "div", 16);
-    ɵngcc0.ɵɵelementStart(5, "input", 17, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalComponent_ng_template_1_Template_input_ngModelChange_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r29 = ɵngcc0.ɵɵnextContext(); return (ctx_r29.option.defaultValue[1] = $event); })("ngModelChange", function ModalComponent_ng_template_1_Template_input_ngModelChange_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r30 = ɵngcc0.ɵɵnextContext(); return ctx_r30.inputChange("password", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.option.prefixCls, "-input-container");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "text")("placeholder", ctx_r2.option.placeholders[0] || "")("ngModel", ctx_r2.option.defaultValue[0]);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r2.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "password")("placeholder", ctx_r2.option.placeholders[1] || "")("ngModel", ctx_r2.option.defaultValue[1]);
-} }
-function ModalComponent_ng_template_3_Template(rf, ctx) { if (rf & 1) {
-    const _r33 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 16);
-    ɵngcc0.ɵɵelementStart(1, "div", 16);
-    ɵngcc0.ɵɵelementStart(2, "input", 14, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalComponent_ng_template_3_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r33); const ctx_r32 = ɵngcc0.ɵɵnextContext(); return (ctx_r32.option.defaultValue[0] = $event); })("ngModelChange", function ModalComponent_ng_template_3_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r33); const ctx_r34 = ɵngcc0.ɵɵnextContext(); return ctx_r34.inputChange("password", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r4.option.prefixCls, "-input-container");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r4.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "password")("placeholder", ctx_r4.option.placeholders[0] || "")("ngModel", ctx_r4.option.defaultValue[0]);
-} }
-function ModalComponent_ng_template_5_Template(rf, ctx) { if (rf & 1) {
-    const _r37 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 16);
-    ɵngcc0.ɵɵelementStart(1, "div", 16);
-    ɵngcc0.ɵɵelementStart(2, "input", 14, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalComponent_ng_template_5_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r37); const ctx_r36 = ɵngcc0.ɵɵnextContext(); return (ctx_r36.option.defaultValue[0] = $event); })("ngModelChange", function ModalComponent_ng_template_5_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r37); const ctx_r38 = ɵngcc0.ɵɵnextContext(); return ctx_r38.inputChange("text", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r6.option.prefixCls, "-input-container");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r6.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "text")("placeholder", ctx_r6.option.placeholders[0] || "")("ngModel", ctx_r6.option.defaultValue[0]);
-} }
-function ModalServiceComponent_div_0_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 10);
-    ɵngcc0.ɵɵelementStart(1, "div", 11);
-    ɵngcc0.ɵɵelement(2, "span", 11);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r7.option.prefixCls, "-close");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r7.option.prefixCls, "-close-x");
-} }
-function ModalServiceComponent_div_0_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r15 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r15.option.prefixCls, "-title");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r15.option.title);
-} }
-function ModalServiceComponent_div_0_div_6_2_ng_template_0_Template(rf, ctx) { }
-function ModalServiceComponent_div_0_div_6_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalServiceComponent_div_0_div_6_2_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    const ctx_r16 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r16.option.title);
-} }
-function ModalServiceComponent_div_0_div_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ModalServiceComponent_div_0_div_6_div_1_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵtemplate(2, ModalServiceComponent_div_0_div_6_2_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r8.option.prefixCls, "-header");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r8.isTemplateRef(ctx_r8.option.title));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r8.isTemplateRef(ctx_r8.option.title));
-} }
-function ModalServiceComponent_div_0_div_9_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r9 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r9.option.prefixCls, "-alert-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r9.option.message, " ");
-} }
-function ModalServiceComponent_div_0_10_ng_template_0_Template(rf, ctx) { }
-function ModalServiceComponent_div_0_10_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalServiceComponent_div_0_10_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r10.option.message);
-} }
-function ModalServiceComponent_div_0_11_ng_template_0_Template(rf, ctx) { }
-function ModalServiceComponent_div_0_11_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalServiceComponent_div_0_11_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    ɵngcc0.ɵɵnextContext(2);
-    const _r5 = ɵngcc0.ɵɵreference(6);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r5);
-} }
-function ModalServiceComponent_div_0_12_ng_template_0_Template(rf, ctx) { }
-function ModalServiceComponent_div_0_12_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalServiceComponent_div_0_12_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    ɵngcc0.ɵɵnextContext(2);
-    const _r3 = ɵngcc0.ɵɵreference(4);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r3);
-} }
-function ModalServiceComponent_div_0_13_ng_template_0_Template(rf, ctx) { }
-function ModalServiceComponent_div_0_13_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ModalServiceComponent_div_0_13_ng_template_0_Template, 0, 0, "ng-template", 12);
-} if (rf & 2) {
-    ɵngcc0.ɵɵnextContext(2);
-    const _r1 = ɵngcc0.ɵɵreference(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r1);
-} }
-function ModalServiceComponent_div_0_div_16_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 13);
-    ɵngcc0.ɵɵlistener("onClick", function ModalServiceComponent_div_0_div_16_Template_div_onClick_0_listener() { const button_r22 = ctx.$implicit; return button_r22.onPress(); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const button_r22 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("className", "am-modal-button")("ngStyle", button_r22.style);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", button_r22.text, " ");
-} }
-function ModalServiceComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelement(1, "div");
-    ɵngcc0.ɵɵelementStart(2, "div", 4);
-    ɵngcc0.ɵɵelementStart(3, "div", 5);
-    ɵngcc0.ɵɵelementStart(4, "div");
-    ɵngcc0.ɵɵtemplate(5, ModalServiceComponent_div_0_div_5_Template, 3, 6, "div", 6);
-    ɵngcc0.ɵɵtemplate(6, ModalServiceComponent_div_0_div_6_Template, 3, 5, "div", 7);
-    ɵngcc0.ɵɵelementStart(7, "div");
-    ɵngcc0.ɵɵprojection(8);
-    ɵngcc0.ɵɵtemplate(9, ModalServiceComponent_div_0_div_9_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵtemplate(10, ModalServiceComponent_div_0_10_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵtemplate(11, ModalServiceComponent_div_0_11_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵtemplate(12, ModalServiceComponent_div_0_12_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵtemplate(13, ModalServiceComponent_div_0_13_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(14, "div");
-    ɵngcc0.ɵɵelementStart(15, "div", 8);
-    ɵngcc0.ɵɵtemplate(16, ModalServiceComponent_div_0_div_16_Template, 2, 3, "div", 9);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.option.prefixCls, "-mask ", ctx_r0.maskTransitionName, "");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.option.prefixCls, "-wrap ", ctx_r0.transitionName, "");
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.wrapCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMap(ctx_r0.option.prefixCls);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.cls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.option.prefixCls, "-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.closable);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isNoTitle(ctx_r0.option.title));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.option.prefixCls, "-body");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isTemplateRef(ctx_r0.option.message));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isTemplateRef(ctx_r0.option.message));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.type === "default");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.type === "secure-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.option.type === "login-password");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.option.prefixCls, "-footer");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.btnGroupClass);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r0.option.footer);
-} }
-function ModalServiceComponent_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    const _r27 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵelementStart(2, "input", 14, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalServiceComponent_ng_template_1_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r26 = ɵngcc0.ɵɵnextContext(); return (ctx_r26.option.defaultValue[0] = $event); })("ngModelChange", function ModalServiceComponent_ng_template_1_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r28 = ɵngcc0.ɵɵnextContext(); return ctx_r28.inputChange("text", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(4, "div", 16);
-    ɵngcc0.ɵɵelementStart(5, "input", 17, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalServiceComponent_ng_template_1_Template_input_ngModelChange_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r29 = ɵngcc0.ɵɵnextContext(); return (ctx_r29.option.defaultValue[1] = $event); })("ngModelChange", function ModalServiceComponent_ng_template_1_Template_input_ngModelChange_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r27); const ctx_r30 = ɵngcc0.ɵɵnextContext(); return ctx_r30.inputChange("password", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.option.prefixCls, "-input-container");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "text")("placeholder", ctx_r2.option.placeholders[0] || "")("ngModel", ctx_r2.option.defaultValue[0]);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r2.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "password")("placeholder", ctx_r2.option.placeholders[1] || "")("ngModel", ctx_r2.option.defaultValue[1]);
-} }
-function ModalServiceComponent_ng_template_3_Template(rf, ctx) { if (rf & 1) {
-    const _r33 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 16);
-    ɵngcc0.ɵɵelementStart(1, "div", 16);
-    ɵngcc0.ɵɵelementStart(2, "input", 14, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalServiceComponent_ng_template_3_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r33); const ctx_r32 = ɵngcc0.ɵɵnextContext(); return (ctx_r32.option.defaultValue[0] = $event); })("ngModelChange", function ModalServiceComponent_ng_template_3_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r33); const ctx_r34 = ɵngcc0.ɵɵnextContext(); return ctx_r34.inputChange("password", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r4.option.prefixCls, "-input-container");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r4.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "password")("placeholder", ctx_r4.option.placeholders[0] || "")("ngModel", ctx_r4.option.defaultValue[0]);
-} }
-function ModalServiceComponent_ng_template_5_Template(rf, ctx) { if (rf & 1) {
-    const _r37 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 16);
-    ɵngcc0.ɵɵelementStart(1, "div", 16);
-    ɵngcc0.ɵɵelementStart(2, "input", 14, 15);
-    ɵngcc0.ɵɵlistener("ngModelChange", function ModalServiceComponent_ng_template_5_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r37); const ctx_r36 = ɵngcc0.ɵɵnextContext(); return (ctx_r36.option.defaultValue[0] = $event); })("ngModelChange", function ModalServiceComponent_ng_template_5_Template_input_ngModelChange_2_listener($event) { ɵngcc0.ɵɵrestoreView(_r37); const ctx_r38 = ɵngcc0.ɵɵnextContext(); return ctx_r38.inputChange("text", $event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r6.option.prefixCls, "-input-container");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r6.option.prefixCls, "-input");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "text")("placeholder", ctx_r6.option.placeholders[0] || "")("ngModel", ctx_r6.option.defaultValue[0]);
-} }
-function PopoverComponent_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div");
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.defaultProps.prefixCls, "-arrow");
-} }
-function PopoverComponent_ng_template_7_Template(rf, ctx) { }
-const _c13 = function (a0) { return { options: a0 }; };
-function NavBarComponent_1_ng_template_0_Template(rf, ctx) { }
-function NavBarComponent_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, NavBarComponent_1_ng_template_0_Template, 0, 0, "ng-template", 3);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r0.leftContent);
-} }
-function NavBarComponent_span_2_Icon_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 6);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("type", ctx_r4.icon);
-} }
-function NavBarComponent_span_2_2_ng_template_0_Template(rf, ctx) { }
-function NavBarComponent_span_2_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, NavBarComponent_span_2_2_ng_template_0_Template, 0, 0, "ng-template", 3);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r5.icon);
-} }
-function NavBarComponent_span_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span", 4);
-    ɵngcc0.ɵɵtemplate(1, NavBarComponent_span_2_Icon_1_Template, 1, 1, "Icon", 5);
-    ɵngcc0.ɵɵtemplate(2, NavBarComponent_span_2_2_Template, 1, 1, undefined, 1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.defaultProps.prefixCls, "-left-icon");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.isIconString);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r1.isIconString);
-} }
-function NavBarComponent_8_ng_template_0_Template(rf, ctx) { }
-function NavBarComponent_8_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, NavBarComponent_8_ng_template_0_Template, 0, 0, "ng-template", 3);
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r2.rightContent);
-} }
-const _c14 = ["layout"];
-const _c15 = ["panel"];
-function CalendarDatePickerComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 8);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r2.props.locale.loadPrevMonth);
-} }
-function CalendarDatePickerComponent_CalendarSingleMonth_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "CalendarSingleMonth", 9);
-} if (rf & 2) {
-    const item_r4 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("data", item_r4.component);
-} }
-const _c16 = function (a0) { return { transform: a0 }; };
-function CalendarComponent_span_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span");
-    ɵngcc0.ɵɵelement(1, "div");
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMap("mask " + ctx_r0.maskAnimateClass);
-} }
-function CalendarComponent_span_1_CalendarTimePicker_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "CalendarTimePicker", 7);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("propsData", ctx_r4.props)("title", ctx_r4.state.timePickerTitle)("clientHeight", ctx_r4.state.clientHight)("prefixCls", ctx_r4.props.timePickerPrefixCls)("defaultValue", ctx_r4.props.defaultTimeValue)("pickerPrefixCls", ctx_r4.props.timePickerPickerPrefixCls)("value", ctx_r4.state.endDate ? ctx_r4.state.endDate : ctx_r4.state.startDate)("onValueChange", ctx_r4.onTimeChange);
-} }
-function CalendarComponent_span_1_CalendarShortcutPanel_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "CalendarShortcutPanel", 8);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("locale", ctx_r5.props.locale)("onSelect", ctx_r5.shortcutSelect);
-} }
-function CalendarComponent_span_1_CalendarConfirmPanel_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "CalendarConfirmPanel", 9);
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("propsData", ctx_r6.props)("startDateTime", ctx_r6.state.startDate)("endDateTime", ctx_r6.state.endDate)("disableBtn", ctx_r6.state.disConfirmBtn)("formatStr", ctx_r6.props.pickTime ? ctx_r6.props.locale.dateTimeFormat : ctx_r6.props.locale.dateFormat)("onConfirm", ctx_r6.triggerConfirm);
-} }
-function CalendarComponent_span_1_Template(rf, ctx) { if (rf & 1) {
-    const _r8 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "span");
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵelementStart(2, "CalendarHeader", 2);
-    ɵngcc0.ɵɵlistener("onCancel", function CalendarComponent_span_1_Template_CalendarHeader_onCancel_2_listener() { ɵngcc0.ɵɵrestoreView(_r8); const ctx_r7 = ɵngcc0.ɵɵnextContext(); return ctx_r7.triggerCancel(); })("onClear", function CalendarComponent_span_1_Template_CalendarHeader_onClear_2_listener() { ɵngcc0.ɵɵrestoreView(_r8); const ctx_r9 = ɵngcc0.ɵɵnextContext(); return ctx_r9.triggerClear(); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelement(3, "CalendarDatePicker", 3);
-    ɵngcc0.ɵɵtemplate(4, CalendarComponent_span_1_CalendarTimePicker_4_Template, 1, 8, "CalendarTimePicker", 4);
-    ɵngcc0.ɵɵtemplate(5, CalendarComponent_span_1_CalendarShortcutPanel_5_Template, 1, 2, "CalendarShortcutPanel", 5);
-    ɵngcc0.ɵɵtemplate(6, CalendarComponent_span_1_CalendarConfirmPanel_6_Template, 1, 6, "CalendarConfirmPanel", 6);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    const _r2 = ɵngcc0.ɵɵreference(3);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMap("content animate " + ctx_r1.contentAnimateClass);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("locale", ctx_r1.props.locale)("closeIcon", _r2)("showClear", ctx_r1.showClear);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("propsData", ctx_r1.props)("endDate", ctx_r1.state.endDate)("startDate", ctx_r1.state.startDate)("onCellClick", ctx_r1.onSelectedDate)("onSelectHasDisableDate", ctx_r1.triggerSelectHasDisableDate)("onLayout", ctx_r1.setClientHeight);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.state.showTimePicker);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.props.showShortcut && !ctx_r1.state.showTimePicker);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.state.startDate);
-} }
-function CalendarComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 10);
-} if (rf & 2) {
-    ɵngcc0.ɵɵproperty("type", "cross");
-} }
-function CalendarHeaderComponent_span_0_Template(rf, ctx) { if (rf & 1) {
-    const _r4 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "span", 4);
-    ɵngcc0.ɵɵlistener("click", function CalendarHeaderComponent_span_0_Template_span_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r4); const ctx_r3 = ɵngcc0.ɵɵnextContext(); return ctx_r3.triggerCancel(); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("innerHTML", ctx_r0.closeIcon, ɵngcc0.ɵɵsanitizeHtml);
-} }
-function CalendarHeaderComponent_span_1_ng_template_1_Template(rf, ctx) { }
-function CalendarHeaderComponent_span_1_Template(rf, ctx) { if (rf & 1) {
-    const _r7 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "span", 5);
-    ɵngcc0.ɵɵlistener("click", function CalendarHeaderComponent_span_1_Template_span_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r7); const ctx_r6 = ɵngcc0.ɵɵnextContext(); return ctx_r6.triggerCancel(); });
-    ɵngcc0.ɵɵtemplate(1, CalendarHeaderComponent_span_1_ng_template_1_Template, 0, 0, "ng-template", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.closeIcon);
-} }
-function CalendarHeaderComponent_span_4_Template(rf, ctx) { if (rf & 1) {
-    const _r9 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "span", 7);
-    ɵngcc0.ɵɵlistener("click", function CalendarHeaderComponent_span_4_Template_span_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r9); const ctx_r8 = ɵngcc0.ɵɵnextContext(); return ctx_r8.triggerClear(); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r2.clearIcon || ctx_r2.locale.clear);
-} }
-const _c17 = function (a0) { return { height: a0, overflow: "hidden" }; };
-const _c18 = ["picker"];
-function DatePickerComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r4 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 11);
-    ɵngcc0.ɵɵlistener("click", function DatePickerComponent_div_0_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r4); const ctx_r3 = ɵngcc0.ɵɵnextContext(); return ctx_r3.cancel(); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("am-picker-popup-mask ", ctx_r0.maskTransitionName, "");
-} }
-function DatePickerComponent_div_14_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 17);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const val_r8 = ctx.$implicit;
-    const i_r9 = ctx.index;
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r9);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", val_r8.label ? val_r8.label : val_r8, " ");
-} }
-function DatePickerComponent_div_14_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 12);
-    ɵngcc0.ɵɵelement(1, "div", 13);
-    ɵngcc0.ɵɵelement(2, "div", 14);
-    ɵngcc0.ɵɵelementStart(3, "div", 15);
-    ɵngcc0.ɵɵtemplate(4, DatePickerComponent_div_14_div_4_Template, 2, 2, "div", 16);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r5 = ctx.$implicit;
-    const i_r6 = ctx.index;
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r6);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", item_r5);
-} }
-function DatePickerViewComponent_div_0_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 6);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const val_r4 = ctx.$implicit;
-    const i_r5 = ctx.index;
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r5);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", val_r4.label ? val_r4.label : val_r4, " ");
-} }
-function DatePickerViewComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵelement(1, "div", 2);
-    ɵngcc0.ɵɵelement(2, "div", 3);
-    ɵngcc0.ɵɵelementStart(3, "div", 4);
-    ɵngcc0.ɵɵtemplate(4, DatePickerViewComponent_div_0_div_4_Template, 2, 2, "div", 5);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r1 = ctx.$implicit;
-    const i_r2 = ctx.index;
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r0.indicatorStyle);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r2);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", item_r1);
-} }
-function CalendarSingleMonthComponent_div_3_div_1_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1, "test");
-    ɵngcc0.ɵɵelementEnd();
-} }
-function CalendarSingleMonthComponent_div_3_div_1_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵelement(1, "span", 3);
-    ɵngcc0.ɵɵelementStart(2, "div", 3);
-    ɵngcc0.ɵɵtext(3);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelement(4, "span", 3);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const cell_r4 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", cell_r4.lCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", cell_r4.cls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", cell_r4.day && cell_r4.day.dayOfMonth || "", " ");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngClass", cell_r4.rCls);
-} }
-function CalendarSingleMonthComponent_div_3_div_1_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 3);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const cell_r4 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵproperty("ngClass", cell_r4.infoCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", cell_r4.info, " ");
-} }
-function CalendarSingleMonthComponent_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
-    const _r12 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 5);
-    ɵngcc0.ɵɵlistener("click", function CalendarSingleMonthComponent_div_3_div_1_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r12); const cell_r4 = ctx.$implicit; const ctx_r11 = ɵngcc0.ɵɵnextContext(2); return ctx_r11.onClickCell(cell_r4); });
-    ɵngcc0.ɵɵtemplate(1, CalendarSingleMonthComponent_div_3_div_1_div_1_Template, 2, 0, "div", 6);
-    ɵngcc0.ɵɵtemplate(2, CalendarSingleMonthComponent_div_3_div_1_div_2_Template, 5, 4, "div", 7);
-    ɵngcc0.ɵɵtemplate(3, CalendarSingleMonthComponent_div_3_div_1_div_3_Template, 2, 2, "div", 8);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const cell_r4 = ctx.$implicit;
-    const row_r1 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵclassMap("cell " + (cell_r4.extra && cell_r4.extra.cellCls || ""));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", row_r1.extra && row_r1.extra.cellRender);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !row_r1.extra || row_r1.extra && row_r1.extra.cellRender);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !row_r1.extra || row_r1.extra && row_r1.extra.cellRender);
-} }
-function CalendarSingleMonthComponent_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 3);
-    ɵngcc0.ɵɵtemplate(1, CalendarSingleMonthComponent_div_3_div_1_Template, 4, 6, "div", 4);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const row_r1 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("ngClass", row_r1.rowCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", row_r1.weeksDataList);
-} }
-function CalendarConfirmPanelComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 2);
-    ɵngcc0.ɵɵelementStart(1, "p");
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementStart(3, "span");
-    ɵngcc0.ɵɵtext(4);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(5, "p");
-    ɵngcc0.ɵɵtext(6);
-    ɵngcc0.ɵɵelementStart(7, "span");
-    ɵngcc0.ɵɵtext(8);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r0.props.locale.start, ": ");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMap(!ctx_r0.props.startDateTime ? "grey" : "");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.startTimeStr);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r0.props.locale.end, ": ");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMap(!ctx_r0.props.endDateTime ? "grey" : "");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.endTimeStr);
-} }
-function PopoverItemComponent_ng_template_2_Template(rf, ctx) { }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_img_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "img", 12);
-} if (rf & 2) {
-    const subItem_r6 = ɵngcc0.ɵɵnextContext(2).$implicit;
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r10.defaultProps.prefixCls, "-icon");
-    ɵngcc0.ɵɵpropertyInterpolate("src", subItem_r6.icon, ɵngcc0.ɵɵsanitizeUrl);
-} }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_Icon_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "Icon", 13);
-} if (rf & 2) {
-    const subItem_r6 = ɵngcc0.ɵɵnextContext(2).$implicit;
-    ɵngcc0.ɵɵproperty("type", subItem_r6.icon)("size", subItem_r6.size);
-} }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 14);
-    ɵngcc0.ɵɵpipe(1, "safeHTML");
-} if (rf & 2) {
-    const subItem_r6 = ɵngcc0.ɵɵnextContext(2).$implicit;
-    ɵngcc0.ɵɵproperty("innerHTML", ɵngcc0.ɵɵpipeBind1(1, 1, subItem_r6.icon), ɵngcc0.ɵɵsanitizeHtml);
-} }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_5_ng_template_0_Template(rf, ctx) { }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_5_ng_template_0_Template, 0, 0, "ng-template", 15);
-} if (rf & 2) {
-    const subItem_r6 = ɵngcc0.ɵɵnextContext(2).$implicit;
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", subItem_r6.icon);
-} }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_Template(rf, ctx) { if (rf & 1) {
-    const _r21 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 8);
-    ɵngcc0.ɵɵlistener("click", function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r21); const ctx_r20 = ɵngcc0.ɵɵnextContext(); const subItem_r6 = ctx_r20.$implicit; const j_r7 = ctx_r20.index; const i_r4 = ɵngcc0.ɵɵnextContext().index; const ctx_r19 = ɵngcc0.ɵɵnextContext(2); return ctx_r19.click(subItem_r6, i_r4 * ctx_r19.columnNum + j_r7); });
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵtemplate(2, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_img_2_Template, 1, 4, "img", 9);
-    ɵngcc0.ɵɵtemplate(3, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_Icon_3_Template, 1, 2, "Icon", 10);
-    ɵngcc0.ɵɵtemplate(4, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_div_4_Template, 2, 3, "div", 11);
-    ɵngcc0.ɵɵtemplate(5, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_5_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementStart(6, "div");
-    ɵngcc0.ɵɵtext(7);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const subItem_r6 = ɵngcc0.ɵɵnextContext().$implicit;
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r8.defaultProps.prefixCls, "-item-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r8.defaultProps.prefixCls, "-item-inner-content column-num-", ctx_r8.columnNum, "");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r6.icon && ctx_r8.getContentType(subItem_r6.icon) === "url");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r6.icon && ctx_r8.getContentType(subItem_r6.icon) === "icon");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r6.icon && ctx_r8.getContentType(subItem_r6.icon) === "innerHTML");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r6.icon && ctx_r8.getContentType(subItem_r6.icon) === "TemplateRef");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r8.defaultProps.prefixCls, "-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(subItem_r6.text);
-} }
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div");
-} if (rf & 2) {
-    const ctx_r9 = ɵngcc0.ɵɵnextContext(4);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r9.defaultProps.prefixCls, "-null-item");
-} }
-const _c19 = function () { return ["am-grid-item-active"]; };
-function GridComponent_ng_container_0_Flex_1_FlexItem_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "FlexItem", 5);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_1_Template, 8, 15, "div", 6);
-    ɵngcc0.ɵɵtemplate(2, GridComponent_ng_container_0_Flex_1_FlexItem_1_div_2_Template, 1, 3, "div", 7);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const subItem_r6 = ctx.$implicit;
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r5.itemCls)("ngStyle", ctx_r5.itemStyle)("className", ɵngcc0.ɵɵpureFunction0(6, _c19))("activeStyle", ctx_r5.activeStyle);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r6 !== null);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r6 === null);
-} }
-function GridComponent_ng_container_0_Flex_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "Flex", 3);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_ng_container_0_Flex_1_FlexItem_1_Template, 3, 7, "FlexItem", 4);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r3 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("justify", "center")("align", "stretch");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", item_r3);
-} }
-function GridComponent_ng_container_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_ng_container_0_Flex_1_Template, 2, 3, "Flex", 2);
-    ɵngcc0.ɵɵprojection(2);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r0.gridData);
-} }
-function GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_div_1_Template(rf, ctx) { if (rf & 1) {
-    const _r36 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 8);
-    ɵngcc0.ɵɵlistener("click", function GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_div_1_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r36); const ctx_r35 = ɵngcc0.ɵɵnextContext(); const subItem_r30 = ctx_r35.$implicit; const j_r31 = ctx_r35.index; const i_r28 = ɵngcc0.ɵɵnextContext().index; const ctx_r34 = ɵngcc0.ɵɵnextContext(3); return ctx_r34.click(subItem_r30, i_r28 * ctx_r34.columnNum + j_r31); });
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵelement(2, "img", 12);
-    ɵngcc0.ɵɵelementStart(3, "div");
-    ɵngcc0.ɵɵtext(4);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const subItem_r30 = ɵngcc0.ɵɵnextContext().$implicit;
-    const ctx_r32 = ɵngcc0.ɵɵnextContext(4);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r32.defaultProps.prefixCls, "-item-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r32.defaultProps.prefixCls, "-item-inner-content column-num-4");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r32.defaultProps.prefixCls, "-icon");
-    ɵngcc0.ɵɵpropertyInterpolate("src", subItem_r30.icon, ɵngcc0.ɵɵsanitizeUrl);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r32.defaultProps.prefixCls, "-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(subItem_r30.text);
-} }
-function GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div");
-} if (rf & 2) {
-    const ctx_r33 = ɵngcc0.ɵɵnextContext(5);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r33.defaultProps.prefixCls, "-null-item");
-} }
-function GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "FlexItem", 20);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_div_1_Template, 5, 14, "div", 6);
-    ɵngcc0.ɵɵtemplate(2, GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_div_2_Template, 1, 3, "div", 7);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const subItem_r30 = ctx.$implicit;
-    const ctx_r29 = ɵngcc0.ɵɵnextContext(4);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r29.defaultProps.prefixCls, "-item");
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r29.itemStyle)("className", ɵngcc0.ɵɵpureFunction0(7, _c19));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r30 !== null);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", subItem_r30 === null);
-} }
-function GridComponent_Carousel_1_CarouselSlide_1_Flex_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "Flex", 3);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_Carousel_1_CarouselSlide_1_Flex_1_FlexItem_1_Template, 3, 8, "FlexItem", 19);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r27 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("justify", "center")("align", "stretch");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", item_r27);
-} }
-function GridComponent_Carousel_1_CarouselSlide_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "CarouselSlide", 18);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_Carousel_1_CarouselSlide_1_Flex_1_Template, 2, 3, "Flex", 2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const gridData_r25 = ctx.$implicit;
-    const ctx_r24 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r24.defaultProps.prefixCls, "-carousel-page");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", gridData_r25);
-} }
-function GridComponent_Carousel_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "Carousel", 16);
-    ɵngcc0.ɵɵtemplate(1, GridComponent_Carousel_1_CarouselSlide_1_Template, 2, 4, "CarouselSlide", 17);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("autoplay", false)("infinite", true)("selectedIndex", 0)("autoplayInterval", 3000)("dots", ctx_r1.carouselProps.dots)("dragging", ctx_r1.carouselProps.dragging);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r1.carouselDataTmp);
-} }
-function ActionSheetComponent_ng_container_8_1_ng_template_0_Template(rf, ctx) { }
-function ActionSheetComponent_ng_container_8_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ActionSheetComponent_ng_container_8_1_ng_template_0_Template, 0, 0, "ng-template", 8);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r4.option.title);
-} }
-function ActionSheetComponent_ng_container_8_h3_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "h3");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r5.option.prefixCls, "-title");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r5.option.title);
-} }
-function ActionSheetComponent_ng_container_8_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_ng_container_8_1_Template, 1, 1, undefined, 3);
-    ɵngcc0.ɵɵtemplate(2, ActionSheetComponent_ng_container_8_h3_2_Template, 2, 4, "h3", 7);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isTemplateRef(ctx_r0.option.title));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isTemplateRef(ctx_r0.option.title));
-} }
-function ActionSheetComponent_ng_container_9_1_ng_template_0_Template(rf, ctx) { }
-function ActionSheetComponent_ng_container_9_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ActionSheetComponent_ng_container_9_1_ng_template_0_Template, 0, 0, "ng-template", 8);
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r7.option.message);
-} }
-function ActionSheetComponent_ng_container_9_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r8.option.prefixCls, "-message");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r8.option.message, " ");
-} }
-function ActionSheetComponent_ng_container_9_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_ng_container_9_1_Template, 1, 1, undefined, 3);
-    ɵngcc0.ɵɵtemplate(2, ActionSheetComponent_ng_container_9_div_2_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.isTemplateRef(ctx_r1.option.message));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r1.isTemplateRef(ctx_r1.option.message));
-} }
-function ActionSheetComponent_div_11_ng_container_1_div_2_Template(rf, ctx) { if (rf & 1) {
-    const _r18 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 13);
-    ɵngcc0.ɵɵlistener("click", function ActionSheetComponent_div_11_ng_container_1_div_2_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r18); const i_r12 = ɵngcc0.ɵɵnextContext().index; const ctx_r16 = ɵngcc0.ɵɵnextContext(2); return ctx_r16.option.onPress(i_r12, 0, $event); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r11 = ɵngcc0.ɵɵnextContext().$implicit;
-    const ctx_r13 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r13.option.prefixCls, "-button-list-item");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", item_r11, " ");
-} }
-function ActionSheetComponent_div_11_ng_container_1_div_3_Template(rf, ctx) { if (rf & 1) {
-    const _r22 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 13);
-    ɵngcc0.ɵɵlistener("click", function ActionSheetComponent_div_11_ng_container_1_div_3_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r22); const i_r12 = ɵngcc0.ɵɵnextContext().index; const ctx_r20 = ɵngcc0.ɵɵnextContext(2); return ctx_r20.option.onPress(i_r12, 0, $event); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r11 = ɵngcc0.ɵɵnextContext().$implicit;
-    const ctx_r14 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r14.option.prefixCls, "-button-list-item ", ctx_r14.option.prefixCls, "-destructive-button");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", item_r11, " ");
-} }
-function ActionSheetComponent_div_11_ng_container_1_div_4_Template(rf, ctx) { if (rf & 1) {
-    const _r26 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 13);
-    ɵngcc0.ɵɵlistener("click", function ActionSheetComponent_div_11_ng_container_1_div_4_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r26); const i_r12 = ɵngcc0.ɵɵnextContext().index; const ctx_r24 = ɵngcc0.ɵɵnextContext(2); return ctx_r24.option.onPress(i_r12, 0, $event); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelement(2, "span");
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r11 = ɵngcc0.ɵɵnextContext().$implicit;
-    const ctx_r15 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r15.option.prefixCls, "-button-list-item ", ctx_r15.option.prefixCls, "-cancel-button");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", item_r11, " ");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r15.option.prefixCls, "-cancel-button-mask");
-} }
-function ActionSheetComponent_div_11_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵelementStart(1, "div", 11);
-    ɵngcc0.ɵɵtemplate(2, ActionSheetComponent_div_11_ng_container_1_div_2_Template, 2, 4, "div", 12);
-    ɵngcc0.ɵɵtemplate(3, ActionSheetComponent_div_11_ng_container_1_div_3_Template, 2, 5, "div", 12);
-    ɵngcc0.ɵɵtemplate(4, ActionSheetComponent_div_11_ng_container_1_div_4_Template, 3, 8, "div", 12);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const i_r12 = ctx.index;
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r10.option.prefixCls, "-button-list-item");
-    ɵngcc0.ɵɵproperty("className", ctx_r10.setActiveClassName(ctx_r10.option, "button-list-item"));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r10.option.destructiveButtonIndex !== i_r12 && ctx_r10.option.cancelButtonIndex !== i_r12);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r10.option.destructiveButtonIndex === i_r12);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r10.option.cancelButtonIndex === i_r12);
-} }
-function ActionSheetComponent_div_11_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_div_11_ng_container_1_Template, 5, 7, "ng-container", 10);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.option.prefixCls, "-button-list");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r2.option.options);
-} }
-function ActionSheetComponent_div_12_div_1_ng_container_1_3_ng_template_0_Template(rf, ctx) { }
-function ActionSheetComponent_div_12_div_1_ng_container_1_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ActionSheetComponent_div_12_div_1_ng_container_1_3_ng_template_0_Template, 0, 0, "ng-template", 8);
-} if (rf & 2) {
-    const item_r31 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", item_r31.icon);
-} }
-function ActionSheetComponent_div_12_div_1_ng_container_1_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 15);
-    ɵngcc0.ɵɵpipe(1, "safeHTML");
-} if (rf & 2) {
-    const item_r31 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵproperty("innerHTML", ɵngcc0.ɵɵpipeBind1(1, 1, item_r31.icon), ɵngcc0.ɵɵsanitizeHtml);
-} }
-function ActionSheetComponent_div_12_div_1_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    const _r39 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵelementStart(1, "div", 13);
-    ɵngcc0.ɵɵlistener("click", function ActionSheetComponent_div_12_div_1_ng_container_1_Template_div_click_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r39); const i_r32 = ctx.index; const ctx_r38 = ɵngcc0.ɵɵnextContext(3); return ctx_r38.option.onPress(i_r32, 0, $event); });
-    ɵngcc0.ɵɵelementStart(2, "div");
-    ɵngcc0.ɵɵtemplate(3, ActionSheetComponent_div_12_div_1_ng_container_1_3_Template, 1, 1, undefined, 3);
-    ɵngcc0.ɵɵtemplate(4, ActionSheetComponent_div_12_div_1_ng_container_1_div_4_Template, 2, 3, "div", 14);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(5, "div");
-    ɵngcc0.ɵɵtext(6);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const item_r31 = ctx.$implicit;
-    const ctx_r30 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r30.option.prefixCls, "-share-list-item");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r30.option.prefixCls, "-share-list-item-icon");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r30.isTemplateRef(item_r31.icon));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r30.isTemplateRef(item_r31.icon));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r30.option.prefixCls, "-share-list-item-title");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(item_r31.title);
-} }
-function ActionSheetComponent_div_12_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_div_12_div_1_ng_container_1_Template, 7, 12, "ng-container", 10);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r28 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r28.option.prefixCls, "-share-list");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r28.option.options);
-} }
-function ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_3_ng_template_0_Template(rf, ctx) { }
-function ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_3_ng_template_0_Template, 0, 0, "ng-template", 8);
-} if (rf & 2) {
-    const item_r44 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", item_r44.icon);
-} }
-function ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 15);
-    ɵngcc0.ɵɵpipe(1, "safeHTML");
-} if (rf & 2) {
-    const item_r44 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵproperty("innerHTML", ɵngcc0.ɵɵpipeBind1(1, 1, item_r44.icon), ɵngcc0.ɵɵsanitizeHtml);
-} }
-function ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    const _r53 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵelementStart(1, "div", 13);
-    ɵngcc0.ɵɵlistener("click", function ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_Template_div_click_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r53); const i_r45 = ctx.index; const rowIndex_r42 = ɵngcc0.ɵɵnextContext().index; const ctx_r51 = ɵngcc0.ɵɵnextContext(3); return ctx_r51.option.onPress(i_r45, rowIndex_r42, $event); });
-    ɵngcc0.ɵɵelementStart(2, "div");
-    ɵngcc0.ɵɵtemplate(3, ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_3_Template, 1, 1, undefined, 3);
-    ɵngcc0.ɵɵtemplate(4, ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_div_4_Template, 2, 3, "div", 14);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(5, "div");
-    ɵngcc0.ɵɵtext(6);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const item_r44 = ctx.$implicit;
-    const ctx_r43 = ɵngcc0.ɵɵnextContext(4);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r43.option.prefixCls, "-share-list-item");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r43.option.prefixCls, "-share-list-item-icon");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r43.isTemplateRef(item_r44.icon));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r43.isTemplateRef(item_r44.icon));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r43.option.prefixCls, "-share-list-item-title");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(item_r44.title);
-} }
-function ActionSheetComponent_div_12_ng_container_2_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_div_12_ng_container_2_div_1_ng_container_1_Template, 7, 12, "ng-container", 10);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const items_r41 = ctx.$implicit;
-    const ctx_r40 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r40.option.prefixCls, "-share-list");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", items_r41);
-} }
-function ActionSheetComponent_div_12_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_div_12_ng_container_2_div_1_Template, 2, 4, "div", 16);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r29 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r29.option.options);
-} }
-function ActionSheetComponent_div_12_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ActionSheetComponent_div_12_div_1_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵtemplate(2, ActionSheetComponent_div_12_ng_container_2_Template, 2, 1, "ng-container", 3);
-    ɵngcc0.ɵɵelementStart(3, "div", 11);
-    ɵngcc0.ɵɵtext(4);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r3.option.prefixCls, "-share ", ctx_r3.option.prefixCls, "-share-content");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r3.isArray(ctx_r3.option.options, ctx_r3.option.options[0]));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r3.isArray(ctx_r3.option.options, ctx_r3.option.options[0]));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.option.prefixCls, "-share-cancel-button");
-    ɵngcc0.ɵɵproperty("className", ctx_r3.setActiveClassName(ctx_r3.option, "share-cancel-button"));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r3.option.cancelButtonText, " ");
-} }
-const _c20 = function (a0) { return { "am-segment-item-selected": a0 }; };
-const _c21 = function (a0, a1, a2) { return { "border-color": a0, color: a1, "background-color": a2 }; };
-const _c22 = function (a0) { return { "background-color": a0 }; };
-function SegmentedControlComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r4 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵlistener("click", function SegmentedControlComponent_div_0_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r4); const i_r2 = ctx.index; const value_r1 = ctx.$implicit; const ctx_r3 = ɵngcc0.ɵɵnextContext(); return ctx_r3.onClick(i_r2, value_r1); });
-    ɵngcc0.ɵɵelement(1, "div", 2);
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const value_r1 = ctx.$implicit;
-    const i_r2 = ctx.index;
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-item");
-    ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(10, _c20, i_r2 === ctx_r0.selectedIndex))("ngStyle", ɵngcc0.ɵɵpureFunction3(12, _c21, ctx_r0.tintColor, i_r2 === ctx_r0.selectedIndex ? "#fff" : ctx_r0.tintColor, i_r2 === ctx_r0.selectedIndex ? ctx_r0.tintColor : "transparent"));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-item-inner");
-    ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction1(16, _c22, i_r2 === ctx_r0.selectedIndex ? ctx_r0.tintColor : "transparent"));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", value_r1, "\n");
-} }
-const _c23 = ["text"];
-function TextareaItemComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.labelCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r0.title);
-} }
-function TextareaItemComponent_div_1_ng_template_1_Template(rf, ctx) { }
-function TextareaItemComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵtemplate(1, TextareaItemComponent_div_1_ng_template_1_Template, 0, 0, "ng-template", 7);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r1.labelCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r1.title);
-} }
-function TextareaItemComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    const _r8 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 8);
-    ɵngcc0.ɵɵlistener("click", function TextareaItemComponent_div_5_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r8); const ctx_r7 = ɵngcc0.ɵɵnextContext(); return ctx_r7.clearInput(); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.prefixCls, "-clear");
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r3.clearCls);
-} }
-function TextareaItemComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    const _r10 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵlistener("click", function TextareaItemComponent_div_6_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r9 = ɵngcc0.ɵɵnextContext(); return ctx_r9.errorClick($event); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r4.prefixCls, "-error-extra");
-} }
-function TextareaItemComponent_span_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span");
-    ɵngcc0.ɵɵelementStart(1, "span");
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵtext(3);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r5.prefixCls, "-count");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r5.characterLength);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1("/", ctx_r5.count, "\n");
-} }
-const _c24 = ["content"];
-function TabPaneComponent_ng_template_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵprojection(0);
-} }
-const _c25 = ["TabContent"];
-const _c26 = ["DefaultTabBar"];
-function TabsComponent_1_ng_template_0_Template(rf, ctx) { }
-function TabsComponent_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, TabsComponent_1_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    const _r4 = ɵngcc0.ɵɵreference(7);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r0.renderTabBar || _r4);
-} }
-function TabsComponent_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 6);
-} if (rf & 2) {
-    const tabPane_r7 = ctx.$implicit;
-    const i_r8 = ctx.index;
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("content", tabPane_r7.content)("active", i_r8 === ctx_r2.selectedKey)("prerender", ctx_r2.prerenderingSiblingsNumber < 0 || ctx_r2.selectedKey - i_r8 <= ctx_r2.prerenderingSiblingsNumber && ctx_r2.selectedKey - i_r8 + ctx_r2.prerenderingSiblingsNumber >= 0);
-} }
-function TabsComponent_5_ng_template_0_Template(rf, ctx) { }
-function TabsComponent_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, TabsComponent_5_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    const _r4 = ɵngcc0.ɵɵreference(7);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r3.renderTabBar || _r4);
-} }
-function TabsComponent_ng_template_6_div_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const tabPane_r12 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", tabPane_r12.title, " ");
-} }
-function TabsComponent_ng_template_6_div_2_ng_template_3_ng_template_0_Template(rf, ctx) { }
-function TabsComponent_ng_template_6_div_2_ng_template_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, TabsComponent_ng_template_6_div_2_ng_template_3_ng_template_0_Template, 0, 0, "ng-template", 5);
-} if (rf & 2) {
-    const tabPane_r12 = ɵngcc0.ɵɵnextContext().$implicit;
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", tabPane_r12.title);
-} }
-const _c27 = function (a0, a1) { return { "am-tabs-default-bar-tab-active": a0, "am-tabs-default-bar-tab-disabled": a1 }; };
-function TabsComponent_ng_template_6_div_2_Template(rf, ctx) { if (rf & 1) {
-    const _r22 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 10, 11);
-    ɵngcc0.ɵɵlistener("click", function TabsComponent_ng_template_6_div_2_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r22); const i_r13 = ctx.index; const ctx_r21 = ɵngcc0.ɵɵnextContext(2); return ctx_r21.clickTab(i_r13); });
-    ɵngcc0.ɵɵtemplate(2, TabsComponent_ng_template_6_div_2_ng_container_2_Template, 2, 1, "ng-container", 12);
-    ɵngcc0.ɵɵtemplate(3, TabsComponent_ng_template_6_div_2_ng_template_3_Template, 1, 1, "ng-template", null, 13, ɵngcc0.ɵɵtemplateRefExtractor);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const tabPane_r12 = ctx.$implicit;
-    const i_r13 = ctx.index;
-    const _r16 = ɵngcc0.ɵɵreference(4);
-    const ctx_r11 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r11.prefixCls, "-default-bar-tab");
-    ɵngcc0.ɵɵstyleProp("color", i_r13 === ctx_r11.selectedKey ? ctx_r11.tabBarActiveTextColor : ctx_r11.tabBarInactiveTextColor);
-    ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction2(9, _c27, i_r13 === ctx_r11.selectedKey, tabPane_r12.disabled))("ngStyle", ctx_r11.tabBarTextStyle);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngIf", tabPane_r12.isTitleString)("ngIfElse", _r16);
-} }
-function TabsComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "DefaultTabBar", 7, 8);
-    ɵngcc0.ɵɵtemplate(2, TabsComponent_ng_template_6_div_2_Template, 5, 12, "div", 9);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("page", ctx_r5.page)("animated", ctx_r5.animated)("activeTab", ctx_r5.selectedKey)("tabTitleSize", ctx_r5.tabTitleSize)("tabBarPosition", ctx_r5.tabBarPosition)("tabBarUnderlineStyle", ctx_r5.tabBarUnderlineStyle)("tabBarBackgroundColor", ctx_r5.tabBarBackgroundColor);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r5.getCurrentTabPanes());
-} }
-const _c28 = function (a0) { return { "am-tabs-content-wrap-animated": a0 }; };
-const _c29 = function (a0, a1) { return { transform: a0, webkitTransform: a1 }; };
-const _c30 = ["tab-pane-body", ""];
-function TabPaneBodyComponent_ng_container_0_ng_template_1_Template(rf, ctx) { }
-function TabPaneBodyComponent_ng_container_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtemplate(1, TabPaneBodyComponent_ng_container_0_ng_template_1_Template, 0, 0, "ng-template", 1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r0.content);
-} }
-const _c31 = ["TabTitle"];
-const _c32 = ["TabsBarSwipe"];
-function DefaultTabBarComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div");
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-prevpage");
-} }
-function DefaultTabBarComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div");
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.prefixCls, "-nextpage");
-} }
-const _c33 = function (a0) { return { "am-tabs-default-bar-animated": a0 }; };
-const _c34 = function (a0) { return { backgroundColor: a0 }; };
-const _c35 = ["tabBarTab"];
-function TabBarItemComponent_ng_template_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵprojection(0);
-} }
-function TabBarItemComponent_ng_template_2_Badge_1_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainer(0);
-} }
-function TabBarItemComponent_ng_template_2_Badge_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "Badge", 7);
-    ɵngcc0.ɵɵtemplate(1, TabBarItemComponent_ng_template_2_Badge_1_ng_container_1_Template, 1, 0, "ng-container", 8);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    const _r4 = ɵngcc0.ɵɵreference(5);
-    const _r6 = ɵngcc0.ɵɵreference(7);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r8.prefixCls, "-badge tab-badge");
-    ɵngcc0.ɵɵproperty("text", ctx_r8.badge);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r8.isTemplateRef(ctx_r8.selected ? ctx_r8.selectedIcon : ctx_r8.icon))("ngIfThen", _r4)("ngIfElse", _r6);
-} }
-function TabBarItemComponent_ng_template_2_Badge_2_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainer(0);
-} }
-function TabBarItemComponent_ng_template_2_Badge_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "Badge", 9);
-    ɵngcc0.ɵɵtemplate(1, TabBarItemComponent_ng_template_2_Badge_2_ng_container_1_Template, 1, 0, "ng-container", 8);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r9 = ɵngcc0.ɵɵnextContext(2);
-    const _r4 = ɵngcc0.ɵɵreference(5);
-    const _r6 = ɵngcc0.ɵɵreference(7);
-    ɵngcc0.ɵɵpropertyInterpolate1("className", "", ctx_r9.prefixCls, "-badge tab-badge");
-    ɵngcc0.ɵɵproperty("dot", ctx_r9.dot);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r9.isTemplateRef(ctx_r9.selected ? ctx_r9.selectedIcon : ctx_r9.icon))("ngIfThen", _r4)("ngIfElse", _r6);
-} }
-function TabBarItemComponent_ng_template_2_ng_container_3_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainer(0);
-} }
-function TabBarItemComponent_ng_template_2_ng_container_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtemplate(1, TabBarItemComponent_ng_template_2_ng_container_3_ng_container_1_Template, 1, 0, "ng-container", 8);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(2);
-    const _r4 = ɵngcc0.ɵɵreference(5);
-    const _r6 = ɵngcc0.ɵɵreference(7);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r10.isTemplateRef(ctx_r10.selected ? ctx_r10.selectedIcon : ctx_r10.icon))("ngIfThen", _r4)("ngIfElse", _r6);
-} }
-function TabBarItemComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, TabBarItemComponent_ng_template_2_Badge_1_Template, 2, 5, "Badge", 4);
-    ɵngcc0.ɵɵtemplate(2, TabBarItemComponent_ng_template_2_Badge_2_Template, 2, 5, "Badge", 5);
-    ɵngcc0.ɵɵtemplate(3, TabBarItemComponent_ng_template_2_ng_container_3_Template, 2, 3, "ng-container", 6);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(4, "p");
-    ɵngcc0.ɵɵtext(5);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.prefixCls, "-icon");
-    ɵngcc0.ɵɵstyleProp("color", ctx_r3.selected ? ctx_r3.tintColor : ctx_r3.unselectedTintColor);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r3.badge);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r3.dot);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r3.badge && !ctx_r3.dot);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r3.prefixCls, "-title");
-    ɵngcc0.ɵɵstyleProp("color", ctx_r3.selected ? ctx_r3.tintColor : ctx_r3.unselectedTintColor);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r3.title, " ");
-} }
-function TabBarItemComponent_ng_template_4_ng_template_0_Template(rf, ctx) { }
-function TabBarItemComponent_ng_template_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, TabBarItemComponent_ng_template_4_ng_template_0_Template, 0, 0, "ng-template", 10);
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r5.selected ? ctx_r5.selectedIcon : ctx_r5.icon);
-} }
-function TabBarItemComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "img", 11);
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵpropertyInterpolate("src", ctx_r7.selected ? ctx_r7.selectedIcon : ctx_r7.icon, ɵngcc0.ɵɵsanitizeUrl);
-    ɵngcc0.ɵɵpropertyInterpolate("alt", ctx_r7.title);
-} }
-function TabBarComponent_ng_template_1_div_2_Template(rf, ctx) { if (rf & 1) {
-    const _r6 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 5);
-    ɵngcc0.ɵɵlistener("click", function TabBarComponent_ng_template_1_div_2_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r6); const i_r4 = ctx.index; const tabBarItem_r3 = ctx.$implicit; const ctx_r5 = ɵngcc0.ɵɵnextContext(2); return ctx_r5.tabBarTabOnPress({ index: i_r4, key: tabBarItem_r3.key, title: tabBarItem_r3.title }); });
-    ɵngcc0.ɵɵelementContainer(1, 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const tabBarItem_r3 = ctx.$implicit;
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", tabBarItem_r3.tabBarTab);
-} }
-const _c36 = function (a0, a1) { return { "am-tab-bar-bar-hidden-top": a0, "am-tab-bar-bar-hidden-bottom": a1 }; };
-function TabBarComponent_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 2);
-    ɵngcc0.ɵɵelementStart(1, "div", 3);
-    ɵngcc0.ɵɵtemplate(2, TabBarComponent_ng_template_1_div_2_Template, 2, 1, "div", 4);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-bar");
-    ɵngcc0.ɵɵstyleProp("background-color", ctx_r1.barTintColor);
-    ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction2(7, _c36, "top" === ctx_r1.tabBarPosition && ctx_r1.hidden, "bottom" === ctx_r1.tabBarPosition && ctx_r1.hidden));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r1.tabBarItems);
-} }
-function PickerComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r4 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 11);
-    ɵngcc0.ɵɵlistener("click", function PickerComponent_div_0_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r4); const ctx_r3 = ɵngcc0.ɵɵnextContext(); return ctx_r3.cancel(); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("am-picker-popup-mask ", ctx_r0.maskTransitionName, "");
-} }
-function PickerComponent_div_14_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 17);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const val_r8 = ctx.$implicit;
-    const i_r9 = ctx.index;
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r9);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", val_r8.label ? val_r8.label : val_r8, " ");
-} }
-function PickerComponent_div_14_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 12);
-    ɵngcc0.ɵɵelement(1, "div", 13);
-    ɵngcc0.ɵɵelement(2, "div", 14);
-    ɵngcc0.ɵɵelementStart(3, "div", 15);
-    ɵngcc0.ɵɵtemplate(4, PickerComponent_div_14_div_4_Template, 2, 2, "div", 16);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r5 = ctx.$implicit;
-    const i_r6 = ctx.index;
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r2.options.indicatorStyle);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r6);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", item_r5);
-} }
-function PickerViewComponent_div_2_div_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 9);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const val_r6 = ctx.$implicit;
-    const i_r7 = ctx.index;
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r7);
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r5.itemStyle);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", val_r6.label ? val_r6.label : val_r6, " ");
-} }
-function PickerViewComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 3);
-    ɵngcc0.ɵɵelement(1, "div", 4, 5);
-    ɵngcc0.ɵɵelement(3, "div", 6);
-    ɵngcc0.ɵɵelementStart(4, "div", 7);
-    ɵngcc0.ɵɵtemplate(5, PickerViewComponent_div_2_div_5_Template, 2, 3, "div", 8);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r2 = ctx.$implicit;
-    const i_r3 = ctx.index;
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r1.indicatorStyle);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵpropertyInterpolate("id", i_r3);
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", item_r2);
-} }
-const _c37 = ["fileSelectorInput"];
-function ImagePickerComponent_Flex_1_FlexItem_1_div_1_div_1_Template(rf, ctx) { if (rf & 1) {
-    const _r12 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 6);
-    ɵngcc0.ɵɵlistener("click", function ImagePickerComponent_Flex_1_FlexItem_1_div_1_div_1_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r12); const j_r5 = ɵngcc0.ɵɵnextContext(2).index; const i_r2 = ɵngcc0.ɵɵnextContext().index; const ctx_r10 = ɵngcc0.ɵɵnextContext(); return ctx_r10.removeImage(i_r2 * ctx_r10.length + j_r5); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r9 = ɵngcc0.ɵɵnextContext(4);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r9.prefixCls, "-item-remove");
-} }
-const _c38 = function (a0, a1) { return { "background-image": a0, transform: a1 }; };
-function ImagePickerComponent_Flex_1_FlexItem_1_div_1_Template(rf, ctx) { if (rf & 1) {
-    const _r16 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ImagePickerComponent_Flex_1_FlexItem_1_div_1_div_1_Template, 1, 3, "div", 4);
-    ɵngcc0.ɵɵelementStart(2, "div", 5);
-    ɵngcc0.ɵɵlistener("click", function ImagePickerComponent_Flex_1_FlexItem_1_div_1_Template_div_click_2_listener() { ɵngcc0.ɵɵrestoreView(_r16); const j_r5 = ɵngcc0.ɵɵnextContext().index; const i_r2 = ɵngcc0.ɵɵnextContext().index; const ctx_r14 = ɵngcc0.ɵɵnextContext(); return ctx_r14.imageClick(i_r2 * ctx_r14.length + j_r5); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r4 = ɵngcc0.ɵɵnextContext().$implicit;
-    const ctx_r6 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r6.prefixCls, "-item");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r6.disableDelete);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r6.prefixCls, "-item-content");
-    ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction2(8, _c38, item_r4.backgroundImage, item_r4.transform));
-} }
-function ImagePickerComponent_Flex_1_FlexItem_1_div_2_Template(rf, ctx) { if (rf & 1) {
-    const _r21 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 7);
-    ɵngcc0.ɵɵlistener("click", function ImagePickerComponent_Flex_1_FlexItem_1_div_2_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r21); const ctx_r20 = ɵngcc0.ɵɵnextContext(3); return ctx_r20.addImageClick($event); });
-    ɵngcc0.ɵɵelementStart(1, "input", 8, 9);
-    ɵngcc0.ɵɵlistener("change", function ImagePickerComponent_Flex_1_FlexItem_1_div_2_Template_input_change_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r21); const ctx_r22 = ɵngcc0.ɵɵnextContext(3); return ctx_r22.fileChange($event); });
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r7.prefixCls, "-item ", ctx_r7.prefixCls, "-upload-btn");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("accept", ctx_r7.accept)("multiple", ctx_r7.multiple);
-    ɵngcc0.ɵɵattribute("capture", ctx_r7.capture ? ctx_r7.capture : null);
-} }
-function ImagePickerComponent_Flex_1_FlexItem_1_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div");
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r8.prefixCls, "-item-white");
-} }
-function ImagePickerComponent_Flex_1_FlexItem_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "FlexItem");
-    ɵngcc0.ɵɵtemplate(1, ImagePickerComponent_Flex_1_FlexItem_1_div_1_Template, 3, 11, "div", 2);
-    ɵngcc0.ɵɵtemplate(2, ImagePickerComponent_Flex_1_FlexItem_1_div_2_Template, 3, 7, "div", 3);
-    ɵngcc0.ɵɵtemplate(3, ImagePickerComponent_Flex_1_FlexItem_1_div_3_Template, 1, 3, "div", 2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const item_r4 = ctx.$implicit;
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", item_r4 && "img" === item_r4.type && item_r4.backgroundImage);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", item_r4 && "select" === item_r4.type);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", item_r4 && "white" === item_r4.type);
-} }
-function ImagePickerComponent_Flex_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "Flex");
-    ɵngcc0.ɵɵtemplate(1, ImagePickerComponent_Flex_1_FlexItem_1_Template, 4, 3, "FlexItem", 1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const rowItem_r1 = ctx.$implicit;
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", rowItem_r1);
-} }
-function ResultComponent_div_0_ng_template_1_Template(rf, ctx) { }
-function ResultComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ResultComponent_div_0_ng_template_1_Template, 0, 0, "ng-template", 4);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-pic");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r0.img);
-} }
-const _c39 = function (a0) { return { backgroundImage: a0 }; };
-function ResultComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 5);
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-pic");
-    ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction1(4, _c39, "url(" + ctx_r1.imgUrl + ")"));
-} }
-function ResultComponent_div_2_1_ng_template_0_Template(rf, ctx) { }
-function ResultComponent_div_2_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ResultComponent_div_2_1_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r7.title);
-} }
-function ResultComponent_div_2_span_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r8.title);
-} }
-function ResultComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, ResultComponent_div_2_1_Template, 1, 1, undefined, 3);
-    ɵngcc0.ɵɵtemplate(2, ResultComponent_div_2_span_2_Template, 2, 1, "span", 3);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.prefixCls, "-title");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r2.isTitleString);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r2.isTitleString);
-} }
-function ResultComponent_4_ng_template_0_Template(rf, ctx) { }
-function ResultComponent_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, ResultComponent_4_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r3.message);
-} }
-function ResultComponent_span_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "span");
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r4.message);
-} }
-function ResultComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    const _r12 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "a", 6);
-    ɵngcc0.ɵɵlistener("click", function ResultComponent_div_6_Template_a_click_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r11 = ɵngcc0.ɵɵnextContext(); return ctx_r11.buttonClick($event); });
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r5.prefixCls, "-button");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", ctx_r5.buttonType);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r5.buttonText, " ");
-} }
-function RangeComponent_SliderTrack_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "SliderTrack", 6);
-} if (rf & 2) {
-    const off_r2 = ctx.$implicit;
-    const i_r3 = ctx.index;
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵstyleMap(ctx_r0.trackStyle[i_r3]);
-    ɵngcc0.ɵɵproperty("className", "am-slider-track")("included", ctx_r0.included)("offset", off_r2)("length", ctx_r0.length[i_r3]);
-} }
-function RangeComponent_SliderHandle_4_Template(rf, ctx) { if (rf & 1) {
-    const _r7 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "SliderHandle", 7);
-    ɵngcc0.ɵɵlistener("onChange", function RangeComponent_SliderHandle_4_Template_SliderHandle_onChange_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r7); const i_r5 = ctx.index; const ctx_r6 = ɵngcc0.ɵɵnextContext(); return ctx_r6.handleChange($event, i_r5); })("onAfterChange", function RangeComponent_SliderHandle_4_Template_SliderHandle_onAfterChange_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r7); const i_r5 = ctx.index; const ctx_r8 = ɵngcc0.ɵɵnextContext(); return ctx_r8.handleAfterChange($event, i_r5); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const val_r4 = ctx.$implicit;
-    const i_r5 = ctx.index;
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("max", ctx_r1.max)("min", ctx_r1.min)("maxBound", ctx_r1.maxBound[i_r5])("minBound", ctx_r1.minBound[i_r5])("value", val_r4)("step", ctx_r1.step)("disabled", ctx_r1.disabled)("sliderLength", ctx_r1.sliderLength)("sliderStart", ctx_r1.sliderStart)("handleStyle", ctx_r1.handleStyle[i_r5]);
-} }
-function SliderMarksComponent_span_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "span", 1);
-} if (rf & 2) {
-    const item_r1 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("ngClass", item_r1.className)("ngStyle", item_r1.style);
-} }
-function SliderStepsComponent_span_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "span", 1);
-} if (rf & 2) {
-    const item_r1 = ctx.$implicit;
-    ɵngcc0.ɵɵproperty("ngClass", item_r1.stepClass)("ngStyle", item_r1.stepStyle);
-} }
-function SliderTrackComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 1);
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.className)("ngStyle", ctx_r0.elStyle);
-} }
-function PaginationComponent_Flex_1_ng_container_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r3.locale.prevText, " ");
-} }
-function PaginationComponent_Flex_1_4_ng_template_0_Template(rf, ctx) { }
-function PaginationComponent_Flex_1_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, PaginationComponent_Flex_1_4_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r4.locale.prevText);
-} }
-function PaginationComponent_Flex_1_FlexItem_5_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "FlexItem", 5);
-    ɵngcc0.ɵɵelementStart(1, "span", 6);
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵtext(3, "/ ");
-    ɵngcc0.ɵɵelementStart(4, "span");
-    ɵngcc0.ɵɵtext(5);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r5.prefixCls, "-wrap");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r5.current);
-    ɵngcc0.ɵɵadvance(3);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r5.total);
-} }
-function PaginationComponent_Flex_1_ng_container_8_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r6.locale.nextText, " ");
-} }
-function PaginationComponent_Flex_1_9_ng_template_0_Template(rf, ctx) { }
-function PaginationComponent_Flex_1_9_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, PaginationComponent_Flex_1_9_ng_template_0_Template, 0, 0, "ng-template", 4);
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r7.locale.nextText);
-} }
-function PaginationComponent_Flex_1_Template(rf, ctx) { if (rf & 1) {
-    const _r11 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "Flex");
-    ɵngcc0.ɵɵelementStart(1, "FlexItem");
-    ɵngcc0.ɵɵelementStart(2, "a", 2);
-    ɵngcc0.ɵɵlistener("onClick", function PaginationComponent_Flex_1_Template_a_onClick_2_listener() { ɵngcc0.ɵɵrestoreView(_r11); const ctx_r10 = ɵngcc0.ɵɵnextContext(); return ctx_r10.onClick(ctx_r10.current - 1); });
-    ɵngcc0.ɵɵtemplate(3, PaginationComponent_Flex_1_ng_container_3_Template, 2, 1, "ng-container", 0);
-    ɵngcc0.ɵɵtemplate(4, PaginationComponent_Flex_1_4_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵtemplate(5, PaginationComponent_Flex_1_FlexItem_5_Template, 6, 5, "FlexItem", 3);
-    ɵngcc0.ɵɵelementStart(6, "FlexItem");
-    ɵngcc0.ɵɵelementStart(7, "a", 2);
-    ɵngcc0.ɵɵlistener("onClick", function PaginationComponent_Flex_1_Template_a_onClick_7_listener() { ɵngcc0.ɵɵrestoreView(_r11); const ctx_r12 = ɵngcc0.ɵɵnextContext(); return ctx_r12.onClick(ctx_r12.current + 1); });
-    ɵngcc0.ɵɵtemplate(8, PaginationComponent_Flex_1_ng_container_8_Template, 2, 1, "ng-container", 0);
-    ɵngcc0.ɵɵtemplate(9, PaginationComponent_Flex_1_9_Template, 1, 1, undefined, 0);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.prefixCls, "-wrap-btn ", ctx_r0.prefixCls, "-wrap-btn-prev");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("inline", true)("disabled", ctx_r0.current <= 1 || ctx_r0.disabled);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isTemplateRef(ctx_r0.locale.prevText));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isTemplateRef(ctx_r0.locale.prevText));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.simple);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r0.prefixCls, "-wrap-btn ", ctx_r0.prefixCls, "-wrap-btn-next");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("inline", true)("disabled", ctx_r0.current >= ctx_r0.total || ctx_r0.disabled);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isTemplateRef(ctx_r0.locale.nextText));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isTemplateRef(ctx_r0.locale.nextText));
-} }
-function PaginationComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "span", 6);
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵtext(3, "/");
-    ɵngcc0.ɵɵelementStart(4, "span");
-    ɵngcc0.ɵɵtext(5);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-wrap");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r1.current);
-    ɵngcc0.ɵɵadvance(3);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r1.total);
-} }
-function PaginationComponent_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelement(1, "span");
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const i_r15 = ctx.index;
-    const ctx_r13 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r13.prefixCls, "-wrap-dot ", ctx_r13.current === i_r15 + 1 ? ctx_r13.prefixCls + "-wrap-dot-active" : "", "");
-} }
-function PaginationComponent_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵtemplate(1, PaginationComponent_div_3_div_1_Template, 2, 4, "div", 7);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r2.prefixCls, "-wrap");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r2.getNumber(ctx_r2.total));
-} }
-function TagComponent_div_0_div_3_Template(rf, ctx) { if (rf & 1) {
-    const _r3 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 3);
-    ɵngcc0.ɵɵlistener("click", function TagComponent_div_0_div_3_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r2 = ɵngcc0.ɵɵnextContext(2); return ctx_r2.onTagClose(); });
-    ɵngcc0.ɵɵelement(1, "Icon", 4);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-close");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("type", "cross-circle")("size", "xs");
-} }
-function TagComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r5 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 1);
-    ɵngcc0.ɵɵlistener("click", function TagComponent_div_0_Template_div_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r5); const ctx_r4 = ɵngcc0.ɵɵnextContext(); return ctx_r4.onClick(); });
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵprojection(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵtemplate(3, TagComponent_div_0_div_3_Template, 2, 5, "div", 2);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.wrapCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-text");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.closable && !ctx_r0.disabled && !ctx_r0.small);
-} }
-function MenuComponent_FlexItem_2_ListItem_2_Template(rf, ctx) { if (rf & 1) {
-    const _r6 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "ListItem", 8);
-    ɵngcc0.ɵɵlistener("click", function MenuComponent_FlexItem_2_ListItem_2_Template_ListItem_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r6); const dataItem_r3 = ctx.$implicit; const ctx_r5 = ɵngcc0.ɵɵnextContext(2); return ctx_r5.onClickFirstLevelItem(dataItem_r3); });
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const dataItem_r3 = ctx.$implicit;
-    const ctx_r2 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("className", ctx_r2.getClass(dataItem_r3));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", dataItem_r3.label, " ");
-} }
-function MenuComponent_FlexItem_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "FlexItem");
-    ɵngcc0.ɵɵelementStart(1, "List", 6);
-    ɵngcc0.ɵɵtemplate(2, MenuComponent_FlexItem_2_ListItem_2_Template, 2, 2, "ListItem", 7);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r0.data);
-} }
-function MenuComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    const _r8 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div");
-    ɵngcc0.ɵɵelementStart(1, "a", 9);
-    ɵngcc0.ɵɵlistener("onClick", function MenuComponent_div_5_Template_a_onClick_1_listener() { ɵngcc0.ɵɵrestoreView(_r8); const ctx_r7 = ɵngcc0.ɵɵnextContext(); return ctx_r7.onMenuCancel(); });
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(3, "a", 10);
-    ɵngcc0.ɵɵlistener("onClick", function MenuComponent_div_5_Template_a_onClick_3_listener() { ɵngcc0.ɵɵrestoreView(_r8); const ctx_r9 = ɵngcc0.ɵɵnextContext(); return ctx_r9.onMenuOk(); });
-    ɵngcc0.ɵɵtext(4);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMap(ctx_r1.multiSelectMenuBtnsCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("className", "am-multi-select-btns-btn")("inline", true);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r1.locale.cancelText, " ");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("className", "am-multi-select-btns-btn")("inline", true)("type", "primary");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", ctx_r1.locale.okText, " ");
-} }
-function SubMenuComponent_ListItem_1_ng_template_2_label_0_Template(rf, ctx) { if (rf & 1) {
-    const _r9 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "label", 6);
-    ɵngcc0.ɵɵlistener("onChange", function SubMenuComponent_ListItem_1_ng_template_2_label_0_Template_label_onChange_0_listener() { ɵngcc0.ɵɵrestoreView(_r9); const dataItem_r1 = ɵngcc0.ɵɵnextContext(2).$implicit; const ctx_r7 = ɵngcc0.ɵɵnextContext(); return ctx_r7.onClick(dataItem_r1); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const dataItem_r1 = ɵngcc0.ɵɵnextContext(2).$implicit;
-    ɵngcc0.ɵɵproperty("checked", dataItem_r1.checked)("disabled", dataItem_r1.disabled);
-} }
-function SubMenuComponent_ListItem_1_ng_template_2_label_1_Template(rf, ctx) { if (rf & 1) {
-    const _r13 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "label", 7);
-    ɵngcc0.ɵɵlistener("onChange", function SubMenuComponent_ListItem_1_ng_template_2_label_1_Template_label_onChange_0_listener() { ɵngcc0.ɵɵrestoreView(_r13); const dataItem_r1 = ɵngcc0.ɵɵnextContext(2).$implicit; const ctx_r11 = ɵngcc0.ɵɵnextContext(); return ctx_r11.onClick(dataItem_r1); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const dataItem_r1 = ɵngcc0.ɵɵnextContext(2).$implicit;
-    ɵngcc0.ɵɵproperty("checked", dataItem_r1.checked)("disabled", dataItem_r1.disabled);
-} }
-function SubMenuComponent_ListItem_1_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, SubMenuComponent_ListItem_1_ng_template_2_label_0_Template, 1, 2, "label", 4);
-    ɵngcc0.ɵɵtemplate(1, SubMenuComponent_ListItem_1_ng_template_2_label_1_Template, 1, 2, "label", 5);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r4.multiSelect);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r4.multiSelect);
-} }
-function SubMenuComponent_ListItem_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "ListItem", 2);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵtemplate(2, SubMenuComponent_ListItem_1_ng_template_2_Template, 2, 2, "ng-template", null, 3, ɵngcc0.ɵɵtemplateRefExtractor);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const dataItem_r1 = ctx.$implicit;
-    const _r3 = ɵngcc0.ɵɵreference(3);
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("className", ctx_r0.getClass(dataItem_r1))("extra", _r3);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", dataItem_r1.label, " ");
-} }
-function DrawerComponent_ng_template_1_Template(rf, ctx) { }
-function DrawerComponent_div_4_Template(rf, ctx) { if (rf & 1) {
-    const _r3 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 5);
-    ɵngcc0.ɵɵlistener("touchstart", function DrawerComponent_div_4_Template_div_touchstart_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r2 = ɵngcc0.ɵɵnextContext(); return ctx_r2.onTouchStart($event); })("touchmove", function DrawerComponent_div_4_Template_div_touchmove_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r4 = ɵngcc0.ɵɵnextContext(); return ctx_r4.onTouchMove($event); })("touchend", function DrawerComponent_div_4_Template_div_touchend_0_listener() { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r5 = ɵngcc0.ɵɵnextContext(); return ctx_r5.onTouchEnd(); })("touchcancle", function DrawerComponent_div_4_Template_div_touchcancle_0_listener() { ɵngcc0.ɵɵrestoreView(_r3); const ctx_r6 = ɵngcc0.ɵɵnextContext(); return ctx_r6.onTouchEnd(); });
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-draghandle");
-    ɵngcc0.ɵɵproperty("ngStyle", ctx_r1.dragHandleStyle);
-} }
-const _c40 = ["leftBtnRef"];
-const _c41 = ["rightBtnRef"];
-const _c42 = ["contentRef"];
-const _c43 = ["coverRef"];
-function SwipeActionComponent_div_0_div_3_div_2_Template(rf, ctx) { if (rf & 1) {
-    const _r13 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 10);
-    ɵngcc0.ɵɵlistener("click", function SwipeActionComponent_div_0_div_3_div_2_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r13); const btn_r11 = ctx.$implicit; const ctx_r12 = ɵngcc0.ɵɵnextContext(3); return ctx_r12.onBtnClick($event, btn_r11); });
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const btn_r11 = ctx.$implicit;
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r10.prefixCls, "-btn ", btn_r11.className, "");
-    ɵngcc0.ɵɵproperty("ngStyle", btn_r11.style);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r10.prefixCls, "-btn-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", btn_r11.text || "Click", " ");
-} }
-function SwipeActionComponent_div_0_div_3_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", null, 8);
-    ɵngcc0.ɵɵtemplate(2, SwipeActionComponent_div_0_div_3_div_2_Template, 3, 9, "div", 9);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r5.prefixCls, "-actions ", ctx_r5.prefixCls, "-actions-left");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r5.left);
-} }
-function SwipeActionComponent_div_0_div_4_div_2_Template(rf, ctx) { if (rf & 1) {
-    const _r18 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 10);
-    ɵngcc0.ɵɵlistener("click", function SwipeActionComponent_div_0_div_4_div_2_Template_div_click_0_listener($event) { ɵngcc0.ɵɵrestoreView(_r18); const btn_r16 = ctx.$implicit; const ctx_r17 = ɵngcc0.ɵɵnextContext(3); return ctx_r17.onBtnClick($event, btn_r16); });
-    ɵngcc0.ɵɵelementStart(1, "div");
-    ɵngcc0.ɵɵtext(2);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const btn_r16 = ctx.$implicit;
-    const ctx_r15 = ɵngcc0.ɵɵnextContext(3);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r15.prefixCls, "-btn ", btn_r16.className, "");
-    ɵngcc0.ɵɵproperty("ngStyle", btn_r16.style);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r15.prefixCls, "-btn-text");
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate1(" ", btn_r16.text || "Click", " ");
-} }
-function SwipeActionComponent_div_0_div_4_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", null, 11);
-    ɵngcc0.ɵɵtemplate(2, SwipeActionComponent_div_0_div_4_div_2_Template, 3, 9, "div", 9);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r6 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵclassMapInterpolate2("", ctx_r6.prefixCls, "-actions ", ctx_r6.prefixCls, "-actions-right");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngForOf", ctx_r6.right);
-} }
-function SwipeActionComponent_div_0_ng_template_7_Template(rf, ctx) { }
-function SwipeActionComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r20 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "div", 3);
-    ɵngcc0.ɵɵelement(1, "div", null, 4);
-    ɵngcc0.ɵɵtemplate(3, SwipeActionComponent_div_0_div_3_Template, 3, 5, "div", 1);
-    ɵngcc0.ɵɵtemplate(4, SwipeActionComponent_div_0_div_4_Template, 3, 5, "div", 1);
-    ɵngcc0.ɵɵelementStart(5, "div", 5, 6);
-    ɵngcc0.ɵɵlistener("touchstart", function SwipeActionComponent_div_0_Template_div_touchstart_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r20); const ctx_r19 = ɵngcc0.ɵɵnextContext(); return ctx_r19.onTouchStart($event); })("touchmove", function SwipeActionComponent_div_0_Template_div_touchmove_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r20); const ctx_r21 = ɵngcc0.ɵɵnextContext(); return ctx_r21.onTouchMove($event); })("touchend", function SwipeActionComponent_div_0_Template_div_touchend_5_listener($event) { ɵngcc0.ɵɵrestoreView(_r20); const ctx_r22 = ɵngcc0.ɵɵnextContext(); return ctx_r22.onTouchEnd($event); });
-    ɵngcc0.ɵɵtemplate(7, SwipeActionComponent_div_0_ng_template_7_Template, 0, 0, "ng-template", 7);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    const _r2 = ɵngcc0.ɵɵreference(3);
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r0.wrapCls);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-cover");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.left && ctx_r0.left.length > 0);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.right && ctx_r0.right.length > 0);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r0.prefixCls, "-content");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r2);
-} }
-function SwipeActionComponent_div_1_ng_template_2_Template(rf, ctx) { }
-function SwipeActionComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", null, 6);
-    ɵngcc0.ɵɵtemplate(2, SwipeActionComponent_div_1_ng_template_2_Template, 0, 0, "ng-template", 7);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r1 = ɵngcc0.ɵɵnextContext();
-    const _r2 = ɵngcc0.ɵɵreference(3);
-    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r1.prefixCls, "-content");
-    ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", _r2);
-} }
-function SwipeActionComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵprojection(0);
-} }
-const _c44 = ["pullToRefresh"];
-function PullToRefreshComponent_div_2_1_ng_template_0_Template(rf, ctx) { }
-function PullToRefreshComponent_div_2_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, PullToRefreshComponent_div_2_1_ng_template_0_Template, 0, 0, "ng-template", 7);
-} if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r4.headerIndicator[ctx_r4.state.currentState]);
-} }
-function PullToRefreshComponent_div_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r5.headerIndicator[ctx_r5.state.currentState]);
-} }
-function PullToRefreshComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 5);
-    ɵngcc0.ɵɵtemplate(1, PullToRefreshComponent_div_2_1_Template, 1, 1, undefined, 6);
-    ɵngcc0.ɵɵtemplate(2, PullToRefreshComponent_div_2_ng_container_2_Template, 2, 1, "ng-container", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r0 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r0.isTemplateRef(ctx_r0.headerIndicator[ctx_r0.state.currentState]));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r0.isTemplateRef(ctx_r0.headerIndicator[ctx_r0.state.currentState]));
-} }
-function PullToRefreshComponent_div_6_1_ng_template_0_Template(rf, ctx) { }
-function PullToRefreshComponent_div_6_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, PullToRefreshComponent_div_6_1_ng_template_0_Template, 0, 0, "ng-template", 7);
-} if (rf & 2) {
-    const ctx_r7 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r7.footerIndicator[ctx_r7.state.currentState]);
-} }
-function PullToRefreshComponent_div_6_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r8 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r8.footerIndicator[ctx_r8.state.currentState]);
-} }
-function PullToRefreshComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 8);
-    ɵngcc0.ɵɵtemplate(1, PullToRefreshComponent_div_6_1_Template, 1, 1, undefined, 6);
-    ɵngcc0.ɵɵtemplate(2, PullToRefreshComponent_div_6_ng_container_2_Template, 2, 1, "ng-container", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r2 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r2.isTemplateRef(ctx_r2.footerIndicator[ctx_r2.state.currentState]));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r2.isTemplateRef(ctx_r2.footerIndicator[ctx_r2.state.currentState]));
-} }
-function PullToRefreshComponent_div_7_1_ng_template_0_Template(rf, ctx) { }
-function PullToRefreshComponent_div_7_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵtemplate(0, PullToRefreshComponent_div_7_1_ng_template_0_Template, 0, 0, "ng-template", 7);
-} if (rf & 2) {
-    const ctx_r10 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r10.footerIndicator[ctx_r10.state.currentState]);
-} }
-function PullToRefreshComponent_div_7_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementContainerStart(0);
-    ɵngcc0.ɵɵtext(1);
-    ɵngcc0.ɵɵelementContainerEnd();
-} if (rf & 2) {
-    const ctx_r11 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵtextInterpolate(ctx_r11.footerIndicator[ctx_r11.state.currentState]);
-} }
-function PullToRefreshComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 8);
-    ɵngcc0.ɵɵtemplate(1, PullToRefreshComponent_div_7_1_Template, 1, 1, undefined, 6);
-    ɵngcc0.ɵɵtemplate(2, PullToRefreshComponent_div_7_ng_container_2_Template, 2, 1, "ng-container", 6);
-    ɵngcc0.ɵɵelementEnd();
-} if (rf & 2) {
-    const ctx_r3 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", ctx_r3.isTemplateRef(ctx_r3.footerIndicator[ctx_r3.state.currentState]));
-    ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("ngIf", !ctx_r3.isTemplateRef(ctx_r3.footerIndicator[ctx_r3.state.currentState]));
-} }
 class ActivityIndicatorComponent {
     constructor() {
         this.prefixCls = 'am-activity-indicator';
@@ -2953,23 +64,12 @@ class ActivityIndicatorComponent {
         this.setClass();
     }
 }
-ActivityIndicatorComponent.ɵfac = function ActivityIndicatorComponent_Factory(t) { return new (t || ActivityIndicatorComponent)(); };
-ActivityIndicatorComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ActivityIndicatorComponent, selectors: [["ActivityIndicator"], ["nzm-ctivity-indicator"]], hostVars: 8, hostBindings: function ActivityIndicatorComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-activity-indicator", ctx.clsActIndicator)("am-activity-indicator-toast", ctx.clsActIndicatorToast)("am-activity-indicator-lg", ctx.clsActIndicatorLg)("am-activity-indicator-sm", ctx.clsActIndicatorSm);
-    } }, inputs: { animating: "animating", size: "size", toast: "toast", text: "text" }, decls: 4, vars: 4, consts: [[4, "ngIf"], ["aria-hidden", "'true'", 3, "ngClass"], ["aria-label", "'Loading'", 3, "ngClass"], ["aria-hidden", "true", 3, "ngClass"], ["aria-label", "'loading'", 3, "ngClass"]], template: function ActivityIndicatorComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, ActivityIndicatorComponent_div_0_Template, 5, 8, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ActivityIndicatorComponent_div_1_Template, 3, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(2, ActivityIndicatorComponent_div_2_Template, 4, 5, "div", 0);
-        ɵngcc0.ɵɵtemplate(3, ActivityIndicatorComponent_div_3_Template, 2, 1, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.animating && ctx.toast && ctx.text && ctx.text.length > 0);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.animating && ctx.toast && !ctx.text);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.animating && !ctx.toast && ctx.text && ctx.text.length > 0);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.animating && !ctx.toast && !ctx.text);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass], encapsulation: 2 });
+ActivityIndicatorComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'ActivityIndicator , nzm-ctivity-indicator',
+                template: "<div *ngIf=\"animating && toast && text && text.length > 0\">\n  <div class=\"{{ prefixCls }}-content\">\n    <span [ngClass]=\"spinnerClass\" aria-hidden=\"'true'\"></span>\n    <span class=\"{{ prefixCls }}-toast\">{{ text }}</span>\n  </div>\n</div>\n<div *ngIf=\"animating && toast && !text\">\n  <div class=\"{{ prefixCls }}-content\">\n    <span [ngClass]=\"spinnerClass\" aria-label=\"'Loading'\"></span>\n  </div>\n</div>\n<div *ngIf=\"animating && !toast && text && text.length > 0\">\n  <span [ngClass]=\"spinnerClass\" aria-hidden=\"true\"></span>\n  <span class=\"{{ prefixCls }}-tip\">{{ text }}</span>\n</div>\n<div *ngIf=\"animating && !toast && !text\">\n  <span [ngClass]=\"spinnerClass\" aria-label=\"'loading'\"></span>\n</div>\n"
+            },] }
+];
 ActivityIndicatorComponent.ctorParameters = () => [];
 ActivityIndicatorComponent.propDecorators = {
     animating: [{ type: Input }],
@@ -2981,48 +81,16 @@ ActivityIndicatorComponent.propDecorators = {
     clsActIndicatorLg: [{ type: HostBinding, args: ['class.am-activity-indicator-lg',] }],
     clsActIndicatorSm: [{ type: HostBinding, args: ['class.am-activity-indicator-sm',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActivityIndicatorComponent, [{
-        type: Component,
-        args: [{
-                selector: 'ActivityIndicator , nzm-ctivity-indicator',
-                template: "<div *ngIf=\"animating && toast && text && text.length > 0\">\n  <div class=\"{{ prefixCls }}-content\">\n    <span [ngClass]=\"spinnerClass\" aria-hidden=\"'true'\"></span>\n    <span class=\"{{ prefixCls }}-toast\">{{ text }}</span>\n  </div>\n</div>\n<div *ngIf=\"animating && toast && !text\">\n  <div class=\"{{ prefixCls }}-content\">\n    <span [ngClass]=\"spinnerClass\" aria-label=\"'Loading'\"></span>\n  </div>\n</div>\n<div *ngIf=\"animating && !toast && text && text.length > 0\">\n  <span [ngClass]=\"spinnerClass\" aria-hidden=\"true\"></span>\n  <span class=\"{{ prefixCls }}-tip\">{{ text }}</span>\n</div>\n<div *ngIf=\"animating && !toast && !text\">\n  <span [ngClass]=\"spinnerClass\" aria-label=\"'loading'\"></span>\n</div>\n"
-            }]
-    }], function () { return []; }, { clsActIndicator: [{
-            type: HostBinding,
-            args: ['class.am-activity-indicator']
-        }], animating: [{
-            type: Input
-        }], size: [{
-            type: Input
-        }], toast: [{
-            type: Input
-        }], text: [{
-            type: Input
-        }], clsActIndicatorToast: [{
-            type: HostBinding,
-            args: ['class.am-activity-indicator-toast']
-        }], clsActIndicatorLg: [{
-            type: HostBinding,
-            args: ['class.am-activity-indicator-lg']
-        }], clsActIndicatorSm: [{
-            type: HostBinding,
-            args: ['class.am-activity-indicator-sm']
-        }] }); })();
 
 class ActivityIndicatorModule {
 }
-ActivityIndicatorModule.ɵfac = function ActivityIndicatorModule_Factory(t) { return new (t || ActivityIndicatorModule)(); };
-ActivityIndicatorModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ActivityIndicatorModule });
-ActivityIndicatorModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ActivityIndicatorModule, { declarations: function () { return [ActivityIndicatorComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [ActivityIndicatorComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActivityIndicatorModule, [{
-        type: NgModule,
-        args: [{
+ActivityIndicatorModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [ActivityIndicatorComponent],
                 declarations: [ActivityIndicatorComponent],
                 imports: [CommonModule, FormsModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class CardComponent {
     constructor() {
@@ -3033,35 +101,19 @@ class CardComponent {
         return this.full;
     }
 }
-CardComponent.ɵfac = function CardComponent_Factory(t) { return new (t || CardComponent)(); };
-CardComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CardComponent, selectors: [["Card"], ["nzm-card"]], hostVars: 4, hostBindings: function CardComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-card", ctx.cardWrapper)("am-card-full", ctx.cardFull);
-    } }, inputs: { full: "full" }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function CardComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
+CardComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Card, nzm-card',
+                template: "<ng-content></ng-content>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CardComponent.ctorParameters = () => [];
 CardComponent.propDecorators = {
     full: [{ type: Input }],
     cardWrapper: [{ type: HostBinding, args: ['class.am-card',] }],
     cardFull: [{ type: HostBinding, args: ['class.am-card-full',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CardComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Card, nzm-card',
-                template: "<ng-content></ng-content>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { full: [{
-            type: Input
-        }], cardWrapper: [{
-            type: HostBinding,
-            args: ['class.am-card']
-        }], cardFull: [{
-            type: HostBinding,
-            args: ['class.am-card-full']
-        }] }); })();
 
 class CardHeaderComponent {
     constructor() {
@@ -3076,30 +128,13 @@ class CardHeaderComponent {
         return value instanceof TemplateRef;
     }
 }
-CardHeaderComponent.ɵfac = function CardHeaderComponent_Factory(t) { return new (t || CardHeaderComponent)(); };
-CardHeaderComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CardHeaderComponent, selectors: [["CardHeader"], ["nzm-card-header"]], hostVars: 2, hostBindings: function CardHeaderComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-card-header", ctx.cardBodyWrapper);
-    } }, inputs: { thumb: "thumb", thumbStyle: "thumbStyle", title: "title", extra: "extra" }, decls: 9, vars: 8, consts: [[3, "src", "ngStyle", 4, "ngIf"], [3, "ngTemplateOutlet", 4, "ngIf"], [4, "ngIf", "ngIfElse"], [3, "class", 4, "ngIf"], ["titleTemplate", ""], ["extraTemplate", ""], [3, "src", "ngStyle"], [3, "ngTemplateOutlet"]], template: function CardHeaderComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵtemplate(1, CardHeaderComponent_img_1_Template, 1, 2, "img", 0);
-        ɵngcc0.ɵɵtemplate(2, CardHeaderComponent_ng_container_2_Template, 1, 1, "ng-container", 1);
-        ɵngcc0.ɵɵtemplate(3, CardHeaderComponent_ng_container_3_Template, 2, 1, "ng-container", 2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(4, CardHeaderComponent_div_4_Template, 2, 5, "div", 3);
-        ɵngcc0.ɵɵtemplate(5, CardHeaderComponent_ng_template_5_Template, 1, 1, "ng-template", null, 4, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(7, CardHeaderComponent_ng_template_7_Template, 1, 1, "ng-template", null, 5, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        const _r4 = ɵngcc0.ɵɵreference(6);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-content");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.thumb && !ctx.isTemplateRef(ctx.thumb));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.thumb && ctx.isTemplateRef(ctx.thumb));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.title))("ngIfElse", _r4);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.extra);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgStyle, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+CardHeaderComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CardHeader, nzm-card-header',
+                template: "<div class=\"{{ prefixCls }}-content\">\n  <img *ngIf=\"thumb && !isTemplateRef(thumb)\" src=\"{{ thumb }}\" [ngStyle]=\"thumbStyle\" />\n  <ng-container *ngIf=\"thumb && isTemplateRef(thumb)\" [ngTemplateOutlet]=\"thumb\"></ng-container>\n  <ng-container *ngIf=\"!isTemplateRef(title); else titleTemplate\">{{ title }}</ng-container>\n</div>\n<div *ngIf=\"extra\" class=\"{{ prefixCls }}-extra\">\n  <ng-container *ngIf=\"!isTemplateRef(extra); else extraTemplate\">{{ extra }}</ng-container>\n</div>\n<ng-template #titleTemplate>\n  <ng-template [ngTemplateOutlet]=\"title\"></ng-template>\n</ng-template>\n<ng-template #extraTemplate>\n  <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CardHeaderComponent.ctorParameters = () => [];
 CardHeaderComponent.propDecorators = {
     thumb: [{ type: Input }],
@@ -3108,55 +143,25 @@ CardHeaderComponent.propDecorators = {
     extra: [{ type: Input }],
     cardBodyWrapper: [{ type: HostBinding, args: ['class.am-card-header',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CardHeaderComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CardHeader, nzm-card-header',
-                template: "<div class=\"{{ prefixCls }}-content\">\n  <img *ngIf=\"thumb && !isTemplateRef(thumb)\" src=\"{{ thumb }}\" [ngStyle]=\"thumbStyle\" />\n  <ng-container *ngIf=\"thumb && isTemplateRef(thumb)\" [ngTemplateOutlet]=\"thumb\"></ng-container>\n  <ng-container *ngIf=\"!isTemplateRef(title); else titleTemplate\">{{ title }}</ng-container>\n</div>\n<div *ngIf=\"extra\" class=\"{{ prefixCls }}-extra\">\n  <ng-container *ngIf=\"!isTemplateRef(extra); else extraTemplate\">{{ extra }}</ng-container>\n</div>\n<ng-template #titleTemplate>\n  <ng-template [ngTemplateOutlet]=\"title\"></ng-template>\n</ng-template>\n<ng-template #extraTemplate>\n  <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { thumb: [{
-            type: Input
-        }], thumbStyle: [{
-            type: Input
-        }], title: [{
-            type: Input
-        }], extra: [{
-            type: Input
-        }], cardBodyWrapper: [{
-            type: HostBinding,
-            args: ['class.am-card-header']
-        }] }); })();
 
 class CardBodyComponent {
     constructor() {
         this.cardBodyWrapper = true;
     }
 }
-CardBodyComponent.ɵfac = function CardBodyComponent_Factory(t) { return new (t || CardBodyComponent)(); };
-CardBodyComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CardBodyComponent, selectors: [["CardBody"], ["nzm-card-body"]], hostVars: 2, hostBindings: function CardBodyComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-card-body", ctx.cardBodyWrapper);
-    } }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function CardBodyComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
-CardBodyComponent.ctorParameters = () => [];
-CardBodyComponent.propDecorators = {
-    cardBodyWrapper: [{ type: HostBinding, args: ['class.am-card-body',] }]
-};
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CardBodyComponent, [{
-        type: Component,
-        args: [{
+CardBodyComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'CardBody, nzm-card-body',
                 template: `
     <ng-content></ng-content>
   `,
                 encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { cardBodyWrapper: [{
-            type: HostBinding,
-            args: ['class.am-card-body']
-        }] }); })();
+            },] }
+];
+CardBodyComponent.ctorParameters = () => [];
+CardBodyComponent.propDecorators = {
+    cardBodyWrapper: [{ type: HostBinding, args: ['class.am-card-body',] }]
+};
 
 class CardFooterComponent {
     constructor() {
@@ -3169,60 +174,29 @@ class CardFooterComponent {
         return value instanceof TemplateRef;
     }
 }
-CardFooterComponent.ɵfac = function CardFooterComponent_Factory(t) { return new (t || CardFooterComponent)(); };
-CardFooterComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CardFooterComponent, selectors: [["CardFooter"], ["nzm-card-footer"]], hostVars: 2, hostBindings: function CardFooterComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-card-footer", ctx.cardFooterWrapper);
-    } }, inputs: { content: "content", extra: "extra" }, decls: 7, vars: 6, consts: [[4, "ngIf", "ngIfElse"], [3, "class", 4, "ngIf"], ["contentTemplate", ""], ["extraTemplate", ""], [3, "ngTemplateOutlet"]], template: function CardFooterComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵtemplate(1, CardFooterComponent_ng_container_1_Template, 2, 1, "ng-container", 0);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(2, CardFooterComponent_div_2_Template, 2, 5, "div", 1);
-        ɵngcc0.ɵɵtemplate(3, CardFooterComponent_ng_template_3_Template, 1, 1, "ng-template", null, 2, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(5, CardFooterComponent_ng_template_5_Template, 1, 1, "ng-template", null, 3, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        const _r2 = ɵngcc0.ɵɵreference(4);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-content");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.content))("ngIfElse", _r2);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.extra);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+CardFooterComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CardFooter, nzm-card-footer',
+                template: "<div class=\"{{ prefixCls }}-content\">\n  <ng-container *ngIf=\"!isTemplateRef(content); else contentTemplate\">{{ content }}</ng-container>\n</div>\n<div *ngIf=\"extra\" class=\"{{ prefixCls }}-extra\">\n  <ng-container *ngIf=\"!isTemplateRef(extra); else extraTemplate\">{{ extra }}</ng-container>\n</div>\n<ng-template #contentTemplate>\n  <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n</ng-template>\n<ng-template #extraTemplate>\n  <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CardFooterComponent.ctorParameters = () => [];
 CardFooterComponent.propDecorators = {
     content: [{ type: Input }],
     extra: [{ type: Input }],
     cardFooterWrapper: [{ type: HostBinding, args: ['class.am-card-footer',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CardFooterComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CardFooter, nzm-card-footer',
-                template: "<div class=\"{{ prefixCls }}-content\">\n  <ng-container *ngIf=\"!isTemplateRef(content); else contentTemplate\">{{ content }}</ng-container>\n</div>\n<div *ngIf=\"extra\" class=\"{{ prefixCls }}-extra\">\n  <ng-container *ngIf=\"!isTemplateRef(extra); else extraTemplate\">{{ extra }}</ng-container>\n</div>\n<ng-template #contentTemplate>\n  <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n</ng-template>\n<ng-template #extraTemplate>\n  <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { content: [{
-            type: Input
-        }], extra: [{
-            type: Input
-        }], cardFooterWrapper: [{
-            type: HostBinding,
-            args: ['class.am-card-footer']
-        }] }); })();
 
 class CardModule {
 }
-CardModule.ɵfac = function CardModule_Factory(t) { return new (t || CardModule)(); };
-CardModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CardModule });
-CardModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CardModule, { declarations: function () { return [CardComponent, CardHeaderComponent, CardBodyComponent, CardFooterComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [CardComponent, CardHeaderComponent, CardBodyComponent, CardFooterComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CardModule, [{
-        type: NgModule,
-        args: [{
+CardModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 declarations: [CardComponent, CardHeaderComponent, CardBodyComponent, CardFooterComponent],
                 exports: [CardComponent, CardHeaderComponent, CardBodyComponent, CardFooterComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class BadgeComponent {
     constructor(_ref, render) {
@@ -3316,17 +290,12 @@ class BadgeComponent {
         }, 10);
     }
 }
-BadgeComponent.ɵfac = function BadgeComponent_Factory(t) { return new (t || BadgeComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-BadgeComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: BadgeComponent, selectors: [["Badge"], ["nzm-badge"]], hostVars: 10, hostBindings: function BadgeComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-badge", ctx.clsBadge)("am-badge-not-a-wrapper", ctx.clsBadgeWrp)("am-badge-corner-wrapper", ctx.clsBadgeCornerWrp)("am-badge-hot", ctx.clsBadgeHot)("am-badge-corner-wrapper-large", ctx.clsBadgeCornerWrpLg);
-    } }, inputs: { size: "size", text: "text", corner: "corner", dot: "dot", overflowCount: "overflowCount", hot: "hot", setStyle: "setStyle", className: "className" }, features: [ɵngcc0.ɵɵNgOnChangesFeature], ngContentSelectors: _c0, decls: 2, vars: 1, consts: [[3, "ngClass", "ngStyle", 4, "ngIf"], [3, "ngClass", "ngStyle"]], template: function BadgeComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-        ɵngcc0.ɵɵtemplate(1, BadgeComponent_sup_1_Template, 3, 3, "sup", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.dot || ctx.text);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+BadgeComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Badge, nzm-badge',
+                template: "<ng-content></ng-content>\n<sup *ngIf=\"dot || text\" [ngClass]=\"scrollNumberCls\" [ngStyle]=\"style\">\n  <span>{{ text }}</span>\n</sup>\n"
+            },] }
+];
 BadgeComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: Renderer2 }
@@ -3346,59 +315,16 @@ BadgeComponent.propDecorators = {
     clsBadgeHot: [{ type: HostBinding, args: ['class.am-badge-hot',] }],
     clsBadgeCornerWrpLg: [{ type: HostBinding, args: ['class.am-badge-corner-wrapper-large',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(BadgeComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Badge, nzm-badge',
-                template: "<ng-content></ng-content>\n<sup *ngIf=\"dot || text\" [ngClass]=\"scrollNumberCls\" [ngStyle]=\"style\">\n  <span>{{ text }}</span>\n</sup>\n"
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, { clsBadge: [{
-            type: HostBinding,
-            args: ['class.am-badge']
-        }], clsBadgeWrp: [{
-            type: HostBinding,
-            args: ['class.am-badge-not-a-wrapper']
-        }], clsBadgeCornerWrp: [{
-            type: HostBinding,
-            args: ['class.am-badge-corner-wrapper']
-        }], clsBadgeHot: [{
-            type: HostBinding,
-            args: ['class.am-badge-hot']
-        }], clsBadgeCornerWrpLg: [{
-            type: HostBinding,
-            args: ['class.am-badge-corner-wrapper-large']
-        }], size: [{
-            type: Input
-        }], text: [{
-            type: Input
-        }], corner: [{
-            type: Input
-        }], dot: [{
-            type: Input
-        }], overflowCount: [{
-            type: Input
-        }], hot: [{
-            type: Input
-        }], setStyle: [{
-            type: Input
-        }], className: [{
-            type: Input
-        }] }); })();
 
 class BadgeModule {
 }
-BadgeModule.ɵfac = function BadgeModule_Factory(t) { return new (t || BadgeModule)(); };
-BadgeModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: BadgeModule });
-BadgeModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(BadgeModule, { declarations: function () { return [BadgeComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [BadgeComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(BadgeModule, [{
-        type: NgModule,
-        args: [{
+BadgeModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [BadgeComponent],
                 declarations: [BadgeComponent],
                 imports: [CommonModule, FormsModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 /**
  * @license
@@ -3733,57 +659,19 @@ class InputItemComponent {
         }, 0);
     }
 }
-InputItemComponent.ɵfac = function InputItemComponent_Factory(t) { return new (t || InputItemComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-InputItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: InputItemComponent, selectors: [["InputItem"], ["nzm-input-item"]], viewQuery: function InputItemComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c1, 3);
-        ɵngcc0.ɵɵviewQuery(_c2, 1);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.lableRef = _t.first);
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.inputElementRef = _t.first);
-    } }, hostVars: 10, hostBindings: function InputItemComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-input-item", ctx.clsItem)("am-input-disabled", ctx.clsDisabled)("am-input-error", ctx.clsError)("am-input-focus", ctx.clsFocus)("am-input-android,", ctx.clsAndroid);
-    } }, inputs: { compositionFilter: "compositionFilter", nzRequired: "nzRequired", type: "type", value: "value", defaultValue: "defaultValue", placeholder: "placeholder", editable: "editable", disabled: "disabled", clear: "clear", maxLength: "maxLength", error: "error", extra: "extra", labelNumber: "labelNumber", updatePlaceholder: "updatePlaceholder", prefixListCls: "prefixListCls", name: "name", moneyKeyboardAlign: "moneyKeyboardAlign", locale: "locale", fontColor: "fontColor", focus: "focus", content: "content" }, outputs: { onChange: "onChange", onBlur: "onBlur", onFocus: "onFocus", onErrorClick: "onErrorClick", onExtraClick: "onExtraClick" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => InputItemComponent),
-                multi: true
-            }
-        ])], decls: 11, vars: 12, consts: [[3, "ngClass"], ["lableContent", ""], [4, "ngIf"], [3, "value", "defaultValue", "placeholder", "disabled", "editable", "fontColor", "moneyKeyboardAlign", "setFocus", "maxLength", "onChange", "onBlur", "onFocus", 4, "ngIf"], [3, "class", "click", 4, "ngIf"], [3, "ngTemplateOutlet"], [3, "value", "defaultValue", "placeholder", "disabled", "editable", "fontColor", "moneyKeyboardAlign", "setFocus", "maxLength", "onChange", "onBlur", "onFocus"], [2, "outline", "none", 3, "type", "name", "required", "ngModel", "defaultValue", "placeholder", "disabled", "readOnly", "autofocus", "maxlength", "pattern", "ngModelChange", "compositionstart", "compositionend", "blur", "focus"], ["inputElement", ""], [3, "click"]], template: function InputItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵelementStart(1, "div", 0, 1);
-        ɵngcc0.ɵɵtemplate(3, InputItemComponent_3_Template, 1, 1, undefined, 2);
-        ɵngcc0.ɵɵtemplate(4, InputItemComponent_ng_container_4_Template, 2, 1, "ng-container", 2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(5, "div", 0);
-        ɵngcc0.ɵɵtemplate(6, InputItemComponent_CustomInput_6_Template, 1, 9, "CustomInput", 3);
-        ɵngcc0.ɵɵtemplate(7, InputItemComponent_div_7_Template, 3, 13, "div", 2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(8, InputItemComponent_div_8_Template, 1, 3, "div", 4);
-        ɵngcc0.ɵɵtemplate(9, InputItemComponent_div_9_Template, 1, 3, "div", 4);
-        ɵngcc0.ɵɵtemplate(10, InputItemComponent_div_10_Template, 3, 5, "div", 4);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixListCls, "-line");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.labelCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isTemplateRef(ctx.content));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.content));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.controlCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.type === "money");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.type !== "money");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.clear && ctx.editable && !ctx.disabled && (ctx.value && ctx.value.length > 0));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.error);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.extra !== "");
-    } }, directives: function () { return [ɵngcc1.NgClass, ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet, CustomInputComponent, ɵngcc2.DefaultValueAccessor, ɵngcc2.RequiredValidator, ɵngcc2.NgControlStatus, ɵngcc2.NgModel, ɵngcc2.MaxLengthValidator, ɵngcc2.PatternValidator]; }, encapsulation: 2 });
+InputItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'InputItem, nzm-input-item',
+                template: "<div class=\"{{ prefixListCls }}-line\">\n  <div #lableContent [ngClass]=\"labelCls\">\n    <ng-template *ngIf=\"isTemplateRef(content)\" [ngTemplateOutlet]=\"content\"></ng-template>\n    <ng-container *ngIf=\"!isTemplateRef(content)\">{{ content }}</ng-container>\n  </div>\n  <div [ngClass]=\"controlCls\">\n    <CustomInput\n      *ngIf=\"type === 'money'\"\n      [value]=\"value\"\n      [defaultValue]=\"defaultValue\"\n      [placeholder]=\"placeholder\"\n      [disabled]=\"disabled\"\n      [editable]=\"editable\"\n      [fontColor]=\"fontColor\"\n      [moneyKeyboardAlign]=\"moneyKeyboardAlign\"\n      [setFocus]=\"setFocus\"\n      [maxLength]=\"maxLength\"\n      (onChange)=\"inputChange($event)\"\n      (onBlur)=\"inputBlur(value)\"\n      (onFocus)=\"inputFocus(value)\"\n    >\n    </CustomInput>\n    <div *ngIf=\"type !== 'money'\">\n      <input\n        #inputElement\n        style=\"outline:none\"\n        [type]=\"type\"\n        [name]=\"name\"\n        [required]=\"required\"\n        [(ngModel)]=\"value\"\n        [defaultValue]=\"defaultValue\"\n        [placeholder]=\"placeholder\"\n        [disabled]=\"disabled\"\n        [readOnly]=\"!editable\"\n        [autofocus]=\"autoFocus\"\n        [maxlength]=\"maxLength\"\n        [pattern]=\"pattern\"\n        [style.color]=\"fontColor\"\n        (ngModelChange)=\"inputChange($event)\"\n        (compositionstart)=\"compositionStart()\"\n        (compositionend)=\"compositionEnd()\"\n        (blur)=\"inputBlur(value)\"\n        (focus)=\"inputFocus(value)\"\n      />\n    </div>\n  </div>\n  <div\n    *ngIf=\"clear && editable && !disabled && (value && value.length > 0)\"\n    class=\"{{ prefixCls }}-clear\"\n    (click)=\"clearInput()\"\n  ></div>\n  <div *ngIf=\"error\" class=\"{{ prefixCls }}-error-extra\" (click)=\"errorClick($event)\"></div>\n  <div *ngIf=\"extra !== ''\" class=\"{{ prefixCls }}-extra\" (click)=\"extraClick($event)\">\n    <ng-container *ngIf=\"!ngTemplate\">{{ extra }}</ng-container>\n    <ng-template *ngIf=\"ngTemplate\" [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n</div>\n",
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => InputItemComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 InputItemComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: Renderer2 }
@@ -3823,93 +711,6 @@ InputItemComponent.propDecorators = {
     clsFocus: [{ type: HostBinding, args: ['class.am-input-focus',] }],
     clsAndroid: [{ type: HostBinding, args: ['class.am-input-android,',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(InputItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'InputItem, nzm-input-item',
-                template: "<div class=\"{{ prefixListCls }}-line\">\n  <div #lableContent [ngClass]=\"labelCls\">\n    <ng-template *ngIf=\"isTemplateRef(content)\" [ngTemplateOutlet]=\"content\"></ng-template>\n    <ng-container *ngIf=\"!isTemplateRef(content)\">{{ content }}</ng-container>\n  </div>\n  <div [ngClass]=\"controlCls\">\n    <CustomInput\n      *ngIf=\"type === 'money'\"\n      [value]=\"value\"\n      [defaultValue]=\"defaultValue\"\n      [placeholder]=\"placeholder\"\n      [disabled]=\"disabled\"\n      [editable]=\"editable\"\n      [fontColor]=\"fontColor\"\n      [moneyKeyboardAlign]=\"moneyKeyboardAlign\"\n      [setFocus]=\"setFocus\"\n      [maxLength]=\"maxLength\"\n      (onChange)=\"inputChange($event)\"\n      (onBlur)=\"inputBlur(value)\"\n      (onFocus)=\"inputFocus(value)\"\n    >\n    </CustomInput>\n    <div *ngIf=\"type !== 'money'\">\n      <input\n        #inputElement\n        style=\"outline:none\"\n        [type]=\"type\"\n        [name]=\"name\"\n        [required]=\"required\"\n        [(ngModel)]=\"value\"\n        [defaultValue]=\"defaultValue\"\n        [placeholder]=\"placeholder\"\n        [disabled]=\"disabled\"\n        [readOnly]=\"!editable\"\n        [autofocus]=\"autoFocus\"\n        [maxlength]=\"maxLength\"\n        [pattern]=\"pattern\"\n        [style.color]=\"fontColor\"\n        (ngModelChange)=\"inputChange($event)\"\n        (compositionstart)=\"compositionStart()\"\n        (compositionend)=\"compositionEnd()\"\n        (blur)=\"inputBlur(value)\"\n        (focus)=\"inputFocus(value)\"\n      />\n    </div>\n  </div>\n  <div\n    *ngIf=\"clear && editable && !disabled && (value && value.length > 0)\"\n    class=\"{{ prefixCls }}-clear\"\n    (click)=\"clearInput()\"\n  ></div>\n  <div *ngIf=\"error\" class=\"{{ prefixCls }}-error-extra\" (click)=\"errorClick($event)\"></div>\n  <div *ngIf=\"extra !== ''\" class=\"{{ prefixCls }}-extra\" (click)=\"extraClick($event)\">\n    <ng-container *ngIf=\"!ngTemplate\">{{ extra }}</ng-container>\n    <ng-template *ngIf=\"ngTemplate\" [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n</div>\n",
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => InputItemComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, { compositionFilter: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], onBlur: [{
-            type: Output
-        }], onFocus: [{
-            type: Output
-        }], onErrorClick: [{
-            type: Output
-        }], onExtraClick: [{
-            type: Output
-        }], clsItem: [{
-            type: HostBinding,
-            args: ['class.am-input-item']
-        }], clsDisabled: [{
-            type: HostBinding,
-            args: ['class.am-input-disabled']
-        }], clsError: [{
-            type: HostBinding,
-            args: ['class.am-input-error']
-        }], clsFocus: [{
-            type: HostBinding,
-            args: ['class.am-input-focus']
-        }], clsAndroid: [{
-            type: HostBinding,
-            args: ['class.am-input-android,']
-        }], nzRequired: [{
-            type: Input
-        }], type: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], placeholder: [{
-            type: Input
-        }], editable: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], clear: [{
-            type: Input
-        }], maxLength: [{
-            type: Input
-        }], error: [{
-            type: Input
-        }], extra: [{
-            type: Input
-        }], labelNumber: [{
-            type: Input
-        }], updatePlaceholder: [{
-            type: Input
-        }], prefixListCls: [{
-            type: Input
-        }], name: [{
-            type: Input
-        }], moneyKeyboardAlign: [{
-            type: Input
-        }], locale: [{
-            type: Input
-        }], fontColor: [{
-            type: Input
-        }], focus: [{
-            type: Input
-        }], content: [{
-            type: Input
-        }], lableRef: [{
-            type: ViewChild,
-            args: ['lableContent', { static: true }]
-        }], inputElementRef: [{
-            type: ViewChild,
-            args: ['inputElement']
-        }] }); })();
 
 const LOCAL_PROVIDER_TOKEN = new InjectionToken('locale-provider-token');
 
@@ -4072,17 +873,12 @@ class LocaleProviderService {
         return index === depth ? res : null;
     }
 }
-LocaleProviderService.ɵfac = function LocaleProviderService_Factory(t) { return new (t || LocaleProviderService)(ɵngcc0.ɵɵinject(LOCAL_PROVIDER_TOKEN)); };
-LocaleProviderService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: LocaleProviderService, factory: LocaleProviderService.ɵfac });
+LocaleProviderService.decorators = [
+    { type: Injectable }
+];
 LocaleProviderService.ctorParameters = () => [
     { type: undefined, decorators: [{ type: Inject, args: [LOCAL_PROVIDER_TOKEN,] }] }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(LocaleProviderService, [{
-        type: Injectable
-    }], function () { return [{ type: undefined, decorators: [{
-                type: Inject,
-                args: [LOCAL_PROVIDER_TOKEN]
-            }] }]; }, null); })();
 function LOCALE_PROVIDER_SERVICE_FACTORY(exist, locale) {
     return exist || new LocaleProviderService(locale);
 }
@@ -4121,126 +917,20 @@ class CustomKeyboardComponent {
         this._unsubscribe$.complete();
     }
 }
-CustomKeyboardComponent.ɵfac = function CustomKeyboardComponent_Factory(t) { return new (t || CustomKeyboardComponent)(ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-CustomKeyboardComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CustomKeyboardComponent, selectors: [["CustomKeyboard"]], outputs: { onClick: "onClick" }, features: [ɵngcc0.ɵɵProvidersFeature([LocaleProviderService])], decls: 33, vars: 18, consts: [[3, "ngClass"], [3, "ngClass", "click"], [1, "keyboard-delete", 3, "rowSpan", "ngClass", "click"], [1, "keyboard-confirm", 3, "rowSpan", "ngClass", "click"], [1, "keyboard-hide", 3, "ngClass", "click"]], template: function CustomKeyboardComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "table");
-        ɵngcc0.ɵɵelementStart(2, "tbody");
-        ɵngcc0.ɵɵelementStart(3, "tr");
-        ɵngcc0.ɵɵelementStart(4, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_4_listener() { return ctx.tdClick(1); });
-        ɵngcc0.ɵɵtext(5, "1");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(6, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_6_listener() { return ctx.tdClick(2); });
-        ɵngcc0.ɵɵtext(7, "2");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(8, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_8_listener() { return ctx.tdClick(3); });
-        ɵngcc0.ɵɵtext(9, "3");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(10, "td", 2);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_10_listener() { return ctx.tdClick("delete"); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(11, "tr");
-        ɵngcc0.ɵɵelementStart(12, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_12_listener() { return ctx.tdClick(4); });
-        ɵngcc0.ɵɵtext(13, "4");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(14, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_14_listener() { return ctx.tdClick(5); });
-        ɵngcc0.ɵɵtext(15, "5");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(16, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_16_listener() { return ctx.tdClick(6); });
-        ɵngcc0.ɵɵtext(17, "6");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(18, "tr");
-        ɵngcc0.ɵɵelementStart(19, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_19_listener() { return ctx.tdClick(7); });
-        ɵngcc0.ɵɵtext(20, "7");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(21, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_21_listener() { return ctx.tdClick(8); });
-        ɵngcc0.ɵɵtext(22, "8");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(23, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_23_listener() { return ctx.tdClick(9); });
-        ɵngcc0.ɵɵtext(24, "9");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(25, "td", 3);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_25_listener() { return ctx.tdClick("confirm"); });
-        ɵngcc0.ɵɵtext(26);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(27, "tr");
-        ɵngcc0.ɵɵelementStart(28, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_28_listener() { return ctx.tdClick("."); });
-        ɵngcc0.ɵɵtext(29, ".");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(30, "td", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_30_listener() { return ctx.tdClick(0); });
-        ɵngcc0.ɵɵtext(31, "0");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(32, "td", 4);
-        ɵngcc0.ɵɵlistener("click", function CustomKeyboardComponent_Template_td_click_32_listener() { return ctx.tdClick("hide"); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapperCls);
-        ɵngcc0.ɵɵadvance(4);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("rowSpan", 2)("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(3);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("rowSpan", 2)("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate(ctx.okText);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-    } }, directives: [ɵngcc1.NgClass], encapsulation: 2 });
+CustomKeyboardComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CustomKeyboard',
+                template: "<div [ngClass]=\"wrapperCls\">\n  <table>\n    <tbody>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(1)\">1</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(2)\">2</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(3)\">3</td>\n        <td class=\"keyboard-delete\" [rowSpan]=\"2\" [ngClass]=\"wrapCls\" (click)=\"tdClick('delete')\"></td>\n      </tr>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(4)\">4</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(5)\">5</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(6)\">6</td>\n      </tr>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(7)\">7</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(8)\">8</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(9)\">9</td>\n        <td class=\"keyboard-confirm\" [rowSpan]=\"2\" [ngClass]=\"wrapCls\" (click)=\"tdClick('confirm')\">{{ okText }}</td>\n      </tr>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick('.')\">.</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(0)\">0</td>\n        <td class=\"keyboard-hide\" [ngClass]=\"wrapCls\" (click)=\"tdClick('hide')\"></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [LocaleProviderService]
+            },] }
+];
 CustomKeyboardComponent.ctorParameters = () => [
     { type: LocaleProviderService }
 ];
 CustomKeyboardComponent.propDecorators = {
     onClick: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CustomKeyboardComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CustomKeyboard',
-                template: "<div [ngClass]=\"wrapperCls\">\n  <table>\n    <tbody>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(1)\">1</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(2)\">2</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(3)\">3</td>\n        <td class=\"keyboard-delete\" [rowSpan]=\"2\" [ngClass]=\"wrapCls\" (click)=\"tdClick('delete')\"></td>\n      </tr>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(4)\">4</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(5)\">5</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(6)\">6</td>\n      </tr>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(7)\">7</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(8)\">8</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(9)\">9</td>\n        <td class=\"keyboard-confirm\" [rowSpan]=\"2\" [ngClass]=\"wrapCls\" (click)=\"tdClick('confirm')\">{{ okText }}</td>\n      </tr>\n      <tr>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick('.')\">.</td>\n        <td [ngClass]=\"wrapCls\" (click)=\"tdClick(0)\">0</td>\n        <td class=\"keyboard-hide\" [ngClass]=\"wrapCls\" (click)=\"tdClick('hide')\"></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [LocaleProviderService]
-            }]
-    }], function () { return [{ type: LocaleProviderService }]; }, { onClick: [{
-            type: Output
-        }] }); })();
 
 class CustomInputService {
     constructor(_appRef, _cfr) {
@@ -4285,21 +975,19 @@ class CustomInputService {
         }
     }
 }
-CustomInputService.ɵfac = function CustomInputService_Factory(t) { return new (t || CustomInputService)(ɵngcc0.ɵɵinject(ɵngcc0.ApplicationRef), ɵngcc0.ɵɵinject(ɵngcc0.ComponentFactoryResolver)); };
-CustomInputService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: CustomInputService, factory: CustomInputService.ɵfac });
 CustomInputService.compRef = null;
 CustomInputService.appRef = null;
 CustomInputService.isShow = false;
 CustomInputService.clickValue = null;
 CustomInputService._inputCompFactory = null;
 CustomInputService._keyboardPrefixCls = 'am-number-keyboard';
+CustomInputService.decorators = [
+    { type: Injectable }
+];
 CustomInputService.ctorParameters = () => [
     { type: ApplicationRef },
     { type: ComponentFactoryResolver }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CustomInputService, [{
-        type: Injectable
-    }], function () { return [{ type: ɵngcc0.ApplicationRef }, { type: ɵngcc0.ComponentFactoryResolver }]; }, null); })();
 
 class CustomInputComponent {
     constructor(_ref, _customInputService, _ngZone) {
@@ -4518,23 +1206,14 @@ class CustomInputComponent {
         }
     }
 }
-CustomInputComponent.ɵfac = function CustomInputComponent_Factory(t) { return new (t || CustomInputComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(CustomInputService), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.NgZone)); };
-CustomInputComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CustomInputComponent, selectors: [["CustomInput"]], hostVars: 4, hostBindings: function CustomInputComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("fake-input-container", ctx.clsFakeContainer)("fake-input-container-left", ctx.clsFakeContainerLeft);
-    } }, inputs: { value: "value", defaultValue: "defaultValue", maxLength: "maxLength", placeholder: "placeholder", editable: "editable", disabled: "disabled", fontColor: "fontColor", moneyKeyboardAlign: "moneyKeyboardAlign", setFocus: "setFocus" }, outputs: { onChange: "onChange", onBlur: "onBlur", onFocus: "onFocus" }, features: [ɵngcc0.ɵɵProvidersFeature([CustomInputService])], decls: 3, vars: 5, consts: [["class", "fake-input-placeholder", 4, "ngIf"], [3, "ngClass", "click"], [1, "fake-input-placeholder"]], template: function CustomInputComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, CustomInputComponent_div_0_Template, 2, 1, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "div", 1);
-        ɵngcc0.ɵɵlistener("click", function CustomInputComponent_Template_div_click_1_listener() { return ctx.onFakeInputClick(); });
-        ɵngcc0.ɵɵtext(2);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.value === "");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵstyleProp("color", ctx.fontColor);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.fakeInputCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.value, "\n");
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass], encapsulation: 2 });
+CustomInputComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CustomInput',
+                template: "<div *ngIf=\"value === ''\" class=\"fake-input-placeholder\">\n  {{ placeholder }}\n</div>\n<div [ngClass]=\"fakeInputCls\" [style.color]=\"fontColor\" (click)=\"onFakeInputClick()\">\n  {{ value }}\n</div>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [CustomInputService]
+            },] }
+];
 CustomInputComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: CustomInputService },
@@ -4556,60 +1235,16 @@ CustomInputComponent.propDecorators = {
     clsFakeContainer: [{ type: HostBinding, args: ['class.fake-input-container',] }],
     clsFakeContainerLeft: [{ type: HostBinding, args: ['class.fake-input-container-left',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CustomInputComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CustomInput',
-                template: "<div *ngIf=\"value === ''\" class=\"fake-input-placeholder\">\n  {{ placeholder }}\n</div>\n<div [ngClass]=\"fakeInputCls\" [style.color]=\"fontColor\" (click)=\"onFakeInputClick()\">\n  {{ value }}\n</div>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [CustomInputService]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: CustomInputService }, { type: ɵngcc0.NgZone }]; }, { onChange: [{
-            type: Output
-        }], onBlur: [{
-            type: Output
-        }], onFocus: [{
-            type: Output
-        }], clsFakeContainer: [{
-            type: HostBinding,
-            args: ['class.fake-input-container']
-        }], clsFakeContainerLeft: [{
-            type: HostBinding,
-            args: ['class.fake-input-container-left']
-        }], value: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], maxLength: [{
-            type: Input
-        }], placeholder: [{
-            type: Input
-        }], editable: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], fontColor: [{
-            type: Input
-        }], moneyKeyboardAlign: [{
-            type: Input
-        }], setFocus: [{
-            type: Input
-        }] }); })();
 
 class InputItemModule {
 }
-InputItemModule.ɵfac = function InputItemModule_Factory(t) { return new (t || InputItemModule)(); };
-InputItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: InputItemModule });
-InputItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, ReactiveFormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(InputItemModule, { declarations: function () { return [InputItemComponent, CustomKeyboardComponent, CustomInputComponent]; }, imports: function () { return [CommonModule, FormsModule, ReactiveFormsModule]; }, exports: function () { return [InputItemComponent, CustomKeyboardComponent, CustomInputComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(InputItemModule, [{
-        type: NgModule,
-        args: [{
+InputItemModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [InputItemComponent, CustomKeyboardComponent, CustomInputComponent],
                 declarations: [InputItemComponent, CustomKeyboardComponent, CustomInputComponent],
                 imports: [CommonModule, FormsModule, ReactiveFormsModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ButtonComponent {
     constructor(_elementRef, _render) {
@@ -4737,26 +1372,13 @@ class ButtonComponent {
         this._el.className = this._className + ' ' + this._classList.join(' ');
     }
 }
-ButtonComponent.ɵfac = function ButtonComponent_Factory(t) { return new (t || ButtonComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-ButtonComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ButtonComponent, selectors: [["", "Button", ""], ["nzm-button"]], hostBindings: function ButtonComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("touchstart", function ButtonComponent_touchstart_HostBindingHandler($event) { return ctx.touchStart($event); })("mousedown", function ButtonComponent_mousedown_HostBindingHandler($event) { return ctx.touchStart($event); })("touchend", function ButtonComponent_touchend_HostBindingHandler($event) { return ctx.touchEnd($event); })("mouseup", function ButtonComponent_mouseup_HostBindingHandler($event) { return ctx.touchEnd($event); })("touchmove", function ButtonComponent_touchmove_HostBindingHandler($event) { return ctx.touchEnd($event); })("mousemove", function ButtonComponent_mousemove_HostBindingHandler($event) { return ctx.touchEnd($event); })("touchcancel", function ButtonComponent_touchcancel_HostBindingHandler($event) { return ctx.touchEnd($event); })("click", function ButtonComponent_click_HostBindingHandler($event) { return ctx.click($event); });
-    } }, inputs: { type: "type", size: "size", disabled: "disabled", loading: "loading", inline: "inline", icon: "icon", className: "className" }, outputs: { onClick: "onClick" }, attrs: _c3, ngContentSelectors: _c5, decls: 6, vars: 5, consts: [[3, "class", "type", "size", 4, "ngIf"], [4, "ngIf"], [3, "type", "size"], [3, "ngTemplateOutlet"]], template: function ButtonComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef(_c4);
-        ɵngcc0.ɵɵtemplate(0, ButtonComponent_Icon_0_Template, 1, 5, "Icon", 0);
-        ɵngcc0.ɵɵtemplate(1, ButtonComponent_1_Template, 1, 1, undefined, 1);
-        ɵngcc0.ɵɵprojection(2);
-        ɵngcc0.ɵɵelementStart(3, "div");
-        ɵngcc0.ɵɵelementStart(4, "span");
-        ɵngcc0.ɵɵprojection(5, 1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.ngTemplate);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.ngTemplate);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-content");
-    } }, directives: function () { return [ɵngcc1.NgIf, IconComponent, ɵngcc1.NgTemplateOutlet]; }, encapsulation: 2 });
+ButtonComponent.decorators = [
+    { type: Component, args: [{
+                selector: '[Button], nzm-button',
+                encapsulation: ViewEncapsulation.None,
+                template: "<Icon\n  *ngIf=\"!ngTemplate\"\n  class=\"{{ prefixCls }}-icon\"\n  [type]=\"iconType\"\n  [size]=\"size === 'small' ? 'xxs' : 'md'\"\n></Icon>\n<ng-template *ngIf=\"ngTemplate\" [ngTemplateOutlet]=\"icon\"></ng-template>\n<ng-content select=\"img\"></ng-content>\n<div class=\"{{ prefixCls }}-content\">\n  <span>\n    <ng-content></ng-content>\n  </span>\n</div>\n"
+            },] }
+];
 ButtonComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: Renderer2 }
@@ -4774,54 +1396,6 @@ ButtonComponent.propDecorators = {
     touchEnd: [{ type: HostListener, args: ['touchend', ['$event'],] }, { type: HostListener, args: ['mouseup', ['$event'],] }, { type: HostListener, args: ['touchmove', ['$event'],] }, { type: HostListener, args: ['mousemove', ['$event'],] }, { type: HostListener, args: ['touchcancel', ['$event'],] }],
     click: [{ type: HostListener, args: ['click', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ButtonComponent, [{
-        type: Component,
-        args: [{
-                selector: '[Button], nzm-button',
-                encapsulation: ViewEncapsulation.None,
-                template: "<Icon\n  *ngIf=\"!ngTemplate\"\n  class=\"{{ prefixCls }}-icon\"\n  [type]=\"iconType\"\n  [size]=\"size === 'small' ? 'xxs' : 'md'\"\n></Icon>\n<ng-template *ngIf=\"ngTemplate\" [ngTemplateOutlet]=\"icon\"></ng-template>\n<ng-content select=\"img\"></ng-content>\n<div class=\"{{ prefixCls }}-content\">\n  <span>\n    <ng-content></ng-content>\n  </span>\n</div>\n"
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, { onClick: [{
-            type: Output
-        }], type: [{
-            type: Input
-        }], size: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], loading: [{
-            type: Input
-        }], inline: [{
-            type: Input
-        }], icon: [{
-            type: Input
-        }], className: [{
-            type: Input
-        }], touchStart: [{
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mousedown', ['$event']]
-        }], touchEnd: [{
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mouseup', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchmove', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mousemove', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchcancel', ['$event']]
-        }], click: [{
-            type: HostListener,
-            args: ['click', ['$event']]
-        }] }); })();
 
 /* tslint:disable:max-line-length */
 const svgSprite = contents => `
@@ -4888,12 +1462,10 @@ class IconHandler {
         }
     }
 }
-IconHandler.ɵfac = function IconHandler_Factory(t) { return new (t || IconHandler)(); };
-IconHandler.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: IconHandler, factory: IconHandler.ɵfac });
+IconHandler.decorators = [
+    { type: Injectable }
+];
 IconHandler.ctorParameters = () => [];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(IconHandler, [{
-        type: Injectable
-    }], function () { return []; }, null); })();
 
 class IconComponent {
     constructor(_iconHandler) {
@@ -4933,17 +1505,14 @@ class IconComponent {
         };
     }
 }
-IconComponent.ɵfac = function IconComponent_Factory(t) { return new (t || IconComponent)(ɵngcc0.ɵɵdirectiveInject(IconHandler)); };
-IconComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: IconComponent, selectors: [["Icon"], ["nzm-icon"]], inputs: { color: "color", type: "type", src: "src", size: "size" }, features: [ɵngcc0.ɵɵProvidersFeature([IconHandler])], ngContentSelectors: _c0, decls: 3, vars: 2, consts: [["class", "am-icon", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "am-icon", 3, "src", "ngClass", 4, "ngIf"], [1, "am-icon", 3, "ngClass", "ngStyle"], [0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], [1, "am-icon", 3, "src", "ngClass"]], template: function IconComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, IconComponent__svg_svg_0_Template, 2, 5, "svg", 0);
-        ɵngcc0.ɵɵtemplate(1, IconComponent_img_1_Template, 1, 2, "img", 1);
-        ɵngcc0.ɵɵprojection(2);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.type);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.src);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+IconComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Icon, nzm-icon',
+                template: "<svg *ngIf=\"type\" class=\"am-icon\" [ngClass]=\"clsMap\" [ngStyle]=\"{ color: color }\">\n  <use xmlns:xlink=\"https://www.w3.org/1999/xlink\" attr.xlink:href=\"#{{ type }}\"></use>\n</svg>\n<img *ngIf=\"src\" src=\"{{ src }}\" class=\"am-icon\" [ngClass]=\"clsMap\" />\n<ng-content></ng-content>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [IconHandler]
+            },] }
+];
 IconComponent.ctorParameters = () => [
     { type: IconHandler }
 ];
@@ -4953,38 +1522,16 @@ IconComponent.propDecorators = {
     src: [{ type: Input }],
     size: [{ type: Input }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(IconComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Icon, nzm-icon',
-                template: "<svg *ngIf=\"type\" class=\"am-icon\" [ngClass]=\"clsMap\" [ngStyle]=\"{ color: color }\">\n  <use xmlns:xlink=\"https://www.w3.org/1999/xlink\" attr.xlink:href=\"#{{ type }}\"></use>\n</svg>\n<img *ngIf=\"src\" src=\"{{ src }}\" class=\"am-icon\" [ngClass]=\"clsMap\" />\n<ng-content></ng-content>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [IconHandler]
-            }]
-    }], function () { return [{ type: IconHandler }]; }, { color: [{
-            type: Input
-        }], type: [{
-            type: Input
-        }], src: [{
-            type: Input
-        }], size: [{
-            type: Input
-        }] }); })();
 
 class IconModule {
 }
-IconModule.ɵfac = function IconModule_Factory(t) { return new (t || IconModule)(); };
-IconModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: IconModule });
-IconModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(IconModule, { declarations: function () { return [IconComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [IconComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(IconModule, [{
-        type: NgModule,
-        args: [{
+IconModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 exports: [IconComponent],
                 declarations: [IconComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class WingBlankComponent {
     constructor() {
@@ -5002,13 +1549,13 @@ class WingBlankComponent {
         return this.size === 'lg';
     }
 }
-WingBlankComponent.ɵfac = function WingBlankComponent_Factory(t) { return new (t || WingBlankComponent)(); };
-WingBlankComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: WingBlankComponent, selectors: [["WingBlank"], ["nzm-wingblank"]], hostVars: 8, hostBindings: function WingBlankComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-wingblank", ctx.amWingBlank)("am-wingblank-sm", ctx.amWingBlnkSm)("am-wingblank-md", ctx.amWingBlnkMd)("am-wingblank-lg", ctx.amWingBlnkLg);
-    } }, inputs: { size: "size" }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function WingBlankComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
+WingBlankComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'WingBlank, nzm-wingblank',
+                template: "<ng-content></ng-content>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 WingBlankComponent.ctorParameters = () => [];
 WingBlankComponent.propDecorators = {
     size: [{ type: Input }],
@@ -5017,43 +1564,16 @@ WingBlankComponent.propDecorators = {
     amWingBlnkMd: [{ type: HostBinding, args: ['class.am-wingblank-md',] }],
     amWingBlnkLg: [{ type: HostBinding, args: ['class.am-wingblank-lg',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(WingBlankComponent, [{
-        type: Component,
-        args: [{
-                selector: 'WingBlank, nzm-wingblank',
-                template: "<ng-content></ng-content>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { size: [{
-            type: Input
-        }], amWingBlank: [{
-            type: HostBinding,
-            args: ['class.am-wingblank']
-        }], amWingBlnkSm: [{
-            type: HostBinding,
-            args: ['class.am-wingblank-sm']
-        }], amWingBlnkMd: [{
-            type: HostBinding,
-            args: ['class.am-wingblank-md']
-        }], amWingBlnkLg: [{
-            type: HostBinding,
-            args: ['class.am-wingblank-lg']
-        }] }); })();
 
 class WingBlankModule {
 }
-WingBlankModule.ɵfac = function WingBlankModule_Factory(t) { return new (t || WingBlankModule)(); };
-WingBlankModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: WingBlankModule });
-WingBlankModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(WingBlankModule, { declarations: function () { return [WingBlankComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [WingBlankComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(WingBlankModule, [{
-        type: NgModule,
-        args: [{
+WingBlankModule.decorators = [
+    { type: NgModule, args: [{
                 declarations: [WingBlankComponent],
                 exports: [WingBlankComponent],
                 imports: [CommonModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class WhiteSpaceComponent {
     constructor() {
@@ -5077,10 +1597,12 @@ class WhiteSpaceComponent {
         return this.size === 'xl';
     }
 }
-WhiteSpaceComponent.ɵfac = function WhiteSpaceComponent_Factory(t) { return new (t || WhiteSpaceComponent)(); };
-WhiteSpaceComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: WhiteSpaceComponent, selectors: [["WhiteSpace"], ["nzm-whitespace"]], hostVars: 12, hostBindings: function WhiteSpaceComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-whitespace", ctx.amWhiteSpace)("am-whitespace-xs", ctx.amWhitespaceXs)("am-whitespace-sm", ctx.amWhitespaceSm)("am-whitespace-md", ctx.amWhitespaceMd)("am-whitespace-lg", ctx.amWhitespaceLg)("am-whitespace-xl", ctx.amWhitespaceXl);
-    } }, inputs: { size: "size" }, decls: 0, vars: 0, template: function WhiteSpaceComponent_Template(rf, ctx) { }, encapsulation: 2 });
+WhiteSpaceComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'WhiteSpace, nzm-whitespace',
+                template: ``
+            },] }
+];
 WhiteSpaceComponent.ctorParameters = () => [];
 WhiteSpaceComponent.propDecorators = {
     size: [{ type: Input }],
@@ -5091,48 +1613,16 @@ WhiteSpaceComponent.propDecorators = {
     amWhitespaceLg: [{ type: HostBinding, args: ['class.am-whitespace-lg',] }],
     amWhitespaceXl: [{ type: HostBinding, args: ['class.am-whitespace-xl',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(WhiteSpaceComponent, [{
-        type: Component,
-        args: [{
-                selector: 'WhiteSpace, nzm-whitespace',
-                template: ``
-            }]
-    }], function () { return []; }, { size: [{
-            type: Input
-        }], amWhiteSpace: [{
-            type: HostBinding,
-            args: ['class.am-whitespace']
-        }], amWhitespaceXs: [{
-            type: HostBinding,
-            args: ['class.am-whitespace-xs']
-        }], amWhitespaceSm: [{
-            type: HostBinding,
-            args: ['class.am-whitespace-sm']
-        }], amWhitespaceMd: [{
-            type: HostBinding,
-            args: ['class.am-whitespace-md']
-        }], amWhitespaceLg: [{
-            type: HostBinding,
-            args: ['class.am-whitespace-lg']
-        }], amWhitespaceXl: [{
-            type: HostBinding,
-            args: ['class.am-whitespace-xl']
-        }] }); })();
 
 class WhiteSpaceModule {
 }
-WhiteSpaceModule.ɵfac = function WhiteSpaceModule_Factory(t) { return new (t || WhiteSpaceModule)(); };
-WhiteSpaceModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: WhiteSpaceModule });
-WhiteSpaceModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(WhiteSpaceModule, { declarations: function () { return [WhiteSpaceComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [WhiteSpaceComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(WhiteSpaceModule, [{
-        type: NgModule,
-        args: [{
+WhiteSpaceModule.decorators = [
+    { type: NgModule, args: [{
                 declarations: [WhiteSpaceComponent],
                 exports: [WhiteSpaceComponent],
                 imports: [CommonModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ListComponent {
     constructor() {
@@ -5176,35 +1666,13 @@ class ListComponent {
         return 'am-list ' + this._className;
     }
 }
-ListComponent.ɵfac = function ListComponent_Factory(t) { return new (t || ListComponent)(); };
-ListComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ListComponent, selectors: [["List"], ["nzm-list"]], hostVars: 2, hostBindings: function ListComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.hostClassName);
-    } }, inputs: { className: "className", renderHeader: "renderHeader", renderFooter: "renderFooter" }, ngContentSelectors: _c0, decls: 8, vars: 9, consts: [[3, "class", "innerHTML", 4, "ngIf"], [3, "class", 4, "ngIf"], [4, "ngIf"], [3, "innerHTML"], [3, "ngTemplateOutlet"]], template: function ListComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, ListComponent_div_0_Template, 1, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ListComponent_div_1_Template, 2, 4, "div", 1);
-        ɵngcc0.ɵɵtemplate(2, ListComponent_2_Template, 1, 1, undefined, 2);
-        ɵngcc0.ɵɵelementStart(3, "div");
-        ɵngcc0.ɵɵprojection(4);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(5, ListComponent_div_5_Template, 1, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(6, ListComponent_div_6_Template, 2, 4, "div", 1);
-        ɵngcc0.ɵɵtemplate(7, ListComponent_7_Template, 1, 1, undefined, 2);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.renderHeader && ctx.renderHeaderType === "string");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.renderHeader && ctx.renderHeaderType === "function");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.renderHeader && ctx.renderHeaderType === "templateRef");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-body");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.renderFooter && ctx.renderFooterType === "string");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.renderFooter && ctx.renderFooterType === "function");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.renderFooter && ctx.renderFooterType === "templateRef");
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+ListComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'List, nzm-list',
+                template: "<div\n  *ngIf=\"renderHeader && renderHeaderType === 'string'\"\n  class=\"{{ defaultProps.prefixCls }}-header\"\n  [innerHTML]=\"renderHeader\"\n></div>\n<div *ngIf=\"renderHeader && renderHeaderType === 'function'\" class=\"{{ defaultProps.prefixCls }}-header\">\n  {{ renderHeader() }}\n</div>\n<ng-template *ngIf=\"renderHeader && renderHeaderType === 'templateRef'\" [ngTemplateOutlet]=\"renderHeader\">\n</ng-template>\n<div class=\"{{ defaultProps.prefixCls }}-body\">\n  <ng-content></ng-content>\n</div>\n<div\n  *ngIf=\"renderFooter && renderFooterType === 'string'\"\n  class=\"{{ defaultProps.prefixCls }}-footer\"\n  [innerHTML]=\"renderFooter\"\n></div>\n<div *ngIf=\"renderFooter && renderFooterType === 'function'\" class=\"{{ defaultProps.prefixCls }}-footer\">\n  {{ renderFooter() }}\n</div>\n<ng-template *ngIf=\"renderFooter && renderFooterType === 'templateRef'\" [ngTemplateOutlet]=\"renderFooter\">\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 ListComponent.ctorParameters = () => [];
 ListComponent.propDecorators = {
     className: [{ type: Input }],
@@ -5212,23 +1680,6 @@ ListComponent.propDecorators = {
     renderFooter: [{ type: Input }],
     hostClassName: [{ type: HostBinding, args: ['class',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ListComponent, [{
-        type: Component,
-        args: [{
-                selector: 'List, nzm-list',
-                template: "<div\n  *ngIf=\"renderHeader && renderHeaderType === 'string'\"\n  class=\"{{ defaultProps.prefixCls }}-header\"\n  [innerHTML]=\"renderHeader\"\n></div>\n<div *ngIf=\"renderHeader && renderHeaderType === 'function'\" class=\"{{ defaultProps.prefixCls }}-header\">\n  {{ renderHeader() }}\n</div>\n<ng-template *ngIf=\"renderHeader && renderHeaderType === 'templateRef'\" [ngTemplateOutlet]=\"renderHeader\">\n</ng-template>\n<div class=\"{{ defaultProps.prefixCls }}-body\">\n  <ng-content></ng-content>\n</div>\n<div\n  *ngIf=\"renderFooter && renderFooterType === 'string'\"\n  class=\"{{ defaultProps.prefixCls }}-footer\"\n  [innerHTML]=\"renderFooter\"\n></div>\n<div *ngIf=\"renderFooter && renderFooterType === 'function'\" class=\"{{ defaultProps.prefixCls }}-footer\">\n  {{ renderFooter() }}\n</div>\n<ng-template *ngIf=\"renderFooter && renderFooterType === 'templateRef'\" [ngTemplateOutlet]=\"renderFooter\">\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { className: [{
-            type: Input
-        }], renderHeader: [{
-            type: Input
-        }], renderFooter: [{
-            type: Input
-        }], hostClassName: [{
-            type: HostBinding,
-            args: ['class']
-        }] }); })();
 
 class ListItemComponent {
     constructor() {
@@ -5452,44 +1903,13 @@ class ListItemComponent {
         }
     }
 }
-ListItemComponent.ɵfac = function ListItemComponent_Factory(t) { return new (t || ListItemComponent)(); };
-ListItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ListItemComponent, selectors: [["ListItem"], ["nzm-list-item"]], hostVars: 2, hostBindings: function ListItemComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function ListItemComponent_click_HostBindingHandler($event) { return ctx.click($event); })("touchstart", function ListItemComponent_touchstart_HostBindingHandler() { return ctx.start(); })("touchmove", function ListItemComponent_touchmove_HostBindingHandler() { return ctx.move(); })("touchend", function ListItemComponent_touchend_HostBindingHandler() { return ctx.end(); })("mousedown", function ListItemComponent_mousedown_HostBindingHandler() { return ctx.mouse_start(); })("mouseup", function ListItemComponent_mouseup_HostBindingHandler() { return ctx.mouse_end(); });
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.bingClassName);
-    } }, inputs: { extra: "extra", extraTip: "extraTip", className: "className", arrow: "arrow", multipleLine: "multipleLine", error: "error", wrap: "wrap", align: "align", platform: "platform", disabled: "disabled", thumb: "thumb" }, outputs: { onClick: "onClick" }, ngContentSelectors: _c0, decls: 10, vars: 12, consts: [[3, "class", 4, "ngIf"], [3, "ngClass"], [3, "class", "innerHTML", 4, "ngIf"], ["aria-hidden", "true", 3, "ngClass", 4, "ngIf"], [3, "ngClass", "ngStyle"], [3, "src"], [3, "ngTemplateOutlet"], [3, "innerHTML"], ["aria-hidden", "true", 3, "ngClass"]], template: function ListItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, ListItemComponent_div_0_Template, 2, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ListItemComponent_div_1_Template, 2, 4, "div", 0);
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵelementStart(3, "div");
-        ɵngcc0.ɵɵprojection(4);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(5, ListItemComponent_div_5_Template, 1, 4, "div", 2);
-        ɵngcc0.ɵɵtemplate(6, ListItemComponent_div_6_Template, 2, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(7, ListItemComponent_div_7_Template, 1, 4, "div", 2);
-        ɵngcc0.ɵɵtemplate(8, ListItemComponent_div_8_Template, 1, 1, "div", 3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelement(9, "div", 4);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.thumb_src && !ctx.thumb_component);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.thumb && ctx.thumb_component);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.lineCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-content");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.extra_title && !ctx.extra_component);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.extra && ctx.extra_component);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.extra && !ctx.extra_component);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.arrow);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.rippleCls)("ngStyle", ctx.defaultProps.rippleStyle);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+ListItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'ListItem, nzm-list-item',
+                template: "<div *ngIf=\"thumb_src && !thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <img src=\"{{ thumb_src }}\" />\n</div>\n<div *ngIf=\"thumb && thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <ng-template [ngTemplateOutlet]=\"thumb\"></ng-template>\n</div>\n<div [ngClass]=\"lineCls\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <ng-content></ng-content>\n  </div>\n  <div *ngIf=\"extra_title && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extra_title\">\n  </div>\n  <div *ngIf=\"extra && extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\">\n    <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n  <div *ngIf=\"!extra_title && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extraTip\">\n\n  </div>\n  <div *ngIf=\"arrow\" [ngClass]=\"arrowCls\" aria-hidden=\"true\"></div>\n</div>\n<div [ngClass]=\"rippleCls\" [ngStyle]=\"defaultProps.rippleStyle\"></div>",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 ListItemComponent.ctorParameters = () => [];
 ListItemComponent.propDecorators = {
     extra: [{ type: Input }],
@@ -5512,59 +1932,6 @@ ListItemComponent.propDecorators = {
     mouse_start: [{ type: HostListener, args: ['mousedown',] }],
     mouse_end: [{ type: HostListener, args: ['mouseup',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ListItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'ListItem, nzm-list-item',
-                template: "<div *ngIf=\"thumb_src && !thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <img src=\"{{ thumb_src }}\" />\n</div>\n<div *ngIf=\"thumb && thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <ng-template [ngTemplateOutlet]=\"thumb\"></ng-template>\n</div>\n<div [ngClass]=\"lineCls\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <ng-content></ng-content>\n  </div>\n  <div *ngIf=\"extra_title && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extra_title\">\n  </div>\n  <div *ngIf=\"extra && extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\">\n    <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n  <div *ngIf=\"!extra && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extraTip\">\n\n  </div>\n  <div *ngIf=\"arrow\" [ngClass]=\"arrowCls\" aria-hidden=\"true\"></div>\n</div>\n<div [ngClass]=\"rippleCls\" [ngStyle]=\"defaultProps.rippleStyle\"></div>",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { onClick: [{
-            type: Output
-        }], extra: [{
-            type: Input
-        }], extraTip: [{
-            type: Input
-        }], className: [{
-            type: Input
-        }], arrow: [{
-            type: Input
-        }], multipleLine: [{
-            type: Input
-        }], error: [{
-            type: Input
-        }], wrap: [{
-            type: Input
-        }], align: [{
-            type: Input
-        }], platform: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], thumb: [{
-            type: Input
-        }], bingClassName: [{
-            type: HostBinding,
-            args: ['class']
-        }], click: [{
-            type: HostListener,
-            args: ['click', ['$event']]
-        }], start: [{
-            type: HostListener,
-            args: ['touchstart']
-        }], move: [{
-            type: HostListener,
-            args: ['touchmove']
-        }], end: [{
-            type: HostListener,
-            args: ['touchend']
-        }], mouse_start: [{
-            type: HostListener,
-            args: ['mousedown']
-        }], mouse_end: [{
-            type: HostListener,
-            args: ['mouseup']
-        }] }); })();
 
 class BriefComponent {
     constructor() {
@@ -5573,54 +1940,34 @@ class BriefComponent {
         };
     }
 }
-BriefComponent.ɵfac = function BriefComponent_Factory(t) { return new (t || BriefComponent)(); };
-BriefComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: BriefComponent, selectors: [["Brief"], ["nzm-brief"]], ngContentSelectors: _c0, decls: 2, vars: 3, template: function BriefComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵprojection(1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-brief");
-    } }, encapsulation: 2 });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(BriefComponent, [{
-        type: Component,
-        args: [{
+BriefComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'Brief, nzm-brief',
                 template: "<div class=\"{{ defaultProps.prefixCls }}-brief\">\n  <ng-content></ng-content>\n</div>\n",
                 encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, null); })();
+            },] }
+];
 
 class ListModule {
 }
-ListModule.ɵfac = function ListModule_Factory(t) { return new (t || ListModule)(); };
-ListModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ListModule });
-ListModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ListModule, { declarations: function () { return [ListComponent, ListItemComponent, BriefComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [ListComponent, ListItemComponent, BriefComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ListModule, [{
-        type: NgModule,
-        args: [{
+ListModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, FormsModule],
                 exports: [ListComponent, ListItemComponent, BriefComponent],
                 declarations: [ListComponent, ListItemComponent, BriefComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 const NZ_BUTTON_DIRECTIVES = [ButtonComponent];
 class ButtonModule {
 }
-ButtonModule.ɵfac = function ButtonModule_Factory(t) { return new (t || ButtonModule)(); };
-ButtonModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ButtonModule });
-ButtonModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule, WingBlankModule, WhiteSpaceModule, ListModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ButtonModule, { declarations: function () { return [ButtonComponent]; }, imports: function () { return [CommonModule, IconModule, WingBlankModule, WhiteSpaceModule, ListModule]; }, exports: function () { return [ButtonComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ButtonModule, [{
-        type: NgModule,
-        args: [{
+ButtonModule.decorators = [
+    { type: NgModule, args: [{
                 declarations: NZ_BUTTON_DIRECTIVES,
                 exports: NZ_BUTTON_DIRECTIVES,
                 imports: [CommonModule, IconModule, WingBlankModule, WhiteSpaceModule, ListModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class SwitchComponent {
     constructor() {
@@ -5692,34 +2039,20 @@ class SwitchComponent {
         this.onTouched = fn;
     }
 }
-SwitchComponent.ɵfac = function SwitchComponent_Factory(t) { return new (t || SwitchComponent)(); };
-SwitchComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SwitchComponent, selectors: [["Switch"], ["nzm-switch"]], hostVars: 2, hostBindings: function SwitchComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵstyleProp("display", ctx.dispaly);
-    } }, inputs: { color: "color", platform: "platform", checked: "checked", disabled: "disabled", name: "name" }, outputs: { onChange: "onChange", onClick: "onClick" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => SwitchComponent),
-                multi: true
-            }
-        ])], decls: 4, vars: 12, consts: [[3, "ngClass"], ["type", "checkbox", "name", "name", 3, "checked", "value", "disabled", "change"], ["switchValue", ""], [1, "checkbox", 3, "ngClass", "ngStyle", "click"]], template: function SwitchComponent_Template(rf, ctx) { if (rf & 1) {
-        const _r1 = ɵngcc0.ɵɵgetCurrentView();
-        ɵngcc0.ɵɵelementStart(0, "label", 0);
-        ɵngcc0.ɵɵelementStart(1, "input", 1, 2);
-        ɵngcc0.ɵɵlistener("change", function SwitchComponent_Template_input_change_1_listener() { ɵngcc0.ɵɵrestoreView(_r1); const _r0 = ɵngcc0.ɵɵreference(2); return ctx.changeSwitch(_r0.checked); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(3, "div", 3);
-        ɵngcc0.ɵɵlistener("click", function SwitchComponent_Template_div_click_3_listener() { return ctx.click(); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.prefixCls);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-checkbox");
-        ɵngcc0.ɵɵproperty("checked", ctx.switchChecked)("value", ctx.switchChecked)("disabled", ctx.disabled);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.checkboxCls)("ngStyle", ctx.colorStyle);
-    } }, directives: [ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+SwitchComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Switch, nzm-switch',
+                template: "<label class=\"{{ prefixCls }}\" [ngClass]=\"wrapCls\">\n  <input\n    #switchValue\n    type=\"checkbox\"\n    name=\"name\"\n    class=\"{{ prefixCls }}-checkbox\"\n    [checked]=\"switchChecked\"\n    [value]=\"switchChecked\"\n    [disabled]=\"disabled\"\n    (change)=\"changeSwitch(switchValue.checked)\"\n  />\n  <div class=\"checkbox\" [ngClass]=\"checkboxCls\" [ngStyle]=\"colorStyle\" (click)=\"click()\"></div>\n</label>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => SwitchComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 SwitchComponent.ctorParameters = () => [];
 SwitchComponent.propDecorators = {
     color: [{ type: Input }],
@@ -5731,53 +2064,16 @@ SwitchComponent.propDecorators = {
     onClick: [{ type: Output }],
     dispaly: [{ type: HostBinding, args: ['style.display',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwitchComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Switch, nzm-switch',
-                template: "<label class=\"{{ prefixCls }}\" [ngClass]=\"wrapCls\">\n  <input\n    #switchValue\n    type=\"checkbox\"\n    name=\"name\"\n    class=\"{{ prefixCls }}-checkbox\"\n    [checked]=\"switchChecked\"\n    [value]=\"switchChecked\"\n    [disabled]=\"disabled\"\n    (change)=\"changeSwitch(switchValue.checked)\"\n  />\n  <div class=\"checkbox\" [ngClass]=\"checkboxCls\" [ngStyle]=\"colorStyle\" (click)=\"click()\"></div>\n</label>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => SwitchComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return []; }, { onChange: [{
-            type: Output
-        }], onClick: [{
-            type: Output
-        }], dispaly: [{
-            type: HostBinding,
-            args: ['style.display']
-        }], color: [{
-            type: Input
-        }], platform: [{
-            type: Input
-        }], checked: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], name: [{
-            type: Input
-        }] }); })();
 
 class SwitchModule {
 }
-SwitchModule.ɵfac = function SwitchModule_Factory(t) { return new (t || SwitchModule)(); };
-SwitchModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SwitchModule });
-SwitchModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, WingBlankModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SwitchModule, { declarations: function () { return [SwitchComponent]; }, imports: function () { return [CommonModule, WingBlankModule]; }, exports: function () { return [SwitchComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwitchModule, [{
-        type: NgModule,
-        args: [{
+SwitchModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [SwitchComponent],
                 declarations: [SwitchComponent],
                 imports: [CommonModule, WingBlankModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class SearchBarComponent {
     constructor(_elementRef, _localeProvider) {
@@ -5993,76 +2289,28 @@ class SearchBarComponent {
         this._unsubscribe$.complete();
     }
 }
-SearchBarComponent.ɵfac = function SearchBarComponent_Factory(t) { return new (t || SearchBarComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-SearchBarComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SearchBarComponent, selectors: [["SearchBar"], ["nzm-search-bar"]], viewQuery: function SearchBarComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c7, 3);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.inputElementRef = _t.first);
-    } }, inputs: { defaultValue: "defaultValue", value: "value", placeholder: "placeholder", showCancelButton: "showCancelButton", cancelText: "cancelText", disabled: "disabled", maxLength: "maxLength", setFocus: "setFocus" }, outputs: { onSubmit: "onSubmit", onChange: "onChange", onFocus: "onFocus", onBlur: "onBlur", onCancel: "onCancel", onClear: "onClear" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => SearchBarComponent),
-                multi: true
-            }
-        ])], decls: 12, vars: 36, consts: [["name", "myForm", "action", "#", 3, "ngClass", "submit"], [2, "box-sizing", "unset"], [3, "ngStyle"], [2, "outline", "none", 3, "name", "type", "disabled", "maxlength", "placeholder", "ngModel", "blur", "focus", "ngModelChange", "compositionstart", "compositionend"], ["search", ""], [2, "box-sizing", "content-box", "transition", "0s", 3, "ngClass", "click"], [1, "cancel", 3, "ngClass", "click"]], template: function SearchBarComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "form", 0);
-        ɵngcc0.ɵɵlistener("submit", function SearchBarComponent_Template_form_submit_0_listener($event) { return ctx.onSearchSubmit($event); });
-        ɵngcc0.ɵɵelementStart(1, "div");
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵelementStart(3, "span");
-        ɵngcc0.ɵɵelement(4, "i");
-        ɵngcc0.ɵɵelementStart(5, "span", 2);
-        ɵngcc0.ɵɵtext(6);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(7, "input", 3, 4);
-        ɵngcc0.ɵɵlistener("blur", function SearchBarComponent_Template_input_blur_7_listener() { return ctx.onSearchbarBlur(); })("focus", function SearchBarComponent_Template_input_focus_7_listener() { return ctx.onSearchbarFocus(); })("ngModelChange", function SearchBarComponent_Template_input_ngModelChange_7_listener($event) { return ctx.onSearchbarChange($event); })("compositionstart", function SearchBarComponent_Template_input_compositionstart_7_listener() { return ctx.onSetCompositionState(true); })("compositionend", function SearchBarComponent_Template_input_compositionend_7_listener() { return ctx.onSetCompositionState(false); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(9, "a", 5);
-        ɵngcc0.ɵɵlistener("click", function SearchBarComponent_Template_a_click_9_listener() { return ctx.onSearchbarClear(); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(10, "div", 6);
-        ɵngcc0.ɵɵlistener("click", function SearchBarComponent_Template_div_click_10_listener() { return ctx.onSearchbarCancel(); });
-        ɵngcc0.ɵɵtext(11);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.prefixCls);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.wrapCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-input");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-synthetic-ph");
-        ɵngcc0.ɵɵproperty("@cancelButtonState", ctx.showCancelButton ? "visible" : "hidden");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-synthetic-ph-container");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-synthetic-ph-icon");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-synthetic-ph-placeholder");
-        ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction1(34, _c8, ctx.placeholder && !ctx.isComposing && !ctx.value ? "visible" : "hidden"));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.placeholder, " ");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-value");
-        ɵngcc0.ɵɵproperty("name", "search")("type", "search")("disabled", ctx.disabled)("maxlength", ctx.maxLength)("placeholder", ctx.placeholder)("ngModel", ctx.value);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.clearCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.cancelCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.cancelText, " ");
-    } }, directives: [ɵngcc2.ɵangular_packages_forms_forms_y, ɵngcc2.NgControlStatusGroup, ɵngcc2.NgForm, ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc2.DefaultValueAccessor, ɵngcc2.MaxLengthValidator, ɵngcc2.NgControlStatus, ɵngcc2.NgModel], encapsulation: 2, data: { animation: [
-            trigger('cancelButtonState', [
-                state('visible', style({ width: '*' })),
-                state('hidden', style({ width: '100%' })),
-                transition('visible =>hidden', [animate(300, style({ width: '100%' }))]),
-                transition('hidden => visible', [animate(300, style({ width: '*' }))])
-            ])
-        ] } });
+SearchBarComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SearchBar, nzm-search-bar',
+                template: "<form name=\"myForm\" class=\"{{ prefixCls }}\" [ngClass]=\"wrapCls\" action=\"#\" (submit)=\"onSearchSubmit($event)\">\n  <div class=\"{{ prefixCls }}-input\">\n    <div\n      class=\"{{ prefixCls }}-synthetic-ph\"\n      style=\"box-sizing:unset\"\n      [@cancelButtonState]=\"showCancelButton ? 'visible' : 'hidden'\"\n    >\n      <span class=\"{{ prefixCls }}-synthetic-ph-container\">\n        <i class=\"{{ prefixCls }}-synthetic-ph-icon\"></i>\n        <span\n          class=\"{{ prefixCls }}-synthetic-ph-placeholder\"\n          [ngStyle]=\"{ visibility: placeholder && !isComposing && !value ? 'visible' : 'hidden' }\"\n        >\n          {{ placeholder }}\n        </span>\n      </span>\n    </div>\n    <input\n      #search\n      class=\"{{ prefixCls }}-value\"\n      style=\"outline:none;\"\n      [name]=\"'search'\"\n      [type]=\"'search'\"\n      [disabled]=\"disabled\"\n      [maxlength]=\"maxLength\"\n      [placeholder]=\"placeholder\"\n      [ngModel]=\"value\"\n      (blur)=\"onSearchbarBlur()\"\n      (focus)=\"onSearchbarFocus()\"\n      (ngModelChange)=\"onSearchbarChange($event)\"\n      (compositionstart)=\"onSetCompositionState(true)\"\n      (compositionend)=\"onSetCompositionState(false)\"\n    />\n    <a [ngClass]=\"clearCls\" style=\"box-sizing: content-box;transition: 0s\" (click)=\"onSearchbarClear()\"></a>\n  </div>\n  <div class=\"cancel\" [ngClass]=\"cancelCls\" (click)=\"onSearchbarCancel()\">\n    {{ cancelText }}\n  </div>\n</form>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => SearchBarComponent),
+                        multi: true
+                    }
+                ],
+                animations: [
+                    trigger('cancelButtonState', [
+                        state('visible', style({ width: '*' })),
+                        state('hidden', style({ width: '100%' })),
+                        transition('visible =>hidden', [animate(300, style({ width: '100%' }))]),
+                        transition('hidden => visible', [animate(300, style({ width: '*' }))])
+                    ])
+                ]
+            },] }
+];
 SearchBarComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: LocaleProviderService }
@@ -6084,60 +2332,6 @@ SearchBarComponent.propDecorators = {
     onCancel: [{ type: Output }],
     onClear: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SearchBarComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SearchBar, nzm-search-bar',
-                template: "<form name=\"myForm\" class=\"{{ prefixCls }}\" [ngClass]=\"wrapCls\" action=\"#\" (submit)=\"onSearchSubmit($event)\">\n  <div class=\"{{ prefixCls }}-input\">\n    <div\n      class=\"{{ prefixCls }}-synthetic-ph\"\n      style=\"box-sizing:unset\"\n      [@cancelButtonState]=\"showCancelButton ? 'visible' : 'hidden'\"\n    >\n      <span class=\"{{ prefixCls }}-synthetic-ph-container\">\n        <i class=\"{{ prefixCls }}-synthetic-ph-icon\"></i>\n        <span\n          class=\"{{ prefixCls }}-synthetic-ph-placeholder\"\n          [ngStyle]=\"{ visibility: placeholder && !isComposing && !value ? 'visible' : 'hidden' }\"\n        >\n          {{ placeholder }}\n        </span>\n      </span>\n    </div>\n    <input\n      #search\n      class=\"{{ prefixCls }}-value\"\n      style=\"outline:none;\"\n      [name]=\"'search'\"\n      [type]=\"'search'\"\n      [disabled]=\"disabled\"\n      [maxlength]=\"maxLength\"\n      [placeholder]=\"placeholder\"\n      [ngModel]=\"value\"\n      (blur)=\"onSearchbarBlur()\"\n      (focus)=\"onSearchbarFocus()\"\n      (ngModelChange)=\"onSearchbarChange($event)\"\n      (compositionstart)=\"onSetCompositionState(true)\"\n      (compositionend)=\"onSetCompositionState(false)\"\n    />\n    <a [ngClass]=\"clearCls\" style=\"box-sizing: content-box;transition: 0s\" (click)=\"onSearchbarClear()\"></a>\n  </div>\n  <div class=\"cancel\" [ngClass]=\"cancelCls\" (click)=\"onSearchbarCancel()\">\n    {{ cancelText }}\n  </div>\n</form>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => SearchBarComponent),
-                        multi: true
-                    }
-                ],
-                animations: [
-                    trigger('cancelButtonState', [
-                        state('visible', style({ width: '*' })),
-                        state('hidden', style({ width: '100%' })),
-                        transition('visible =>hidden', [animate(300, style({ width: '100%' }))]),
-                        transition('hidden => visible', [animate(300, style({ width: '*' }))])
-                    ])
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: LocaleProviderService }]; }, { onSubmit: [{
-            type: Output
-        }], onChange: [{
-            type: Output
-        }], onFocus: [{
-            type: Output
-        }], onBlur: [{
-            type: Output
-        }], onCancel: [{
-            type: Output
-        }], onClear: [{
-            type: Output
-        }], defaultValue: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], placeholder: [{
-            type: Input
-        }], showCancelButton: [{
-            type: Input
-        }], cancelText: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], maxLength: [{
-            type: Input
-        }], setFocus: [{
-            type: Input
-        }], inputElementRef: [{
-            type: ViewChild,
-            args: ['search', { static: true }]
-        }] }); })();
 
 class LocaleProviderPipe {
     constructor(_locale) {
@@ -6147,49 +2341,36 @@ class LocaleProviderPipe {
         return this._locale.getLocaleValue(keyPath);
     }
 }
-LocaleProviderPipe.ɵfac = function LocaleProviderPipe_Factory(t) { return new (t || LocaleProviderPipe)(ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-LocaleProviderPipe.ɵpipe = ɵngcc0.ɵɵdefinePipe({ name: "localeProvider", type: LocaleProviderPipe, pure: true });
+LocaleProviderPipe.decorators = [
+    { type: Pipe, args: [{
+                name: 'localeProvider'
+            },] }
+];
 LocaleProviderPipe.ctorParameters = () => [
     { type: LocaleProviderService }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(LocaleProviderPipe, [{
-        type: Pipe,
-        args: [{
-                name: 'localeProvider'
-            }]
-    }], function () { return [{ type: LocaleProviderService }]; }, null); })();
 
 const ɵ0$1 = zh_CN;
 class LocaleProviderModule {
 }
-LocaleProviderModule.ɵfac = function LocaleProviderModule_Factory(t) { return new (t || LocaleProviderModule)(); };
-LocaleProviderModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: LocaleProviderModule });
-LocaleProviderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [{ provide: LOCAL_PROVIDER_TOKEN, useValue: ɵ0$1 }, LOCALE_PROVIDER_SERVICE_PROVIDER], imports: [[]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(LocaleProviderModule, { declarations: [LocaleProviderPipe], exports: [LocaleProviderPipe] }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(LocaleProviderModule, [{
-        type: NgModule,
-        args: [{
+LocaleProviderModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [],
                 declarations: [LocaleProviderPipe],
                 exports: [LocaleProviderPipe],
                 providers: [{ provide: LOCAL_PROVIDER_TOKEN, useValue: ɵ0$1 }, LOCALE_PROVIDER_SERVICE_PROVIDER]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class SearchBarModule {
 }
-SearchBarModule.ɵfac = function SearchBarModule_Factory(t) { return new (t || SearchBarModule)(); };
-SearchBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SearchBarModule });
-SearchBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, LocaleProviderModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SearchBarModule, { declarations: function () { return [SearchBarComponent]; }, imports: function () { return [CommonModule, FormsModule, LocaleProviderModule]; }, exports: function () { return [SearchBarComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SearchBarModule, [{
-        type: NgModule,
-        args: [{
+SearchBarModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [SearchBarComponent],
                 declarations: [SearchBarComponent],
                 imports: [CommonModule, FormsModule, LocaleProviderModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class StepperComponent {
     constructor() {
@@ -6380,49 +2561,19 @@ class StepperComponent {
         return +parseFloat(num.toPrecision(precision));
     }
 }
-StepperComponent.ɵfac = function StepperComponent_Factory(t) { return new (t || StepperComponent)(); };
-StepperComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: StepperComponent, selectors: [["Stepper"], ["nzm-stepper"]], hostVars: 6, hostBindings: function StepperComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-stepper", ctx.clsStepper)("am-stepper-disabled", ctx.clsStpDisabled)("showNumber", ctx.clsShowNum);
-    } }, inputs: { max: "max", min: "min", value: "value", step: "step", defaultValue: "defaultValue", disabled: "disabled", readOnly: "readOnly", showNumber: "showNumber" }, outputs: { onChange: "onChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => StepperComponent),
-                multi: true
-            }
-        ]), ɵngcc0.ɵɵNgOnChangesFeature], decls: 7, vars: 29, consts: [["role", "button", 2, "line-height", "28px", 3, "ngClass", "click"], [3, "type", "size"], [2, "outline", "none", 3, "disabled", "readonly", "autocomplete", "max", "min", "ngModel", "ngModelChange"]], template: function StepperComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵelementStart(1, "span", 0);
-        ɵngcc0.ɵɵlistener("click", function StepperComponent_Template_span_click_1_listener() { return ctx.onIncrease(); });
-        ɵngcc0.ɵɵelement(2, "Icon", 1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(3, "span", 0);
-        ɵngcc0.ɵɵlistener("click", function StepperComponent_Template_span_click_3_listener() { return ctx.onDecrease(); });
-        ɵngcc0.ɵɵelement(4, "Icon", 1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(5, "div");
-        ɵngcc0.ɵɵelementStart(6, "input", 2);
-        ɵngcc0.ɵɵlistener("ngModelChange", function StepperComponent_Template_input_ngModelChange_6_listener($event) { return ctx.value = $event; })("ngModelChange", function StepperComponent_Template_input_ngModelChange_6_listener($event) { return ctx.inputChange($event); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-handler-wrap");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate2("", ctx.prefixCls, "-handler ", ctx.prefixCls, "-handler-up");
-        ɵngcc0.ɵɵproperty("ngClass", ctx.upDisableCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("type", "plus")("size", "xxs");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate2("", ctx.prefixCls, "-handler ", ctx.prefixCls, "-handler-down");
-        ɵngcc0.ɵɵproperty("ngClass", ctx.downDisableCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("type", "minus")("size", "xxs");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-input-wrap");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-input");
-        ɵngcc0.ɵɵproperty("disabled", ctx.disabled)("readonly", ctx.readOnly)("autocomplete", "off")("max", ctx.max)("min", ctx.min)("ngModel", ctx.value);
-    } }, directives: [ɵngcc1.NgClass, IconComponent, ɵngcc2.DefaultValueAccessor, ɵngcc2.NgControlStatus, ɵngcc2.NgModel], encapsulation: 2 });
+StepperComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Stepper, nzm-stepper',
+                template: "<div class=\"{{ prefixCls }}-handler-wrap\">\n  <span\n    role=\"button\"\n    class=\"{{ prefixCls }}-handler {{ prefixCls }}-handler-up\"\n    style=\"line-height:28px;\"\n    [ngClass]=\"upDisableCls\"\n    (click)=\"onIncrease()\"\n  >\n    <Icon [type]=\"'plus'\" [size]=\"'xxs'\"> </Icon>\n  </span>\n  <span\n    role=\"button\"\n    class=\"{{ prefixCls }}-handler {{ prefixCls }}-handler-down\"\n    style=\"line-height:28px;\"\n    [ngClass]=\"downDisableCls\"\n    (click)=\"onDecrease()\"\n  >\n    <Icon [type]=\"'minus'\" [size]=\"'xxs'\"> </Icon>\n  </span>\n</div>\n<div class=\"{{ prefixCls }}-input-wrap\">\n  <input\n    class=\"{{ prefixCls }}-input\"\n    style=\"outline:none\"\n    [disabled]=\"disabled\"\n    [readonly]=\"readOnly\"\n    [autocomplete]=\"'off'\"\n    [max]=\"max\"\n    [min]=\"min\"\n    [(ngModel)]=\"value\"\n    (ngModelChange)=\"inputChange($event)\"\n  />\n</div>\n",
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => StepperComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 StepperComponent.ctorParameters = () => [];
 StepperComponent.propDecorators = {
     max: [{ type: Input }],
@@ -6438,62 +2589,16 @@ StepperComponent.propDecorators = {
     clsStpDisabled: [{ type: HostBinding, args: ['class.am-stepper-disabled',] }],
     clsShowNum: [{ type: HostBinding, args: ['class.showNumber',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepperComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Stepper, nzm-stepper',
-                template: "<div class=\"{{ prefixCls }}-handler-wrap\">\n  <span\n    role=\"button\"\n    class=\"{{ prefixCls }}-handler {{ prefixCls }}-handler-up\"\n    style=\"line-height:28px;\"\n    [ngClass]=\"upDisableCls\"\n    (click)=\"onIncrease()\"\n  >\n    <Icon [type]=\"'plus'\" [size]=\"'xxs'\"> </Icon>\n  </span>\n  <span\n    role=\"button\"\n    class=\"{{ prefixCls }}-handler {{ prefixCls }}-handler-down\"\n    style=\"line-height:28px;\"\n    [ngClass]=\"downDisableCls\"\n    (click)=\"onDecrease()\"\n  >\n    <Icon [type]=\"'minus'\" [size]=\"'xxs'\"> </Icon>\n  </span>\n</div>\n<div class=\"{{ prefixCls }}-input-wrap\">\n  <input\n    class=\"{{ prefixCls }}-input\"\n    style=\"outline:none\"\n    [disabled]=\"disabled\"\n    [readonly]=\"readOnly\"\n    [autocomplete]=\"'off'\"\n    [max]=\"max\"\n    [min]=\"min\"\n    [(ngModel)]=\"value\"\n    (ngModelChange)=\"inputChange($event)\"\n  />\n</div>\n",
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => StepperComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return []; }, { onChange: [{
-            type: Output
-        }], clsStepper: [{
-            type: HostBinding,
-            args: ['class.am-stepper']
-        }], clsStpDisabled: [{
-            type: HostBinding,
-            args: ['class.am-stepper-disabled']
-        }], clsShowNum: [{
-            type: HostBinding,
-            args: ['class.showNumber']
-        }], max: [{
-            type: Input
-        }], min: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], step: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], readOnly: [{
-            type: Input
-        }], showNumber: [{
-            type: Input
-        }] }); })();
 
 class StepperModule {
 }
-StepperModule.ɵfac = function StepperModule_Factory(t) { return new (t || StepperModule)(); };
-StepperModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: StepperModule });
-StepperModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(StepperModule, { declarations: function () { return [StepperComponent]; }, imports: function () { return [CommonModule, FormsModule, IconModule]; }, exports: function () { return [StepperComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepperModule, [{
-        type: NgModule,
-        args: [{
+StepperModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [StepperComponent],
                 declarations: [StepperComponent],
                 imports: [CommonModule, FormsModule, IconModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class StepComponent {
     constructor(_el) {
@@ -6570,71 +2675,8 @@ class StepComponent {
     }
     ngOnInit() { }
 }
-StepComponent.ɵfac = function StepComponent_Factory(t) { return new (t || StepComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-StepComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: StepComponent, selectors: [["Step"], ["nzm-step"]], hostVars: 2, hostBindings: function StepComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-steps-item", ctx.clsStepItem);
-    } }, inputs: { title: "title", description: "description", status: "status", icon: "icon" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => StepComponent),
-                multi: true
-            }
-        ])], decls: 15, vars: 20, consts: [[3, "ngClass"], [3, "ngClass", 4, "ngIf"], [4, "ngIf", "ngIfElse"], [3, "class", 4, "ngIf"], ["titleTemplate", ""], ["descriptionTemplate", ""], [3, "ngTemplateOutlet"], [3, "type", "size"]], template: function StepComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "div");
-        ɵngcc0.ɵɵtext(2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(3, "div");
-        ɵngcc0.ɵɵtemplate(4, StepComponent_span_4_Template, 2, 2, "span", 1);
-        ɵngcc0.ɵɵtemplate(5, StepComponent_span_5_Template, 2, 3, "span", 1);
-        ɵngcc0.ɵɵtemplate(6, StepComponent_span_6_Template, 2, 2, "span", 1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(7, "div");
-        ɵngcc0.ɵɵelementStart(8, "div");
-        ɵngcc0.ɵɵtemplate(9, StepComponent_ng_container_9_Template, 2, 1, "ng-container", 2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(10, StepComponent_div_10_Template, 2, 5, "div", 3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(11, StepComponent_ng_template_11_Template, 1, 1, "ng-template", null, 4, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(13, StepComponent_ng_template_13_Template, 1, 1, "ng-template", null, 5, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        const _r5 = ɵngcc0.ɵɵreference(12);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.stepItemCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-item-tail");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.tailContent, " ");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-item-icon");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isTemplateRef(ctx.icon));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.icon) && (ctx.status === "error" || ctx.status === "finish" || ctx.status === "wait"));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.icon) && !(ctx.status === "error" || ctx.status === "finish" || ctx.status === "wait"));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-item-content");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-item-title");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.title))("ngIfElse", _r5);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.description);
-    } }, directives: [ɵngcc1.NgClass, ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet, IconComponent], encapsulation: 2 });
-StepComponent.ctorParameters = () => [
-    { type: ElementRef }
-];
-StepComponent.propDecorators = {
-    status: [{ type: Input }],
-    title: [{ type: Input }],
-    description: [{ type: Input }],
-    icon: [{ type: Input }],
-    clsStepItem: [{ type: HostBinding, args: ['class.am-steps-item',] }]
-};
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepComponent, [{
-        type: Component,
-        args: [{
+StepComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'Step, nzm-step',
                 template: "<div [ngClass]=\"stepItemCls\">\n  <div class=\"{{ prefixCls }}-item-tail\">\n    {{ tailContent }}\n  </div>\n  <div class=\"{{ prefixCls }}-item-icon\">\n    <span *ngIf=\"isTemplateRef(icon)\" [ngClass]=\"iconCls\">\n      <ng-template [ngTemplateOutlet]=\"icon\"></ng-template>\n    </span>\n    <span *ngIf=\"!isTemplateRef(icon) && (status === 'error' || status === 'finish' || status === 'wait')\" [ngClass]=\"iconCls\">\n      <Icon [type]=\"icon\" [size]=\"iconSize\"> </Icon>\n    </span>\n    <span *ngIf=\"!isTemplateRef(icon) && !(status === 'error' || status === 'finish' || status === 'wait')\" [ngClass]=\"iconCls\"\n      >{{ stepNumber }}\n    </span>\n  </div>\n  <div class=\"{{ prefixCls }}-item-content\">\n    <div class=\"{{ prefixCls }}-item-title\">\n      <ng-container *ngIf=\"!isTemplateRef(title); else titleTemplate\">{{ title }}</ng-container>\n    </div>\n    <div *ngIf=\"description\" class=\"{{ prefixCls }}-item-description\">\n      <ng-container *ngIf=\"!isTemplateRef(description); else descriptionTemplate\">{{ description }}</ng-container>\n    </div>\n  </div>\n</div>\n<ng-template #titleTemplate>\n  <ng-template [ngTemplateOutlet]=\"title\"></ng-template>\n</ng-template>\n<ng-template #descriptionTemplate>\n  <ng-template [ngTemplateOutlet]=\"description\"></ng-template>\n</ng-template>\n",
                 encapsulation: ViewEncapsulation.None,
@@ -6645,19 +2687,18 @@ StepComponent.propDecorators = {
                         multi: true
                     }
                 ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { title: [{
-            type: Input
-        }], description: [{
-            type: Input
-        }], clsStepItem: [{
-            type: HostBinding,
-            args: ['class.am-steps-item']
-        }], status: [{
-            type: Input
-        }], icon: [{
-            type: Input
-        }] }); })();
+            },] }
+];
+StepComponent.ctorParameters = () => [
+    { type: ElementRef }
+];
+StepComponent.propDecorators = {
+    status: [{ type: Input }],
+    title: [{ type: Input }],
+    description: [{ type: Input }],
+    icon: [{ type: Input }],
+    clsStepItem: [{ type: HostBinding, args: ['class.am-steps-item',] }]
+};
 var StepStatusEnum;
 (function (StepStatusEnum) {
     StepStatusEnum["WAIT"] = "wait";
@@ -6750,18 +2791,12 @@ class StepsComponent {
         });
     }
 }
-StepsComponent.ɵfac = function StepsComponent_Factory(t) { return new (t || StepsComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-StepsComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: StepsComponent, selectors: [["Steps"], ["nzm-steps"]], contentQueries: function StepsComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, StepComponent, 0);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.stepItems = _t);
-    } }, hostVars: 10, hostBindings: function StepsComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-steps", ctx.clsSteps)("am-steps-label-vertical", ctx.clsStepsLabelVtl)("am-steps-horizontal", ctx.clsStepsHztl)("am-steps-vertical", ctx.clsStepsVtl)("am-steps-small", ctx.clsStepsSmall);
-    } }, inputs: { current: "current", size: "size", status: "status", direction: "direction" }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function StepsComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
+StepsComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Steps,nzm-steps',
+                template: "<ng-content></ng-content>\n"
+            },] }
+];
 StepsComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: Renderer2 }
@@ -6778,54 +2813,16 @@ StepsComponent.propDecorators = {
     clsStepsVtl: [{ type: HostBinding, args: ['class.am-steps-vertical',] }],
     clsStepsHztl: [{ type: HostBinding, args: ['class.am-steps-horizontal',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepsComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Steps,nzm-steps',
-                template: "<ng-content></ng-content>\n"
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, { clsSteps: [{
-            type: HostBinding,
-            args: ['class.am-steps']
-        }], current: [{
-            type: Input
-        }], size: [{
-            type: Input
-        }], status: [{
-            type: Input
-        }], direction: [{
-            type: Input
-        }], clsStepsLabelVtl: [{
-            type: HostBinding,
-            args: ['class.am-steps-label-vertical']
-        }], clsStepsHztl: [{
-            type: HostBinding,
-            args: ['class.am-steps-horizontal']
-        }], clsStepsVtl: [{
-            type: HostBinding,
-            args: ['class.am-steps-vertical']
-        }], clsStepsSmall: [{
-            type: HostBinding,
-            args: ['class.am-steps-small']
-        }], stepItems: [{
-            type: ContentChildren,
-            args: [StepComponent]
-        }] }); })();
 
 class StepsModule {
 }
-StepsModule.ɵfac = function StepsModule_Factory(t) { return new (t || StepsModule)(); };
-StepsModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: StepsModule });
-StepsModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(StepsModule, { declarations: function () { return [StepsComponent, StepComponent]; }, imports: function () { return [CommonModule, FormsModule, IconModule]; }, exports: function () { return [StepsComponent, StepComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepsModule, [{
-        type: NgModule,
-        args: [{
+StepsModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [StepsComponent, StepComponent],
                 declarations: [StepsComponent, StepComponent],
                 imports: [CommonModule, FormsModule, IconModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class CarouselSlideComponent {
     constructor() {
@@ -6834,14 +2831,13 @@ class CarouselSlideComponent {
         this.overflow = 'hidden';
     }
 }
-CarouselSlideComponent.ɵfac = function CarouselSlideComponent_Factory(t) { return new (t || CarouselSlideComponent)(); };
-CarouselSlideComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CarouselSlideComponent, selectors: [["CarouselSlide"], ["nzm-carousel-slide"]], hostVars: 14, hostBindings: function CarouselSlideComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵstyleProp("height", ctx.height)("overflow", ctx.overflow)("width", ctx.width, "px")("left", ctx.left, "px")("top", ctx.top, "px")("margin", ctx.margin);
-        ɵngcc0.ɵɵclassProp("am-carousel-container", ctx.container);
-    } }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function CarouselSlideComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
+CarouselSlideComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CarouselSlide, nzm-carousel-slide',
+                template: "<ng-content></ng-content>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CarouselSlideComponent.propDecorators = {
     container: [{ type: HostBinding, args: ['class.am-carousel-container',] }],
     width: [{ type: HostBinding, args: ['style.width.px',] }],
@@ -6851,35 +2847,6 @@ CarouselSlideComponent.propDecorators = {
     margin: [{ type: HostBinding, args: ['style.margin',] }],
     overflow: [{ type: HostBinding, args: ['style.overflow',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CarouselSlideComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CarouselSlide, nzm-carousel-slide',
-                template: "<ng-content></ng-content>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { container: [{
-            type: HostBinding,
-            args: ['class.am-carousel-container']
-        }], height: [{
-            type: HostBinding,
-            args: ['style.height']
-        }], overflow: [{
-            type: HostBinding,
-            args: ['style.overflow']
-        }], width: [{
-            type: HostBinding,
-            args: ['style.width.px']
-        }], left: [{
-            type: HostBinding,
-            args: ['style.left.px']
-        }], top: [{
-            type: HostBinding,
-            args: ['style.top.px']
-        }], margin: [{
-            type: HostBinding,
-            args: ['style.margin']
-        }] }); })();
 
 function getEventTarget(event) {
     if (event.type === 'mousedown' ||
@@ -7350,31 +3317,13 @@ class CarouselComponent {
         this.stopTimer();
     }
 }
-CarouselComponent.ɵfac = function CarouselComponent_Factory(t) { return new (t || CarouselComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-CarouselComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CarouselComponent, selectors: [["Carousel"], ["nzm-carousel"]], contentQueries: function CarouselComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, CarouselSlideComponent, 0);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.items = _t);
-    } }, hostVars: 4, hostBindings: function CarouselComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("mousedown", function CarouselComponent_mousedown_HostBindingHandler($event) { return ctx.panstart($event); })("touchstart", function CarouselComponent_touchstart_HostBindingHandler($event) { return ctx.panstart($event); })("mousemove", function CarouselComponent_mousemove_HostBindingHandler($event) { return ctx.panmove($event); })("touchmove", function CarouselComponent_touchmove_HostBindingHandler($event) { return ctx.panmove($event); })("mouseleave", function CarouselComponent_mouseleave_HostBindingHandler($event) { return ctx.panend($event); })("mouseup", function CarouselComponent_mouseup_HostBindingHandler($event) { return ctx.panend($event); })("touchend", function CarouselComponent_touchend_HostBindingHandler($event) { return ctx.panend($event); })("touchcancel", function CarouselComponent_touchcancel_HostBindingHandler() { return ctx.cancel(); })("resize", function CarouselComponent_resize_HostBindingHandler() { return ctx.resize(); }, false, ɵngcc0.ɵɵresolveWindow);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-carousel", ctx.carouselWrapper)("carousel", ctx.carouselwrap);
-    } }, inputs: { speed: "speed", dots: "dots", vertical: "vertical", autoplay: "autoplay", autoplayInterval: "autoplayInterval", infinite: "infinite", dotStyle: "dotStyle", dotActiveStyle: "dotActiveStyle", frameOverflow: "frameOverflow", cellSpacing: "cellSpacing", slideWidth: "slideWidth", swipeSpeed: "swipeSpeed", dragging: "dragging", selectedIndex: "selectedIndex" }, outputs: { afterChange: "afterChange", beforeChange: "beforeChange" }, ngContentSelectors: _c0, decls: 4, vars: 5, consts: [[1, "slider-frame", 3, "ngStyle"], [1, "slider-list", 3, "ngStyle"], ["class", "am-carousel-wrap-dot", 3, "page", "dotStyle", "pageCount", "dotActiveStyle", 4, "ngIf"], [1, "am-carousel-wrap-dot", 3, "page", "dotStyle", "pageCount", "dotActiveStyle"]], template: function CarouselComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "ul", 1);
-        ɵngcc0.ɵɵprojection(2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(3, CarouselComponent_DotIndicator_3_Template, 1, 4, "DotIndicator", 2);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction1(3, _c9, ctx.frameOverflow));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.style);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.dotindicatorStatus);
-    } }, directives: function () { return [ɵngcc1.NgStyle, ɵngcc1.NgIf, DotIndicatorComponent]; }, encapsulation: 2 });
+CarouselComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Carousel, nzm-carousel',
+                encapsulation: ViewEncapsulation.None,
+                template: "<div class=\"slider-frame\" [ngStyle]=\"{ overflow: frameOverflow }\">\n  <ul class=\"slider-list\" [ngStyle]=\"style\">\n    <ng-content></ng-content>\n  </ul>\n</div>\n<DotIndicator\n  *ngIf=\"dotindicatorStatus\"\n  class=\"am-carousel-wrap-dot\"\n  [page]=\"page\"\n  [dotStyle]=\"dotStyle\"\n  [pageCount]=\"pageCount\"\n  [dotActiveStyle]=\"dotActiveStyle\"\n></DotIndicator>\n"
+            },] }
+];
 CarouselComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -7404,82 +3353,6 @@ CarouselComponent.propDecorators = {
     cancel: [{ type: HostListener, args: ['touchcancel',] }],
     resize: [{ type: HostListener, args: ['window:resize',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CarouselComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Carousel, nzm-carousel',
-                encapsulation: ViewEncapsulation.None,
-                template: "<div class=\"slider-frame\" [ngStyle]=\"{ overflow: frameOverflow }\">\n  <ul class=\"slider-list\" [ngStyle]=\"style\">\n    <ng-content></ng-content>\n  </ul>\n</div>\n<DotIndicator\n  *ngIf=\"dotindicatorStatus\"\n  class=\"am-carousel-wrap-dot\"\n  [page]=\"page\"\n  [dotStyle]=\"dotStyle\"\n  [pageCount]=\"pageCount\"\n  [dotActiveStyle]=\"dotActiveStyle\"\n></DotIndicator>\n"
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { speed: [{
-            type: Input
-        }], dots: [{
-            type: Input
-        }], vertical: [{
-            type: Input
-        }], autoplay: [{
-            type: Input
-        }], autoplayInterval: [{
-            type: Input
-        }], infinite: [{
-            type: Input
-        }], dotStyle: [{
-            type: Input
-        }], dotActiveStyle: [{
-            type: Input
-        }], frameOverflow: [{
-            type: Input
-        }], cellSpacing: [{
-            type: Input
-        }], slideWidth: [{
-            type: Input
-        }], swipeSpeed: [{
-            type: Input
-        }], dragging: [{
-            type: Input
-        }], afterChange: [{
-            type: Output
-        }], beforeChange: [{
-            type: Output
-        }], carouselWrapper: [{
-            type: HostBinding,
-            args: ['class.am-carousel']
-        }], carouselwrap: [{
-            type: HostBinding,
-            args: ['class.carousel']
-        }], selectedIndex: [{
-            type: Input
-        }], panstart: [{
-            type: HostListener,
-            args: ['mousedown', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }], panmove: [{
-            type: HostListener,
-            args: ['mousemove', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchmove', ['$event']]
-        }], panend: [{
-            type: HostListener,
-            args: ['mouseleave', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mouseup', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }], cancel: [{
-            type: HostListener,
-            args: ['touchcancel']
-        }], resize: [{
-            type: HostListener,
-            args: ['window:resize']
-        }], items: [{
-            type: ContentChildren,
-            args: [CarouselSlideComponent]
-        }] }); })();
 
 class DotIndicatorComponent {
     constructor() {
@@ -7518,17 +3391,13 @@ class DotIndicatorComponent {
         this.items[this._page].active = true;
     }
 }
-DotIndicatorComponent.ɵfac = function DotIndicatorComponent_Factory(t) { return new (t || DotIndicatorComponent)(); };
-DotIndicatorComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DotIndicatorComponent, selectors: [["DotIndicator"], ["nzm-dot-indicator"]], hostVars: 2, hostBindings: function DotIndicatorComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("dot-indicator", ctx.dotIndicator);
-    } }, inputs: { dotStyle: "dotStyle", dotActiveStyle: "dotActiveStyle", dotColor: "dotColor", page: "page", pageCount: "pageCount" }, decls: 2, vars: 1, consts: [[1, "am-carousel-wrap"], ["class", "am-carousel-wrap-dot", 3, "am-carousel-wrap-dot-active", 4, "ngFor", "ngForOf"], [1, "am-carousel-wrap-dot"], [3, "ngStyle"]], template: function DotIndicatorComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, DotIndicatorComponent_div_1_Template, 2, 3, "div", 1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.items);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgStyle], encapsulation: 2 });
+DotIndicatorComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'DotIndicator, nzm-dot-indicator',
+                template: "<div class=\"am-carousel-wrap\">\n  <div *ngFor=\"let item of items\" class=\"am-carousel-wrap-dot\" [class.am-carousel-wrap-dot-active]=\"item.active\">\n    <span [ngStyle]=\"item.active ? dotActiveStyle : dotStyle\"></span>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 DotIndicatorComponent.propDecorators = {
     page: [{ type: Input }],
     pageCount: [{ type: Input }],
@@ -7537,42 +3406,16 @@ DotIndicatorComponent.propDecorators = {
     dotColor: [{ type: Input }],
     dotIndicator: [{ type: HostBinding, args: ['class.dot-indicator',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DotIndicatorComponent, [{
-        type: Component,
-        args: [{
-                selector: 'DotIndicator, nzm-dot-indicator',
-                template: "<div class=\"am-carousel-wrap\">\n  <div *ngFor=\"let item of items\" class=\"am-carousel-wrap-dot\" [class.am-carousel-wrap-dot-active]=\"item.active\">\n    <span [ngStyle]=\"item.active ? dotActiveStyle : dotStyle\"></span>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { dotStyle: [{
-            type: Input
-        }], dotActiveStyle: [{
-            type: Input
-        }], dotColor: [{
-            type: Input
-        }], dotIndicator: [{
-            type: HostBinding,
-            args: ['class.dot-indicator']
-        }], page: [{
-            type: Input
-        }], pageCount: [{
-            type: Input
-        }] }); })();
 
 class CarouselModule {
 }
-CarouselModule.ɵfac = function CarouselModule_Factory(t) { return new (t || CarouselModule)(); };
-CarouselModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CarouselModule });
-CarouselModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CarouselModule, { declarations: function () { return [CarouselComponent, CarouselSlideComponent, DotIndicatorComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [CarouselComponent, CarouselSlideComponent, DotIndicatorComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CarouselModule, [{
-        type: NgModule,
-        args: [{
+CarouselModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 declarations: [CarouselComponent, CarouselSlideComponent, DotIndicatorComponent],
                 exports: [CarouselComponent, CarouselSlideComponent, DotIndicatorComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class CheckboxComponent {
     constructor() {
@@ -7626,27 +3469,15 @@ class CheckboxComponent {
         };
     }
 }
-CheckboxComponent.ɵfac = function CheckboxComponent_Factory(t) { return new (t || CheckboxComponent)(); };
-CheckboxComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CheckboxComponent, selectors: [["", "Checkbox", ""], ["", "nzm-checkbox", ""]], hostVars: 2, hostBindings: function CheckboxComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function CheckboxComponent_click_HostBindingHandler($event) { return ctx.onClick($event); });
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-checkbox-wrapper", ctx.checkBoxWrapper);
-    } }, inputs: { checked: "checked", disabled: "disabled", name: "name", value: "value" }, outputs: { onChange: "onChange" }, attrs: _c10, ngContentSelectors: _c0, decls: 4, vars: 11, consts: [[3, "ngClass"], ["type", "checkbox", 3, "checked", "disabled"]], template: function CheckboxComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "span", 0);
-        ɵngcc0.ɵɵelement(1, "input", 1);
-        ɵngcc0.ɵɵelement(2, "span");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵprojection(3);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngClass", ctx.classMap);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-input");
-        ɵngcc0.ɵɵproperty("checked", ctx.checked)("disabled", ctx.disabled);
-        ɵngcc0.ɵɵattribute("name", ctx.name)("value", ctx.value);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-inner");
-    } }, directives: [ɵngcc1.NgClass], encapsulation: 2, changeDetection: 0 });
+CheckboxComponent.decorators = [
+    { type: Component, args: [{
+                selector: '[Checkbox], [nzm-checkbox]',
+                template: "<span [ngClass]=\"classMap\">\n  <input\n    type=\"checkbox\"\n    class=\"{{ prefixCls }}-input\"\n    [attr.name]=\"name\"\n    [attr.value]=\"value\"\n    [checked]=\"checked\"\n    [disabled]=\"disabled\"\n  />\n  <span class=\"{{ prefixCls }}-inner\"></span>\n</span>\n<ng-content></ng-content>\n",
+                preserveWhitespaces: false,
+                encapsulation: ViewEncapsulation.None,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            },] }
+];
 CheckboxComponent.ctorParameters = () => [];
 CheckboxComponent.propDecorators = {
     name: [{ type: Input }],
@@ -7657,32 +3488,6 @@ CheckboxComponent.propDecorators = {
     checkBoxWrapper: [{ type: HostBinding, args: ['class.am-checkbox-wrapper',] }],
     onClick: [{ type: HostListener, args: ['click', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CheckboxComponent, [{
-        type: Component,
-        args: [{
-                selector: '[Checkbox], [nzm-checkbox]',
-                template: "<span [ngClass]=\"classMap\">\n  <input\n    type=\"checkbox\"\n    class=\"{{ prefixCls }}-input\"\n    [attr.name]=\"name\"\n    [attr.value]=\"value\"\n    [checked]=\"checked\"\n    [disabled]=\"disabled\"\n  />\n  <span class=\"{{ prefixCls }}-inner\"></span>\n</span>\n<ng-content></ng-content>\n",
-                preserveWhitespaces: false,
-                encapsulation: ViewEncapsulation.None,
-                changeDetection: ChangeDetectionStrategy.OnPush
-            }]
-    }], function () { return []; }, { onChange: [{
-            type: Output
-        }], checkBoxWrapper: [{
-            type: HostBinding,
-            args: ['class.am-checkbox-wrapper']
-        }], checked: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], onClick: [{
-            type: HostListener,
-            args: ['click', ['$event']]
-        }], name: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }] }); })();
 
 class AgreeItemComponent {
     constructor(cdr) {
@@ -7715,38 +3520,8 @@ class AgreeItemComponent {
         this._ngModelOnTouched = fn;
     }
 }
-AgreeItemComponent.ɵfac = function AgreeItemComponent_Factory(t) { return new (t || AgreeItemComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
-AgreeItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: AgreeItemComponent, selectors: [["AgreeItem"], ["nzm-agree-item"]], hostVars: 2, hostBindings: function AgreeItemComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-checkbox-agree", ctx.checkboxAgree);
-    } }, inputs: { disabled: "disabled", name: "name", value: "value" }, outputs: { onChange: "onChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => AgreeItemComponent),
-                multi: true
-            }
-        ])], ngContentSelectors: _c0, decls: 2, vars: 7, consts: [["Checkbox", "", 3, "name", "value", "checked", "disabled", "onChange"]], template: function AgreeItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "label", 0);
-        ɵngcc0.ɵɵlistener("onChange", function AgreeItemComponent_Template_label_onChange_0_listener($event) { return ctx.change($event); });
-        ɵngcc0.ɵɵprojection(1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-agree-label");
-        ɵngcc0.ɵɵproperty("name", ctx.name)("value", ctx.value)("checked", ctx.checked)("disabled", ctx.disabled);
-    } }, directives: [CheckboxComponent], encapsulation: 2, changeDetection: 0 });
-AgreeItemComponent.ctorParameters = () => [
-    { type: ChangeDetectorRef }
-];
-AgreeItemComponent.propDecorators = {
-    name: [{ type: Input }],
-    value: [{ type: Input }],
-    disabled: [{ type: Input }],
-    onChange: [{ type: Output }],
-    checkboxAgree: [{ type: HostBinding, args: ['class.am-checkbox-agree',] }]
-};
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AgreeItemComponent, [{
-        type: Component,
-        args: [{
+AgreeItemComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'AgreeItem, nzm-agree-item',
                 template: "<label\n  Checkbox\n  class=\"{{ prefixCls }}-agree-label\"\n  [name]=\"name\"\n  [value]=\"value\"\n  [checked]=\"checked\"\n  [disabled]=\"disabled\"\n  (onChange)=\"change($event)\"\n>\n  <ng-content></ng-content>\n</label>\n",
                 encapsulation: ViewEncapsulation.None,
@@ -7758,19 +3533,18 @@ AgreeItemComponent.propDecorators = {
                         multi: true
                     }
                 ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ChangeDetectorRef }]; }, { onChange: [{
-            type: Output
-        }], checkboxAgree: [{
-            type: HostBinding,
-            args: ['class.am-checkbox-agree']
-        }], disabled: [{
-            type: Input
-        }], name: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }] }); })();
+            },] }
+];
+AgreeItemComponent.ctorParameters = () => [
+    { type: ChangeDetectorRef }
+];
+AgreeItemComponent.propDecorators = {
+    name: [{ type: Input }],
+    value: [{ type: Input }],
+    disabled: [{ type: Input }],
+    onChange: [{ type: Output }],
+    checkboxAgree: [{ type: HostBinding, args: ['class.am-checkbox-agree',] }]
+};
 
 class CheckboxItemComponent {
     constructor(cdr) {
@@ -7808,24 +3582,21 @@ class CheckboxItemComponent {
         this._ngModelOnTouched = fn;
     }
 }
-CheckboxItemComponent.ɵfac = function CheckboxItemComponent_Factory(t) { return new (t || CheckboxItemComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
-CheckboxItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CheckboxItemComponent, selectors: [["CheckboxItem"], ["nzm-checkbox-item"]], inputs: { wrap: "wrap", error: "error", multipleLine: "multipleLine", platform: "platform", align: "align", disabled: "disabled", name: "name", value: "value", arrow: "arrow", extra: "extra" }, outputs: { onChange: "onChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => CheckboxItemComponent),
-                multi: true
-            }
-        ])], ngContentSelectors: _c0, decls: 4, vars: 10, consts: [[3, "className", "wrap", "align", "arrow", "error", "extra", "thumb", "disabled", "platform", "multipleLine", "onClick"], ["checkbox", ""], ["Checkbox", "", 3, "name", "value", "checked", "disabled", "onChange"]], template: function CheckboxItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "ListItem", 0);
-        ɵngcc0.ɵɵlistener("onClick", function CheckboxItemComponent_Template_ListItem_onClick_0_listener($event) { return ctx.onCheckboxClick($event); });
-        ɵngcc0.ɵɵprojection(1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(2, CheckboxItemComponent_ng_template_2_Template, 1, 4, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        const _r0 = ɵngcc0.ɵɵreference(3);
-        ɵngcc0.ɵɵproperty("className", "am-checkbox-item " + (ctx.disabled ? "am-checkbox-item-disabled" : ""))("wrap", ctx.wrap)("align", ctx.align)("arrow", ctx.arrow)("error", ctx.error)("extra", ctx.extra)("thumb", _r0)("disabled", ctx.disabled)("platform", ctx.platform)("multipleLine", ctx.multipleLine);
-    } }, directives: [ListItemComponent, CheckboxComponent], encapsulation: 2, changeDetection: 0 });
+CheckboxItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CheckboxItem, nzm-checkbox-item',
+                template: "<ListItem\n  [className]=\"'am-checkbox-item ' + (disabled ? 'am-checkbox-item-disabled' : '')\"\n  [wrap]=\"wrap\"\n  [align]=\"align\"\n  [arrow]=\"arrow\"\n  [error]=\"error\"\n  [extra]=\"extra\"\n  [thumb]=\"checkbox\"\n  [disabled]=\"disabled\"\n  [platform]=\"platform\"\n  [multipleLine]=\"multipleLine\"\n  (onClick)=\"onCheckboxClick($event)\"\n>\n  <ng-content></ng-content>\n</ListItem>\n<ng-template #checkbox>\n  <label Checkbox [name]=\"name\" [value]=\"value\" [checked]=\"checked\" [disabled]=\"disabled\" (onChange)=\"change($event)\">\n  </label>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None,
+                changeDetection: ChangeDetectionStrategy.OnPush,
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => CheckboxItemComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 CheckboxItemComponent.ctorParameters = () => [
     { type: ChangeDetectorRef }
 ];
@@ -7842,59 +3613,16 @@ CheckboxItemComponent.propDecorators = {
     disabled: [{ type: Input }],
     onChange: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CheckboxItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CheckboxItem, nzm-checkbox-item',
-                template: "<ListItem\n  [className]=\"'am-checkbox-item ' + (disabled ? 'am-checkbox-item-disabled' : '')\"\n  [wrap]=\"wrap\"\n  [align]=\"align\"\n  [arrow]=\"arrow\"\n  [error]=\"error\"\n  [extra]=\"extra\"\n  [thumb]=\"checkbox\"\n  [disabled]=\"disabled\"\n  [platform]=\"platform\"\n  [multipleLine]=\"multipleLine\"\n  (onClick)=\"onCheckboxClick($event)\"\n>\n  <ng-content></ng-content>\n</ListItem>\n<ng-template #checkbox>\n  <label Checkbox [name]=\"name\" [value]=\"value\" [checked]=\"checked\" [disabled]=\"disabled\" (onChange)=\"change($event)\">\n  </label>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None,
-                changeDetection: ChangeDetectionStrategy.OnPush,
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => CheckboxItemComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ChangeDetectorRef }]; }, { wrap: [{
-            type: Input
-        }], error: [{
-            type: Input
-        }], multipleLine: [{
-            type: Input
-        }], platform: [{
-            type: Input
-        }], align: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], disabled: [{
-            type: Input
-        }], name: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], arrow: [{
-            type: Input
-        }], extra: [{
-            type: Input
-        }] }); })();
 
 class CheckboxModule {
 }
-CheckboxModule.ɵfac = function CheckboxModule_Factory(t) { return new (t || CheckboxModule)(); };
-CheckboxModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CheckboxModule });
-CheckboxModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, ListModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CheckboxModule, { declarations: function () { return [CheckboxComponent, CheckboxItemComponent, AgreeItemComponent]; }, imports: function () { return [CommonModule, FormsModule, ListModule]; }, exports: function () { return [CheckboxComponent, CheckboxItemComponent, AgreeItemComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CheckboxModule, [{
-        type: NgModule,
-        args: [{
+CheckboxModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, FormsModule, ListModule],
                 declarations: [CheckboxComponent, CheckboxItemComponent, AgreeItemComponent],
                 exports: [CheckboxComponent, CheckboxItemComponent, AgreeItemComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class RadioComponent {
     constructor() {
@@ -7947,27 +3675,15 @@ class RadioComponent {
         };
     }
 }
-RadioComponent.ɵfac = function RadioComponent_Factory(t) { return new (t || RadioComponent)(); };
-RadioComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: RadioComponent, selectors: [["", "Radio", ""], ["", "nzm-radio", ""]], hostVars: 2, hostBindings: function RadioComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function RadioComponent_click_HostBindingHandler($event) { return ctx.onClick($event); });
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-radio-wrapper", ctx.radioWrapper);
-    } }, inputs: { checked: "checked", disabled: "disabled", name: "name", value: "value" }, outputs: { onChange: "onChange" }, attrs: _c11, ngContentSelectors: _c0, decls: 4, vars: 11, consts: [[3, "ngClass"], ["type", "radio", 3, "checked", "disabled"]], template: function RadioComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "span", 0);
-        ɵngcc0.ɵɵelement(1, "input", 1);
-        ɵngcc0.ɵɵelement(2, "span");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵprojection(3);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngClass", ctx.classMap);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-input");
-        ɵngcc0.ɵɵproperty("checked", ctx.checked)("disabled", ctx.disabled);
-        ɵngcc0.ɵɵattribute("name", ctx.name)("value", ctx.value);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-inner");
-    } }, directives: [ɵngcc1.NgClass], encapsulation: 2, changeDetection: 0 });
+RadioComponent.decorators = [
+    { type: Component, args: [{
+                selector: '[Radio], [nzm-radio]',
+                template: "<span [ngClass]=\"classMap\">\n  <input\n    type=\"radio\"\n    class=\"{{ prefixCls }}-input\"\n    [attr.name]=\"name\"\n    [attr.value]=\"value\"\n    [checked]=\"checked\"\n    [disabled]=\"disabled\"\n  />\n  <span class=\"{{ prefixCls }}-inner\"></span>\n</span>\n<ng-content></ng-content>\n",
+                preserveWhitespaces: false,
+                encapsulation: ViewEncapsulation.None,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            },] }
+];
 RadioComponent.ctorParameters = () => [];
 RadioComponent.propDecorators = {
     name: [{ type: Input }],
@@ -7978,32 +3694,6 @@ RadioComponent.propDecorators = {
     radioWrapper: [{ type: HostBinding, args: ['class.am-radio-wrapper',] }],
     onClick: [{ type: HostListener, args: ['click', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RadioComponent, [{
-        type: Component,
-        args: [{
-                selector: '[Radio], [nzm-radio]',
-                template: "<span [ngClass]=\"classMap\">\n  <input\n    type=\"radio\"\n    class=\"{{ prefixCls }}-input\"\n    [attr.name]=\"name\"\n    [attr.value]=\"value\"\n    [checked]=\"checked\"\n    [disabled]=\"disabled\"\n  />\n  <span class=\"{{ prefixCls }}-inner\"></span>\n</span>\n<ng-content></ng-content>\n",
-                preserveWhitespaces: false,
-                encapsulation: ViewEncapsulation.None,
-                changeDetection: ChangeDetectionStrategy.OnPush
-            }]
-    }], function () { return []; }, { onChange: [{
-            type: Output
-        }], radioWrapper: [{
-            type: HostBinding,
-            args: ['class.am-radio-wrapper']
-        }], checked: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], onClick: [{
-            type: HostListener,
-            args: ['click', ['$event']]
-        }], name: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }] }); })();
 
 class RadioItemComponent {
     constructor(cdr) {
@@ -8042,18 +3732,14 @@ class RadioItemComponent {
         this.cdr.markForCheck();
     }
 }
-RadioItemComponent.ɵfac = function RadioItemComponent_Factory(t) { return new (t || RadioItemComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
-RadioItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: RadioItemComponent, selectors: [["RadioItem"], ["nzm-radio-item"]], inputs: { wrap: "wrap", error: "error", multipleLine: "multipleLine", platform: "platform", align: "align", disabled: "disabled", name: "name", value: "value", arrow: "arrow", thumb: "thumb" }, ngContentSelectors: _c0, decls: 4, vars: 10, consts: [[3, "wrap", "align", "arrow", "error", "extra", "thumb", "disabled", "platform", "multipleLine", "className", "onClick"], ["radio", ""], ["Radio", "", 3, "name", "value", "checked", "disabled", "onChange"]], template: function RadioItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "ListItem", 0);
-        ɵngcc0.ɵɵlistener("onClick", function RadioItemComponent_Template_ListItem_onClick_0_listener($event) { return ctx.onRadioItemClick($event); });
-        ɵngcc0.ɵɵprojection(1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(2, RadioItemComponent_ng_template_2_Template, 1, 4, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        const _r0 = ɵngcc0.ɵɵreference(3);
-        ɵngcc0.ɵɵproperty("wrap", ctx.wrap)("align", ctx.align)("arrow", ctx.arrow)("error", ctx.error)("extra", _r0)("thumb", ctx.thumb)("disabled", ctx.disabled)("platform", ctx.platform)("multipleLine", ctx.multipleLine)("className", "am-radio-item " + (ctx.disabled ? "am-radio-item-disabled" : ""));
-    } }, directives: [ListItemComponent, RadioComponent], encapsulation: 2, changeDetection: 0 });
+RadioItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'RadioItem, nzm-radio-item',
+                template: "<ListItem\n  [wrap]=\"wrap\"\n  [align]=\"align\"\n  [arrow]=\"arrow\"\n  [error]=\"error\"\n  [extra]=\"radio\"\n  [thumb]=\"thumb\"\n  [disabled]=\"disabled\"\n  [platform]=\"platform\"\n  [multipleLine]=\"multipleLine\"\n  [className]=\"'am-radio-item ' + (disabled ? 'am-radio-item-disabled' : '')\"\n  (onClick)=\"onRadioItemClick($event)\"\n>\n  <ng-content></ng-content>\n</ListItem>\n<ng-template #radio>\n  <label\n    Radio\n    [name]=\"name\"\n    [value]=\"value\"\n    [checked]=\"checked\"\n    [disabled]=\"disabled\"\n    (onChange)=\"change($event)\"\n  ></label>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            },] }
+];
 RadioItemComponent.ctorParameters = () => [
     { type: ChangeDetectorRef }
 ];
@@ -8069,35 +3755,6 @@ RadioItemComponent.propDecorators = {
     align: [{ type: Input }],
     disabled: [{ type: Input }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RadioItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'RadioItem, nzm-radio-item',
-                template: "<ListItem\n  [wrap]=\"wrap\"\n  [align]=\"align\"\n  [arrow]=\"arrow\"\n  [error]=\"error\"\n  [extra]=\"radio\"\n  [thumb]=\"thumb\"\n  [disabled]=\"disabled\"\n  [platform]=\"platform\"\n  [multipleLine]=\"multipleLine\"\n  [className]=\"'am-radio-item ' + (disabled ? 'am-radio-item-disabled' : '')\"\n  (onClick)=\"onRadioItemClick($event)\"\n>\n  <ng-content></ng-content>\n</ListItem>\n<ng-template #radio>\n  <label\n    Radio\n    [name]=\"name\"\n    [value]=\"value\"\n    [checked]=\"checked\"\n    [disabled]=\"disabled\"\n    (onChange)=\"change($event)\"\n  ></label>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None,
-                changeDetection: ChangeDetectionStrategy.OnPush
-            }]
-    }], function () { return [{ type: ɵngcc0.ChangeDetectorRef }]; }, { wrap: [{
-            type: Input
-        }], error: [{
-            type: Input
-        }], multipleLine: [{
-            type: Input
-        }], platform: [{
-            type: Input
-        }], align: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], name: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], arrow: [{
-            type: Input
-        }], thumb: [{
-            type: Input
-        }] }); })();
 
 const RADIO_ITEM_GROUP_VALUE_ACCESSOR = {
     provide: NG_VALUE_ACCESSOR,
@@ -8160,16 +3817,15 @@ class RadioItemGroupComponent {
         this._ngModelOnTouched = fn;
     }
 }
-RadioItemGroupComponent.ɵfac = function RadioItemGroupComponent_Factory(t) { return new (t || RadioItemGroupComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
-RadioItemGroupComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: RadioItemGroupComponent, selectors: [["RadioItemGroup"], ["nzm-radio-item-group"]], contentQueries: function RadioItemGroupComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, RadioItemComponent, 0);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.radioItems = _t);
-    } }, outputs: { onChange: "onChange" }, features: [ɵngcc0.ɵɵProvidersFeature([RADIO_ITEM_GROUP_VALUE_ACCESSOR])], ngContentSelectors: _c0, decls: 1, vars: 0, template: function RadioItemGroupComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2, changeDetection: 0 });
+RadioItemGroupComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'RadioItemGroup, nzm-radio-item-group',
+                template: "<ng-content></ng-content>\n",
+                encapsulation: ViewEncapsulation.None,
+                changeDetection: ChangeDetectionStrategy.OnPush,
+                providers: [RADIO_ITEM_GROUP_VALUE_ACCESSOR]
+            },] }
+];
 RadioItemGroupComponent.ctorParameters = () => [
     { type: ChangeDetectorRef }
 ];
@@ -8177,36 +3833,16 @@ RadioItemGroupComponent.propDecorators = {
     radioItems: [{ type: ContentChildren, args: [forwardRef(() => RadioItemComponent),] }],
     onChange: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RadioItemGroupComponent, [{
-        type: Component,
-        args: [{
-                selector: 'RadioItemGroup, nzm-radio-item-group',
-                template: "<ng-content></ng-content>\n",
-                encapsulation: ViewEncapsulation.None,
-                changeDetection: ChangeDetectionStrategy.OnPush,
-                providers: [RADIO_ITEM_GROUP_VALUE_ACCESSOR]
-            }]
-    }], function () { return [{ type: ɵngcc0.ChangeDetectorRef }]; }, { onChange: [{
-            type: Output
-        }], radioItems: [{
-            type: ContentChildren,
-            args: [forwardRef(() => RadioItemComponent)]
-        }] }); })();
 
 class RadioModule {
 }
-RadioModule.ɵfac = function RadioModule_Factory(t) { return new (t || RadioModule)(); };
-RadioModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: RadioModule });
-RadioModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, ListModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(RadioModule, { declarations: function () { return [RadioComponent, RadioItemComponent, RadioItemGroupComponent]; }, imports: function () { return [CommonModule, FormsModule, ListModule]; }, exports: function () { return [RadioComponent, RadioItemComponent, RadioItemGroupComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RadioModule, [{
-        type: NgModule,
-        args: [{
+RadioModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, FormsModule, ListModule],
                 declarations: [RadioComponent, RadioItemComponent, RadioItemGroupComponent],
                 exports: [RadioComponent, RadioItemComponent, RadioItemGroupComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ProgressComponent {
     constructor() {
@@ -8245,17 +3881,13 @@ class ProgressComponent {
         return this._exceedance;
     }
 }
-ProgressComponent.ɵfac = function ProgressComponent_Factory(t) { return new (t || ProgressComponent)(); };
-ProgressComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ProgressComponent, selectors: [["Progress"], ["nzm-progress"]], hostVars: 12, hostBindings: function ProgressComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵattribute("max", ctx.max)("value", ctx.value);
-        ɵngcc0.ɵɵclassProp("am-progress", ctx.amProgress)("am-progress-outer", ctx.outer)("am-progress-fixed-outer", ctx.fixOuter)("am-progress-hide-outer", ctx.hideOuter)("am-progress-exceedance", ctx.exceedance);
-    } }, inputs: { unfilled: "unfilled", position: "position", barStyle: "barStyle", percent: "percent" }, decls: 1, vars: 6, consts: [[3, "ngStyle"]], template: function ProgressComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelement(0, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-bar");
-        ɵngcc0.ɵɵstyleProp("width", ctx.percent <= 100 ? ctx.percent : 10000 / ctx.percent, "%");
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.barStyle);
-    } }, directives: [ɵngcc1.NgStyle], encapsulation: 2 });
+ProgressComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Progress, nzm-progress',
+                template: "<div\n  class=\"{{ prefixCls }}-bar\"\n  [ngStyle]=\"barStyle\"\n  [style.width.%]=\"percent <= 100 ? percent : 10000 / percent\"\n></div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 ProgressComponent.ctorParameters = () => [];
 ProgressComponent.propDecorators = {
     unfilled: [{ type: Input }],
@@ -8270,58 +3902,16 @@ ProgressComponent.propDecorators = {
     hideOuter: [{ type: HostBinding, args: ['class.am-progress-hide-outer',] }],
     exceedance: [{ type: HostBinding, args: ['class.am-progress-exceedance',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ProgressComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Progress, nzm-progress',
-                template: "<div\n  class=\"{{ prefixCls }}-bar\"\n  [ngStyle]=\"barStyle\"\n  [style.width.%]=\"percent <= 100 ? percent : 10000 / percent\"\n></div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { unfilled: [{
-            type: Input
-        }], position: [{
-            type: Input
-        }], barStyle: [{
-            type: Input
-        }], max: [{
-            type: HostBinding,
-            args: ['attr.max']
-        }], amProgress: [{
-            type: HostBinding,
-            args: ['class.am-progress']
-        }], outer: [{
-            type: HostBinding,
-            args: ['class.am-progress-outer']
-        }], percent: [{
-            type: Input
-        }], value: [{
-            type: HostBinding,
-            args: ['attr.value']
-        }], fixOuter: [{
-            type: HostBinding,
-            args: ['class.am-progress-fixed-outer']
-        }], hideOuter: [{
-            type: HostBinding,
-            args: ['class.am-progress-hide-outer']
-        }], exceedance: [{
-            type: HostBinding,
-            args: ['class.am-progress-exceedance']
-        }] }); })();
 
 class ProgressModule {
 }
-ProgressModule.ɵfac = function ProgressModule_Factory(t) { return new (t || ProgressModule)(); };
-ProgressModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ProgressModule });
-ProgressModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ProgressModule, { declarations: function () { return [ProgressComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [ProgressComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ProgressModule, [{
-        type: NgModule,
-        args: [{
+ProgressModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 declarations: [ProgressComponent],
                 exports: [ProgressComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class AccordionService {
     constructor() {
@@ -8332,11 +3922,9 @@ class AccordionService {
         this.component = component;
     }
 }
-AccordionService.ɵfac = function AccordionService_Factory(t) { return new (t || AccordionService)(); };
-AccordionService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: AccordionService, factory: AccordionService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AccordionService, [{
-        type: Injectable
-    }], function () { return []; }, null); })();
+AccordionService.decorators = [
+    { type: Injectable }
+];
 
 class AccordionGroupComponent {
     constructor(_accordionService, _cdr) {
@@ -8391,43 +3979,25 @@ class AccordionGroupComponent {
         }
     }
 }
-AccordionGroupComponent.ɵfac = function AccordionGroupComponent_Factory(t) { return new (t || AccordionGroupComponent)(ɵngcc0.ɵɵdirectiveInject(AccordionService), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
-AccordionGroupComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: AccordionGroupComponent, selectors: [["AccordionPanel"], ["nzm-accordion-panel"]], hostVars: 6, hostBindings: function AccordionGroupComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-accordion-item", ctx.amItem)("am-accordion-item-active", ctx.isActive)("addon", ctx.addon);
-    } }, inputs: { isOpened: "isOpened", disabled: "disabled", key: "key", header: "header" }, outputs: { onOpen: "onOpen", onClose: "onClose", onChange: "onChange" }, ngContentSelectors: _c0, decls: 6, vars: 8, consts: [["role", "tab", "data-scale", "true", 1, "am-accordion-header", 3, "click"], [1, "arrow"], [4, "ngIf"], ["role", "tabpanel", 1, "am-accordion-content", 3, "ngClass"], ["class", "am-accordion-content-box", 4, "ngIf"], [3, "ngTemplateOutlet"], [1, "am-accordion-content-box"]], template: function AccordionGroupComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function AccordionGroupComponent_Template_div_click_0_listener() { return ctx.checkAndToggle(); });
-        ɵngcc0.ɵɵelement(1, "i", 1);
-        ɵngcc0.ɵɵtemplate(2, AccordionGroupComponent_ng_container_2_Template, 2, 1, "ng-container", 2);
-        ɵngcc0.ɵɵtemplate(3, AccordionGroupComponent_3_Template, 1, 1, undefined, 2);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(4, "div", 3);
-        ɵngcc0.ɵɵlistener("@slide.done", function AccordionGroupComponent_Template_div_animation_slide_done_4_listener($event) { return ctx.slideAnimationDoen($event); });
-        ɵngcc0.ɵɵtemplate(5, AccordionGroupComponent_div_5_Template, 2, 0, "div", 4);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵattribute("aria-expanded", ctx.isOpened);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isTemplateRef(ctx.header));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isTemplateRef(ctx.header));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(6, _c12, ctx.isOpened))("@slide", ctx.slide);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isShowChild);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgTemplateOutlet], encapsulation: 2, data: { animation: [
-            trigger('slide', [
-                state('up', style({ height: 0 })),
-                state('down', style({ height: '*' })),
-                transition('down => up', [animate(200, style({ height: 0 }))]),
-                transition('up => down', [
-                    animate(200, style({
-                        height: '*'
-                    }))
-                ])
-            ])
-        ] } });
+AccordionGroupComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'AccordionPanel, nzm-accordion-panel',
+                template: "<div\n  role=\"tab\"\n  class=\"am-accordion-header\"\n  data-scale=\"true\"\n  [attr.aria-expanded]=\"isOpened\"\n  (click)=\"checkAndToggle()\"\n>\n  <i class=\"arrow\"></i>\n  <ng-container *ngIf=\"!isTemplateRef(header)\">{{ header }}</ng-container>\n  <ng-template *ngIf=\"isTemplateRef(header)\" [ngTemplateOutlet]=\"header\"></ng-template>\n</div>\n<div\n  role=\"tabpanel\"\n  class=\"am-accordion-content\"\n  [ngClass]=\"{ 'am-accordion-content-active': isOpened }\"\n  [@slide]=\"slide\"\n  (@slide.done)=\"slideAnimationDoen($event)\"\n>\n  <div *ngIf=\"isShowChild\" class=\"am-accordion-content-box\">\n    <ng-content></ng-content>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None,
+                animations: [
+                    trigger('slide', [
+                        state('up', style({ height: 0 })),
+                        state('down', style({ height: '*' })),
+                        transition('down => up', [animate(200, style({ height: 0 }))]),
+                        transition('up => down', [
+                            animate(200, style({
+                                height: '*'
+                            }))
+                        ])
+                    ])
+                ]
+            },] }
+];
 AccordionGroupComponent.ctorParameters = () => [
     { type: AccordionService },
     { type: ChangeDetectorRef }
@@ -8444,49 +4014,6 @@ AccordionGroupComponent.propDecorators = {
     isActive: [{ type: HostBinding, args: ['class.am-accordion-item-active',] }],
     addon: [{ type: HostBinding, args: ['class.addon',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AccordionGroupComponent, [{
-        type: Component,
-        args: [{
-                selector: 'AccordionPanel, nzm-accordion-panel',
-                template: "<div\n  role=\"tab\"\n  class=\"am-accordion-header\"\n  data-scale=\"true\"\n  [attr.aria-expanded]=\"isOpened\"\n  (click)=\"checkAndToggle()\"\n>\n  <i class=\"arrow\"></i>\n  <ng-container *ngIf=\"!isTemplateRef(header)\">{{ header }}</ng-container>\n  <ng-template *ngIf=\"isTemplateRef(header)\" [ngTemplateOutlet]=\"header\"></ng-template>\n</div>\n<div\n  role=\"tabpanel\"\n  class=\"am-accordion-content\"\n  [ngClass]=\"{ 'am-accordion-content-active': isOpened }\"\n  [@slide]=\"slide\"\n  (@slide.done)=\"slideAnimationDoen($event)\"\n>\n  <div *ngIf=\"isShowChild\" class=\"am-accordion-content-box\">\n    <ng-content></ng-content>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None,
-                animations: [
-                    trigger('slide', [
-                        state('up', style({ height: 0 })),
-                        state('down', style({ height: '*' })),
-                        transition('down => up', [animate(200, style({ height: 0 }))]),
-                        transition('up => down', [
-                            animate(200, style({
-                                height: '*'
-                            }))
-                        ])
-                    ])
-                ]
-            }]
-    }], function () { return [{ type: AccordionService }, { type: ɵngcc0.ChangeDetectorRef }]; }, { isOpened: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], onOpen: [{
-            type: Output
-        }], onClose: [{
-            type: Output
-        }], onChange: [{
-            type: Output
-        }], amItem: [{
-            type: HostBinding,
-            args: ['class.am-accordion-item']
-        }], isActive: [{
-            type: HostBinding,
-            args: ['class.am-accordion-item-active']
-        }], addon: [{
-            type: HostBinding,
-            args: ['class.addon']
-        }], key: [{
-            type: Input
-        }], header: [{
-            type: Input
-        }] }); })();
 
 class AccordionComponent {
     constructor(_accordionService) {
@@ -8594,20 +4121,13 @@ class AccordionComponent {
         }
     }
 }
-AccordionComponent.ɵfac = function AccordionComponent_Factory(t) { return new (t || AccordionComponent)(ɵngcc0.ɵɵdirectiveInject(AccordionService)); };
-AccordionComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: AccordionComponent, selectors: [["Accordion"], ["nzm-accordion"]], contentQueries: function AccordionComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, AccordionGroupComponent, 0);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.groups = _t);
-    } }, hostVars: 2, hostBindings: function AccordionComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function AccordionComponent_click_HostBindingHandler() { return ctx.click(); });
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-accordion", ctx.amAccordion);
-    } }, inputs: { expandAll: "expandAll", openAnimation: "openAnimation", accordion: "accordion", activeKey: "activeKey", defaultActiveKey: "defaultActiveKey" }, outputs: { onChange: "onChange" }, features: [ɵngcc0.ɵɵProvidersFeature([AccordionService]), ɵngcc0.ɵɵNgOnChangesFeature], ngContentSelectors: _c0, decls: 1, vars: 0, template: function AccordionComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
+AccordionComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Accordion, nzm-accordion',
+                template: "<ng-content></ng-content>\n",
+                providers: [AccordionService]
+            },] }
+];
 AccordionComponent.ctorParameters = () => [
     { type: AccordionService }
 ];
@@ -8622,50 +4142,16 @@ AccordionComponent.propDecorators = {
     amAccordion: [{ type: HostBinding, args: ['class.am-accordion',] }],
     click: [{ type: HostListener, args: ['click',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AccordionComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Accordion, nzm-accordion',
-                template: "<ng-content></ng-content>\n",
-                providers: [AccordionService]
-            }]
-    }], function () { return [{ type: AccordionService }]; }, { expandAll: [{
-            type: Input
-        }], openAnimation: [{
-            type: Input
-        }], accordion: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], amAccordion: [{
-            type: HostBinding,
-            args: ['class.am-accordion']
-        }], click: [{
-            type: HostListener,
-            args: ['click']
-        }], groups: [{
-            type: ContentChildren,
-            args: [forwardRef(() => AccordionGroupComponent)]
-        }], activeKey: [{
-            type: Input
-        }], defaultActiveKey: [{
-            type: Input
-        }] }); })();
 
 class AccordionModule {
 }
-AccordionModule.ɵfac = function AccordionModule_Factory(t) { return new (t || AccordionModule)(); };
-AccordionModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: AccordionModule });
-AccordionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, WhiteSpaceModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(AccordionModule, { declarations: function () { return [AccordionComponent, AccordionGroupComponent]; }, imports: function () { return [CommonModule, WhiteSpaceModule]; }, exports: function () { return [AccordionComponent, AccordionGroupComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AccordionModule, [{
-        type: NgModule,
-        args: [{
+AccordionModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, WhiteSpaceModule],
                 declarations: [AccordionComponent, AccordionGroupComponent],
                 exports: [AccordionComponent, AccordionGroupComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 function insertKeyFrame(rule, className) {
     const style = document.createElement('style');
@@ -8793,15 +4279,13 @@ class NoticeBarComponent {
         deleteKeyFrame('notice_bar_animation_cls');
     }
 }
-NoticeBarComponent.ɵfac = function NoticeBarComponent_Factory(t) { return new (t || NoticeBarComponent)(ɵngcc0.ɵɵdirectiveInject(IconHandler)); };
-NoticeBarComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: NoticeBarComponent, selectors: [["NoticeBar"], ["nzm-notice-bar"]], inputs: { option: "option" }, outputs: { onClick: "onClick" }, features: [ɵngcc0.ɵɵProvidersFeature([IconHandler])], decls: 7, vars: 1, consts: [["role", "alert", "class", "am-notice-bar", 3, "click", 4, "ngIf"], ["voice", ""], ["cross", ""], ["right", ""], ["role", "alert", 1, "am-notice-bar", 3, "click"], ["class", "am-notice-bar-icon", 4, "ngIf"], [1, "am-notice-bar-content"], [1, "marquee"], [3, "ngClass", "ngStyle"], ["role", "button", "class", "am-notice-bar-operation", 4, "ngIf"], [1, "am-notice-bar-icon"], [3, "ngTemplateOutlet"], ["role", "button", 1, "am-notice-bar-operation"], [4, "ngIf"], [3, "type", "size"]], template: function NoticeBarComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, NoticeBarComponent_div_0_Template, 10, 6, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, NoticeBarComponent_ng_template_1_Template, 1, 2, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(3, NoticeBarComponent_ng_template_3_Template, 1, 2, "ng-template", null, 2, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(5, NoticeBarComponent_ng_template_5_Template, 1, 2, "ng-template", null, 3, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.visiable);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc1.NgTemplateOutlet, IconComponent], encapsulation: 2 });
+NoticeBarComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'NoticeBar, nzm-notice-bar',
+                template: "<div role=\"alert\" *ngIf=\"visiable\" class=\"am-notice-bar\" (click)=\"click()\">\n  <div *ngIf=\"option.icon !== null\" class=\"am-notice-bar-icon\">\n    <ng-template [ngTemplateOutlet]=\"option.icon || voice\"></ng-template>\n  </div>\n  <div class=\"am-notice-bar-content\">\n    <div class=\"marquee\">\n      <div [ngClass]=\"marqueeScroll\" [ngStyle]=\"style\">\n        <span>{{ option.content }}</span>\n        <span>{{ option.content }}</span>\n      </div>\n    </div>\n  </div>\n  <div role=\"button\" *ngIf=\"option.mode && option.action !== null\" class=\"am-notice-bar-operation\">\n    <ng-template *ngIf=\"option.mode === 'closable'\" [ngTemplateOutlet]=\"option.action || cross\"></ng-template>\n    <ng-template *ngIf=\"option.mode === 'link'\" [ngTemplateOutlet]=\"option.action || right\"></ng-template>\n  </div>\n</div>\n\n<ng-template #voice>\n  <Icon [type]=\"'voice'\" [size]=\"'xxs'\"></Icon>\n</ng-template>\n<ng-template #cross>\n  <Icon [type]=\"'cross'\" [size]=\"'md'\"></Icon>\n</ng-template>\n<ng-template #right>\n  <Icon [type]=\"'right'\" [size]=\"'md'\"></Icon>\n</ng-template>\n",
+                providers: [IconHandler]
+            },] }
+];
 NoticeBarComponent.ctorParameters = () => [
     { type: IconHandler }
 ];
@@ -8809,34 +4293,17 @@ NoticeBarComponent.propDecorators = {
     option: [{ type: Input }],
     onClick: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NoticeBarComponent, [{
-        type: Component,
-        args: [{
-                selector: 'NoticeBar, nzm-notice-bar',
-                template: "<div role=\"alert\" *ngIf=\"visiable\" class=\"am-notice-bar\" (click)=\"click()\">\n  <div *ngIf=\"option.icon !== null\" class=\"am-notice-bar-icon\">\n    <ng-template [ngTemplateOutlet]=\"option.icon || voice\"></ng-template>\n  </div>\n  <div class=\"am-notice-bar-content\">\n    <div class=\"marquee\">\n      <div [ngClass]=\"marqueeScroll\" [ngStyle]=\"style\">\n        <span>{{ option.content }}</span>\n        <span>{{ option.content }}</span>\n      </div>\n    </div>\n  </div>\n  <div role=\"button\" *ngIf=\"option.mode && option.action !== null\" class=\"am-notice-bar-operation\">\n    <ng-template *ngIf=\"option.mode === 'closable'\" [ngTemplateOutlet]=\"option.action || cross\"></ng-template>\n    <ng-template *ngIf=\"option.mode === 'link'\" [ngTemplateOutlet]=\"option.action || right\"></ng-template>\n  </div>\n</div>\n\n<ng-template #voice>\n  <Icon [type]=\"'voice'\" [size]=\"'xxs'\"></Icon>\n</ng-template>\n<ng-template #cross>\n  <Icon [type]=\"'cross'\" [size]=\"'md'\"></Icon>\n</ng-template>\n<ng-template #right>\n  <Icon [type]=\"'right'\" [size]=\"'md'\"></Icon>\n</ng-template>\n",
-                providers: [IconHandler]
-            }]
-    }], function () { return [{ type: IconHandler }]; }, { onClick: [{
-            type: Output
-        }], option: [{
-            type: Input
-        }] }); })();
 
 class NoticeBarModule {
 }
-NoticeBarModule.ɵfac = function NoticeBarModule_Factory(t) { return new (t || NoticeBarModule)(); };
-NoticeBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NoticeBarModule });
-NoticeBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[IconModule, CommonModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NoticeBarModule, { declarations: function () { return [NoticeBarComponent]; }, imports: function () { return [IconModule, CommonModule, FormsModule]; }, exports: function () { return [NoticeBarComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NoticeBarModule, [{
-        type: NgModule,
-        args: [{
+NoticeBarModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [IconModule, CommonModule, FormsModule],
                 declarations: [NoticeBarComponent],
                 exports: [NoticeBarComponent],
                 providers: []
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ToastComponent {
     constructor(_zone) {
@@ -8872,44 +4339,8 @@ class ToastComponent {
         });
     }
 }
-ToastComponent.ɵfac = function ToastComponent_Factory(t) { return new (t || ToastComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.NgZone)); };
-ToastComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ToastComponent, selectors: [["Toast"]], hostVars: 18, hostBindings: function ToastComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-toast", true)("am-toast-mask", ctx.mask)("am-toast-mask-top", ctx.mask && ctx.position === "top")("am-toast-mask-middle", ctx.mask && ctx.position === "middle")("am-toast-mask-bottom", ctx.mask && ctx.position === "bottom")("am-toast-nomask", !ctx.mask)("am-toast-nomask-top", !ctx.mask && ctx.position === "top")("am-toast-nomask-middle", !ctx.mask && ctx.position === "middle")("am-toast-nomask-bottom", !ctx.mask && ctx.position === "bottom");
-    } }, inputs: { mask: "mask", position: "position", content: "content", iconType: "iconType" }, decls: 6, vars: 16, consts: [["role", "alert", "aria-live", "assertive", 3, "class", 4, "ngIf"], ["role", "alert", "aria-live", "assertive"], [3, "type", "size"], [3, "class", 4, "ngIf"], [4, "ngIf"], [3, "ngTemplateOutlet"]], template: function ToastComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵelementStart(1, "div");
-        ɵngcc0.ɵɵtemplate(2, ToastComponent_div_2_Template, 3, 7, "div", 0);
-        ɵngcc0.ɵɵtemplate(3, ToastComponent_div_3_Template, 3, 5, "div", 0);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(4, "a");
-        ɵngcc0.ɵɵelement(5, "span");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate3("", ctx.prefixCls, "-notice ", ctx.prefixCls, "-notice-closable ", ctx.transitionName, "");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-notice-content");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.iconType);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.iconType);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-notice-close");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-notice-close-x");
-    } }, directives: [ɵngcc1.NgIf, IconComponent, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
-ToastComponent.ctorParameters = () => [
-    { type: NgZone }
-];
-ToastComponent.propDecorators = {
-    mask: [{ type: Input }],
-    content: [{ type: Input }],
-    iconType: [{ type: Input }],
-    position: [{ type: Input }]
-};
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ToastComponent, [{
-        type: Component,
-        args: [{
+ToastComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'Toast',
                 encapsulation: ViewEncapsulation.None,
                 template: "<div class=\"{{ prefixCls }}-notice {{ prefixCls }}-notice-closable {{ transitionName }}\">\n  <div class=\"{{ prefixCls }}-notice-content\">\n    <div role=\"alert\" *ngIf=\"iconType\" class=\"{{ prefixCls }}-text {{ prefixCls }}-text-icon\" aria-live=\"assertive\">\n      <Icon [type]=\"iconType\" [size]=\"'lg'\"></Icon>\n      <div *ngIf=\"isContentString\" class=\"{{ prefixCls }}-text-info\">{{ content }}</div>\n    </div>\n    <div *ngIf=\"!iconType\" class=\"{{ prefixCls }}-text\" role=\"alert\" aria-live=\"assertive\">\n      <div *ngIf=\"isContentString\" class=\"{{ prefixCls }}-text-info\">{{ content }}</div>\n      <ng-template *ngIf=\"!isContentString\" [ngTemplateOutlet]=\"content\"></ng-template>\n    </div>\n  </div>\n  <a class=\"{{ prefixCls }}-notice-close\">\n    <span class=\"{{ prefixCls }}-notice-close-x\"></span>\n  </a>\n</div>\n",
@@ -8924,24 +4355,23 @@ ToastComponent.propDecorators = {
                     '[class.am-toast-nomask-middle]': `!mask && position === 'middle'`,
                     '[class.am-toast-nomask-bottom]': `!mask && position === 'bottom'`
                 }
-            }]
-    }], function () { return [{ type: ɵngcc0.NgZone }]; }, { mask: [{
-            type: Input
-        }], position: [{
-            type: Input
-        }], content: [{
-            type: Input
-        }], iconType: [{
-            type: Input
-        }] }); })();
+            },] }
+];
+ToastComponent.ctorParameters = () => [
+    { type: NgZone }
+];
+ToastComponent.propDecorators = {
+    mask: [{ type: Input }],
+    content: [{ type: Input }],
+    iconType: [{ type: Input }],
+    position: [{ type: Input }]
+};
 
 class ToastOptions {
 }
-ToastOptions.ɵfac = function ToastOptions_Factory(t) { return new (t || ToastOptions)(); };
-ToastOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ToastOptions, factory: ToastOptions.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ToastOptions, [{
-        type: Injectable
-    }], null, null); })();
+ToastOptions.decorators = [
+    { type: Injectable }
+];
 
 class ToastService {
     constructor(_appRef, _cfr, _zone) {
@@ -9068,39 +4498,28 @@ class ToastService {
         }
     }
 }
-ToastService.ɵfac = function ToastService_Factory(t) { return new (t || ToastService)(ɵngcc0.ɵɵinject(ɵngcc0.ApplicationRef), ɵngcc0.ɵɵinject(ɵngcc0.ComponentFactoryResolver), ɵngcc0.ɵɵinject(ɵngcc0.NgZone)); };
-ToastService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ToastService, factory: ToastService.ɵfac, providedIn: 'root' });
-ToastService.decorators = [ { type: Injectable }
+ToastService.decorators = [
+    { type: Injectable, args: [{
+                providedIn: 'root'
+            },] },
+    { type: Injectable }
 ];
 ToastService.ctorParameters = () => [
     { type: ApplicationRef },
     { type: ComponentFactoryResolver },
     { type: NgZone }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ToastService, [{
-        type: Injectable,
-        args: [{
-                providedIn: 'root'
-            }]
-    }, {
-        type: Injectable
-    }], function () { return [{ type: ɵngcc0.ApplicationRef }, { type: ɵngcc0.ComponentFactoryResolver }, { type: ɵngcc0.NgZone }]; }, null); })();
 
 class ToastModule {
 }
-ToastModule.ɵfac = function ToastModule_Factory(t) { return new (t || ToastModule)(); };
-ToastModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ToastModule });
-ToastModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [ToastService], imports: [[CommonModule, IconModule, WingBlankModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ToastModule, { declarations: function () { return [ToastComponent]; }, imports: function () { return [CommonModule, IconModule, WingBlankModule]; }, exports: function () { return [ToastComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ToastModule, [{
-        type: NgModule,
-        args: [{
+ToastModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule, WingBlankModule],
                 exports: [ToastComponent],
                 declarations: [ToastComponent],
                 providers: [ToastService]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ModalBaseOptions {
     constructor() {
@@ -9128,27 +4547,19 @@ class ModalOptions extends ModalBaseOptions {
         this.maskTransitionName = 'am-fade';
     }
 }
-ModalOptions.ɵfac = function ModalOptions_Factory(t) { return ɵModalOptions_BaseFactory(t || ModalOptions); };
-ModalOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ModalOptions, factory: ModalOptions.ɵfac });
-const ɵModalOptions_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(ModalOptions);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ModalOptions, [{
-        type: Injectable
-    }], null, null); })();
+ModalOptions.decorators = [
+    { type: Injectable }
+];
 class AlertOptions extends ModalBaseOptions {
 }
-AlertOptions.ɵfac = function AlertOptions_Factory(t) { return ɵAlertOptions_BaseFactory(t || AlertOptions); };
-AlertOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: AlertOptions, factory: AlertOptions.ɵfac });
-const ɵAlertOptions_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(AlertOptions);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AlertOptions, [{
-        type: Injectable
-    }], null, null); })();
+AlertOptions.decorators = [
+    { type: Injectable }
+];
 class Action {
 }
-Action.ɵfac = function Action_Factory(t) { return new (t || Action)(); };
-Action.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: Action, factory: Action.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(Action, [{
-        type: Injectable
-    }], null, null); })();
+Action.decorators = [
+    { type: Injectable }
+];
 
 class ModalRef {
 }
@@ -9392,25 +4803,21 @@ class ModalComponent extends ModalRef {
         this.close();
     }
 }
-ModalComponent.ɵfac = function ModalComponent_Factory(t) { return new (t || ModalComponent)(ɵngcc0.ɵɵdirectiveInject(ModalOptions), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-ModalComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ModalComponent, selectors: [["Modal"]], hostBindings: function ModalComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("mouseup", function ModalComponent_mouseup_HostBindingHandler($event) { return ctx.panend($event); })("touchend", function ModalComponent_touchend_HostBindingHandler($event) { return ctx.panend($event); });
-    } }, inputs: { title: "title", closable: "closable", maskClosable: "maskClosable", popup: "popup", animationType: "animationType", transparent: "transparent", footer: "footer", platform: "platform", className: "className", wrapClassName: "wrapClassName", actions: "actions", defaultValue: "defaultValue", type: "type", placeholders: "placeholders", operation: "operation" }, outputs: { onClose: "onClose", afterOpenEmitter: "afterOpenEmitter", afterCloseEmitter: "afterCloseEmitter" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            ModalOptions,
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => ModalComponent),
-                multi: true
-            }
-        ]), ɵngcc0.ɵɵInheritDefinitionFeature], ngContentSelectors: _c0, decls: 7, vars: 1, consts: [[4, "ngIf"], ["promptPassword", ""], ["promptSecure", ""], ["promptDefault", ""], ["role", "dialog", 3, "ngClass"], ["role", "document", 3, "ngClass"], ["style", "width: 100%; height: 21px;", 4, "ngIf"], [3, "class", 4, "ngIf"], ["role", "group", 3, "ngClass"], ["Button", "", "role", "button", 3, "className", "ngStyle", "onClick", 4, "ngFor", "ngForOf"], [2, "width", "100%", "height", "21px"], ["role", "close"], [3, "ngTemplateOutlet"], ["Button", "", "role", "button", 3, "className", "ngStyle", "onClick"], ["autofocus", "", 3, "type", "placeholder", "ngModel", "ngModelChange"], ["inputElement", ""], [3, "className"], [3, "type", "placeholder", "ngModel", "ngModelChange"]], template: function ModalComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, ModalComponent_div_0_Template, 17, 31, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ModalComponent_ng_template_1_Template, 7, 13, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(3, ModalComponent_ng_template_3_Template, 4, 5, "ng-template", null, 2, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(5, ModalComponent_ng_template_5_Template, 4, 5, "ng-template", null, 3, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.option.visible);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgForOf, ɵngcc1.NgTemplateOutlet, ButtonComponent, ɵngcc1.NgStyle, ɵngcc2.DefaultValueAccessor, ɵngcc2.NgControlStatus, ɵngcc2.NgModel], encapsulation: 2 });
+ModalComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Modal',
+                template: "<div *ngIf=\"option.visible\">\n  <div class=\"{{ option.prefixCls }}-mask {{ maskTransitionName }}\"></div>\n  <div role=\"dialog\" class=\"{{ option.prefixCls }}-wrap {{ transitionName }}\" [ngClass]=\"wrapCls\">\n    <div role=\"document\" class=\"{{ option.prefixCls }}\" [ngClass]=\"cls\">\n      <div class=\"{{ option.prefixCls }}-content\">\n        <div *ngIf=\"option.closable\" style=\"width: 100%; height: 21px;\">\n          <div role=\"close\" class=\"{{ option.prefixCls }}-close\">\n            <span role=\"close\" class=\"{{ option.prefixCls }}-close-x\"></span>\n          </div>\n        </div>\n        <div *ngIf=\"!isNoTitle(option.title)\" class=\"{{ option.prefixCls }}-header\">\n          <div *ngIf=\"!isTemplateRef(option.title)\" class=\"{{ option.prefixCls }}-title\">{{ option.title }}</div>\n          <ng-template *ngIf=\"isTemplateRef(option.title)\" [ngTemplateOutlet]=\"option.title\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-body\">\n          <ng-content></ng-content>\n          <div *ngIf=\"!isTemplateRef(option.message)\" class=\"{{ option.prefixCls }}-alert-content\">\n            {{ option.message }}\n          </div>\n          <ng-template *ngIf=\"isTemplateRef(option.message)\" [ngTemplateOutlet]=\"option.message\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'default'\" [ngTemplateOutlet]=\"promptDefault\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'secure-text'\" [ngTemplateOutlet]=\"promptSecure\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'login-password'\" [ngTemplateOutlet]=\"promptPassword\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-footer\">\n          <div [ngClass]=\"btnGroupClass\" role=\"group\">\n            <div\n              Button\n              role=\"button\"\n              *ngFor=\"let button of option.footer\"\n              [className]=\"'am-modal-button'\"\n              [ngStyle]=\"button.style\"\n              (onClick)=\"button.onPress()\"\n            >\n              {{ button.text }}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<ng-template #promptPassword>\n  <div class=\"{{ option.prefixCls }}-input-container\">\n    <div class=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[1] || ''\"\n        [(ngModel)]=\"option.defaultValue[1]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptSecure>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptDefault>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [
+                    ModalOptions,
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => ModalComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 ModalComponent.ctorParameters = () => [
     { type: ModalOptions },
     { type: ElementRef }
@@ -9436,64 +4843,6 @@ ModalComponent.propDecorators = {
     afterCloseEmitter: [{ type: Output }],
     panend: [{ type: HostListener, args: ['mouseup', ['$event'],] }, { type: HostListener, args: ['touchend', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ModalComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Modal',
-                template: "<div *ngIf=\"option.visible\">\n  <div class=\"{{ option.prefixCls }}-mask {{ maskTransitionName }}\"></div>\n  <div role=\"dialog\" class=\"{{ option.prefixCls }}-wrap {{ transitionName }}\" [ngClass]=\"wrapCls\">\n    <div role=\"document\" class=\"{{ option.prefixCls }}\" [ngClass]=\"cls\">\n      <div class=\"{{ option.prefixCls }}-content\">\n        <div *ngIf=\"option.closable\" style=\"width: 100%; height: 21px;\">\n          <div role=\"close\" class=\"{{ option.prefixCls }}-close\">\n            <span role=\"close\" class=\"{{ option.prefixCls }}-close-x\"></span>\n          </div>\n        </div>\n        <div *ngIf=\"!isNoTitle(option.title)\" class=\"{{ option.prefixCls }}-header\">\n          <div *ngIf=\"!isTemplateRef(option.title)\" class=\"{{ option.prefixCls }}-title\">{{ option.title }}</div>\n          <ng-template *ngIf=\"isTemplateRef(option.title)\" [ngTemplateOutlet]=\"option.title\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-body\">\n          <ng-content></ng-content>\n          <div *ngIf=\"!isTemplateRef(option.message)\" class=\"{{ option.prefixCls }}-alert-content\">\n            {{ option.message }}\n          </div>\n          <ng-template *ngIf=\"isTemplateRef(option.message)\" [ngTemplateOutlet]=\"option.message\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'default'\" [ngTemplateOutlet]=\"promptDefault\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'secure-text'\" [ngTemplateOutlet]=\"promptSecure\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'login-password'\" [ngTemplateOutlet]=\"promptPassword\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-footer\">\n          <div [ngClass]=\"btnGroupClass\" role=\"group\">\n            <div\n              Button\n              role=\"button\"\n              *ngFor=\"let button of option.footer\"\n              [className]=\"'am-modal-button'\"\n              [ngStyle]=\"button.style\"\n              (onClick)=\"button.onPress()\"\n            >\n              {{ button.text }}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<ng-template #promptPassword>\n  <div class=\"{{ option.prefixCls }}-input-container\">\n    <div class=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[1] || ''\"\n        [(ngModel)]=\"option.defaultValue[1]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptSecure>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptDefault>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [
-                    ModalOptions,
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => ModalComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ModalOptions }, { type: ɵngcc0.ElementRef }]; }, { onClose: [{
-            type: Output
-        }], afterOpenEmitter: [{
-            type: Output
-        }], afterCloseEmitter: [{
-            type: Output
-        }], title: [{
-            type: Input
-        }], closable: [{
-            type: Input
-        }], maskClosable: [{
-            type: Input
-        }], popup: [{
-            type: Input
-        }], animationType: [{
-            type: Input
-        }], transparent: [{
-            type: Input
-        }], footer: [{
-            type: Input
-        }], platform: [{
-            type: Input
-        }], className: [{
-            type: Input
-        }], wrapClassName: [{
-            type: Input
-        }], actions: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], type: [{
-            type: Input
-        }], placeholders: [{
-            type: Input
-        }], operation: [{
-            type: Input
-        }], panend: [{
-            type: HostListener,
-            args: ['mouseup', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }] }); })();
 class ModalServiceComponent extends ModalComponent {
     constructor(option, elementRef) {
         super(option, elementRef);
@@ -9502,28 +4851,17 @@ class ModalServiceComponent extends ModalComponent {
         this.setTransitionName(this.option.visible);
     }
 }
-ModalServiceComponent.ɵfac = function ModalServiceComponent_Factory(t) { return new (t || ModalServiceComponent)(ɵngcc0.ɵɵdirectiveInject(ModalOptions), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-ModalServiceComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ModalServiceComponent, selectors: [["ModalService"]], features: [ɵngcc0.ɵɵInheritDefinitionFeature], ngContentSelectors: _c0, decls: 7, vars: 1, consts: [[4, "ngIf"], ["promptPassword", ""], ["promptSecure", ""], ["promptDefault", ""], ["role", "dialog", 3, "ngClass"], ["role", "document", 3, "ngClass"], ["style", "width: 100%; height: 21px;", 4, "ngIf"], [3, "class", 4, "ngIf"], ["role", "group", 3, "ngClass"], ["Button", "", "role", "button", 3, "className", "ngStyle", "onClick", 4, "ngFor", "ngForOf"], [2, "width", "100%", "height", "21px"], ["role", "close"], [3, "ngTemplateOutlet"], ["Button", "", "role", "button", 3, "className", "ngStyle", "onClick"], ["autofocus", "", 3, "type", "placeholder", "ngModel", "ngModelChange"], ["inputElement", ""], [3, "className"], [3, "type", "placeholder", "ngModel", "ngModelChange"]], template: function ModalServiceComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, ModalServiceComponent_div_0_Template, 17, 31, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ModalServiceComponent_ng_template_1_Template, 7, 13, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(3, ModalServiceComponent_ng_template_3_Template, 4, 5, "ng-template", null, 2, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(5, ModalServiceComponent_ng_template_5_Template, 4, 5, "ng-template", null, 3, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.option.visible);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgForOf, ɵngcc1.NgTemplateOutlet, ButtonComponent, ɵngcc1.NgStyle, ɵngcc2.DefaultValueAccessor, ɵngcc2.NgControlStatus, ɵngcc2.NgModel], encapsulation: 2 });
+ModalServiceComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'ModalService',
+                template: "<div *ngIf=\"option.visible\">\n  <div class=\"{{ option.prefixCls }}-mask {{ maskTransitionName }}\"></div>\n  <div role=\"dialog\" class=\"{{ option.prefixCls }}-wrap {{ transitionName }}\" [ngClass]=\"wrapCls\">\n    <div role=\"document\" class=\"{{ option.prefixCls }}\" [ngClass]=\"cls\">\n      <div class=\"{{ option.prefixCls }}-content\">\n        <div *ngIf=\"option.closable\" style=\"width: 100%; height: 21px;\">\n          <div role=\"close\" class=\"{{ option.prefixCls }}-close\">\n            <span role=\"close\" class=\"{{ option.prefixCls }}-close-x\"></span>\n          </div>\n        </div>\n        <div *ngIf=\"!isNoTitle(option.title)\" class=\"{{ option.prefixCls }}-header\">\n          <div *ngIf=\"!isTemplateRef(option.title)\" class=\"{{ option.prefixCls }}-title\">{{ option.title }}</div>\n          <ng-template *ngIf=\"isTemplateRef(option.title)\" [ngTemplateOutlet]=\"option.title\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-body\">\n          <ng-content></ng-content>\n          <div *ngIf=\"!isTemplateRef(option.message)\" class=\"{{ option.prefixCls }}-alert-content\">\n            {{ option.message }}\n          </div>\n          <ng-template *ngIf=\"isTemplateRef(option.message)\" [ngTemplateOutlet]=\"option.message\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'default'\" [ngTemplateOutlet]=\"promptDefault\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'secure-text'\" [ngTemplateOutlet]=\"promptSecure\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'login-password'\" [ngTemplateOutlet]=\"promptPassword\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-footer\">\n          <div [ngClass]=\"btnGroupClass\" role=\"group\">\n            <div\n              Button\n              role=\"button\"\n              *ngFor=\"let button of option.footer\"\n              [className]=\"'am-modal-button'\"\n              [ngStyle]=\"button.style\"\n              (onClick)=\"button.onPress()\"\n            >\n              {{ button.text }}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<ng-template #promptPassword>\n  <div class=\"{{ option.prefixCls }}-input-container\">\n    <div class=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[1] || ''\"\n        [(ngModel)]=\"option.defaultValue[1]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptSecure>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptDefault>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 ModalServiceComponent.ctorParameters = () => [
     { type: ModalOptions },
     { type: ElementRef }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ModalServiceComponent, [{
-        type: Component,
-        args: [{
-                selector: 'ModalService',
-                template: "<div *ngIf=\"option.visible\">\n  <div class=\"{{ option.prefixCls }}-mask {{ maskTransitionName }}\"></div>\n  <div role=\"dialog\" class=\"{{ option.prefixCls }}-wrap {{ transitionName }}\" [ngClass]=\"wrapCls\">\n    <div role=\"document\" class=\"{{ option.prefixCls }}\" [ngClass]=\"cls\">\n      <div class=\"{{ option.prefixCls }}-content\">\n        <div *ngIf=\"option.closable\" style=\"width: 100%; height: 21px;\">\n          <div role=\"close\" class=\"{{ option.prefixCls }}-close\">\n            <span role=\"close\" class=\"{{ option.prefixCls }}-close-x\"></span>\n          </div>\n        </div>\n        <div *ngIf=\"!isNoTitle(option.title)\" class=\"{{ option.prefixCls }}-header\">\n          <div *ngIf=\"!isTemplateRef(option.title)\" class=\"{{ option.prefixCls }}-title\">{{ option.title }}</div>\n          <ng-template *ngIf=\"isTemplateRef(option.title)\" [ngTemplateOutlet]=\"option.title\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-body\">\n          <ng-content></ng-content>\n          <div *ngIf=\"!isTemplateRef(option.message)\" class=\"{{ option.prefixCls }}-alert-content\">\n            {{ option.message }}\n          </div>\n          <ng-template *ngIf=\"isTemplateRef(option.message)\" [ngTemplateOutlet]=\"option.message\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'default'\" [ngTemplateOutlet]=\"promptDefault\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'secure-text'\" [ngTemplateOutlet]=\"promptSecure\"></ng-template>\n          <ng-template *ngIf=\"option.type === 'login-password'\" [ngTemplateOutlet]=\"promptPassword\"></ng-template>\n        </div>\n        <div class=\"{{ option.prefixCls }}-footer\">\n          <div [ngClass]=\"btnGroupClass\" role=\"group\">\n            <div\n              Button\n              role=\"button\"\n              *ngFor=\"let button of option.footer\"\n              [className]=\"'am-modal-button'\"\n              [ngStyle]=\"button.style\"\n              (onClick)=\"button.onPress()\"\n            >\n              {{ button.text }}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<ng-template #promptPassword>\n  <div class=\"{{ option.prefixCls }}-input-container\">\n    <div class=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[1] || ''\"\n        [(ngModel)]=\"option.defaultValue[1]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptSecure>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'password'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('password', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n<ng-template #promptDefault>\n  <div className=\"{{ option.prefixCls }}-input-container\">\n    <div className=\"{{ option.prefixCls }}-input\">\n      <input\n        #inputElement\n        autofocus\n        [type]=\"'text'\"\n        [placeholder]=\"option.placeholders[0] || ''\"\n        [(ngModel)]=\"option.defaultValue[0]\"\n        (ngModelChange)=\"inputChange('text', $event)\"\n      />\n    </div>\n  </div>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ModalOptions }, { type: ɵngcc0.ElementRef }]; }, null); })();
 
 class PopupService {
     constructor(_overlay) {
@@ -9554,21 +4892,15 @@ class PopupService {
         }
     }
 }
-PopupService.ɵfac = function PopupService_Factory(t) { return new (t || PopupService)(ɵngcc0.ɵɵinject(ɵngcc3.Overlay)); };
-PopupService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: PopupService, factory: PopupService.ɵfac, providedIn: 'root' });
-PopupService.decorators = [ { type: Injectable }
+PopupService.decorators = [
+    { type: Injectable, args: [{
+                providedIn: 'root'
+            },] },
+    { type: Injectable }
 ];
 PopupService.ctorParameters = () => [
     { type: Overlay }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopupService, [{
-        type: Injectable,
-        args: [{
-                providedIn: 'root'
-            }]
-    }, {
-        type: Injectable
-    }], function () { return [{ type: ɵngcc3.Overlay }]; }, null); })();
 
 class ModalService extends PopupService {
     constructor() {
@@ -9745,19 +5077,12 @@ class ModalService extends PopupService {
         this.hidePopup();
     }
 }
-ModalService.ɵfac = function ModalService_Factory(t) { return ɵModalService_BaseFactory(t || ModalService); };
-ModalService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ModalService, factory: ModalService.ɵfac, providedIn: 'root' });
-ModalService.decorators = [ { type: Injectable }
-];
-const ɵModalService_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(ModalService);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ModalService, [{
-        type: Injectable,
-        args: [{
+ModalService.decorators = [
+    { type: Injectable, args: [{
                 providedIn: 'root'
-            }]
-    }, {
-        type: Injectable
-    }], null, null); })();
+            },] },
+    { type: Injectable }
+];
 function getFooter(actions) {
     let action = actions ? actions : [{ text: 'OK', onPress: () => { } }];
     return action.map((button) => {
@@ -9779,25 +5104,8 @@ function getFooter(actions) {
 
 class ModalModule {
 }
-ModalModule.ɵfac = function ModalModule_Factory(t) { return new (t || ModalModule)(); };
-ModalModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ModalModule });
-ModalModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [AlertOptions, ModalService, PopupService], imports: [[
-            CommonModule,
-            ListModule,
-            WingBlankModule,
-            WhiteSpaceModule,
-            ButtonModule,
-            InputItemModule,
-            FormsModule,
-            ReactiveFormsModule,
-            OverlayModule
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ModalModule, { declarations: function () { return [ModalComponent, ModalServiceComponent]; }, imports: function () { return [CommonModule, ListModule, WingBlankModule, WhiteSpaceModule, ButtonModule, InputItemModule, FormsModule,
-        ReactiveFormsModule,
-        OverlayModule]; }, exports: function () { return [ModalComponent, ModalServiceComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ModalModule, [{
-        type: NgModule,
-        args: [{
+ModalModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [
                     CommonModule,
                     ListModule,
@@ -9812,8 +5120,8 @@ ModalModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [AlertOptions, Modal
                 exports: [ModalComponent, ModalServiceComponent],
                 declarations: [ModalComponent, ModalServiceComponent],
                 providers: [AlertOptions, ModalService, PopupService]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class PopoverOptions {
     constructor() {
@@ -9825,20 +5133,15 @@ class PopoverOptions {
         this.autoClose = true;
     }
 }
-PopoverOptions.ɵfac = function PopoverOptions_Factory(t) { return new (t || PopoverOptions)(); };
-PopoverOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: PopoverOptions, factory: PopoverOptions.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverOptions, [{
-        type: Injectable
-    }], function () { return []; }, null); })();
+PopoverOptions.decorators = [
+    { type: Injectable }
+];
 
 class PopoverComponentOptions extends PopoverOptions {
 }
-PopoverComponentOptions.ɵfac = function PopoverComponentOptions_Factory(t) { return ɵPopoverComponentOptions_BaseFactory(t || PopoverComponentOptions); };
-PopoverComponentOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: PopoverComponentOptions, factory: PopoverComponentOptions.ɵfac });
-const ɵPopoverComponentOptions_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(PopoverComponentOptions);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverComponentOptions, [{
-        type: Injectable
-    }], null, null); })();
+PopoverComponentOptions.decorators = [
+    { type: Injectable }
+];
 
 class PopoverComponent {
     constructor(options) {
@@ -9867,50 +5170,16 @@ class PopoverComponent {
         this.options.onAfterViewInit();
     }
 }
-PopoverComponent.ɵfac = function PopoverComponent_Factory(t) { return new (t || PopoverComponent)(ɵngcc0.ɵɵdirectiveInject(PopoverComponentOptions)); };
-PopoverComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: PopoverComponent, selectors: [["Popover"]], ngContentSelectors: _c0, decls: 8, vars: 16, consts: [[3, "ngClass", "click"], [2, "color", "currentcolor", 3, "ngClass"], [3, "class", 4, "ngIf"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"]], template: function PopoverComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-        ɵngcc0.ɵɵelementStart(1, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function PopoverComponent_Template_div_click_1_listener() { return ctx.options.hidePopover(); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵelementStart(3, "div");
-        ɵngcc0.ɵɵtemplate(4, PopoverComponent_div_4_Template, 1, 3, "div", 2);
-        ɵngcc0.ɵɵelementStart(5, "div");
-        ɵngcc0.ɵɵelementStart(6, "div");
-        ɵngcc0.ɵɵtemplate(7, PopoverComponent_ng_template_7_Template, 0, 0, "ng-template", 3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.maskCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.popoverCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-content");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.options.showArrow);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-inner");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-inner-wrapper");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx.options.overlay)("ngTemplateOutletContext", ɵngcc0.ɵɵpureFunction1(14, _c13, ctx.options));
-    } }, directives: [ɵngcc1.NgClass, ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
-PopoverComponent.ctorParameters = () => [
-    { type: PopoverComponentOptions }
-];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverComponent, [{
-        type: Component,
-        args: [{
+PopoverComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'Popover',
                 template: "<ng-content></ng-content>\n<div [ngClass]=\"maskCls\" (click)=\"options.hidePopover()\"></div>\n<div [ngClass]=\"popoverCls\" style=\"color: currentcolor;\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <div *ngIf=\"options.showArrow\" class=\"{{ defaultProps.prefixCls }}-arrow\"></div>\n    <div class=\"{{ defaultProps.prefixCls }}-inner\">\n      <div class=\"{{ defaultProps.prefixCls }}-inner-wrapper\">\n        <ng-template [ngTemplateOutlet]=\"options.overlay\" [ngTemplateOutletContext]=\"{ options: options }\">\n        </ng-template>\n      </div>\n    </div>\n  </div>\n</div>\n",
                 encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: PopoverComponentOptions }]; }, null); })();
+            },] }
+];
+PopoverComponent.ctorParameters = () => [
+    { type: PopoverComponentOptions }
+];
 
 function getAllStyles(element) {
     return window.getComputedStyle(element);
@@ -10189,10 +5458,12 @@ class PopoverDirective {
         }
     }
 }
-PopoverDirective.ɵfac = function PopoverDirective_Factory(t) { return new (t || PopoverDirective)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ViewContainerRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(PopoverOptions), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ComponentFactoryResolver), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-PopoverDirective.ɵdir = ɵngcc0.ɵɵdefineDirective({ type: PopoverDirective, selectors: [["", "Popover", ""], ["", "nzm-popover", ""]], hostBindings: function PopoverDirective_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function PopoverDirective_click_HostBindingHandler() { return ctx.togglePopover(); });
-    } }, inputs: { mask: "mask", showArrow: "showArrow", visible: "visible", placement: "placement", overlay: "overlay", appendToBody: "appendToBody", className: "className", autoClose: "autoClose" }, outputs: { onVisibleChange: "onVisibleChange", onSelect: "onSelect" }, features: [ɵngcc0.ɵɵProvidersFeature([PopoverOptions]), ɵngcc0.ɵɵNgOnChangesFeature] });
+PopoverDirective.decorators = [
+    { type: Directive, args: [{
+                selector: '[Popover], [nzm-popover]',
+                providers: [PopoverOptions]
+            },] }
+];
 PopoverDirective.ctorParameters = () => [
     { type: ViewContainerRef },
     { type: ElementRef },
@@ -10213,36 +5484,6 @@ PopoverDirective.propDecorators = {
     autoClose: [{ type: Input }],
     togglePopover: [{ type: HostListener, args: ['click',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverDirective, [{
-        type: Directive,
-        args: [{
-                selector: '[Popover], [nzm-popover]',
-                providers: [PopoverOptions]
-            }]
-    }], function () { return [{ type: ɵngcc0.ViewContainerRef }, { type: ɵngcc0.ElementRef }, { type: PopoverOptions }, { type: ɵngcc0.ComponentFactoryResolver }, { type: ɵngcc0.Renderer2 }]; }, { onVisibleChange: [{
-            type: Output
-        }], onSelect: [{
-            type: Output
-        }], togglePopover: [{
-            type: HostListener,
-            args: ['click']
-        }], mask: [{
-            type: Input
-        }], showArrow: [{
-            type: Input
-        }], visible: [{
-            type: Input
-        }], placement: [{
-            type: Input
-        }], overlay: [{
-            type: Input
-        }], appendToBody: [{
-            type: Input
-        }], className: [{
-            type: Input
-        }], autoClose: [{
-            type: Input
-        }] }); })();
 
 function PopoverOptionsFactory(userOptions) {
     const options = new PopoverOptions();
@@ -10251,18 +5492,13 @@ function PopoverOptionsFactory(userOptions) {
 }
 class PopoverModule {
 }
-PopoverModule.ɵfac = function PopoverModule_Factory(t) { return new (t || PopoverModule)(); };
-PopoverModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PopoverModule });
-PopoverModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PopoverModule, { declarations: function () { return [PopoverDirective, PopoverComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [PopoverDirective, PopoverComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverModule, [{
-        type: NgModule,
-        args: [{
+PopoverModule.decorators = [
+    { type: NgModule, args: [{
                 declarations: [PopoverDirective, PopoverComponent],
                 imports: [CommonModule],
                 exports: [PopoverDirective, PopoverComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class NavBarComponent {
     constructor() {
@@ -10323,41 +5559,12 @@ class NavBarComponent {
         this.onLeftClick.emit(event);
     }
 }
-NavBarComponent.ɵfac = function NavBarComponent_Factory(t) { return new (t || NavBarComponent)(); };
-NavBarComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: NavBarComponent, selectors: [["Navbar"], ["nzm-nav-bar"]], hostVars: 6, hostBindings: function NavBarComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-navbar", ctx.amNavbar)("am-navbar-light", ctx.amNavbarLight)("am-navbar-dark", ctx.amNavbardark);
-    } }, inputs: { mode: "mode", icon: "icon", leftContent: "leftContent", rightContent: "rightContent" }, outputs: { onLeftClick: "onLeftClick" }, ngContentSelectors: _c0, decls: 9, vars: 14, consts: [["role", "button", 3, "click"], [4, "ngIf"], ["aria-hidden", "true", 3, "class", 4, "ngIf"], [3, "ngTemplateOutlet"], ["aria-hidden", "true"], [3, "type", 4, "ngIf"], [3, "type"]], template: function NavBarComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function NavBarComponent_Template_div_click_0_listener($event) { return ctx.click($event); });
-        ɵngcc0.ɵɵtemplate(1, NavBarComponent_1_Template, 1, 1, undefined, 1);
-        ɵngcc0.ɵɵtemplate(2, NavBarComponent_span_2_Template, 3, 5, "span", 2);
-        ɵngcc0.ɵɵtext(3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(4, "div");
-        ɵngcc0.ɵɵprojection(5);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(6, "div");
-        ɵngcc0.ɵɵtext(7);
-        ɵngcc0.ɵɵtemplate(8, NavBarComponent_8_Template, 1, 1, undefined, 1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-left");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isLeftContentString);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.icon);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.isLeftContentString ? ctx.leftContent : null, "\n");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-title");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-right");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.isRightContentString ? ctx.rightContent : null, " ");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isRightContentString);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet, IconComponent], encapsulation: 2 });
+NavBarComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Navbar, nzm-nav-bar',
+                template: "<div role=\"button\" class=\"{{ defaultProps.prefixCls }}-left\" (click)=\"click($event)\">\n  <ng-template *ngIf=\"!isLeftContentString\" [ngTemplateOutlet]=\"leftContent\"></ng-template>\n  <span *ngIf=\"icon\" class=\"{{ defaultProps.prefixCls }}-left-icon\" aria-hidden=\"true\">\n    <Icon *ngIf=\"isIconString\" [type]=\"icon\"></Icon>\n    <ng-template *ngIf=\"!isIconString\" [ngTemplateOutlet]=\"icon\"></ng-template>\n  </span>\n  {{ isLeftContentString ? leftContent : null }}\n</div>\n<div class=\"{{ defaultProps.prefixCls }}-title\">\n  <ng-content></ng-content>\n</div>\n<div class=\"{{ defaultProps.prefixCls }}-right\">\n  {{ isRightContentString ? rightContent : null }}\n  <ng-template *ngIf=\"!isRightContentString\" [ngTemplateOutlet]=\"rightContent\"></ng-template>\n</div>\n"
+            },] }
+];
 NavBarComponent.ctorParameters = () => [];
 NavBarComponent.propDecorators = {
     mode: [{ type: Input }],
@@ -10369,47 +5576,16 @@ NavBarComponent.propDecorators = {
     amNavbarLight: [{ type: HostBinding, args: ['class.am-navbar-light',] }],
     amNavbardark: [{ type: HostBinding, args: ['class.am-navbar-dark',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NavBarComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Navbar, nzm-nav-bar',
-                template: "<div role=\"button\" class=\"{{ defaultProps.prefixCls }}-left\" (click)=\"click($event)\">\n  <ng-template *ngIf=\"!isLeftContentString\" [ngTemplateOutlet]=\"leftContent\"></ng-template>\n  <span *ngIf=\"icon\" class=\"{{ defaultProps.prefixCls }}-left-icon\" aria-hidden=\"true\">\n    <Icon *ngIf=\"isIconString\" [type]=\"icon\"></Icon>\n    <ng-template *ngIf=\"!isIconString\" [ngTemplateOutlet]=\"icon\"></ng-template>\n  </span>\n  {{ isLeftContentString ? leftContent : null }}\n</div>\n<div class=\"{{ defaultProps.prefixCls }}-title\">\n  <ng-content></ng-content>\n</div>\n<div class=\"{{ defaultProps.prefixCls }}-right\">\n  {{ isRightContentString ? rightContent : null }}\n  <ng-template *ngIf=\"!isRightContentString\" [ngTemplateOutlet]=\"rightContent\"></ng-template>\n</div>\n"
-            }]
-    }], function () { return []; }, { onLeftClick: [{
-            type: Output
-        }], amNavbar: [{
-            type: HostBinding,
-            args: ['class.am-navbar']
-        }], mode: [{
-            type: Input
-        }], amNavbarLight: [{
-            type: HostBinding,
-            args: ['class.am-navbar-light']
-        }], amNavbardark: [{
-            type: HostBinding,
-            args: ['class.am-navbar-dark']
-        }], icon: [{
-            type: Input
-        }], leftContent: [{
-            type: Input
-        }], rightContent: [{
-            type: Input
-        }] }); })();
 
 class NavBarModule {
 }
-NavBarModule.ɵfac = function NavBarModule_Factory(t) { return new (t || NavBarModule)(); };
-NavBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NavBarModule });
-NavBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NavBarModule, { declarations: function () { return [NavBarComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [NavBarComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NavBarModule, [{
-        type: NgModule,
-        args: [{
+NavBarModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule],
                 exports: [NavBarComponent],
                 declarations: [NavBarComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 // 同步自 'rmc-calendar/lib/locale/en_US';
 var Calendar = {
@@ -10909,36 +6085,13 @@ class CalendarDatePickerComponent extends CalendarDatePickerBaseComponent {
         this.setPanel(this.panelDom.nativeElement);
     }
 }
-CalendarDatePickerComponent.ɵfac = function CalendarDatePickerComponent_Factory(t) { return new (t || CalendarDatePickerComponent)(); };
-CalendarDatePickerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarDatePickerComponent, selectors: [["CalendarDatePicker"], ["nzm-calendar-date-picker"]], viewQuery: function CalendarDatePickerComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c14, 3);
-        ɵngcc0.ɵɵviewQuery(_c15, 3);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.layoutDom = _t.first);
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.panelDom = _t.first);
-    } }, hostVars: 4, hostBindings: function CalendarDatePickerComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-calendar", ctx.amCalendar)("date-picker", ctx.datePicker);
-    } }, inputs: { onCellClick: "onCellClick", endDate: "endDate", startDate: "startDate", propsData: "propsData", onSelectHasDisableDate: "onSelectHasDisableDate", onLayout: "onLayout" }, features: [ɵngcc0.ɵɵInheritDefinitionFeature], decls: 8, vars: 6, consts: [[3, "locale"], [1, "wrapper", 2, "overflow-x", "hidden", "overflow-y", "visible", "-webkit-overflow-scrolling", "touch", 3, "touchstart", "touchmove", "touchend"], ["layout", ""], [3, "ngStyle"], ["panel", ""], ["class", "load-tip", 4, "ngIf"], [1, "months"], ["style", "display: block;", 3, "data", 4, "ngFor", "ngForOf"], [1, "load-tip"], [2, "display", "block", 3, "data"]], template: function CalendarDatePickerComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelement(0, "CalendarWeekPanel", 0);
-        ɵngcc0.ɵɵelementStart(1, "div", 1, 2);
-        ɵngcc0.ɵɵlistener("touchstart", function CalendarDatePickerComponent_Template_div_touchstart_1_listener($event) { return ctx.onTouchStart($event); })("touchmove", function CalendarDatePickerComponent_Template_div_touchmove_1_listener($event) { return ctx.onTouchMove($event); })("touchend", function CalendarDatePickerComponent_Template_div_touchend_1_listener($event) { return ctx.onTouchEnd($event); });
-        ɵngcc0.ɵɵelementStart(3, "div", 3, 4);
-        ɵngcc0.ɵɵtemplate(5, CalendarDatePickerComponent_div_5_Template, 2, 1, "div", 5);
-        ɵngcc0.ɵɵelementStart(6, "div", 6);
-        ɵngcc0.ɵɵtemplate(7, CalendarDatePickerComponent_CalendarSingleMonth_7_Template, 1, 1, "CalendarSingleMonth", 7);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("locale", ctx.props.locale);
-        ɵngcc0.ɵɵadvance(3);
-        ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction1(4, _c16, ctx.transform));
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.canLoadPrev());
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.visibleMonth);
-    } }, directives: function () { return [CalendarWeekPanelComponent, ɵngcc1.NgStyle, ɵngcc1.NgIf, ɵngcc1.NgForOf, CalendarSingleMonthComponent]; }, encapsulation: 2 });
+CalendarDatePickerComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarDatePicker, nzm-calendar-date-picker',
+                template: "<CalendarWeekPanel [locale]=\"props.locale\"></CalendarWeekPanel>\n<div\n  #layout\n  class=\"wrapper\"\n  style=\"overflow-x:hidden;overflow-y:visible;-webkit-overflow-scrolling:touch;\"\n  (touchstart)=\"onTouchStart($event)\"\n  (touchmove)=\"onTouchMove($event)\"\n  (touchend)=\"onTouchEnd($event)\"\n>\n  <div #panel [ngStyle]=\"{ transform: transform }\">\n    <div *ngIf=\"canLoadPrev()\" class=\"load-tip\">{{ props.locale.loadPrevMonth }}</div>\n    <div class=\"months\">\n      <CalendarSingleMonth\n        *ngFor=\"let item of visibleMonth; let i = index\"\n        style=\"display: block;\"\n        [data]=\"item.component\"\n      ></CalendarSingleMonth>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarDatePickerComponent.ctorParameters = () => [];
 CalendarDatePickerComponent.propDecorators = {
     layoutDom: [{ type: ViewChild, args: ['layout', { static: true },] }],
@@ -10952,38 +6105,6 @@ CalendarDatePickerComponent.propDecorators = {
     amCalendar: [{ type: HostBinding, args: ['class.am-calendar',] }],
     datePicker: [{ type: HostBinding, args: ['class.date-picker',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarDatePickerComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarDatePicker, nzm-calendar-date-picker',
-                template: "<CalendarWeekPanel [locale]=\"props.locale\"></CalendarWeekPanel>\n<div\n  #layout\n  class=\"wrapper\"\n  style=\"overflow-x:hidden;overflow-y:visible;-webkit-overflow-scrolling:touch;\"\n  (touchstart)=\"onTouchStart($event)\"\n  (touchmove)=\"onTouchMove($event)\"\n  (touchend)=\"onTouchEnd($event)\"\n>\n  <div #panel [ngStyle]=\"{ transform: transform }\">\n    <div *ngIf=\"canLoadPrev()\" class=\"load-tip\">{{ props.locale.loadPrevMonth }}</div>\n    <div class=\"months\">\n      <CalendarSingleMonth\n        *ngFor=\"let item of visibleMonth; let i = index\"\n        style=\"display: block;\"\n        [data]=\"item.component\"\n      ></CalendarSingleMonth>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { amCalendar: [{
-            type: HostBinding,
-            args: ['class.am-calendar']
-        }], datePicker: [{
-            type: HostBinding,
-            args: ['class.date-picker']
-        }], onCellClick: [{
-            type: Input
-        }], endDate: [{
-            type: Input
-        }], startDate: [{
-            type: Input
-        }], propsData: [{
-            type: Input
-        }], onSelectHasDisableDate: [{
-            type: Input
-        }], onLayout: [{
-            type: Input
-        }], layoutDom: [{
-            type: ViewChild,
-            args: ['layout', { static: true }]
-        }], panelDom: [{
-            type: ViewChild,
-            args: ['panel', { static: true }]
-        }] }); })();
 
 class CalendarComponent {
     constructor(_localeProviderService) {
@@ -11309,23 +6430,14 @@ class CalendarComponent {
         this._unsubscribe$.complete();
     }
 }
-CalendarComponent.ɵfac = function CalendarComponent_Factory(t) { return new (t || CalendarComponent)(ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-CalendarComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarComponent, selectors: [["Calendar"], ["nzm-calendar"]], viewQuery: function CalendarComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(CalendarDatePickerComponent, 1);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.datepicker = _t.first);
-    } }, hostVars: 2, hostBindings: function CalendarComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.class);
-    } }, inputs: { locale: "locale", defaultTimeValue: "defaultTimeValue", prefixCls: "prefixCls", enterDirection: "enterDirection", visible: "visible", getDateExtra: "getDateExtra", defaultDate: "defaultDate", minDate: "minDate", maxDate: "maxDate", pickTime: "pickTime", type: "type", showShortcut: "showShortcut", rowSize: "rowSize", infinite: "infinite", defaultValue: "defaultValue", onSelect: "onSelect" }, outputs: { onCancel: "onCancel", onConfirm: "onConfirm", onSelectHasDisableDate: "onSelectHasDisableDate" }, features: [ɵngcc0.ɵɵProvidersFeature([{ provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CalendarComponent), multi: true }])], decls: 4, vars: 2, consts: [[4, "ngIf"], ["closeIconHtml", ""], [3, "locale", "closeIcon", "showClear", "onCancel", "onClear"], [3, "propsData", "endDate", "startDate", "onCellClick", "onSelectHasDisableDate", "onLayout"], [3, "propsData", "title", "clientHeight", "prefixCls", "defaultValue", "pickerPrefixCls", "value", "onValueChange", 4, "ngIf"], [3, "locale", "onSelect", 4, "ngIf"], [3, "propsData", "startDateTime", "endDateTime", "disableBtn", "formatStr", "onConfirm", 4, "ngIf"], [3, "propsData", "title", "clientHeight", "prefixCls", "defaultValue", "pickerPrefixCls", "value", "onValueChange"], [3, "locale", "onSelect"], [3, "propsData", "startDateTime", "endDateTime", "disableBtn", "formatStr", "onConfirm"], [3, "type"]], template: function CalendarComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, CalendarComponent_span_0_Template, 2, 3, "span", 0);
-        ɵngcc0.ɵɵtemplate(1, CalendarComponent_span_1_Template, 7, 15, "span", 0);
-        ɵngcc0.ɵɵtemplate(2, CalendarComponent_ng_template_2_Template, 1, 1, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isShow);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isShow);
-    } }, directives: function () { return [ɵngcc1.NgIf, CalendarHeaderComponent, CalendarDatePickerComponent, CalendarTimePickerComponent, CalendarShortcutPanelComponent, CalendarConfirmPanelComponent, IconComponent]; }, encapsulation: 2 });
+CalendarComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Calendar, nzm-calendar',
+                template: "<span *ngIf=\"isShow\">\n  <div class=\"{{ 'mask ' + maskAnimateClass }}\"></div>\n</span>\n<span *ngIf=\"isShow\">\n  <div class=\"{{ 'content animate ' + contentAnimateClass }}\">\n    <CalendarHeader\n      [locale]=\"props.locale\"\n      [closeIcon]=\"closeIconHtml\"\n      [showClear]=\"showClear\"\n      (onCancel)=\"triggerCancel()\"\n      (onClear)=\"triggerClear()\"\n    ></CalendarHeader>\n    <CalendarDatePicker\n      [propsData]=\"props\"\n      [endDate]=\"state.endDate\"\n      [startDate]=\"state.startDate\"\n      [onCellClick]=\"onSelectedDate\"\n      [onSelectHasDisableDate]=\"triggerSelectHasDisableDate\"\n      [onLayout]=\"setClientHeight\"\n    ></CalendarDatePicker>\n    <CalendarTimePicker\n      *ngIf=\"state.showTimePicker\"\n      [propsData]=\"props\"\n      [title]=\"state.timePickerTitle\"\n      [clientHeight]=\"state.clientHight\"\n      [prefixCls]=\"props.timePickerPrefixCls\"\n      [defaultValue]=\"props.defaultTimeValue\"\n      [pickerPrefixCls]=\"props.timePickerPickerPrefixCls\"\n      [value]=\"state.endDate ? state.endDate : state.startDate\"\n      [onValueChange]=\"onTimeChange\"\n    ></CalendarTimePicker>\n    <CalendarShortcutPanel\n      *ngIf=\"props.showShortcut && !state.showTimePicker\"\n      [locale]=\"props.locale\"\n      [onSelect]=\"shortcutSelect\"\n    ></CalendarShortcutPanel>\n    <CalendarConfirmPanel\n      *ngIf=\"state.startDate\"\n      [propsData]=\"props\"\n      [startDateTime]=\"state.startDate\"\n      [endDateTime]=\"state.endDate\"\n      [disableBtn]=\"state.disConfirmBtn\"\n      [formatStr]=\"props.pickTime ? props.locale.dateTimeFormat : props.locale.dateFormat\"\n      [onConfirm]=\"triggerConfirm\"\n    ></CalendarConfirmPanel>\n  </div>\n</span>\n<ng-template #closeIconHtml>\n  <Icon [type]=\"'cross'\"></Icon>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [{ provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CalendarComponent), multi: true }]
+            },] }
+];
 CalendarComponent.ctorParameters = () => [
     { type: LocaleProviderService }
 ];
@@ -11352,59 +6464,6 @@ CalendarComponent.propDecorators = {
     onSelectHasDisableDate: [{ type: Output }],
     class: [{ type: HostBinding, args: ['class',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Calendar, nzm-calendar',
-                template: "<span *ngIf=\"isShow\">\n  <div class=\"{{ 'mask ' + maskAnimateClass }}\"></div>\n</span>\n<span *ngIf=\"isShow\">\n  <div class=\"{{ 'content animate ' + contentAnimateClass }}\">\n    <CalendarHeader\n      [locale]=\"props.locale\"\n      [closeIcon]=\"closeIconHtml\"\n      [showClear]=\"showClear\"\n      (onCancel)=\"triggerCancel()\"\n      (onClear)=\"triggerClear()\"\n    ></CalendarHeader>\n    <CalendarDatePicker\n      [propsData]=\"props\"\n      [endDate]=\"state.endDate\"\n      [startDate]=\"state.startDate\"\n      [onCellClick]=\"onSelectedDate\"\n      [onSelectHasDisableDate]=\"triggerSelectHasDisableDate\"\n      [onLayout]=\"setClientHeight\"\n    ></CalendarDatePicker>\n    <CalendarTimePicker\n      *ngIf=\"state.showTimePicker\"\n      [propsData]=\"props\"\n      [title]=\"state.timePickerTitle\"\n      [clientHeight]=\"state.clientHight\"\n      [prefixCls]=\"props.timePickerPrefixCls\"\n      [defaultValue]=\"props.defaultTimeValue\"\n      [pickerPrefixCls]=\"props.timePickerPickerPrefixCls\"\n      [value]=\"state.endDate ? state.endDate : state.startDate\"\n      [onValueChange]=\"onTimeChange\"\n    ></CalendarTimePicker>\n    <CalendarShortcutPanel\n      *ngIf=\"props.showShortcut && !state.showTimePicker\"\n      [locale]=\"props.locale\"\n      [onSelect]=\"shortcutSelect\"\n    ></CalendarShortcutPanel>\n    <CalendarConfirmPanel\n      *ngIf=\"state.startDate\"\n      [propsData]=\"props\"\n      [startDateTime]=\"state.startDate\"\n      [endDateTime]=\"state.endDate\"\n      [disableBtn]=\"state.disConfirmBtn\"\n      [formatStr]=\"props.pickTime ? props.locale.dateTimeFormat : props.locale.dateFormat\"\n      [onConfirm]=\"triggerConfirm\"\n    ></CalendarConfirmPanel>\n  </div>\n</span>\n<ng-template #closeIconHtml>\n  <Icon [type]=\"'cross'\"></Icon>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [{ provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CalendarComponent), multi: true }]
-            }]
-    }], function () { return [{ type: LocaleProviderService }]; }, { onCancel: [{
-            type: Output
-        }], onConfirm: [{
-            type: Output
-        }], onSelectHasDisableDate: [{
-            type: Output
-        }], class: [{
-            type: HostBinding,
-            args: ['class']
-        }], locale: [{
-            type: Input
-        }], defaultTimeValue: [{
-            type: Input
-        }], prefixCls: [{
-            type: Input
-        }], enterDirection: [{
-            type: Input
-        }], visible: [{
-            type: Input
-        }], getDateExtra: [{
-            type: Input
-        }], defaultDate: [{
-            type: Input
-        }], minDate: [{
-            type: Input
-        }], maxDate: [{
-            type: Input
-        }], pickTime: [{
-            type: Input
-        }], type: [{
-            type: Input
-        }], showShortcut: [{
-            type: Input
-        }], rowSize: [{
-            type: Input
-        }], infinite: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], onSelect: [{
-            type: Input
-        }], datepicker: [{
-            type: ViewChild,
-            args: [CalendarDatePickerComponent]
-        }] }); })();
 
 class CalendarHeaderComponent {
     constructor() {
@@ -11450,25 +6509,13 @@ class CalendarHeaderComponent {
         }
     }
 }
-CalendarHeaderComponent.ɵfac = function CalendarHeaderComponent_Factory(t) { return new (t || CalendarHeaderComponent)(); };
-CalendarHeaderComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarHeaderComponent, selectors: [["CalendarHeader"], ["nzm-calendar-header"]], hostVars: 2, hostBindings: function CalendarHeaderComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("header", ctx.header);
-    } }, inputs: { locale: "locale", closeIcon: "closeIcon", showClear: "showClear" }, outputs: { onCancel: "onCancel", onClear: "onClear" }, decls: 5, vars: 4, consts: [["class", "left", 3, "innerHTML", "click", 4, "ngIf"], ["class", "left", 3, "click", 4, "ngIf"], [1, "title"], ["class", "right", 3, "click", 4, "ngIf"], [1, "left", 3, "innerHTML", "click"], [1, "left", 3, "click"], [3, "ngTemplateOutlet"], [1, "right", 3, "click"]], template: function CalendarHeaderComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, CalendarHeaderComponent_span_0_Template, 1, 1, "span", 0);
-        ɵngcc0.ɵɵtemplate(1, CalendarHeaderComponent_span_1_Template, 2, 1, "span", 1);
-        ɵngcc0.ɵɵelementStart(2, "span", 2);
-        ɵngcc0.ɵɵtext(3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(4, CalendarHeaderComponent_span_4_Template, 2, 1, "span", 3);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.closeIcon_component);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.closeIcon_component);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.title || ctx.locale.title);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.showClear);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+CalendarHeaderComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarHeader, nzm-calendar-header',
+                template: "<span *ngIf=\"!closeIcon_component\" class=\"left\" (click)=\"triggerCancel()\" [innerHTML]=\"closeIcon\"></span>\n<span *ngIf=\"closeIcon_component\" class=\"left\" (click)=\"triggerCancel()\">\n  <ng-template [ngTemplateOutlet]=\"closeIcon\"></ng-template>\n</span>\n<span class=\"title\">{{ title || locale.title }}</span>\n<span *ngIf=\"showClear\" class=\"right\" (click)=\"triggerClear()\">{{ clearIcon || locale.clear }}</span>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarHeaderComponent.ctorParameters = () => [];
 CalendarHeaderComponent.propDecorators = {
     locale: [{ type: Input }],
@@ -11478,27 +6525,6 @@ CalendarHeaderComponent.propDecorators = {
     onClear: [{ type: Output }],
     header: [{ type: HostBinding, args: ['class.header',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarHeaderComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarHeader, nzm-calendar-header',
-                template: "<span *ngIf=\"!closeIcon_component\" class=\"left\" (click)=\"triggerCancel()\" [innerHTML]=\"closeIcon\"></span>\n<span *ngIf=\"closeIcon_component\" class=\"left\" (click)=\"triggerCancel()\">\n  <ng-template [ngTemplateOutlet]=\"closeIcon\"></ng-template>\n</span>\n<span class=\"title\">{{ title || locale.title }}</span>\n<span *ngIf=\"showClear\" class=\"right\" (click)=\"triggerClear()\">{{ clearIcon || locale.clear }}</span>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { onCancel: [{
-            type: Output
-        }], onClear: [{
-            type: Output
-        }], header: [{
-            type: HostBinding,
-            args: ['class.header']
-        }], locale: [{
-            type: Input
-        }], closeIcon: [{
-            type: Input
-        }], showClear: [{
-            type: Input
-        }] }); })();
 
 class CalendarWeekPanelComponent {
     constructor() {
@@ -11512,65 +6538,18 @@ class CalendarWeekPanelComponent {
         this.week = this._locale.week;
     }
 }
-CalendarWeekPanelComponent.ɵfac = function CalendarWeekPanelComponent_Factory(t) { return new (t || CalendarWeekPanelComponent)(); };
-CalendarWeekPanelComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarWeekPanelComponent, selectors: [["CalendarWeekPanel"], ["nzm-calendar-week-panel"]], hostVars: 2, hostBindings: function CalendarWeekPanelComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("week-panel", ctx.weekPanel);
-    } }, inputs: { locale: "locale" }, decls: 14, vars: 7, consts: [[1, "cell", "cell-grey"], [1, "cell"]], template: function CalendarWeekPanelComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtext(1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵtext(3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(4, "div", 1);
-        ɵngcc0.ɵɵtext(5);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(6, "div", 1);
-        ɵngcc0.ɵɵtext(7);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(8, "div", 1);
-        ɵngcc0.ɵɵtext(9);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(10, "div", 1);
-        ɵngcc0.ɵɵtext(11);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(12, "div", 0);
-        ɵngcc0.ɵɵtext(13);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[0]);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[1]);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[2]);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[3]);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[4]);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[5]);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.week[6]);
-    } }, encapsulation: 2 });
+CalendarWeekPanelComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarWeekPanel, nzm-calendar-week-panel',
+                template: "<div class=\"cell cell-grey\">{{ week[0] }}</div>\n<div class=\"cell\">{{ week[1] }}</div>\n<div class=\"cell\">{{ week[2] }}</div>\n<div class=\"cell\">{{ week[3] }}</div>\n<div class=\"cell\">{{ week[4] }}</div>\n<div class=\"cell\">{{ week[5] }}</div>\n<div class=\"cell cell-grey\">{{ week[6] }}</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarWeekPanelComponent.ctorParameters = () => [];
 CalendarWeekPanelComponent.propDecorators = {
     locale: [{ type: Input }],
     weekPanel: [{ type: HostBinding, args: ['class.week-panel',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarWeekPanelComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarWeekPanel, nzm-calendar-week-panel',
-                template: "<div class=\"cell cell-grey\">{{ week[0] }}</div>\n<div class=\"cell\">{{ week[1] }}</div>\n<div class=\"cell\">{{ week[2] }}</div>\n<div class=\"cell\">{{ week[3] }}</div>\n<div class=\"cell\">{{ week[4] }}</div>\n<div class=\"cell\">{{ week[5] }}</div>\n<div class=\"cell cell-grey\">{{ week[6] }}</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { weekPanel: [{
-            type: HostBinding,
-            args: ['class.week-panel']
-        }], locale: [{
-            type: Input
-        }] }); })();
 
 var Picker$1 = {
     okText: 'Ok',
@@ -11998,22 +6977,13 @@ class CalendarTimePickerComponent {
         return maxDate;
     }
 }
-CalendarTimePickerComponent.ɵfac = function CalendarTimePickerComponent_Factory(t) { return new (t || CalendarTimePickerComponent)(); };
-CalendarTimePickerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarTimePickerComponent, selectors: [["CalendarTimePicker"], ["nzm-calendar-time-picker"]], hostVars: 2, hostBindings: function CalendarTimePickerComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("time-picker", ctx.timePicker);
-    } }, inputs: { propsData: "propsData", title: "title", value: "value", prefixCls: "prefixCls", defaultValue: "defaultValue", pickerPrefixCls: "pickerPrefixCls", clientHeight: "clientHeight", onValueChange: "onValueChange" }, decls: 3, vars: 9, consts: [[1, "title"], [3, "ngStyle", "mode", "value", "locale", "minDate", "maxDate", "onValueChange"]], template: function CalendarTimePickerComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtext(1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(2, "DatePickerView", 1);
-        ɵngcc0.ɵɵlistener("onValueChange", function CalendarTimePickerComponent_Template_DatePickerView_onValueChange_2_listener($event) { return ctx.onDateChange($event); });
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate(ctx.props.title);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngStyle", ɵngcc0.ɵɵpureFunction1(7, _c17, ctx.selfHeight))("mode", ctx.props.mode)("value", ctx.props.value)("locale", ctx.props.datePickerViewLocale)("minDate", ctx.getMinTime(ctx.props.value || ctx.props.defaultValue || undefined))("maxDate", ctx.getMaxTime(ctx.props.value || ctx.props.defaultValue || undefined));
-    } }, directives: function () { return [DatePickerViewComponent, ɵngcc1.NgStyle]; }, encapsulation: 2 });
+CalendarTimePickerComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarTimePicker, nzm-calendar-time-picker',
+                template: "<div class=\"title\">{{ props.title }}</div>\n<DatePickerView\n  [ngStyle]=\"{ height: selfHeight, overflow: 'hidden' }\"\n  [mode]=\"props.mode\"\n  [value]=\"props.value\"\n  [locale]=\"props.datePickerViewLocale\"\n  [minDate]=\"getMinTime(props.value || props.defaultValue || undefined)\"\n  [maxDate]=\"getMaxTime(props.value || props.defaultValue || undefined)\"\n  (onValueChange)=\"onDateChange($event)\"\n></DatePickerView>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarTimePickerComponent.ctorParameters = () => [];
 CalendarTimePickerComponent.propDecorators = {
     propsData: [{ type: Input }],
@@ -12026,33 +6996,6 @@ CalendarTimePickerComponent.propDecorators = {
     onValueChange: [{ type: Input }],
     timePicker: [{ type: HostBinding, args: ['class.time-picker',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarTimePickerComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarTimePicker, nzm-calendar-time-picker',
-                template: "<div class=\"title\">{{ props.title }}</div>\n<DatePickerView\n  [ngStyle]=\"{ height: selfHeight, overflow: 'hidden' }\"\n  [mode]=\"props.mode\"\n  [value]=\"props.value\"\n  [locale]=\"props.datePickerViewLocale\"\n  [minDate]=\"getMinTime(props.value || props.defaultValue || undefined)\"\n  [maxDate]=\"getMaxTime(props.value || props.defaultValue || undefined)\"\n  (onValueChange)=\"onDateChange($event)\"\n></DatePickerView>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { timePicker: [{
-            type: HostBinding,
-            args: ['class.time-picker']
-        }], propsData: [{
-            type: Input
-        }], title: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], prefixCls: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], pickerPrefixCls: [{
-            type: Input
-        }], clientHeight: [{
-            type: Input
-        }], onValueChange: [{
-            type: Input
-        }] }); })();
 
 class DatePickerOptions {
     constructor() {
@@ -12077,11 +7020,9 @@ class DatePickerOptions {
         this.onChange = new EventEmitter();
     }
 }
-DatePickerOptions.ɵfac = function DatePickerOptions_Factory(t) { return new (t || DatePickerOptions)(); };
-DatePickerOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: DatePickerOptions, factory: DatePickerOptions.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerOptions, [{
-        type: Injectable
-    }], function () { return []; }, null); })();
+DatePickerOptions.decorators = [
+    { type: Injectable }
+];
 
 function getVelocity() {
     return ((minInterval = 30, maxInterval = 100) => {
@@ -12845,53 +7786,13 @@ class DatePickerComponent {
         this.unsubscribe$.complete();
     }
 }
-DatePickerComponent.ɵfac = function DatePickerComponent_Factory(t) { return new (t || DatePickerComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(DatePickerOptions), ɵngcc0.ɵɵdirectiveInject(ToastService), ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-DatePickerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DatePickerComponent, selectors: [["DatePicker"], ["nzm-date-picker"]], viewQuery: function DatePickerComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c18, 1, ViewContainerRef);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.picker = _t.first);
-    } }, hostBindings: function DatePickerComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("mousedown", function DatePickerComponent_mousedown_HostBindingHandler($event) { return ctx.panstart($event); })("touchstart", function DatePickerComponent_touchstart_HostBindingHandler($event) { return ctx.panstart($event); })("mousemove", function DatePickerComponent_mousemove_HostBindingHandler($event) { return ctx.panmove($event); })("touchmove", function DatePickerComponent_touchmove_HostBindingHandler($event) { return ctx.panmove($event); })("mouseleave", function DatePickerComponent_mouseleave_HostBindingHandler($event) { return ctx.panend($event); })("mouseup", function DatePickerComponent_mouseup_HostBindingHandler($event) { return ctx.panend($event); })("touchend", function DatePickerComponent_touchend_HostBindingHandler($event) { return ctx.panend($event); });
-    } }, decls: 15, vars: 8, consts: [[3, "class", "click", 4, "ngIf"], [2, "z-index", "1000"], [1, "am-picker-popup-content"], [1, "am-picker-popup-body"], [1, "am-picker-popup-header"], [1, "am-picker-popup-item", "am-picker-popup-header-left", 3, "click"], [1, "am-picker-popup-item", "am-picker-popup-title"], [1, "am-picker-popup-item", "am-picker-popup-header-right", 3, "click"], [1, "am-picker", 2, "flex-direction", "row", "align-items", "center"], ["picker", ""], ["class", "am-picker-col", 4, "ngFor", "ngForOf"], [3, "click"], [1, "am-picker-col"], [1, "am-picker-col-indicator", 2, "top", "102px"], [1, "am-picker-col-mask", 2, "background-size", "100% 102px", 3, "id"], [1, "am-picker-col-content"], ["class", "am-picker-col-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "am-picker-col-item", 3, "id"]], template: function DatePickerComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, DatePickerComponent_div_0_Template, 1, 3, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "div", 1);
-        ɵngcc0.ɵɵelementStart(2, "div", 2);
-        ɵngcc0.ɵɵelementStart(3, "div", 3);
-        ɵngcc0.ɵɵelementStart(4, "div");
-        ɵngcc0.ɵɵelementStart(5, "div", 4);
-        ɵngcc0.ɵɵelementStart(6, "div", 5);
-        ɵngcc0.ɵɵlistener("click", function DatePickerComponent_Template_div_click_6_listener() { return ctx.cancel(); });
-        ɵngcc0.ɵɵtext(7);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(8, "div", 6);
-        ɵngcc0.ɵɵtext(9);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(10, "div", 7);
-        ɵngcc0.ɵɵlistener("click", function DatePickerComponent_Template_div_click_10_listener() { return ctx.ok(); });
-        ɵngcc0.ɵɵtext(11);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(12, "div", 8, 9);
-        ɵngcc0.ɵɵtemplate(14, DatePickerComponent_div_14_Template, 5, 2, "div", 10);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.options.mask);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("am-picker-popup ", ctx.transitionName, "");
-        ɵngcc0.ɵɵadvance(6);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.options.dismissText, " ");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.options.title);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.options.okText, " ");
-        ɵngcc0.ɵɵadvance(3);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.dataWithStr);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgForOf], encapsulation: 2 });
+DatePickerComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'DatePicker, nzm-date-picker',
+                template: "<div *ngIf=\"options.mask\" class=\"am-picker-popup-mask {{ maskTransitionName }}\" (click)=\"cancel()\"></div>\n<div class=\"am-picker-popup {{ transitionName }}\" style=\"z-index: 1000\">\n  <div class=\"am-picker-popup-content\">\n    <div class=\"am-picker-popup-body\">\n      <div>\n        <div class=\"am-picker-popup-header\">\n          <div class=\"am-picker-popup-item am-picker-popup-header-left\" (click)=\"cancel()\">\n            {{ options.dismissText }}\n          </div>\n          <div class=\"am-picker-popup-item am-picker-popup-title\">{{ options.title }}</div>\n          <div class=\"am-picker-popup-item am-picker-popup-header-right\" (click)=\"ok()\">\n            {{ options.okText }}\n          </div>\n        </div>\n        <div #picker class=\"am-picker\" style=\"flex-direction: row; align-items: center;\">\n          <div *ngFor=\"let item of dataWithStr; let i = index\" class=\"am-picker-col\">\n            <div class=\"am-picker-col-indicator \" style=\"top: 102px;\"></div>\n            <div id=\"{{ i }}\" class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\"></div>\n            <div class=\"am-picker-col-content\">\n              <div id=\"{{ i }}\" class=\"am-picker-col-item\" *ngFor=\"let val of item; let i = index\">\n                {{ val.label ? val.label : val }}\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 DatePickerComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: DatePickerOptions },
@@ -12904,38 +7805,6 @@ DatePickerComponent.propDecorators = {
     panmove: [{ type: HostListener, args: ['mousemove', ['$event'],] }, { type: HostListener, args: ['touchmove', ['$event'],] }],
     panend: [{ type: HostListener, args: ['mouseleave', ['$event'],] }, { type: HostListener, args: ['mouseup', ['$event'],] }, { type: HostListener, args: ['touchend', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerComponent, [{
-        type: Component,
-        args: [{
-                selector: 'DatePicker, nzm-date-picker',
-                template: "<div *ngIf=\"options.mask\" class=\"am-picker-popup-mask {{ maskTransitionName }}\" (click)=\"cancel()\"></div>\n<div class=\"am-picker-popup {{ transitionName }}\" style=\"z-index: 1000\">\n  <div class=\"am-picker-popup-content\">\n    <div class=\"am-picker-popup-body\">\n      <div>\n        <div class=\"am-picker-popup-header\">\n          <div class=\"am-picker-popup-item am-picker-popup-header-left\" (click)=\"cancel()\">\n            {{ options.dismissText }}\n          </div>\n          <div class=\"am-picker-popup-item am-picker-popup-title\">{{ options.title }}</div>\n          <div class=\"am-picker-popup-item am-picker-popup-header-right\" (click)=\"ok()\">\n            {{ options.okText }}\n          </div>\n        </div>\n        <div #picker class=\"am-picker\" style=\"flex-direction: row; align-items: center;\">\n          <div *ngFor=\"let item of dataWithStr; let i = index\" class=\"am-picker-col\">\n            <div class=\"am-picker-col-indicator \" style=\"top: 102px;\"></div>\n            <div id=\"{{ i }}\" class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\"></div>\n            <div class=\"am-picker-col-content\">\n              <div id=\"{{ i }}\" class=\"am-picker-col-item\" *ngFor=\"let val of item; let i = index\">\n                {{ val.label ? val.label : val }}\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: DatePickerOptions }, { type: ToastService }, { type: LocaleProviderService }]; }, { panstart: [{
-            type: HostListener,
-            args: ['mousedown', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }], panmove: [{
-            type: HostListener,
-            args: ['mousemove', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchmove', ['$event']]
-        }], panend: [{
-            type: HostListener,
-            args: ['mouseleave', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mouseup', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }], picker: [{
-            type: ViewChild,
-            args: ['picker', { read: ViewContainerRef }]
-        }] }); })();
 
 class DatePickerViewComponent extends DatePickerComponent {
     constructor() {
@@ -13035,21 +7904,21 @@ class DatePickerViewComponent extends DatePickerComponent {
         }
     }
 }
-DatePickerViewComponent.ɵfac = function DatePickerViewComponent_Factory(t) { return ɵDatePickerViewComponent_BaseFactory(t || DatePickerViewComponent); };
-DatePickerViewComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DatePickerViewComponent, selectors: [["DatePickerView"], ["nzm-date-picker-view"]], hostVars: 2, hostBindings: function DatePickerViewComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-picker", ctx.amPicker);
-    } }, inputs: { mode: "mode", minDate: "minDate", maxDate: "maxDate", value: "value", disabled: "disabled", indicatorStyle: "indicatorStyle", showErrorToast: "showErrorToast", showErrorToastInterval: "showErrorToastInterval", locale: "locale" }, outputs: { onValueChange: "onValueChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => DatePickerViewComponent),
-                multi: true
-            },
-            DatePickerOptions
-        ]), ɵngcc0.ɵɵInheritDefinitionFeature, ɵngcc0.ɵɵNgOnChangesFeature], decls: 1, vars: 1, consts: [["class", "am-picker-col", 4, "ngFor", "ngForOf"], [1, "am-picker-col"], [1, "am-picker-col-indicator", 2, "top", "102px", 3, "ngStyle"], [1, "am-picker-col-mask", 2, "background-size", "100% 102px", 3, "id"], [1, "am-picker-col-content"], ["class", "am-picker-col-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "am-picker-col-item", 3, "id"]], template: function DatePickerViewComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, DatePickerViewComponent_div_0_Template, 5, 3, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.dataWithStr);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgStyle], encapsulation: 2 });
+DatePickerViewComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'DatePickerView, nzm-date-picker-view',
+                template: "<div *ngFor=\"let item of dataWithStr; let i = index\" class=\"am-picker-col\">\n  <div class=\"am-picker-col-indicator \" style=\"top: 102px;\" [ngStyle]=\"indicatorStyle\"></div>\n  <div id=\"{{ i }}\" class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\"></div>\n  <div class=\"am-picker-col-content\">\n    <div id=\"{{ i }}\" *ngFor=\"let val of item; let i = index\" class=\"am-picker-col-item\">\n      {{ val.label ? val.label : val }}\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => DatePickerViewComponent),
+                        multi: true
+                    },
+                    DatePickerOptions
+                ]
+            },] }
+];
 DatePickerViewComponent.propDecorators = {
     mode: [{ type: Input }],
     minDate: [{ type: Input }],
@@ -13063,46 +7932,6 @@ DatePickerViewComponent.propDecorators = {
     onValueChange: [{ type: Output }],
     amPicker: [{ type: HostBinding, args: ['class.am-picker',] }]
 };
-const ɵDatePickerViewComponent_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(DatePickerViewComponent);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerViewComponent, [{
-        type: Component,
-        args: [{
-                selector: 'DatePickerView, nzm-date-picker-view',
-                template: "<div *ngFor=\"let item of dataWithStr; let i = index\" class=\"am-picker-col\">\n  <div class=\"am-picker-col-indicator \" style=\"top: 102px;\" [ngStyle]=\"indicatorStyle\"></div>\n  <div id=\"{{ i }}\" class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\"></div>\n  <div class=\"am-picker-col-content\">\n    <div id=\"{{ i }}\" *ngFor=\"let val of item; let i = index\" class=\"am-picker-col-item\">\n      {{ val.label ? val.label : val }}\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => DatePickerViewComponent),
-                        multi: true
-                    },
-                    DatePickerOptions
-                ]
-            }]
-    }], null, { mode: [{
-            type: Input
-        }], minDate: [{
-            type: Input
-        }], maxDate: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], indicatorStyle: [{
-            type: Input
-        }], showErrorToast: [{
-            type: Input
-        }], showErrorToastInterval: [{
-            type: Input
-        }], onValueChange: [{
-            type: Output
-        }], amPicker: [{
-            type: HostBinding,
-            args: ['class.am-picker']
-        }], locale: [{
-            type: Input
-        }] }); })();
 
 class DatePickerDirective {
     constructor(_viewContainerRef, _defaultOptions, _cfr) {
@@ -13222,16 +8051,18 @@ class DatePickerDirective {
         this.hidePicker();
     }
 }
-DatePickerDirective.ɵfac = function DatePickerDirective_Factory(t) { return new (t || DatePickerDirective)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ViewContainerRef), ɵngcc0.ɵɵdirectiveInject(DatePickerOptions), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ComponentFactoryResolver)); };
-DatePickerDirective.ɵdir = ɵngcc0.ɵɵdefineDirective({ type: DatePickerDirective, selectors: [["", "DatePicker", ""]], hostBindings: function DatePickerDirective_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function DatePickerDirective_click_HostBindingHandler() { return ctx.togglePicker(); });
-    } }, inputs: { minuteStep: "minuteStep", value: "value", disabled: "disabled", isOpen: "isOpen", mode: "mode", minDate: "minDate", maxDate: "maxDate", use12Hours: "use12Hours", mask: "mask", title: "title", okText: "okText", dismissText: "dismissText", locale: "locale", appendToBody: "appendToBody", showErrorToast: "showErrorToast", showErrorToastInterval: "showErrorToastInterval" }, outputs: { onVisibleChange: "onVisibleChange", onValueChange: "onValueChange", onOk: "onOk", onDismiss: "onDismiss" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => DatePickerDirective),
-                multi: true
-            }
-        ]), ɵngcc0.ɵɵNgOnChangesFeature] });
+DatePickerDirective.decorators = [
+    { type: Directive, args: [{
+                selector: '[DatePicker]',
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => DatePickerDirective),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 DatePickerDirective.ctorParameters = () => [
     { type: ViewContainerRef },
     { type: DatePickerOptions },
@@ -13260,93 +8091,27 @@ DatePickerDirective.propDecorators = {
     onDismiss: [{ type: Output }],
     togglePicker: [{ type: HostListener, args: ['click',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerDirective, [{
-        type: Directive,
-        args: [{
-                selector: '[DatePicker]',
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => DatePickerDirective),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ViewContainerRef }, { type: DatePickerOptions }, { type: ɵngcc0.ComponentFactoryResolver }]; }, { minuteStep: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], onVisibleChange: [{
-            type: Output
-        }], onValueChange: [{
-            type: Output
-        }], onOk: [{
-            type: Output
-        }], onDismiss: [{
-            type: Output
-        }], togglePicker: [{
-            type: HostListener,
-            args: ['click']
-        }], disabled: [{
-            type: Input
-        }], isOpen: [{
-            type: Input
-        }], mode: [{
-            type: Input
-        }], minDate: [{
-            type: Input
-        }], maxDate: [{
-            type: Input
-        }], use12Hours: [{
-            type: Input
-        }], mask: [{
-            type: Input
-        }], title: [{
-            type: Input
-        }], okText: [{
-            type: Input
-        }], dismissText: [{
-            type: Input
-        }], locale: [{
-            type: Input
-        }], appendToBody: [{
-            type: Input
-        }], showErrorToast: [{
-            type: Input
-        }], showErrorToastInterval: [{
-            type: Input
-        }] }); })();
 
 class DatePickerModule {
 }
-DatePickerModule.ɵfac = function DatePickerModule_Factory(t) { return new (t || DatePickerModule)(); };
-DatePickerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: DatePickerModule });
-DatePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [DatePickerOptions], imports: [[CommonModule, LocaleProviderModule, ToastModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(DatePickerModule, { declarations: function () { return [DatePickerComponent, DatePickerDirective]; }, imports: function () { return [CommonModule, LocaleProviderModule, ToastModule, FormsModule]; }, exports: function () { return [DatePickerComponent, DatePickerDirective]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerModule, [{
-        type: NgModule,
-        args: [{
+DatePickerModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, LocaleProviderModule, ToastModule, FormsModule],
                 exports: [DatePickerComponent, DatePickerDirective],
                 declarations: [DatePickerComponent, DatePickerDirective],
                 providers: [DatePickerOptions]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class DatePickerViewModule {
 }
-DatePickerViewModule.ɵfac = function DatePickerViewModule_Factory(t) { return new (t || DatePickerViewModule)(); };
-DatePickerViewModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: DatePickerViewModule });
-DatePickerViewModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(DatePickerViewModule, { declarations: function () { return [DatePickerViewComponent]; }, imports: function () { return [CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule]; }, exports: function () { return [DatePickerViewComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerViewModule, [{
-        type: NgModule,
-        args: [{
+DatePickerViewModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule],
                 exports: [DatePickerViewComponent],
                 declarations: [DatePickerViewComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class CalendarSingleMonthComponent {
     constructor(_elementRef) {
@@ -13490,22 +8255,13 @@ class CalendarSingleMonthComponent {
         this.ref(this);
     }
 }
-CalendarSingleMonthComponent.ɵfac = function CalendarSingleMonthComponent_Factory(t) { return new (t || CalendarSingleMonthComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-CalendarSingleMonthComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarSingleMonthComponent, selectors: [["CalendarSingleMonth"], ["nzm-single-month"]], hostVars: 2, hostBindings: function CalendarSingleMonthComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("single-month", ctx.singleMonth);
-    } }, inputs: { data: "data" }, decls: 4, vars: 2, consts: [[1, "month-title"], [1, "date"], [3, "ngClass", 4, "ngFor", "ngForOf"], [3, "ngClass"], [3, "class", "click", 4, "ngFor", "ngForOf"], [3, "click"], [4, "ngIf"], ["class", "date-wrapper", 4, "ngIf"], [3, "ngClass", 4, "ngIf"], [1, "date-wrapper"]], template: function CalendarSingleMonthComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtext(1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵtemplate(3, CalendarSingleMonthComponent_div_3_Template, 2, 2, "div", 2);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.props.monthData.title, "\n");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.state.weekComponents);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgClass, ɵngcc1.NgIf], encapsulation: 2 });
+CalendarSingleMonthComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarSingleMonth, nzm-single-month',
+                template: "<div class=\"month-title\">\n  {{ props.monthData.title }}\n</div>\n<div class=\"date\">\n  <div *ngFor=\"let row of state.weekComponents; let i = index\" [ngClass]=\"row.rowCls\">\n    <div\n      *ngFor=\"let cell of row.weeksDataList; let j = index\"\n      class=\"{{ 'cell ' + ((cell.extra && cell.extra.cellCls) || '') }}\"\n      (click)=\"onClickCell(cell)\"\n    >\n      <div *ngIf=\"row.extra && row.extra.cellRender\">test</div>\n      <div *ngIf=\"!row.extra || (row.extra && row.extra.cellRender)\" class=\"date-wrapper\">\n        <span [ngClass]=\"cell.lCls\"></span>\n        <div [ngClass]=\"cell.cls\">\n          {{ (cell.day && cell.day.dayOfMonth) || '' }}\n        </div>\n        <span [ngClass]=\"cell.rCls\"></span>\n      </div>\n      <div *ngIf=\"!row.extra || (row.extra && row.extra.cellRender)\" [ngClass]=\"cell.infoCls\">\n        {{ cell.info }}\n      </div>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarSingleMonthComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -13513,19 +8269,6 @@ CalendarSingleMonthComponent.propDecorators = {
     data: [{ type: Input }],
     singleMonth: [{ type: HostBinding, args: ['class.single-month',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarSingleMonthComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarSingleMonth, nzm-single-month',
-                template: "<div class=\"month-title\">\n  {{ props.monthData.title }}\n</div>\n<div class=\"date\">\n  <div *ngFor=\"let row of state.weekComponents; let i = index\" [ngClass]=\"row.rowCls\">\n    <div\n      *ngFor=\"let cell of row.weeksDataList; let j = index\"\n      class=\"{{ 'cell ' + ((cell.extra && cell.extra.cellCls) || '') }}\"\n      (click)=\"onClickCell(cell)\"\n    >\n      <div *ngIf=\"row.extra && row.extra.cellRender\">test</div>\n      <div *ngIf=\"!row.extra || (row.extra && row.extra.cellRender)\" class=\"date-wrapper\">\n        <span [ngClass]=\"cell.lCls\"></span>\n        <div [ngClass]=\"cell.cls\">\n          {{ (cell.day && cell.day.dayOfMonth) || '' }}\n        </div>\n        <span [ngClass]=\"cell.rCls\"></span>\n      </div>\n      <div *ngIf=\"!row.extra || (row.extra && row.extra.cellRender)\" [ngClass]=\"cell.infoCls\">\n        {{ cell.info }}\n      </div>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { singleMonth: [{
-            type: HostBinding,
-            args: ['class.single-month']
-        }], data: [{
-            type: Input
-        }] }); })();
 
 class CalendarConfirmPanelComponent {
     constructor() {
@@ -13581,22 +8324,13 @@ class CalendarConfirmPanelComponent {
         return formatDate(date, formatStr, locale);
     }
 }
-CalendarConfirmPanelComponent.ɵfac = function CalendarConfirmPanelComponent_Factory(t) { return new (t || CalendarConfirmPanelComponent)(); };
-CalendarConfirmPanelComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarConfirmPanelComponent, selectors: [["CalendarConfirmPanel"], ["nzm-calendar-confirm-panel"]], hostVars: 2, hostBindings: function CalendarConfirmPanelComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("confirm-panel", ctx.confirmPane);
-    } }, inputs: { propsData: "propsData", disableBtn: "disableBtn", formatStr: "formatStr", startDateTime: "startDateTime", endDateTime: "endDateTime", onConfirm: "onConfirm" }, decls: 3, vars: 3, consts: [["class", "info", 4, "ngIf"], [3, "ngClass", "click"], [1, "info"]], template: function CalendarConfirmPanelComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, CalendarConfirmPanelComponent_div_0_Template, 9, 10, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "div", 1);
-        ɵngcc0.ɵɵlistener("click", function CalendarConfirmPanelComponent_Template_div_click_1_listener() { return ctx.triggerConfirm(); });
-        ɵngcc0.ɵɵtext(2);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.props.type === "range");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.btnCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.props.locale.confirm, "\n");
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass], encapsulation: 2 });
+CalendarConfirmPanelComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarConfirmPanel, nzm-calendar-confirm-panel',
+                template: "<div *ngIf=\"props.type === 'range'\" class=\"info\">\n  <p>\n    {{ props.locale.start }}: <span class=\"{{ !props.startDateTime ? 'grey' : '' }}\">{{ startTimeStr }}</span>\n  </p>\n  <p>\n    {{ props.locale.end }}: <span class=\"{{ !props.endDateTime ? 'grey' : '' }}\">{{ endTimeStr }}</span>\n  </p>\n</div>\n<div [ngClass]=\"btnCls\" (click)=\"triggerConfirm()\">\n  {{ props.locale.confirm }}\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarConfirmPanelComponent.ctorParameters = () => [];
 CalendarConfirmPanelComponent.propDecorators = {
     propsData: [{ type: Input }],
@@ -13607,29 +8341,6 @@ CalendarConfirmPanelComponent.propDecorators = {
     onConfirm: [{ type: Input }],
     confirmPane: [{ type: HostBinding, args: ['class.confirm-panel',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarConfirmPanelComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarConfirmPanel, nzm-calendar-confirm-panel',
-                template: "<div *ngIf=\"props.type === 'range'\" class=\"info\">\n  <p>\n    {{ props.locale.start }}: <span class=\"{{ !props.startDateTime ? 'grey' : '' }}\">{{ startTimeStr }}</span>\n  </p>\n  <p>\n    {{ props.locale.end }}: <span class=\"{{ !props.endDateTime ? 'grey' : '' }}\">{{ endTimeStr }}</span>\n  </p>\n</div>\n<div [ngClass]=\"btnCls\" (click)=\"triggerConfirm()\">\n  {{ props.locale.confirm }}\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { confirmPane: [{
-            type: HostBinding,
-            args: ['class.confirm-panel']
-        }], propsData: [{
-            type: Input
-        }], disableBtn: [{
-            type: Input
-        }], formatStr: [{
-            type: Input
-        }], startDateTime: [{
-            type: Input
-        }], endDateTime: [{
-            type: Input
-        }], onConfirm: [{
-            type: Input
-        }] }); })();
 
 class CalendarShortcutPanelComponent {
     constructor() {
@@ -13661,67 +8372,24 @@ class CalendarShortcutPanelComponent {
         this.props.onSelect = value;
     }
 }
-CalendarShortcutPanelComponent.ɵfac = function CalendarShortcutPanelComponent_Factory(t) { return new (t || CalendarShortcutPanelComponent)(); };
-CalendarShortcutPanelComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: CalendarShortcutPanelComponent, selectors: [["CalendarShortcutPanel"], ["nzm-calendar-shortcut-panel"]], hostVars: 2, hostBindings: function CalendarShortcutPanelComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("shortcut-panel", ctx.shortcutPanel);
-    } }, inputs: { locale: "locale", onSelect: "onSelect" }, decls: 8, vars: 4, consts: [[1, "item", 3, "click"]], template: function CalendarShortcutPanelComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function CalendarShortcutPanelComponent_Template_div_click_0_listener() { return ctx.onClick("today"); });
-        ɵngcc0.ɵɵtext(1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(2, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function CalendarShortcutPanelComponent_Template_div_click_2_listener() { return ctx.onClick("yesterday"); });
-        ɵngcc0.ɵɵtext(3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(4, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function CalendarShortcutPanelComponent_Template_div_click_4_listener() { return ctx.onClick("lastweek"); });
-        ɵngcc0.ɵɵtext(5);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(6, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function CalendarShortcutPanelComponent_Template_div_click_6_listener() { return ctx.onClick("lastmonth"); });
-        ɵngcc0.ɵɵtext(7);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵtextInterpolate(ctx.props.locale.today);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.props.locale.yesterday);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.props.locale.lastWeek);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.props.locale.lastMonth);
-    } }, encapsulation: 2 });
+CalendarShortcutPanelComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'CalendarShortcutPanel, nzm-calendar-shortcut-panel',
+                template: "<div class=\"item\" (click)=\"onClick('today')\">{{ props.locale.today }}</div>\n<div class=\"item\" (click)=\"onClick('yesterday')\">{{ props.locale.yesterday }}</div>\n<div class=\"item\" (click)=\"onClick('lastweek')\">{{ props.locale.lastWeek }}</div>\n<div class=\"item\" (click)=\"onClick('lastmonth')\">{{ props.locale.lastMonth }}</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 CalendarShortcutPanelComponent.ctorParameters = () => [];
 CalendarShortcutPanelComponent.propDecorators = {
     locale: [{ type: Input }],
     onSelect: [{ type: Input }],
     shortcutPanel: [{ type: HostBinding, args: ['class.shortcut-panel',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarShortcutPanelComponent, [{
-        type: Component,
-        args: [{
-                selector: 'CalendarShortcutPanel, nzm-calendar-shortcut-panel',
-                template: "<div class=\"item\" (click)=\"onClick('today')\">{{ props.locale.today }}</div>\n<div class=\"item\" (click)=\"onClick('yesterday')\">{{ props.locale.yesterday }}</div>\n<div class=\"item\" (click)=\"onClick('lastweek')\">{{ props.locale.lastWeek }}</div>\n<div class=\"item\" (click)=\"onClick('lastmonth')\">{{ props.locale.lastMonth }}</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { shortcutPanel: [{
-            type: HostBinding,
-            args: ['class.shortcut-panel']
-        }], locale: [{
-            type: Input
-        }], onSelect: [{
-            type: Input
-        }] }); })();
 
 class CalendarModule {
 }
-CalendarModule.ɵfac = function CalendarModule_Factory(t) { return new (t || CalendarModule)(); };
-CalendarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CalendarModule });
-CalendarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule, DatePickerViewModule, LocaleProviderModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CalendarModule, { declarations: function () { return [CalendarComponent, CalendarHeaderComponent, CalendarWeekPanelComponent, CalendarDatePickerComponent, CalendarTimePickerComponent, CalendarSingleMonthComponent, CalendarConfirmPanelComponent, CalendarShortcutPanelComponent]; }, imports: function () { return [CommonModule, IconModule, DatePickerViewModule, LocaleProviderModule]; }, exports: function () { return [CalendarComponent, CalendarHeaderComponent, CalendarWeekPanelComponent, CalendarDatePickerComponent, CalendarTimePickerComponent, CalendarSingleMonthComponent, CalendarConfirmPanelComponent, CalendarShortcutPanelComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarModule, [{
-        type: NgModule,
-        args: [{
+CalendarModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule, DatePickerViewModule, LocaleProviderModule],
                 declarations: [
                     CalendarComponent,
@@ -13743,8 +8411,8 @@ CalendarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, Ico
                     CalendarConfirmPanelComponent,
                     CalendarShortcutPanelComponent
                 ]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class PopoverItemComponent {
     constructor(_elementRef) {
@@ -13784,30 +8452,13 @@ class PopoverItemComponent {
     }
     ngAfterContentInit() { }
 }
-PopoverItemComponent.ɵfac = function PopoverItemComponent_Factory(t) { return new (t || PopoverItemComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-PopoverItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: PopoverItemComponent, selectors: [["PopoverItem"], ["nzm-popover-item"]], hostVars: 6, hostBindings: function PopoverItemComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("touchstart", function PopoverItemComponent_touchstart_HostBindingHandler($event) { return ctx.touchStart($event); })("mousedown", function PopoverItemComponent_mousedown_HostBindingHandler($event) { return ctx.touchStart($event); });
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-popover-item", ctx.amPopoverItem)("am-popover-item-active", ctx.amPopoverItemActive)("am-popover-item-disabled", ctx.amPopoverItemDisabled);
-    } }, inputs: { icon: "icon", style: "style", disabled: "disabled" }, outputs: { select: "select" }, ngContentSelectors: _c0, decls: 5, vars: 10, consts: [["aria-hidden", "true"], [3, "ngTemplateOutlet"]], template: function PopoverItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵelementStart(1, "span", 0);
-        ɵngcc0.ɵɵtemplate(2, PopoverItemComponent_ng_template_2_Template, 0, 0, "ng-template", 1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(3, "span");
-        ɵngcc0.ɵɵprojection(4);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-item-container");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-item-icon");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx.icon);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.defaultProps.prefixCls, "-item-content");
-    } }, directives: [ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+PopoverItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'PopoverItem, nzm-popover-item',
+                template: "<div class=\"{{ defaultProps.prefixCls }}-item-container\">\n  <span class=\"{{ defaultProps.prefixCls }}-item-icon\" aria-hidden=\"true\">\n    <ng-template [ngTemplateOutlet]=\"icon\"></ng-template>\n  </span>\n  <span class=\"{{ defaultProps.prefixCls }}-item-content\">\n    <ng-content></ng-content>\n  </span>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 PopoverItemComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -13821,52 +8472,16 @@ PopoverItemComponent.propDecorators = {
     amPopoverItemDisabled: [{ type: HostBinding, args: ['class.am-popover-item-disabled',] }],
     touchStart: [{ type: HostListener, args: ['touchstart', ['$event'],] }, { type: HostListener, args: ['mousedown', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'PopoverItem, nzm-popover-item',
-                template: "<div class=\"{{ defaultProps.prefixCls }}-item-container\">\n  <span class=\"{{ defaultProps.prefixCls }}-item-icon\" aria-hidden=\"true\">\n    <ng-template [ngTemplateOutlet]=\"icon\"></ng-template>\n  </span>\n  <span class=\"{{ defaultProps.prefixCls }}-item-content\">\n    <ng-content></ng-content>\n  </span>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { select: [{
-            type: Output
-        }], amPopoverItem: [{
-            type: HostBinding,
-            args: ['class.am-popover-item']
-        }], icon: [{
-            type: Input
-        }], style: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], amPopoverItemActive: [{
-            type: HostBinding,
-            args: ['class.am-popover-item-active']
-        }], amPopoverItemDisabled: [{
-            type: HostBinding,
-            args: ['class.am-popover-item-disabled']
-        }], touchStart: [{
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mousedown', ['$event']]
-        }] }); })();
 
 class PopoverItemModule {
 }
-PopoverItemModule.ɵfac = function PopoverItemModule_Factory(t) { return new (t || PopoverItemModule)(); };
-PopoverItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PopoverItemModule });
-PopoverItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PopoverItemModule, { declarations: function () { return [PopoverItemComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [PopoverItemComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverItemModule, [{
-        type: NgModule,
-        args: [{
+PopoverItemModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule],
                 exports: [PopoverItemComponent],
                 declarations: [PopoverItemComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class FlexComponent {
     constructor() {
@@ -13965,13 +8580,13 @@ class FlexComponent {
         return this._alignContent === 'stretch';
     }
 }
-FlexComponent.ɵfac = function FlexComponent_Factory(t) { return new (t || FlexComponent)(); };
-FlexComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: FlexComponent, selectors: [["Flex"], ["nzm-flex"]], hostVars: 48, hostBindings: function FlexComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-flexbox", ctx.amFlexbox)("am-flexbox-dir-row", ctx.amFlexboxDirRow)("am-flexbox-dir-row-reverse", ctx.amFlexboxDirRowReverse)("am-flexbox-dir-column", ctx.amFlexboxDirColumn)("am-flexbox-dir-column-reverse", ctx.amFlexboxDirColumnReverse)("am-flexbox-nowrap", ctx.amFlexboxNowrap)("am-flexbox-wrap", ctx.amFlexboxWrap)("am-flexbox-wrap-reverse", ctx.amFlexboxWrapReverse)("am-flexbox-justify-start", ctx.amFlexboxJustifyStart)("am-flexbox-justify-center", ctx.amFlexboxJustifyCenter)("am-flexbox-justify-end", ctx.amFlexboxJustifyEnd)("am-flexbox-justify-between", ctx.amFlexboxJustifyBetween)("am-flexbox-justify-around", ctx.amFlexboxAlignAround)("am-flexbox-align-start", ctx.amFlexboxAlignStart)("am-flexbox-align-center", ctx.amFlexboxAlignCenter)("am-flexbox-align-end", ctx.amFlexboxAlignEnd)("am-flexbox-align-baseline", ctx.amFlexboxAlignBaseline)("am-flexbox-align-stretch", ctx.amFlexboxAlignStretch)("am-flexbox-align-content-start", ctx.amFlexboxAlignContentStart)("am-flexbox-align-content-center", ctx.amFlexboxAlignCotentCenter)("am-flexbox-align-content-end", ctx.amFlexboxAlignContentEnd)("am-flexbox-align-content-between", ctx.amFlexboxAlignContentBetween)("am-flexbox-align-content-around", ctx.amFlexboxAlignContentAround)("am-flexbox-align-content-stretch", ctx.amFlexboxAlignContentStretch);
-    } }, inputs: { direction: "direction", wrap: "wrap", justify: "justify", align: "align", alignContent: "alignContent" }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function FlexComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
+FlexComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Flex, nzm-flex',
+                template: "<ng-content></ng-content>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 FlexComponent.ctorParameters = () => [];
 FlexComponent.propDecorators = {
     direction: [{ type: Input }],
@@ -14004,96 +8619,6 @@ FlexComponent.propDecorators = {
     amFlexboxAlignContentAround: [{ type: HostBinding, args: ['class.am-flexbox-align-content-around',] }],
     amFlexboxAlignContentStretch: [{ type: HostBinding, args: ['class.am-flexbox-align-content-stretch',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(FlexComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Flex, nzm-flex',
-                template: "<ng-content></ng-content>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { amFlexbox: [{
-            type: HostBinding,
-            args: ['class.am-flexbox']
-        }], direction: [{
-            type: Input
-        }], wrap: [{
-            type: Input
-        }], justify: [{
-            type: Input
-        }], align: [{
-            type: Input
-        }], alignContent: [{
-            type: Input
-        }], amFlexboxDirRow: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-dir-row']
-        }], amFlexboxDirRowReverse: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-dir-row-reverse']
-        }], amFlexboxDirColumn: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-dir-column']
-        }], amFlexboxDirColumnReverse: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-dir-column-reverse']
-        }], amFlexboxNowrap: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-nowrap']
-        }], amFlexboxWrap: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-wrap']
-        }], amFlexboxWrapReverse: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-wrap-reverse']
-        }], amFlexboxJustifyStart: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-justify-start']
-        }], amFlexboxJustifyCenter: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-justify-center']
-        }], amFlexboxJustifyEnd: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-justify-end']
-        }], amFlexboxJustifyBetween: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-justify-between']
-        }], amFlexboxAlignAround: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-justify-around']
-        }], amFlexboxAlignStart: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-start']
-        }], amFlexboxAlignCenter: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-center']
-        }], amFlexboxAlignEnd: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-end']
-        }], amFlexboxAlignBaseline: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-baseline']
-        }], amFlexboxAlignStretch: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-stretch']
-        }], amFlexboxAlignContentStart: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-content-start']
-        }], amFlexboxAlignCotentCenter: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-content-center']
-        }], amFlexboxAlignContentEnd: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-content-end']
-        }], amFlexboxAlignContentBetween: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-content-between']
-        }], amFlexboxAlignContentAround: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-content-around']
-        }], amFlexboxAlignContentStretch: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-align-content-stretch']
-        }] }); })();
 class FlexItemComponent {
     constructor() {
         this.defaultProps = {
@@ -14103,44 +8628,28 @@ class FlexItemComponent {
         this.flexboxItem = true;
     }
 }
-FlexItemComponent.ɵfac = function FlexItemComponent_Factory(t) { return new (t || FlexItemComponent)(); };
-FlexItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: FlexItemComponent, selectors: [["FlexItem"], ["nzm-flex-item"]], hostVars: 2, hostBindings: function FlexItemComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-flexbox-item", ctx.flexboxItem);
-    } }, ngContentSelectors: _c0, decls: 1, vars: 0, template: function FlexItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵprojection(0);
-    } }, encapsulation: 2 });
-FlexItemComponent.propDecorators = {
-    flexboxItem: [{ type: HostBinding, args: ['class.am-flexbox-item',] }]
-};
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(FlexItemComponent, [{
-        type: Component,
-        args: [{
+FlexItemComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'FlexItem, nzm-flex-item',
                 template: `
     <ng-content></ng-content>
   `,
                 encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { flexboxItem: [{
-            type: HostBinding,
-            args: ['class.am-flexbox-item']
-        }] }); })();
+            },] }
+];
+FlexItemComponent.propDecorators = {
+    flexboxItem: [{ type: HostBinding, args: ['class.am-flexbox-item',] }]
+};
 
 class FlexModule {
 }
-FlexModule.ɵfac = function FlexModule_Factory(t) { return new (t || FlexModule)(); };
-FlexModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: FlexModule });
-FlexModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(FlexModule, { declarations: function () { return [FlexComponent, FlexItemComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [FlexComponent, FlexItemComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(FlexModule, [{
-        type: NgModule,
-        args: [{
+FlexModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 exports: [FlexComponent, FlexItemComponent],
                 declarations: [FlexComponent, FlexItemComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class GridComponent {
     constructor() {
@@ -14300,18 +8809,12 @@ class GridComponent {
         };
     }
 }
-GridComponent.ɵfac = function GridComponent_Factory(t) { return new (t || GridComponent)(); };
-GridComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: GridComponent, selectors: [["Grid"], ["nzm-grid"]], hostVars: 8, hostBindings: function GridComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-grid", ctx.amGrid)("am-grid-square", ctx.amGridSquare)("am-grid-line", ctx.amGridLine)("am-grid-carousel", ctx.amGridCarousel);
-    } }, inputs: { itemStyle: "itemStyle", square: "square", hasLine: "hasLine", activeStyle: "activeStyle", columnNum: "columnNum", carouselMaxRow: "carouselMaxRow", isCarousel: "isCarousel", data: "data" }, outputs: { onClick: "onClick" }, ngContentSelectors: _c0, decls: 2, vars: 2, consts: [[4, "ngIf"], [3, "autoplay", "infinite", "selectedIndex", "autoplayInterval", "dots", "dragging", 4, "ngIf"], [3, "justify", "align", 4, "ngFor", "ngForOf"], [3, "justify", "align"], ["TouchFeedbackDirective", "", 3, "ngClass", "ngStyle", "className", "activeStyle", 4, "ngFor", "ngForOf"], ["TouchFeedbackDirective", "", 3, "ngClass", "ngStyle", "className", "activeStyle"], [3, "class", "click", 4, "ngIf"], [3, "class", 4, "ngIf"], [3, "click"], [3, "src", "class", 4, "ngIf"], [3, "type", "size", 4, "ngIf"], [3, "innerHTML", 4, "ngIf"], [3, "src"], [3, "type", "size"], [3, "innerHTML"], [3, "ngTemplateOutlet"], [3, "autoplay", "infinite", "selectedIndex", "autoplayInterval", "dots", "dragging"], ["style", "display: block;", 3, "class", 4, "ngFor", "ngForOf"], [2, "display", "block"], ["TouchFeedbackDirective", "", 3, "class", "ngStyle", "className", 4, "ngFor", "ngForOf"], ["TouchFeedbackDirective", "", 3, "ngStyle", "className"]], template: function GridComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, GridComponent_ng_container_0_Template, 3, 1, "ng-container", 0);
-        ɵngcc0.ɵɵtemplate(1, GridComponent_Carousel_1_Template, 2, 7, "Carousel", 1);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isCarousel);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isCarousel && ctx.carouselDataTmp.length > 0);
-    } }, directives: function () { return [ɵngcc1.NgIf, ɵngcc1.NgForOf, FlexComponent, FlexItemComponent, TouchFeedbackDirective, ɵngcc1.NgClass, ɵngcc1.NgStyle, IconComponent, ɵngcc1.NgTemplateOutlet, CarouselComponent, CarouselSlideComponent]; }, pipes: function () { return [SafeHTMLPipe]; }, encapsulation: 2 });
+GridComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Grid, nzm-grid',
+                template: "<ng-container *ngIf=\"!isCarousel\">\n  <Flex *ngFor=\"let item of gridData; let i = index\" [justify]=\"'center'\" [align]=\"'stretch'\">\n    <FlexItem\n      TouchFeedbackDirective\n      *ngFor=\"let subItem of item; let j = index\"\n      [ngClass]=\"itemCls\"\n      [ngStyle]=\"itemStyle\"\n      [className]=\"['am-grid-item-active']\"\n      [activeStyle]=\"activeStyle\"\n    >\n      <div\n        *ngIf=\"subItem !== null\"\n        class=\"{{ defaultProps.prefixCls }}-item-content\"\n        (click)=\"click(subItem, i * columnNum + j)\"\n      >\n        <div class=\"{{ defaultProps.prefixCls }}-item-inner-content column-num-{{ columnNum }}\">\n          <img\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'url'\"\n            src=\"{{ subItem.icon }}\"\n            class=\"{{ defaultProps.prefixCls }}-icon\"\n          />\n          <Icon\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'icon'\"\n            [type]=\"subItem.icon\"\n            [size]=\"subItem.size\"\n          ></Icon>\n          <div\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'innerHTML'\"\n            [innerHTML]=\"subItem.icon | safeHTML\"\n          ></div>\n          <ng-template\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'TemplateRef'\"\n            [ngTemplateOutlet]=\"subItem.icon\"\n          ></ng-template>\n          <div class=\"{{ defaultProps.prefixCls }}-text\">{{ subItem.text }}</div>\n        </div>\n      </div>\n      <div *ngIf=\"subItem === null\" class=\"{{ defaultProps.prefixCls }}-null-item\"></div>\n    </FlexItem>\n  </Flex>\n  <ng-content></ng-content>\n</ng-container>\n\n<Carousel\n  *ngIf=\"isCarousel && carouselDataTmp.length > 0\"\n  [autoplay]=\"false\"\n  [infinite]=\"true\"\n  [selectedIndex]=\"0\"\n  [autoplayInterval]=\"3000\"\n  [dots]=\"carouselProps.dots\"\n  [dragging]=\"carouselProps.dragging\"\n>\n  <CarouselSlide\n    *ngFor=\"let gridData of carouselDataTmp\"\n    class=\"{{ defaultProps.prefixCls }}-carousel-page\"\n    style=\"display: block;\"\n  >\n    <Flex *ngFor=\"let item of gridData; let i = index\" [justify]=\"'center'\" [align]=\"'stretch'\">\n      <FlexItem\n        TouchFeedbackDirective\n        *ngFor=\"let subItem of item; let j = index\"\n        class=\"{{ defaultProps.prefixCls }}-item\"\n        [ngStyle]=\"itemStyle\"\n        [className]=\"['am-grid-item-active']\"\n      >\n        <div\n          *ngIf=\"subItem !== null\"\n          class=\"{{ defaultProps.prefixCls }}-item-content\"\n          (click)=\"click(subItem, i * columnNum + j)\"\n        >\n          <div class=\"{{ defaultProps.prefixCls }}-item-inner-content column-num-4\">\n            <img class=\"{{ defaultProps.prefixCls }}-icon\" src=\"{{ subItem.icon }}\" />\n            <div class=\"{{ defaultProps.prefixCls }}-text\">{{ subItem.text }}</div>\n          </div>\n        </div>\n        <div *ngIf=\"subItem === null\" class=\"{{ defaultProps.prefixCls }}-null-item\"></div>\n      </FlexItem>\n    </Flex>\n  </CarouselSlide>\n</Carousel>\n"
+            },] }
+];
 GridComponent.ctorParameters = () => [];
 GridComponent.propDecorators = {
     columnNum: [{ type: Input }],
@@ -14328,43 +8831,6 @@ GridComponent.propDecorators = {
     amGridLine: [{ type: HostBinding, args: ['class.am-grid-line',] }],
     amGridCarousel: [{ type: HostBinding, args: ['class.am-grid-carousel',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(GridComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Grid, nzm-grid',
-                template: "<ng-container *ngIf=\"!isCarousel\">\n  <Flex *ngFor=\"let item of gridData; let i = index\" [justify]=\"'center'\" [align]=\"'stretch'\">\n    <FlexItem\n      TouchFeedbackDirective\n      *ngFor=\"let subItem of item; let j = index\"\n      [ngClass]=\"itemCls\"\n      [ngStyle]=\"itemStyle\"\n      [className]=\"['am-grid-item-active']\"\n      [activeStyle]=\"activeStyle\"\n    >\n      <div\n        *ngIf=\"subItem !== null\"\n        class=\"{{ defaultProps.prefixCls }}-item-content\"\n        (click)=\"click(subItem, i * columnNum + j)\"\n      >\n        <div class=\"{{ defaultProps.prefixCls }}-item-inner-content column-num-{{ columnNum }}\">\n          <img\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'url'\"\n            src=\"{{ subItem.icon }}\"\n            class=\"{{ defaultProps.prefixCls }}-icon\"\n          />\n          <Icon\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'icon'\"\n            [type]=\"subItem.icon\"\n            [size]=\"subItem.size\"\n          ></Icon>\n          <div\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'innerHTML'\"\n            [innerHTML]=\"subItem.icon | safeHTML\"\n          ></div>\n          <ng-template\n            *ngIf=\"subItem.icon && getContentType(subItem.icon) === 'TemplateRef'\"\n            [ngTemplateOutlet]=\"subItem.icon\"\n          ></ng-template>\n          <div class=\"{{ defaultProps.prefixCls }}-text\">{{ subItem.text }}</div>\n        </div>\n      </div>\n      <div *ngIf=\"subItem === null\" class=\"{{ defaultProps.prefixCls }}-null-item\"></div>\n    </FlexItem>\n  </Flex>\n  <ng-content></ng-content>\n</ng-container>\n\n<Carousel\n  *ngIf=\"isCarousel && carouselDataTmp.length > 0\"\n  [autoplay]=\"false\"\n  [infinite]=\"true\"\n  [selectedIndex]=\"0\"\n  [autoplayInterval]=\"3000\"\n  [dots]=\"carouselProps.dots\"\n  [dragging]=\"carouselProps.dragging\"\n>\n  <CarouselSlide\n    *ngFor=\"let gridData of carouselDataTmp\"\n    class=\"{{ defaultProps.prefixCls }}-carousel-page\"\n    style=\"display: block;\"\n  >\n    <Flex *ngFor=\"let item of gridData; let i = index\" [justify]=\"'center'\" [align]=\"'stretch'\">\n      <FlexItem\n        TouchFeedbackDirective\n        *ngFor=\"let subItem of item; let j = index\"\n        class=\"{{ defaultProps.prefixCls }}-item\"\n        [ngStyle]=\"itemStyle\"\n        [className]=\"['am-grid-item-active']\"\n      >\n        <div\n          *ngIf=\"subItem !== null\"\n          class=\"{{ defaultProps.prefixCls }}-item-content\"\n          (click)=\"click(subItem, i * columnNum + j)\"\n        >\n          <div class=\"{{ defaultProps.prefixCls }}-item-inner-content column-num-4\">\n            <img class=\"{{ defaultProps.prefixCls }}-icon\" src=\"{{ subItem.icon }}\" />\n            <div class=\"{{ defaultProps.prefixCls }}-text\">{{ subItem.text }}</div>\n          </div>\n        </div>\n        <div *ngIf=\"subItem === null\" class=\"{{ defaultProps.prefixCls }}-null-item\"></div>\n      </FlexItem>\n    </Flex>\n  </CarouselSlide>\n</Carousel>\n"
-            }]
-    }], function () { return []; }, { itemStyle: [{
-            type: Input
-        }], square: [{
-            type: Input
-        }], hasLine: [{
-            type: Input
-        }], activeStyle: [{
-            type: Input
-        }], onClick: [{
-            type: Output
-        }], amGrid: [{
-            type: HostBinding,
-            args: ['class.am-grid']
-        }], columnNum: [{
-            type: Input
-        }], carouselMaxRow: [{
-            type: Input
-        }], isCarousel: [{
-            type: Input
-        }], data: [{
-            type: Input
-        }], amGridSquare: [{
-            type: HostBinding,
-            args: ['class.am-grid-square']
-        }], amGridLine: [{
-            type: HostBinding,
-            args: ['class.am-grid-line']
-        }], amGridCarousel: [{
-            type: HostBinding,
-            args: ['class.am-grid-carousel']
-        }] }); })();
 
 const INTERFACE_TOKEN = new InjectionToken('InterfaceToken');
 class TouchFeedbackDirective {
@@ -14397,10 +8863,11 @@ class TouchFeedbackDirective {
         }
     }
 }
-TouchFeedbackDirective.ɵfac = function TouchFeedbackDirective_Factory(t) { return new (t || TouchFeedbackDirective)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-TouchFeedbackDirective.ɵdir = ɵngcc0.ɵɵdefineDirective({ type: TouchFeedbackDirective, selectors: [["", "TouchFeedbackDirective", ""]], hostBindings: function TouchFeedbackDirective_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("touchstart", function TouchFeedbackDirective_touchstart_HostBindingHandler() { return ctx.touchStart(); })("mousedown", function TouchFeedbackDirective_mousedown_HostBindingHandler() { return ctx.touchStart(); })("touchend", function TouchFeedbackDirective_touchend_HostBindingHandler() { return ctx.touchEnd(); })("mouseup", function TouchFeedbackDirective_mouseup_HostBindingHandler() { return ctx.touchEnd(); });
-    } }, inputs: { activeStyle: "activeStyle", className: "className" }, outputs: { clickStart: "clickStart", clickEnd: "clickEnd" } });
+TouchFeedbackDirective.decorators = [
+    { type: Directive, args: [{
+                selector: '[TouchFeedbackDirective]'
+            },] }
+];
 TouchFeedbackDirective.ctorParameters = () => [
     { type: ElementRef },
     { type: Renderer2 }
@@ -14413,47 +8880,16 @@ TouchFeedbackDirective.propDecorators = {
     touchStart: [{ type: HostListener, args: ['touchstart',] }, { type: HostListener, args: ['mousedown',] }],
     touchEnd: [{ type: HostListener, args: ['touchend',] }, { type: HostListener, args: ['mouseup',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TouchFeedbackDirective, [{
-        type: Directive,
-        args: [{
-                selector: '[TouchFeedbackDirective]'
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, { activeStyle: [{
-            type: Input
-        }], clickStart: [{
-            type: Output
-        }], clickEnd: [{
-            type: Output
-        }], touchStart: [{
-            type: HostListener,
-            args: ['touchstart']
-        }, {
-            type: HostListener,
-            args: ['mousedown']
-        }], touchEnd: [{
-            type: HostListener,
-            args: ['touchend']
-        }, {
-            type: HostListener,
-            args: ['mouseup']
-        }], className: [{
-            type: Input
-        }] }); })();
 
 class TouchFeedbackModule {
 }
-TouchFeedbackModule.ɵfac = function TouchFeedbackModule_Factory(t) { return new (t || TouchFeedbackModule)(); };
-TouchFeedbackModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TouchFeedbackModule });
-TouchFeedbackModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TouchFeedbackModule, { declarations: function () { return [TouchFeedbackDirective]; }, imports: function () { return [CommonModule]; }, exports: function () { return [TouchFeedbackDirective]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TouchFeedbackModule, [{
-        type: NgModule,
-        args: [{
+TouchFeedbackModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 exports: [TouchFeedbackDirective],
                 declarations: [TouchFeedbackDirective]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class SafeHTMLPipe {
     constructor(_sanitized) {
@@ -14463,45 +8899,32 @@ class SafeHTMLPipe {
         return this._sanitized.bypassSecurityTrustHtml(value);
     }
 }
-SafeHTMLPipe.ɵfac = function SafeHTMLPipe_Factory(t) { return new (t || SafeHTMLPipe)(ɵngcc0.ɵɵdirectiveInject(ɵngcc4.DomSanitizer)); };
-SafeHTMLPipe.ɵpipe = ɵngcc0.ɵɵdefinePipe({ name: "safeHTML", type: SafeHTMLPipe, pure: true });
+SafeHTMLPipe.decorators = [
+    { type: Pipe, args: [{ name: 'safeHTML' },] }
+];
 SafeHTMLPipe.ctorParameters = () => [
     { type: DomSanitizer }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SafeHTMLPipe, [{
-        type: Pipe,
-        args: [{ name: 'safeHTML' }]
-    }], function () { return [{ type: ɵngcc4.DomSanitizer }]; }, null); })();
 
 class NgZorroAntdMobilePipesModule {
 }
-NgZorroAntdMobilePipesModule.ɵfac = function NgZorroAntdMobilePipesModule_Factory(t) { return new (t || NgZorroAntdMobilePipesModule)(); };
-NgZorroAntdMobilePipesModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NgZorroAntdMobilePipesModule });
-NgZorroAntdMobilePipesModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NgZorroAntdMobilePipesModule, { declarations: [SafeHTMLPipe], exports: [SafeHTMLPipe] }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgZorroAntdMobilePipesModule, [{
-        type: NgModule,
-        args: [{
+NgZorroAntdMobilePipesModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [],
                 declarations: [SafeHTMLPipe],
                 exports: [SafeHTMLPipe]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class GridModule {
 }
-GridModule.ɵfac = function GridModule_Factory(t) { return new (t || GridModule)(); };
-GridModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: GridModule });
-GridModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[FlexModule, IconModule, CommonModule, CarouselModule, TouchFeedbackModule, NgZorroAntdMobilePipesModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(GridModule, { declarations: function () { return [GridComponent]; }, imports: function () { return [FlexModule, IconModule, CommonModule, CarouselModule, TouchFeedbackModule, NgZorroAntdMobilePipesModule]; }, exports: function () { return [GridComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(GridModule, [{
-        type: NgModule,
-        args: [{
+GridModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [FlexModule, IconModule, CommonModule, CarouselModule, TouchFeedbackModule, NgZorroAntdMobilePipesModule],
                 exports: [GridComponent],
                 declarations: [GridComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ActionSheetRef {
 }
@@ -14566,67 +8989,17 @@ class ActionSheetComponent extends ActionSheetRef {
         this.unsubscribe$.complete();
     }
 }
-ActionSheetComponent.ɵfac = function ActionSheetComponent_Factory(t) { return new (t || ActionSheetComponent)(ɵngcc0.ɵɵdirectiveInject(LocaleProviderService), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-ActionSheetComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ActionSheetComponent, selectors: [["ActionSheet"]], features: [ɵngcc0.ɵɵInheritDefinitionFeature], decls: 13, vars: 29, consts: [["role", "dialog", 3, "click"], ["role", "document", 3, "ngClass"], ["aria-label", "Close"], [4, "ngIf"], [3, "ngSwitch"], ["role", "group", 3, "class", 4, "ngSwitchCase"], [3, "class", 4, "ngSwitchCase"], [3, "class", 4, "ngIf"], [3, "ngTemplateOutlet"], ["role", "group"], [4, "ngFor", "ngForOf"], ["TouchFeedbackDirective", "", 3, "className"], [3, "class", "click", 4, "ngIf"], [3, "click"], [3, "innerHTML", 4, "ngIf"], [3, "innerHTML"], [3, "class", 4, "ngFor", "ngForOf"]], template: function ActionSheetComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelement(0, "div");
-        ɵngcc0.ɵɵelementStart(1, "div", 0);
-        ɵngcc0.ɵɵlistener("click", function ActionSheetComponent_Template_div_click_1_listener($event) { return ctx.option.maskClose(-1, 0, $event); });
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵelementStart(3, "div");
-        ɵngcc0.ɵɵelementStart(4, "button", 2);
-        ɵngcc0.ɵɵelement(5, "span");
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(6, "div");
-        ɵngcc0.ɵɵelementStart(7, "div");
-        ɵngcc0.ɵɵtemplate(8, ActionSheetComponent_ng_container_8_Template, 3, 2, "ng-container", 3);
-        ɵngcc0.ɵɵtemplate(9, ActionSheetComponent_ng_container_9_Template, 3, 2, "ng-container", 3);
-        ɵngcc0.ɵɵelementContainerStart(10, 4);
-        ɵngcc0.ɵɵtemplate(11, ActionSheetComponent_div_11_Template, 2, 4, "div", 5);
-        ɵngcc0.ɵɵtemplate(12, ActionSheetComponent_div_12_Template, 5, 11, "div", 6);
-        ɵngcc0.ɵɵelementContainerEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate2("", ctx.option.prefixCls, "-mask ", ctx.option.maskTransitionName, "");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate2("", ctx.option.prefixCls, "-wrap ", ctx.option.transitionName, "");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMap(ctx.option.prefixCls);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.showShare(ctx.option));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.option.prefixCls, "-content");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.option.prefixCls, "-close");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.option.prefixCls, "-close-x");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.option.prefixCls, "-body");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isNoTitle(ctx.option.title));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isNoTitle(ctx.option.message));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngSwitch", ctx.option.flag);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngSwitchCase", "NORMAL");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngSwitchCase", "SHARE");
-    } }, directives: [ɵngcc1.NgClass, ɵngcc1.NgIf, ɵngcc1.NgSwitch, ɵngcc1.NgSwitchCase, ɵngcc1.NgTemplateOutlet, ɵngcc1.NgForOf, TouchFeedbackDirective], pipes: [SafeHTMLPipe], encapsulation: 2 });
+ActionSheetComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'ActionSheet',
+                template: "<div class=\"{{ option.prefixCls }}-mask {{ option.maskTransitionName }}\"></div>\n<div\n  role=\"dialog\"\n  class=\"{{ option.prefixCls }}-wrap {{ option.transitionName }}\"\n  (click)=\"option.maskClose(-1, 0, $event)\"\n>\n  <div role=\"document\" class=\"{{ option.prefixCls }}\" [ngClass]=\"showShare(option)\">\n    <div class=\"{{ option.prefixCls }}-content\">\n      <button aria-label=\"Close\" class=\"{{ option.prefixCls }}-close\">\n        <span class=\"{{ option.prefixCls }}-close-x\"></span>\n      </button>\n      <div class=\"{{ option.prefixCls }}-body\">\n        <div>\n          <ng-container *ngIf=\"!isNoTitle(option.title)\">\n            <ng-template *ngIf=\"isTemplateRef(option.title)\" [ngTemplateOutlet]=\"option.title\"></ng-template>\n            <h3 *ngIf=\"!isTemplateRef(option.title)\" class=\"{{ option.prefixCls }}-title\">{{ option.title }}</h3>\n          </ng-container>\n          <ng-container *ngIf=\"!isNoTitle(option.message)\">\n            <ng-template *ngIf=\"isTemplateRef(option.message)\" [ngTemplateOutlet]=\"option.message\"></ng-template>\n            <div *ngIf=\"!isTemplateRef(option.message)\" class=\"{{ option.prefixCls }}-message\">\n              {{ option.message }}\n            </div>\n          </ng-container>\n          <ng-container [ngSwitch]=\"option.flag\">\n            <div *ngSwitchCase=\"'NORMAL'\" class=\"{{ option.prefixCls }}-button-list\" role=\"group\">\n              <ng-container *ngFor=\"let item of option.options; let i = index\">\n                <div\n                  TouchFeedbackDirective\n                  class=\"{{ option.prefixCls }}-button-list-item\"\n                  [className]=\"setActiveClassName(option, 'button-list-item')\"\n                >\n                  <div\n                    *ngIf=\"option.destructiveButtonIndex !== i && option.cancelButtonIndex !== i\"\n                    class=\"{{ option.prefixCls }}-button-list-item\"\n                    (click)=\"option.onPress(i, 0, $event)\"\n                  >\n                    {{ item }}\n                  </div>\n                  <div\n                    *ngIf=\"option.destructiveButtonIndex === i\"\n                    class=\"{{ option.prefixCls }}-button-list-item {{ option.prefixCls }}-destructive-button\"\n                    (click)=\"option.onPress(i, 0, $event)\"\n                  >\n                    {{ item }}\n                  </div>\n                  <div\n                    *ngIf=\"option.cancelButtonIndex === i\"\n                    class=\"{{ option.prefixCls }}-button-list-item {{ option.prefixCls }}-cancel-button\"\n                    (click)=\"option.onPress(i, 0, $event)\"\n                  >\n                    {{ item }}\n                    <span class=\"{{ option.prefixCls }}-cancel-button-mask\"></span>\n                  </div>\n                </div>\n              </ng-container>\n            </div>\n            <div *ngSwitchCase=\"'SHARE'\" class=\"{{ option.prefixCls }}-share {{ option.prefixCls }}-share-content\">\n              <div *ngIf=\"!isArray(option.options, option.options[0])\" class=\"{{ option.prefixCls }}-share-list\">\n                <ng-container *ngFor=\"let item of option.options; let i = index\">\n                  <div class=\"{{ option.prefixCls }}-share-list-item\" (click)=\"option.onPress(i, 0, $event)\">\n                    <div class=\"{{ option.prefixCls }}-share-list-item-icon\">\n                      <ng-template *ngIf=\"isTemplateRef(item.icon)\" [ngTemplateOutlet]=\"item.icon\"></ng-template>\n                      <div *ngIf=\"!isTemplateRef(item.icon)\" [innerHTML]=\"item.icon | safeHTML\"></div>\n                    </div>\n                    <div class=\"{{ option.prefixCls }}-share-list-item-title\">{{ item.title }}</div>\n                  </div>\n                </ng-container>\n              </div>\n              <ng-container *ngIf=\"isArray(option.options, option.options[0])\">\n                <div\n                  *ngFor=\"let items of option.options; let rowIndex = index\"\n                  class=\"{{ option.prefixCls }}-share-list\"\n                >\n                  <ng-container *ngFor=\"let item of items; let i = index\">\n                    <div class=\"{{ option.prefixCls }}-share-list-item\" (click)=\"option.onPress(i, rowIndex, $event)\">\n                      <div class=\"{{ option.prefixCls }}-share-list-item-icon\">\n                        <ng-template *ngIf=\"isTemplateRef(item.icon)\" [ngTemplateOutlet]=\"item.icon\"></ng-template>\n                        <div *ngIf=\"!isTemplateRef(item.icon)\" [innerHTML]=\"item.icon | safeHTML\"></div>\n                      </div>\n                      <div class=\"{{ option.prefixCls }}-share-list-item-title\">{{ item.title }}</div>\n                    </div>\n                  </ng-container>\n                </div>\n              </ng-container>\n              <div\n                TouchFeedbackDirective\n                [className]=\"setActiveClassName(option, 'share-cancel-button')\"\n                class=\"{{ option.prefixCls }}-share-cancel-button\"\n              >\n                {{ option.cancelButtonText }}\n              </div>\n            </div>\n          </ng-container>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 ActionSheetComponent.ctorParameters = () => [
     { type: LocaleProviderService },
     { type: ElementRef }
 ];
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActionSheetComponent, [{
-        type: Component,
-        args: [{
-                selector: 'ActionSheet',
-                template: "<div class=\"{{ option.prefixCls }}-mask {{ option.maskTransitionName }}\"></div>\n<div\n  role=\"dialog\"\n  class=\"{{ option.prefixCls }}-wrap {{ option.transitionName }}\"\n  (click)=\"option.maskClose(-1, 0, $event)\"\n>\n  <div role=\"document\" class=\"{{ option.prefixCls }}\" [ngClass]=\"showShare(option)\">\n    <div class=\"{{ option.prefixCls }}-content\">\n      <button aria-label=\"Close\" class=\"{{ option.prefixCls }}-close\">\n        <span class=\"{{ option.prefixCls }}-close-x\"></span>\n      </button>\n      <div class=\"{{ option.prefixCls }}-body\">\n        <div>\n          <ng-container *ngIf=\"!isNoTitle(option.title)\">\n            <ng-template *ngIf=\"isTemplateRef(option.title)\" [ngTemplateOutlet]=\"option.title\"></ng-template>\n            <h3 *ngIf=\"!isTemplateRef(option.title)\" class=\"{{ option.prefixCls }}-title\">{{ option.title }}</h3>\n          </ng-container>\n          <ng-container *ngIf=\"!isNoTitle(option.message)\">\n            <ng-template *ngIf=\"isTemplateRef(option.message)\" [ngTemplateOutlet]=\"option.message\"></ng-template>\n            <div *ngIf=\"!isTemplateRef(option.message)\" class=\"{{ option.prefixCls }}-message\">\n              {{ option.message }}\n            </div>\n          </ng-container>\n          <ng-container [ngSwitch]=\"option.flag\">\n            <div *ngSwitchCase=\"'NORMAL'\" class=\"{{ option.prefixCls }}-button-list\" role=\"group\">\n              <ng-container *ngFor=\"let item of option.options; let i = index\">\n                <div\n                  TouchFeedbackDirective\n                  class=\"{{ option.prefixCls }}-button-list-item\"\n                  [className]=\"setActiveClassName(option, 'button-list-item')\"\n                >\n                  <div\n                    *ngIf=\"option.destructiveButtonIndex !== i && option.cancelButtonIndex !== i\"\n                    class=\"{{ option.prefixCls }}-button-list-item\"\n                    (click)=\"option.onPress(i, 0, $event)\"\n                  >\n                    {{ item }}\n                  </div>\n                  <div\n                    *ngIf=\"option.destructiveButtonIndex === i\"\n                    class=\"{{ option.prefixCls }}-button-list-item {{ option.prefixCls }}-destructive-button\"\n                    (click)=\"option.onPress(i, 0, $event)\"\n                  >\n                    {{ item }}\n                  </div>\n                  <div\n                    *ngIf=\"option.cancelButtonIndex === i\"\n                    class=\"{{ option.prefixCls }}-button-list-item {{ option.prefixCls }}-cancel-button\"\n                    (click)=\"option.onPress(i, 0, $event)\"\n                  >\n                    {{ item }}\n                    <span class=\"{{ option.prefixCls }}-cancel-button-mask\"></span>\n                  </div>\n                </div>\n              </ng-container>\n            </div>\n            <div *ngSwitchCase=\"'SHARE'\" class=\"{{ option.prefixCls }}-share {{ option.prefixCls }}-share-content\">\n              <div *ngIf=\"!isArray(option.options, option.options[0])\" class=\"{{ option.prefixCls }}-share-list\">\n                <ng-container *ngFor=\"let item of option.options; let i = index\">\n                  <div class=\"{{ option.prefixCls }}-share-list-item\" (click)=\"option.onPress(i, 0, $event)\">\n                    <div class=\"{{ option.prefixCls }}-share-list-item-icon\">\n                      <ng-template *ngIf=\"isTemplateRef(item.icon)\" [ngTemplateOutlet]=\"item.icon\"></ng-template>\n                      <div *ngIf=\"!isTemplateRef(item.icon)\" [innerHTML]=\"item.icon | safeHTML\"></div>\n                    </div>\n                    <div class=\"{{ option.prefixCls }}-share-list-item-title\">{{ item.title }}</div>\n                  </div>\n                </ng-container>\n              </div>\n              <ng-container *ngIf=\"isArray(option.options, option.options[0])\">\n                <div\n                  *ngFor=\"let items of option.options; let rowIndex = index\"\n                  class=\"{{ option.prefixCls }}-share-list\"\n                >\n                  <ng-container *ngFor=\"let item of items; let i = index\">\n                    <div class=\"{{ option.prefixCls }}-share-list-item\" (click)=\"option.onPress(i, rowIndex, $event)\">\n                      <div class=\"{{ option.prefixCls }}-share-list-item-icon\">\n                        <ng-template *ngIf=\"isTemplateRef(item.icon)\" [ngTemplateOutlet]=\"item.icon\"></ng-template>\n                        <div *ngIf=\"!isTemplateRef(item.icon)\" [innerHTML]=\"item.icon | safeHTML\"></div>\n                      </div>\n                      <div class=\"{{ option.prefixCls }}-share-list-item-title\">{{ item.title }}</div>\n                    </div>\n                  </ng-container>\n                </div>\n              </ng-container>\n              <div\n                TouchFeedbackDirective\n                [className]=\"setActiveClassName(option, 'share-cancel-button')\"\n                class=\"{{ option.prefixCls }}-share-cancel-button\"\n              >\n                {{ option.cancelButtonText }}\n              </div>\n            </div>\n          </ng-container>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: LocaleProviderService }, { type: ɵngcc0.ElementRef }]; }, null); })();
 
 class ActionSheetOptions {
     constructor() {
@@ -14636,38 +9009,28 @@ class ActionSheetOptions {
         this.maskTransitionName = 'am-fade';
     }
 }
-ActionSheetOptions.ɵfac = function ActionSheetOptions_Factory(t) { return new (t || ActionSheetOptions)(); };
-ActionSheetOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ActionSheetOptions, factory: ActionSheetOptions.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActionSheetOptions, [{
-        type: Injectable
-    }], function () { return []; }, null); })();
+ActionSheetOptions.decorators = [
+    { type: Injectable }
+];
 class ShareOption {
 }
-ShareOption.ɵfac = function ShareOption_Factory(t) { return new (t || ShareOption)(); };
-ShareOption.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ShareOption, factory: ShareOption.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ShareOption, [{
-        type: Injectable
-    }], null, null); })();
+ShareOption.decorators = [
+    { type: Injectable }
+];
 class ShareActionSheetWithOptions extends ActionSheetOptions {
     constructor() {
         super(...arguments);
         this.cancelButtonText = 'Cancel';
     }
 }
-ShareActionSheetWithOptions.ɵfac = function ShareActionSheetWithOptions_Factory(t) { return ɵShareActionSheetWithOptions_BaseFactory(t || ShareActionSheetWithOptions); };
-ShareActionSheetWithOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ShareActionSheetWithOptions, factory: ShareActionSheetWithOptions.ɵfac });
-const ɵShareActionSheetWithOptions_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(ShareActionSheetWithOptions);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ShareActionSheetWithOptions, [{
-        type: Injectable
-    }], null, null); })();
+ShareActionSheetWithOptions.decorators = [
+    { type: Injectable }
+];
 class ActionSheetWithOptions extends ActionSheetOptions {
 }
-ActionSheetWithOptions.ɵfac = function ActionSheetWithOptions_Factory(t) { return ɵActionSheetWithOptions_BaseFactory(t || ActionSheetWithOptions); };
-ActionSheetWithOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ActionSheetWithOptions, factory: ActionSheetWithOptions.ɵfac });
-const ɵActionSheetWithOptions_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(ActionSheetWithOptions);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActionSheetWithOptions, [{
-        type: Injectable
-    }], null, null); })();
+ActionSheetWithOptions.decorators = [
+    { type: Injectable }
+];
 
 const NORMAL = 'NORMAL';
 const SHARE = 'SHARE';
@@ -14758,35 +9121,17 @@ class ActionSheetService extends PopupService {
         this.hidePopup();
     }
 }
-ActionSheetService.ɵfac = function ActionSheetService_Factory(t) { return ɵActionSheetService_BaseFactory(t || ActionSheetService); };
 ActionSheetService.ɵprov = ɵɵdefineInjectable({ factory: function ActionSheetService_Factory() { return new ActionSheetService(ɵɵinject(Overlay)); }, token: ActionSheetService, providedIn: "root" });
-const ɵActionSheetService_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(ActionSheetService);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActionSheetService, [{
-        type: Injectable,
-        args: [{
+ActionSheetService.decorators = [
+    { type: Injectable, args: [{
                 providedIn: 'root'
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ActionSheetModule {
 }
-ActionSheetModule.ɵfac = function ActionSheetModule_Factory(t) { return new (t || ActionSheetModule)(); };
-ActionSheetModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ActionSheetModule });
-ActionSheetModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [PopupService, ActionSheetService], imports: [[
-            CommonModule,
-            OverlayModule,
-            NgZorroAntdMobilePipesModule,
-            ListModule,
-            WhiteSpaceModule,
-            WingBlankModule,
-            LocaleProviderModule,
-            TouchFeedbackModule
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ActionSheetModule, { declarations: function () { return [ActionSheetComponent]; }, imports: function () { return [CommonModule,
-        OverlayModule, NgZorroAntdMobilePipesModule, ListModule, WhiteSpaceModule, WingBlankModule, LocaleProviderModule, TouchFeedbackModule]; }, exports: function () { return [ActionSheetComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActionSheetModule, [{
-        type: NgModule,
-        args: [{
+ActionSheetModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [
                     CommonModule,
                     OverlayModule,
@@ -14800,8 +9145,8 @@ ActionSheetModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [PopupService,
                 declarations: [ActionSheetComponent],
                 exports: [ActionSheetComponent],
                 providers: [PopupService, ActionSheetService]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class SegmentedControlComponent {
     constructor() {
@@ -14823,15 +9168,12 @@ class SegmentedControlComponent {
         }
     }
 }
-SegmentedControlComponent.ɵfac = function SegmentedControlComponent_Factory(t) { return new (t || SegmentedControlComponent)(); };
-SegmentedControlComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SegmentedControlComponent, selectors: [["SegmentedControl"], ["nz-segmented-control"]], hostVars: 5, hostBindings: function SegmentedControlComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵattribute("role", ctx.role);
-        ɵngcc0.ɵɵclassProp("am-segment", ctx.amSegment)("am-segment-disabled", ctx.amDisabled);
-    } }, inputs: { tintColor: "tintColor", disabled: "disabled", selectedIndex: "selectedIndex", values: "values" }, outputs: { onChange: "onChange" }, decls: 1, vars: 1, consts: [["role", "tab", 3, "class", "ngClass", "ngStyle", "click", 4, "ngFor", "ngForOf"], ["role", "tab", 3, "ngClass", "ngStyle", "click"], [3, "ngStyle"]], template: function SegmentedControlComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, SegmentedControlComponent_div_0_Template, 3, 18, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.values);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+SegmentedControlComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SegmentedControl, nz-segmented-control',
+                template: "<div\n  role=\"tab\"\n  *ngFor=\"let value of values; let i = index\"\n  class=\"{{ prefixCls }}-item\"\n  [ngClass]=\"{ 'am-segment-item-selected': i === selectedIndex }\"\n  [ngStyle]=\"{\n    'border-color': tintColor,\n    color: i === selectedIndex ? '#fff' : tintColor,\n    'background-color': i === selectedIndex ? tintColor : 'transparent'\n  }\"\n  (click)=\"onClick(i, value)\"\n>\n  <div\n    class=\"{{ prefixCls }}-item-inner\"\n    [ngStyle]=\"{ 'background-color': i === selectedIndex ? tintColor : 'transparent' }\"\n  ></div>\n  {{ value }}\n</div>\n"
+            },] }
+];
 SegmentedControlComponent.ctorParameters = () => [];
 SegmentedControlComponent.propDecorators = {
     tintColor: [{ type: Input }],
@@ -14843,47 +9185,16 @@ SegmentedControlComponent.propDecorators = {
     amSegment: [{ type: HostBinding, args: ['class.am-segment',] }],
     amDisabled: [{ type: HostBinding, args: ['class.am-segment-disabled',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SegmentedControlComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SegmentedControl, nz-segmented-control',
-                template: "<div\n  role=\"tab\"\n  *ngFor=\"let value of values; let i = index\"\n  class=\"{{ prefixCls }}-item\"\n  [ngClass]=\"{ 'am-segment-item-selected': i === selectedIndex }\"\n  [ngStyle]=\"{\n    'border-color': tintColor,\n    color: i === selectedIndex ? '#fff' : tintColor,\n    'background-color': i === selectedIndex ? tintColor : 'transparent'\n  }\"\n  (click)=\"onClick(i, value)\"\n>\n  <div\n    class=\"{{ prefixCls }}-item-inner\"\n    [ngStyle]=\"{ 'background-color': i === selectedIndex ? tintColor : 'transparent' }\"\n  ></div>\n  {{ value }}\n</div>\n"
-            }]
-    }], function () { return []; }, { tintColor: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], selectedIndex: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], role: [{
-            type: HostBinding,
-            args: ['attr.role']
-        }], amSegment: [{
-            type: HostBinding,
-            args: ['class.am-segment']
-        }], amDisabled: [{
-            type: HostBinding,
-            args: ['class.am-segment-disabled']
-        }], values: [{
-            type: Input
-        }] }); })();
 
 class SegmentedControlModule {
 }
-SegmentedControlModule.ɵfac = function SegmentedControlModule_Factory(t) { return new (t || SegmentedControlModule)(); };
-SegmentedControlModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SegmentedControlModule });
-SegmentedControlModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SegmentedControlModule, { declarations: function () { return [SegmentedControlComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SegmentedControlComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SegmentedControlModule, [{
-        type: NgModule,
-        args: [{
+SegmentedControlModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 declarations: [SegmentedControlComponent],
                 exports: [SegmentedControlComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class TextareaItemComponent {
     constructor(element, render) {
@@ -15124,46 +9435,19 @@ class TextareaItemComponent {
         }
     }
 }
-TextareaItemComponent.ɵfac = function TextareaItemComponent_Factory(t) { return new (t || TextareaItemComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2)); };
-TextareaItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TextareaItemComponent, selectors: [["TextareaItem"], ["nzm-textarea-item"]], viewQuery: function TextareaItemComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c23, 3);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.textRef = _t.first);
-    } }, hostVars: 12, hostBindings: function TextareaItemComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-textarea-item", ctx.clsItem)("am-textarea-item-single-line", ctx.clsSingleLine)("am-textarea-disabled", ctx.clsDisabled)("am-textarea-error", ctx.clsError)("am-textarea-focus", ctx.clsFocus)("am-textarea-has-count", ctx.clsHasCount);
-    } }, inputs: { value: "value", defaultValue: "defaultValue", placeholder: "placeholder", editable: "editable", disabled: "disabled", clear: "clear", rows: "rows", error: "error", labelNumber: "labelNumber", count: "count", prefixListCls: "prefixListCls", name: "name", autoHeight: "autoHeight", title: "title", focus: "focus", autoFocus: "autoFocus" }, outputs: { onChange: "onChange", onBlur: "onBlur", onFocus: "onFocus", onErrorClick: "onErrorClick" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => TextareaItemComponent),
-                multi: true
-            }
-        ])], decls: 8, vars: 14, consts: [[3, "ngClass", 4, "ngIf"], [3, "ngClass"], [3, "rows", "maxlength", "ngModel", "defaultValue", "placeholder", "disabled", "readOnly", "autofocus", "ngModelChange", "blur", "focus"], ["text", ""], [3, "class", "ngClass", "click", 4, "ngIf"], [3, "class", "click", 4, "ngIf"], [3, "class", 4, "ngIf"], [3, "ngTemplateOutlet"], [3, "ngClass", "click"], [3, "click"]], template: function TextareaItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, TextareaItemComponent_div_0_Template, 2, 2, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, TextareaItemComponent_div_1_Template, 2, 2, "div", 0);
-        ɵngcc0.ɵɵelementStart(2, "div", 1);
-        ɵngcc0.ɵɵelementStart(3, "textarea", 2, 3);
-        ɵngcc0.ɵɵlistener("ngModelChange", function TextareaItemComponent_Template_textarea_ngModelChange_3_listener($event) { return ctx.value = $event; })("ngModelChange", function TextareaItemComponent_Template_textarea_ngModelChange_3_listener($event) { return ctx.inputChange($event); })("blur", function TextareaItemComponent_Template_textarea_blur_3_listener($event) { return ctx.inputBlur(ctx.value, $event); })("focus", function TextareaItemComponent_Template_textarea_focus_3_listener() { return ctx.inputFocus(ctx.value); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(5, TextareaItemComponent_div_5_Template, 1, 4, "div", 4);
-        ɵngcc0.ɵɵtemplate(6, TextareaItemComponent_div_6_Template, 1, 3, "div", 5);
-        ɵngcc0.ɵɵtemplate(7, TextareaItemComponent_span_7_Template, 4, 5, "span", 6);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.title && ctx.isTitleString);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.title && !ctx.isTitleString);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.controlCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("rows", ctx.rows)("maxlength", ctx.maxLength)("ngModel", ctx.value)("defaultValue", ctx.defaultValue)("placeholder", ctx.placeholder)("disabled", ctx.disabled)("readOnly", !ctx.editable)("autofocus", ctx.autoFocus);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.clear && ctx.editable && !ctx.disabled && (ctx.value && ctx.value.length > 0));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.error);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.hasCount);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc2.DefaultValueAccessor, ɵngcc2.MaxLengthValidator, ɵngcc2.NgControlStatus, ɵngcc2.NgModel, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+TextareaItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'TextareaItem , nzm-textarea-item',
+                template: "<div *ngIf=\"title && isTitleString\" [ngClass]=\"labelCls\">{{ title }}</div>\n<div *ngIf=\"title && !isTitleString\" [ngClass]=\"labelCls\">\n  <ng-template [ngTemplateOutlet]=\"title\"></ng-template>\n</div>\n<div [ngClass]=\"controlCls\">\n  <textarea\n    #text\n    [rows]=\"rows\"\n    [maxlength]=\"maxLength\"\n    [(ngModel)]=\"value\"\n    [defaultValue]=\"defaultValue\"\n    [placeholder]=\"placeholder\"\n    [disabled]=\"disabled\"\n    [readOnly]=\"!editable\"\n    [autofocus]=\"autoFocus\"\n    (ngModelChange)=\"inputChange($event)\"\n    (blur)=\"inputBlur(value, $event)\"\n    (focus)=\"inputFocus(value)\"\n  ></textarea>\n</div>\n<div\n  *ngIf=\"clear && editable && !disabled && (value && value.length > 0)\"\n  class=\"{{ prefixCls }}-clear\"\n  [ngClass]=\"clearCls\"\n  (click)=\"clearInput()\"\n></div>\n<div *ngIf=\"error\" class=\"{{ prefixCls }}-error-extra\" (click)=\"errorClick($event)\"></div>\n<span *ngIf=\"hasCount\" class=\"{{ prefixCls }}-count\">\n  <span>{{ characterLength }}</span\n  >/{{ count }}\n</span>\n",
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => TextareaItemComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 TextareaItemComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: Renderer2 }
@@ -15197,96 +9481,16 @@ TextareaItemComponent.propDecorators = {
     clsSingleLine: [{ type: HostBinding, args: ['class.am-textarea-item-single-line',] }],
     clsHasCount: [{ type: HostBinding, args: ['class.am-textarea-has-count',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TextareaItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'TextareaItem , nzm-textarea-item',
-                template: "<div *ngIf=\"title && isTitleString\" [ngClass]=\"labelCls\">{{ title }}</div>\n<div *ngIf=\"title && !isTitleString\" [ngClass]=\"labelCls\">\n  <ng-template [ngTemplateOutlet]=\"title\"></ng-template>\n</div>\n<div [ngClass]=\"controlCls\">\n  <textarea\n    #text\n    [rows]=\"rows\"\n    [maxlength]=\"maxLength\"\n    [(ngModel)]=\"value\"\n    [defaultValue]=\"defaultValue\"\n    [placeholder]=\"placeholder\"\n    [disabled]=\"disabled\"\n    [readOnly]=\"!editable\"\n    [autofocus]=\"autoFocus\"\n    (ngModelChange)=\"inputChange($event)\"\n    (blur)=\"inputBlur(value, $event)\"\n    (focus)=\"inputFocus(value)\"\n  ></textarea>\n</div>\n<div\n  *ngIf=\"clear && editable && !disabled && (value && value.length > 0)\"\n  class=\"{{ prefixCls }}-clear\"\n  [ngClass]=\"clearCls\"\n  (click)=\"clearInput()\"\n></div>\n<div *ngIf=\"error\" class=\"{{ prefixCls }}-error-extra\" (click)=\"errorClick($event)\"></div>\n<span *ngIf=\"hasCount\" class=\"{{ prefixCls }}-count\">\n  <span>{{ characterLength }}</span\n  >/{{ count }}\n</span>\n",
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => TextareaItemComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, { onChange: [{
-            type: Output
-        }], onBlur: [{
-            type: Output
-        }], onFocus: [{
-            type: Output
-        }], onErrorClick: [{
-            type: Output
-        }], clsItem: [{
-            type: HostBinding,
-            args: ['class.am-textarea-item']
-        }], value: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], placeholder: [{
-            type: Input
-        }], editable: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], clear: [{
-            type: Input
-        }], rows: [{
-            type: Input
-        }], error: [{
-            type: Input
-        }], labelNumber: [{
-            type: Input
-        }], count: [{
-            type: Input
-        }], prefixListCls: [{
-            type: Input
-        }], name: [{
-            type: Input
-        }], autoHeight: [{
-            type: Input
-        }], title: [{
-            type: Input
-        }], focus: [{
-            type: Input
-        }], autoFocus: [{
-            type: Input
-        }], clsSingleLine: [{
-            type: HostBinding,
-            args: ['class.am-textarea-item-single-line']
-        }], clsDisabled: [{
-            type: HostBinding,
-            args: ['class.am-textarea-disabled']
-        }], clsError: [{
-            type: HostBinding,
-            args: ['class.am-textarea-error']
-        }], clsFocus: [{
-            type: HostBinding,
-            args: ['class.am-textarea-focus']
-        }], clsHasCount: [{
-            type: HostBinding,
-            args: ['class.am-textarea-has-count']
-        }], textRef: [{
-            type: ViewChild,
-            args: ['text', { static: true }]
-        }] }); })();
 
 class TextareaItemModule {
 }
-TextareaItemModule.ɵfac = function TextareaItemModule_Factory(t) { return new (t || TextareaItemModule)(); };
-TextareaItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TextareaItemModule });
-TextareaItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TextareaItemModule, { declarations: function () { return [TextareaItemComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [TextareaItemComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TextareaItemModule, [{
-        type: NgModule,
-        args: [{
+TextareaItemModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [TextareaItemComponent],
                 declarations: [TextareaItemComponent],
                 imports: [CommonModule, FormsModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class TabPaneComponent {
     constructor() {
@@ -15300,33 +9504,17 @@ class TabPaneComponent {
         this._title = value;
     }
 }
-TabPaneComponent.ɵfac = function TabPaneComponent_Factory(t) { return new (t || TabPaneComponent)(); };
-TabPaneComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TabPaneComponent, selectors: [["TabPane"], ["nzm-tab-pane"]], viewQuery: function TabPaneComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c24, 3);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.content = _t.first);
-    } }, inputs: { title: "title" }, ngContentSelectors: _c0, decls: 2, vars: 0, consts: [["content", ""]], template: function TabPaneComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, TabPaneComponent_ng_template_0_Template, 1, 0, "ng-template", null, 0, ɵngcc0.ɵɵtemplateRefExtractor);
-    } }, encapsulation: 2 });
+TabPaneComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'TabPane, nzm-tab-pane',
+                template: "<ng-template #content>\n  <ng-content></ng-content>\n</ng-template>\n"
+            },] }
+];
 TabPaneComponent.ctorParameters = () => [];
 TabPaneComponent.propDecorators = {
     content: [{ type: ViewChild, args: ['content', { static: true },] }],
     title: [{ type: Input }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabPaneComponent, [{
-        type: Component,
-        args: [{
-                selector: 'TabPane, nzm-tab-pane',
-                template: "<ng-template #content>\n  <ng-content></ng-content>\n</ng-template>\n"
-            }]
-    }], function () { return []; }, { title: [{
-            type: Input
-        }], content: [{
-            type: ViewChild,
-            args: ['content', { static: true }]
-        }] }); })();
 
 class TabsComponent {
     constructor() {
@@ -15540,42 +9728,13 @@ class TabsComponent {
         return Math.abs(deltaDistance / deltaTime);
     }
 }
-TabsComponent.ɵfac = function TabsComponent_Factory(t) { return new (t || TabsComponent)(); };
-TabsComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TabsComponent, selectors: [["Tabs"], ["nzm-tabs"]], contentQueries: function TabsComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, TabPaneComponent, 0);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.tabPanes = _t);
-    } }, viewQuery: function TabsComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c25, 3);
-        ɵngcc0.ɵɵviewQuery(_c26, 1);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.tabContent = _t.first);
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.defaultTabBar = _t.first);
-    } }, hostVars: 14, hostBindings: function TabsComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-tabs", ctx.amTabs)("am-tabs-top", ctx.amTabsTop)("am-tabs-left", ctx.amTabsLeft)("am-tabs-right", ctx.amTabsRight)("am-tabs-bottom", ctx.amTabsBottom)("am-tabs-vertical", ctx.amTabsVertical)("am-tabs-horizontal", ctx.amTabsHorizontal);
-    } }, inputs: { page: "page", swipeable: "swipeable", useOnPan: "useOnPan", animated: "animated", distanceToChangeTab: "distanceToChangeTab", tabTitleSize: "tabTitleSize", tabBarActiveTextColor: "tabBarActiveTextColor", tabBarInactiveTextColor: "tabBarInactiveTextColor", renderTabBar: "renderTabBar", tabBarBackgroundColor: "tabBarBackgroundColor", prerenderingSiblingsNumber: "prerenderingSiblingsNumber", tabBarTextStyle: "tabBarTextStyle", tabPanesContent: "tabPanesContent", activeTab: "activeTab", tabBarPosition: "tabBarPosition", tabDirection: "tabDirection", tabBarUnderlineStyle: "tabBarUnderlineStyle" }, outputs: { onChange: "onChange", onTabClick: "onTabClick" }, decls: 8, vars: 13, consts: [[4, "ngIf"], [3, "ngClass", "ngStyle", "touchstart", "touchmove", "touchend"], ["TabContent", ""], ["tab-pane-body", "", 3, "content", "active", "prerender", 4, "ngFor", "ngForOf"], ["renderDefaultTabBar", ""], [3, "ngTemplateOutlet"], ["tab-pane-body", "", 3, "content", "active", "prerender"], [3, "page", "animated", "activeTab", "tabTitleSize", "tabBarPosition", "tabBarUnderlineStyle", "tabBarBackgroundColor"], ["DefaultTabBar", ""], [3, "class", "ngClass", "ngStyle", "color", "click", 4, "ngFor", "ngForOf"], [3, "ngClass", "ngStyle", "click"], ["TabTitle", ""], [4, "ngIf", "ngIfElse"], ["titleTemplate", ""]], template: function TabsComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementContainerStart(0);
-        ɵngcc0.ɵɵtemplate(1, TabsComponent_1_Template, 1, 1, undefined, 0);
-        ɵngcc0.ɵɵelementStart(2, "div", 1, 2);
-        ɵngcc0.ɵɵlistener("touchstart", function TabsComponent_Template_div_touchstart_2_listener($event) { return ctx.onTouchStart($event); })("touchmove", function TabsComponent_Template_div_touchmove_2_listener($event) { return ctx.onTouchMove($event); })("touchend", function TabsComponent_Template_div_touchend_2_listener($event) { return ctx.onTouchEnd($event); });
-        ɵngcc0.ɵɵtemplate(4, TabsComponent_div_4_Template, 1, 3, "div", 3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(5, TabsComponent_5_Template, 1, 1, undefined, 0);
-        ɵngcc0.ɵɵelementContainerEnd();
-        ɵngcc0.ɵɵtemplate(6, TabsComponent_ng_template_6_Template, 3, 8, "ng-template", null, 4, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", "top" === ctx.tabBarPosition || "left" === ctx.tabBarPosition);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-content-wrap");
-        ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(8, _c28, ctx.animated))("ngStyle", ɵngcc0.ɵɵpureFunction2(10, _c29, ctx.paneMoveStyle, ctx.paneMoveStyle));
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.getCurrentTabPanes());
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", "bottom" === ctx.tabBarPosition || "right" === ctx.tabBarPosition);
-    } }, directives: function () { return [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc1.NgForOf, ɵngcc1.NgTemplateOutlet, TabPaneBodyComponent, DefaultTabBarComponent]; }, encapsulation: 2 });
+TabsComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Tabs, nzm-tabs',
+                template: "<ng-container>\n  <ng-template\n    *ngIf=\"'top' === tabBarPosition || 'left' === tabBarPosition\"\n    [ngTemplateOutlet]=\"renderTabBar || renderDefaultTabBar\"\n  >\n  </ng-template>\n  <div\n    #TabContent\n    class=\"{{ prefixCls }}-content-wrap\"\n    [ngClass]=\"{ 'am-tabs-content-wrap-animated': animated }\"\n    [ngStyle]=\"{ transform: paneMoveStyle, webkitTransform: paneMoveStyle }\"\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd($event)\"\n  >\n    <div\n      tab-pane-body\n      *ngFor=\"let tabPane of getCurrentTabPanes(); let i = index\"\n      [content]=\"tabPane.content\"\n      [active]=\"i === selectedKey\"\n      [prerender]=\"\n        prerenderingSiblingsNumber < 0 ||\n        (selectedKey - i <= prerenderingSiblingsNumber && selectedKey - i + prerenderingSiblingsNumber >= 0)\n      \"\n    ></div>\n  </div>\n  <ng-template\n    *ngIf=\"'bottom' === tabBarPosition || 'right' === tabBarPosition\"\n    [ngTemplateOutlet]=\"renderTabBar || renderDefaultTabBar\"\n  ></ng-template>\n</ng-container>\n\n<ng-template #renderDefaultTabBar>\n  <DefaultTabBar\n    #DefaultTabBar\n    [page]=\"page\"\n    [animated]=\"animated\"\n    [activeTab]=\"selectedKey\"\n    [tabTitleSize]=\"tabTitleSize\"\n    [tabBarPosition]=\"tabBarPosition\"\n    [tabBarUnderlineStyle]=\"tabBarUnderlineStyle\"\n    [tabBarBackgroundColor]=\"tabBarBackgroundColor\"\n  >\n    <div\n      #TabTitle\n      *ngFor=\"let tabPane of getCurrentTabPanes(); let i = index\"\n      class=\"{{ prefixCls }}-default-bar-tab\"\n      [ngClass]=\"{\n        'am-tabs-default-bar-tab-active': i === selectedKey,\n        'am-tabs-default-bar-tab-disabled': tabPane.disabled\n      }\"\n      [ngStyle]=\"tabBarTextStyle\"\n      [style.color]=\"i === selectedKey ? tabBarActiveTextColor : tabBarInactiveTextColor\"\n      (click)=\"clickTab(i)\"\n    >\n      <ng-container *ngIf=\"tabPane.isTitleString; else titleTemplate\">\n        {{ tabPane.title }}\n      </ng-container>\n      <ng-template #titleTemplate>\n        <ng-template [ngTemplateOutlet]=\"tabPane.title\"></ng-template>\n      </ng-template>\n    </div>\n  </DefaultTabBar>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 TabsComponent.ctorParameters = () => [];
 TabsComponent.propDecorators = {
     tabPanes: [{ type: ContentChildren, args: [TabPaneComponent, { descendants: false },] }],
@@ -15608,82 +9767,6 @@ TabsComponent.propDecorators = {
     amTabsVertical: [{ type: HostBinding, args: ['class.am-tabs-vertical',] }],
     amTabsHorizontal: [{ type: HostBinding, args: ['class.am-tabs-horizontal',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabsComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Tabs, nzm-tabs',
-                template: "<ng-container>\n  <ng-template\n    *ngIf=\"'top' === tabBarPosition || 'left' === tabBarPosition\"\n    [ngTemplateOutlet]=\"renderTabBar || renderDefaultTabBar\"\n  >\n  </ng-template>\n  <div\n    #TabContent\n    class=\"{{ prefixCls }}-content-wrap\"\n    [ngClass]=\"{ 'am-tabs-content-wrap-animated': animated }\"\n    [ngStyle]=\"{ transform: paneMoveStyle, webkitTransform: paneMoveStyle }\"\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd($event)\"\n  >\n    <div\n      tab-pane-body\n      *ngFor=\"let tabPane of getCurrentTabPanes(); let i = index\"\n      [content]=\"tabPane.content\"\n      [active]=\"i === selectedKey\"\n      [prerender]=\"\n        prerenderingSiblingsNumber < 0 ||\n        (selectedKey - i <= prerenderingSiblingsNumber && selectedKey - i + prerenderingSiblingsNumber >= 0)\n      \"\n    ></div>\n  </div>\n  <ng-template\n    *ngIf=\"'bottom' === tabBarPosition || 'right' === tabBarPosition\"\n    [ngTemplateOutlet]=\"renderTabBar || renderDefaultTabBar\"\n  ></ng-template>\n</ng-container>\n\n<ng-template #renderDefaultTabBar>\n  <DefaultTabBar\n    #DefaultTabBar\n    [page]=\"page\"\n    [animated]=\"animated\"\n    [activeTab]=\"selectedKey\"\n    [tabTitleSize]=\"tabTitleSize\"\n    [tabBarPosition]=\"tabBarPosition\"\n    [tabBarUnderlineStyle]=\"tabBarUnderlineStyle\"\n    [tabBarBackgroundColor]=\"tabBarBackgroundColor\"\n  >\n    <div\n      #TabTitle\n      *ngFor=\"let tabPane of getCurrentTabPanes(); let i = index\"\n      class=\"{{ prefixCls }}-default-bar-tab\"\n      [ngClass]=\"{\n        'am-tabs-default-bar-tab-active': i === selectedKey,\n        'am-tabs-default-bar-tab-disabled': tabPane.disabled\n      }\"\n      [ngStyle]=\"tabBarTextStyle\"\n      [style.color]=\"i === selectedKey ? tabBarActiveTextColor : tabBarInactiveTextColor\"\n      (click)=\"clickTab(i)\"\n    >\n      <ng-container *ngIf=\"tabPane.isTitleString; else titleTemplate\">\n        {{ tabPane.title }}\n      </ng-container>\n      <ng-template #titleTemplate>\n        <ng-template [ngTemplateOutlet]=\"tabPane.title\"></ng-template>\n      </ng-template>\n    </div>\n  </DefaultTabBar>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { page: [{
-            type: Input
-        }], swipeable: [{
-            type: Input
-        }], useOnPan: [{
-            type: Input
-        }], animated: [{
-            type: Input
-        }], distanceToChangeTab: [{
-            type: Input
-        }], tabTitleSize: [{
-            type: Input
-        }], tabBarActiveTextColor: [{
-            type: Input
-        }], tabBarInactiveTextColor: [{
-            type: Input
-        }], renderTabBar: [{
-            type: Input
-        }], tabBarBackgroundColor: [{
-            type: Input
-        }], prerenderingSiblingsNumber: [{
-            type: Input
-        }], tabBarTextStyle: [{
-            type: Input
-        }], tabPanesContent: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], onTabClick: [{
-            type: Output
-        }], amTabs: [{
-            type: HostBinding,
-            args: ['class.am-tabs']
-        }], amTabsTop: [{
-            type: HostBinding,
-            args: ['class.am-tabs-top']
-        }], amTabsLeft: [{
-            type: HostBinding,
-            args: ['class.am-tabs-left']
-        }], amTabsRight: [{
-            type: HostBinding,
-            args: ['class.am-tabs-right']
-        }], amTabsBottom: [{
-            type: HostBinding,
-            args: ['class.am-tabs-bottom']
-        }], amTabsVertical: [{
-            type: HostBinding,
-            args: ['class.am-tabs-vertical']
-        }], amTabsHorizontal: [{
-            type: HostBinding,
-            args: ['class.am-tabs-horizontal']
-        }], activeTab: [{
-            type: Input
-        }], tabBarPosition: [{
-            type: Input
-        }], tabDirection: [{
-            type: Input
-        }], tabPanes: [{
-            type: ContentChildren,
-            args: [TabPaneComponent, { descendants: false }]
-        }], tabContent: [{
-            type: ViewChild,
-            args: ['TabContent', { static: true }]
-        }], defaultTabBar: [{
-            type: ViewChild,
-            args: ['DefaultTabBar']
-        }], tabBarUnderlineStyle: [{
-            type: Input
-        }] }); })();
 
 class TabPaneBodyComponent {
     constructor() {
@@ -15709,14 +9792,13 @@ class TabPaneBodyComponent {
     }
     ngOnInit() { }
 }
-TabPaneBodyComponent.ɵfac = function TabPaneBodyComponent_Factory(t) { return new (t || TabPaneBodyComponent)(); };
-TabPaneBodyComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TabPaneBodyComponent, selectors: [["", "tab-pane-body", ""]], hostVars: 6, hostBindings: function TabPaneBodyComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-tabs-pane-wrap", ctx.paneWrap)("am-tabs-pane-wrap-active", ctx.wrapActive)("am-tabs-pane-wrap-inactive", ctx.wrapInactive);
-    } }, inputs: { active: "active", loaded: "loaded", prerender: "prerender", content: "content" }, attrs: _c30, decls: 1, vars: 1, consts: [[4, "ngIf"], [3, "ngTemplateOutlet"]], template: function TabPaneBodyComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, TabPaneBodyComponent_ng_container_0_Template, 2, 1, "ng-container", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.loaded || ctx.prerender);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+TabPaneBodyComponent.decorators = [
+    { type: Component, args: [{
+                selector: '[tab-pane-body]',
+                template: "<ng-container *ngIf=\"loaded || prerender\">\n  <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n</ng-container>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 TabPaneBodyComponent.ctorParameters = () => [];
 TabPaneBodyComponent.propDecorators = {
     active: [{ type: Input }],
@@ -15727,31 +9809,6 @@ TabPaneBodyComponent.propDecorators = {
     wrapActive: [{ type: HostBinding, args: ['class.am-tabs-pane-wrap-active',] }],
     wrapInactive: [{ type: HostBinding, args: ['class.am-tabs-pane-wrap-inactive',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabPaneBodyComponent, [{
-        type: Component,
-        args: [{
-                selector: '[tab-pane-body]',
-                template: "<ng-container *ngIf=\"loaded || prerender\">\n  <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n</ng-container>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { active: [{
-            type: Input
-        }], loaded: [{
-            type: Input
-        }], paneWrap: [{
-            type: HostBinding,
-            args: ['class.am-tabs-pane-wrap']
-        }], prerender: [{
-            type: Input
-        }], wrapActive: [{
-            type: HostBinding,
-            args: ['class.am-tabs-pane-wrap-active']
-        }], wrapInactive: [{
-            type: HostBinding,
-            args: ['class.am-tabs-pane-wrap-inactive']
-        }], content: [{
-            type: Input
-        }] }); })();
 
 class DefaultTabBarComponent {
     constructor(_renderer, _ref) {
@@ -15963,44 +10020,12 @@ class DefaultTabBarComponent {
         }
     }
 }
-DefaultTabBarComponent.ɵfac = function DefaultTabBarComponent_Factory(t) { return new (t || DefaultTabBarComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
-DefaultTabBarComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DefaultTabBarComponent, selectors: [["DefaultTabBar"], ["nzm-default-tab-bar"]], contentQueries: function DefaultTabBarComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, _c31, 0);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.tabTitles = _t);
-    } }, viewQuery: function DefaultTabBarComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c32, 3);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.tabsBarSwipe = _t.first);
-    } }, hostVars: 2, hostBindings: function DefaultTabBarComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-tabs-tab-bar-wrap", ctx.tabBarWrap);
-    } }, inputs: { page: "page", animated: "animated", tabBarBackgroundColor: "tabBarBackgroundColor", tabTitleSize: "tabTitleSize", tabBarPosition: "tabBarPosition", activeTab: "activeTab", tabBarUnderlineStyle: "tabBarUnderlineStyle" }, ngContentSelectors: _c0, decls: 7, vars: 21, consts: [[3, "ngClass", "ngStyle"], [3, "class", 4, "ngIf"], [3, "ngStyle", "touchstart", "touchmove", "touchend", "cdkObserveContent"], ["TabsBarSwipe", ""], [3, "ngStyle"]], template: function DefaultTabBarComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, DefaultTabBarComponent_div_1_Template, 1, 3, "div", 1);
-        ɵngcc0.ɵɵelementStart(2, "div", 2, 3);
-        ɵngcc0.ɵɵlistener("touchstart", function DefaultTabBarComponent_Template_div_touchstart_2_listener($event) { return ctx.onTouchStart($event); })("touchmove", function DefaultTabBarComponent_Template_div_touchmove_2_listener($event) { return ctx.onTouchMove($event); })("touchend", function DefaultTabBarComponent_Template_div_touchend_2_listener() { return ctx.onTouchEnd(); })("cdkObserveContent", function DefaultTabBarComponent_Template_div_cdkObserveContent_2_listener() { return ctx.onContentChange(); });
-        ɵngcc0.ɵɵprojection(4);
-        ɵngcc0.ɵɵelement(5, "div", 4);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(6, DefaultTabBarComponent_div_6_Template, 1, 3, "div", 1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate3("", ctx.prefixCls, " ", ctx.prefixCls, "-", ctx.tabBarPosition, "");
-        ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(17, _c33, ctx.animated))("ngStyle", ɵngcc0.ɵɵpureFunction1(19, _c34, ctx.tabBarBackgroundColor || "#FFF"));
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.showPrev);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-content");
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.tabsBarStyle);
-        ɵngcc0.ɵɵadvance(3);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-underline");
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.inkBarStyle);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.showNext);
-    } }, directives: [ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc1.NgIf, ɵngcc5.CdkObserveContent], encapsulation: 2 });
+DefaultTabBarComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'DefaultTabBar, nzm-default-tab-bar',
+                template: "<div\n  class=\"{{ prefixCls }} {{ prefixCls }}-{{ tabBarPosition }}\"\n  [ngClass]=\"{ 'am-tabs-default-bar-animated': animated }\"\n  [ngStyle]=\"{ backgroundColor: tabBarBackgroundColor || '#FFF' }\"\n>\n  <div *ngIf=\"showPrev\" class=\"{{ prefixCls }}-prevpage\"></div>\n  <div\n    #TabsBarSwipe\n    class=\"{{ prefixCls }}-content\"\n    [ngStyle]=\"tabsBarStyle\"\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd()\"\n    (cdkObserveContent)=\"onContentChange()\"\n  >\n    <ng-content></ng-content>\n    <div class=\"{{ prefixCls }}-underline\" [ngStyle]=\"inkBarStyle\"></div>\n  </div>\n  <div *ngIf=\"showNext\" class=\"{{ prefixCls }}-nextpage\"></div>\n</div>\n"
+            },] }
+];
 DefaultTabBarComponent.ctorParameters = () => [
     { type: Renderer2 },
     { type: ChangeDetectorRef }
@@ -16017,52 +10042,17 @@ DefaultTabBarComponent.propDecorators = {
     activeTab: [{ type: Input }],
     tabBarWrap: [{ type: HostBinding, args: ['class.am-tabs-tab-bar-wrap',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DefaultTabBarComponent, [{
-        type: Component,
-        args: [{
-                selector: 'DefaultTabBar, nzm-default-tab-bar',
-                template: "<div\n  class=\"{{ prefixCls }} {{ prefixCls }}-{{ tabBarPosition }}\"\n  [ngClass]=\"{ 'am-tabs-default-bar-animated': animated }\"\n  [ngStyle]=\"{ backgroundColor: tabBarBackgroundColor || '#FFF' }\"\n>\n  <div *ngIf=\"showPrev\" class=\"{{ prefixCls }}-prevpage\"></div>\n  <div\n    #TabsBarSwipe\n    class=\"{{ prefixCls }}-content\"\n    [ngStyle]=\"tabsBarStyle\"\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd()\"\n    (cdkObserveContent)=\"onContentChange()\"\n  >\n    <ng-content></ng-content>\n    <div class=\"{{ prefixCls }}-underline\" [ngStyle]=\"inkBarStyle\"></div>\n  </div>\n  <div *ngIf=\"showNext\" class=\"{{ prefixCls }}-nextpage\"></div>\n</div>\n"
-            }]
-    }], function () { return [{ type: ɵngcc0.Renderer2 }, { type: ɵngcc0.ChangeDetectorRef }]; }, { page: [{
-            type: Input
-        }], animated: [{
-            type: Input
-        }], tabBarBackgroundColor: [{
-            type: Input
-        }], tabTitleSize: [{
-            type: Input
-        }], tabBarPosition: [{
-            type: Input
-        }], tabBarWrap: [{
-            type: HostBinding,
-            args: ['class.am-tabs-tab-bar-wrap']
-        }], activeTab: [{
-            type: Input
-        }], tabTitles: [{
-            type: ContentChildren,
-            args: ['TabTitle']
-        }], tabsBarSwipe: [{
-            type: ViewChild,
-            args: ['TabsBarSwipe', { static: true }]
-        }], tabBarUnderlineStyle: [{
-            type: Input
-        }] }); })();
 
 class TabsModule {
 }
-TabsModule.ɵfac = function TabsModule_Factory(t) { return new (t || TabsModule)(); };
-TabsModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TabsModule });
-TabsModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule, ObserversModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TabsModule, { declarations: function () { return [TabPaneComponent, TabsComponent, TabPaneBodyComponent, DefaultTabBarComponent]; }, imports: function () { return [CommonModule, ObserversModule]; }, exports: function () { return [TabPaneComponent, TabsComponent, TabPaneBodyComponent, DefaultTabBarComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabsModule, [{
-        type: NgModule,
-        args: [{
+TabsModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, ObserversModule],
                 declarations: [TabPaneComponent, TabsComponent, TabPaneBodyComponent, DefaultTabBarComponent],
                 exports: [TabPaneComponent, TabsComponent, TabPaneBodyComponent, DefaultTabBarComponent],
                 providers: []
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class TabBarItemComponent extends TabPaneComponent {
     constructor() {
@@ -16081,19 +10071,12 @@ class TabBarItemComponent extends TabPaneComponent {
         return value instanceof TemplateRef;
     }
 }
-TabBarItemComponent.ɵfac = function TabBarItemComponent_Factory(t) { return new (t || TabBarItemComponent)(); };
-TabBarItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TabBarItemComponent, selectors: [["TabBarItem"], ["nzm-tab-bar-item"]], viewQuery: function TabBarItemComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c35, 3);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.tabBarTab = _t.first);
-    } }, inputs: { key: "key", dot: "dot", badge: "badge", icon: "icon", selectedIcon: "selectedIcon" }, features: [ɵngcc0.ɵɵInheritDefinitionFeature], ngContentSelectors: _c0, decls: 8, vars: 0, consts: [["content", ""], ["tabBarTab", ""], ["domTemplate", ""], ["imgTemplate", ""], [3, "className", "text", 4, "ngIf"], [3, "className", "dot", 4, "ngIf"], [4, "ngIf"], [3, "className", "text"], [4, "ngIf", "ngIfThen", "ngIfElse"], [3, "className", "dot"], [3, "ngTemplateOutlet"], [3, "src", "alt"]], template: function TabBarItemComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, TabBarItemComponent_ng_template_0_Template, 1, 0, "ng-template", null, 0, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(2, TabBarItemComponent_ng_template_2_Template, 6, 14, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(4, TabBarItemComponent_ng_template_4_Template, 1, 1, "ng-template", null, 2, ɵngcc0.ɵɵtemplateRefExtractor);
-        ɵngcc0.ɵɵtemplate(6, TabBarItemComponent_ng_template_6_Template, 1, 2, "ng-template", null, 3, ɵngcc0.ɵɵtemplateRefExtractor);
-    } }, directives: [ɵngcc1.NgIf, BadgeComponent, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+TabBarItemComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'TabBarItem, nzm-tab-bar-item',
+                template: "<ng-template #content>\n  <ng-content></ng-content>\n</ng-template>\n\n<ng-template #tabBarTab>\n  <div class=\"{{ prefixCls }}-icon\" [style.color]=\"selected ? tintColor : unselectedTintColor\">\n    <Badge *ngIf=\"badge\" className=\"{{ prefixCls }}-badge tab-badge\" [text]=\"badge\">\n      <ng-container *ngIf=\"isTemplateRef(selected ? selectedIcon : icon); then domTemplate; else imgTemplate\">\n      </ng-container>\n    </Badge>\n    <Badge className=\"{{ prefixCls }}-badge tab-badge\" [dot]=\"dot\" *ngIf=\"dot\">\n      <ng-container *ngIf=\"isTemplateRef(selected ? selectedIcon : icon); then domTemplate; else imgTemplate\">\n      </ng-container>\n    </Badge>\n    <ng-container *ngIf=\"!badge && !dot\">\n      <ng-container *ngIf=\"isTemplateRef(selected ? selectedIcon : icon); then domTemplate; else imgTemplate\">\n      </ng-container>\n    </ng-container>\n  </div>\n  <p class=\"{{ prefixCls }}-title\" [style.color]=\"selected ? tintColor : unselectedTintColor\">\n    {{ title }}\n  </p>\n</ng-template>\n\n<ng-template #domTemplate>\n  <ng-template [ngTemplateOutlet]=\"selected ? selectedIcon : icon\"></ng-template>\n</ng-template>\n\n<ng-template #imgTemplate>\n  <img src=\"{{ selected ? selectedIcon : icon }}\" alt=\"{{ title }}\" />\n</ng-template>\n"
+            },] }
+];
 TabBarItemComponent.ctorParameters = () => [];
 TabBarItemComponent.propDecorators = {
     tabBarTab: [{ type: ViewChild, args: ['tabBarTab', { static: true },] }],
@@ -16103,26 +10086,6 @@ TabBarItemComponent.propDecorators = {
     icon: [{ type: Input }],
     selectedIcon: [{ type: Input }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabBarItemComponent, [{
-        type: Component,
-        args: [{
-                selector: 'TabBarItem, nzm-tab-bar-item',
-                template: "<ng-template #content>\n  <ng-content></ng-content>\n</ng-template>\n\n<ng-template #tabBarTab>\n  <div class=\"{{ prefixCls }}-icon\" [style.color]=\"selected ? tintColor : unselectedTintColor\">\n    <Badge *ngIf=\"badge\" className=\"{{ prefixCls }}-badge tab-badge\" [text]=\"badge\">\n      <ng-container *ngIf=\"isTemplateRef(selected ? selectedIcon : icon); then domTemplate; else imgTemplate\">\n      </ng-container>\n    </Badge>\n    <Badge className=\"{{ prefixCls }}-badge tab-badge\" [dot]=\"dot\" *ngIf=\"dot\">\n      <ng-container *ngIf=\"isTemplateRef(selected ? selectedIcon : icon); then domTemplate; else imgTemplate\">\n      </ng-container>\n    </Badge>\n    <ng-container *ngIf=\"!badge && !dot\">\n      <ng-container *ngIf=\"isTemplateRef(selected ? selectedIcon : icon); then domTemplate; else imgTemplate\">\n      </ng-container>\n    </ng-container>\n  </div>\n  <p class=\"{{ prefixCls }}-title\" [style.color]=\"selected ? tintColor : unselectedTintColor\">\n    {{ title }}\n  </p>\n</ng-template>\n\n<ng-template #domTemplate>\n  <ng-template [ngTemplateOutlet]=\"selected ? selectedIcon : icon\"></ng-template>\n</ng-template>\n\n<ng-template #imgTemplate>\n  <img src=\"{{ selected ? selectedIcon : icon }}\" alt=\"{{ title }}\" />\n</ng-template>\n"
-            }]
-    }], function () { return []; }, { key: [{
-            type: Input
-        }], dot: [{
-            type: Input
-        }], badge: [{
-            type: Input
-        }], icon: [{
-            type: Input
-        }], selectedIcon: [{
-            type: Input
-        }], tabBarTab: [{
-            type: ViewChild,
-            args: ['tabBarTab', { static: true }]
-        }] }); })();
 
 class TabBarComponent {
     constructor() {
@@ -16189,21 +10152,12 @@ class TabBarComponent {
         this.selectTabBarItem(this.activeTab);
     }
 }
-TabBarComponent.ɵfac = function TabBarComponent_Factory(t) { return new (t || TabBarComponent)(); };
-TabBarComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TabBarComponent, selectors: [["TabBar"], ["nzm-tab-bar"]], contentQueries: function TabBarComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, TabBarItemComponent, 1);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.tabBarItems = _t);
-    } }, hostVars: 2, hostBindings: function TabBarComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-tab-bar", ctx.tabBar);
-    } }, inputs: { hidden: "hidden", prerenderingSiblingsNumber: "prerenderingSiblingsNumber", barTintColor: "barTintColor", tabBarPosition: "tabBarPosition", activeTab: "activeTab", tintColor: "tintColor", unselectedTintColor: "unselectedTintColor" }, outputs: { onPress: "onPress" }, decls: 3, vars: 9, consts: [[3, "animated", "useOnPan", "swipeable", "activeTab", "renderTabBar", "tabDirection", "tabPanesContent", "tabBarPosition", "prerenderingSiblingsNumber"], ["TabBarBar", ""], [1, "am-tabs-tab-bar-wrap"], [3, "ngClass"], ["class", "am-tab-bar-tab", 3, "click", 4, "ngFor", "ngForOf"], [1, "am-tab-bar-tab", 3, "click"], [3, "ngTemplateOutlet"]], template: function TabBarComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelement(0, "Tabs", 0);
-        ɵngcc0.ɵɵtemplate(1, TabBarComponent_ng_template_1_Template, 3, 10, "ng-template", null, 1, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        const _r0 = ɵngcc0.ɵɵreference(2);
-        ɵngcc0.ɵɵproperty("animated", false)("useOnPan", false)("swipeable", false)("activeTab", ctx.activeTab)("renderTabBar", _r0)("tabDirection", "horizontal")("tabPanesContent", ctx.tabBarItems)("tabBarPosition", ctx.tabBarPosition)("prerenderingSiblingsNumber", ctx.prerenderingSiblingsNumber);
-    } }, directives: [TabsComponent, ɵngcc1.NgClass, ɵngcc1.NgForOf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+TabBarComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'TabBar, nzm-tab-bar',
+                template: "<Tabs\n  [animated]=\"false\"\n  [useOnPan]=\"false\"\n  [swipeable]=\"false\"\n  [activeTab]=\"activeTab\"\n  [renderTabBar]=\"TabBarBar\"\n  [tabDirection]=\"'horizontal'\"\n  [tabPanesContent]=\"tabBarItems\"\n  [tabBarPosition]=\"tabBarPosition\"\n  [prerenderingSiblingsNumber]=\"prerenderingSiblingsNumber\"\n></Tabs>\n\n<ng-template #TabBarBar>\n  <div class=\"am-tabs-tab-bar-wrap\">\n    <div\n      class=\"{{ prefixCls }}-bar\"\n      [ngClass]=\"{\n        'am-tab-bar-bar-hidden-top': 'top' === tabBarPosition && hidden,\n        'am-tab-bar-bar-hidden-bottom': 'bottom' === tabBarPosition && hidden\n      }\"\n      [style.background-color]=\"barTintColor\"\n    >\n      <div\n        class=\"am-tab-bar-tab\"\n        *ngFor=\"let tabBarItem of tabBarItems; let i = index\"\n        (click)=\"tabBarTabOnPress({ index: i, key: tabBarItem.key, title: tabBarItem.title })\"\n      >\n        <ng-container [ngTemplateOutlet]=\"tabBarItem.tabBarTab\"></ng-container>\n      </div>\n    </div>\n  </div>\n</ng-template>\n"
+            },] }
+];
 TabBarComponent.ctorParameters = () => [];
 TabBarComponent.propDecorators = {
     tabBarItems: [{ type: ContentChildren, args: [TabBarItemComponent, { descendants: true },] }],
@@ -16217,51 +10171,17 @@ TabBarComponent.propDecorators = {
     onPress: [{ type: Output }],
     tabBar: [{ type: HostBinding, args: ['class.am-tab-bar',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabBarComponent, [{
-        type: Component,
-        args: [{
-                selector: 'TabBar, nzm-tab-bar',
-                template: "<Tabs\n  [animated]=\"false\"\n  [useOnPan]=\"false\"\n  [swipeable]=\"false\"\n  [activeTab]=\"activeTab\"\n  [renderTabBar]=\"TabBarBar\"\n  [tabDirection]=\"'horizontal'\"\n  [tabPanesContent]=\"tabBarItems\"\n  [tabBarPosition]=\"tabBarPosition\"\n  [prerenderingSiblingsNumber]=\"prerenderingSiblingsNumber\"\n></Tabs>\n\n<ng-template #TabBarBar>\n  <div class=\"am-tabs-tab-bar-wrap\">\n    <div\n      class=\"{{ prefixCls }}-bar\"\n      [ngClass]=\"{\n        'am-tab-bar-bar-hidden-top': 'top' === tabBarPosition && hidden,\n        'am-tab-bar-bar-hidden-bottom': 'bottom' === tabBarPosition && hidden\n      }\"\n      [style.background-color]=\"barTintColor\"\n    >\n      <div\n        class=\"am-tab-bar-tab\"\n        *ngFor=\"let tabBarItem of tabBarItems; let i = index\"\n        (click)=\"tabBarTabOnPress({ index: i, key: tabBarItem.key, title: tabBarItem.title })\"\n      >\n        <ng-container [ngTemplateOutlet]=\"tabBarItem.tabBarTab\"></ng-container>\n      </div>\n    </div>\n  </div>\n</ng-template>\n"
-            }]
-    }], function () { return []; }, { hidden: [{
-            type: Input
-        }], prerenderingSiblingsNumber: [{
-            type: Input
-        }], barTintColor: [{
-            type: Input
-        }], tabBarPosition: [{
-            type: Input
-        }], onPress: [{
-            type: Output
-        }], tabBar: [{
-            type: HostBinding,
-            args: ['class.am-tab-bar']
-        }], activeTab: [{
-            type: Input
-        }], tintColor: [{
-            type: Input
-        }], unselectedTintColor: [{
-            type: Input
-        }], tabBarItems: [{
-            type: ContentChildren,
-            args: [TabBarItemComponent, { descendants: true }]
-        }] }); })();
 
 class TabBarModule {
 }
-TabBarModule.ɵfac = function TabBarModule_Factory(t) { return new (t || TabBarModule)(); };
-TabBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TabBarModule });
-TabBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule, TabsModule, BadgeModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TabBarModule, { declarations: function () { return [TabBarComponent, TabBarItemComponent]; }, imports: function () { return [CommonModule, TabsModule, BadgeModule]; }, exports: function () { return [TabBarComponent, TabBarItemComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabBarModule, [{
-        type: NgModule,
-        args: [{
+TabBarModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, TabsModule, BadgeModule],
                 exports: [TabBarComponent, TabBarItemComponent],
                 declarations: [TabBarComponent, TabBarItemComponent],
                 providers: []
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class PickerOptions {
     constructor() {
@@ -16280,11 +10200,9 @@ class PickerOptions {
         this.indicatorStyle = {};
     }
 }
-PickerOptions.ɵfac = function PickerOptions_Factory(t) { return new (t || PickerOptions)(); };
-PickerOptions.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: PickerOptions, factory: PickerOptions.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerOptions, [{
-        type: Injectable
-    }], function () { return []; }, null); })();
+PickerOptions.decorators = [
+    { type: Injectable }
+];
 
 class PickerRef {
 }
@@ -16575,53 +10493,13 @@ class PickerComponent extends PickerRef {
         this._unsubscribe$.complete();
     }
 }
-PickerComponent.ɵfac = function PickerComponent_Factory(t) { return new (t || PickerComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(PickerOptions), ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-PickerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: PickerComponent, selectors: [["Picker"]], viewQuery: function PickerComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c18, 3, ViewContainerRef);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx._picker = _t.first);
-    } }, hostBindings: function PickerComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("mousedown", function PickerComponent_mousedown_HostBindingHandler($event) { return ctx.panstart($event); })("touchstart", function PickerComponent_touchstart_HostBindingHandler($event) { return ctx.panstart($event); })("mousemove", function PickerComponent_mousemove_HostBindingHandler($event) { return ctx.panmove($event); })("touchmove", function PickerComponent_touchmove_HostBindingHandler($event) { return ctx.panmove($event); })("mouseup", function PickerComponent_mouseup_HostBindingHandler($event) { return ctx.panend($event); })("mouseleave", function PickerComponent_mouseleave_HostBindingHandler($event) { return ctx.panend($event); })("touchend", function PickerComponent_touchend_HostBindingHandler($event) { return ctx.panend($event); });
-    } }, features: [ɵngcc0.ɵɵInheritDefinitionFeature], decls: 15, vars: 8, consts: [[3, "class", "click", 4, "ngIf"], [2, "min-height", "280px"], [1, "am-picker-popup-content"], [1, "am-picker-popup-body"], [1, "am-picker-popup-header"], [1, "am-picker-popup-item", "am-picker-popup-header-left", 3, "click"], [1, "am-picker-popup-item", "am-picker-popup-title"], [1, "am-picker-popup-item", "am-picker-popup-header-right", 3, "click"], [1, "am-picker", 2, "flex-direction", "row", "align-items", "center"], ["picker", ""], ["class", "am-picker-col", 4, "ngFor", "ngForOf"], [3, "click"], [1, "am-picker-col"], [1, "am-picker-col-indicator", 2, "top", "102px", 3, "ngStyle"], [1, "am-picker-col-mask", 2, "background-size", "100% 102px", 3, "id"], [1, "am-picker-col-content"], ["class", "am-picker-col-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "am-picker-col-item", 3, "id"]], template: function PickerComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, PickerComponent_div_0_Template, 1, 3, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "div", 1);
-        ɵngcc0.ɵɵelementStart(2, "div", 2);
-        ɵngcc0.ɵɵelementStart(3, "div", 3);
-        ɵngcc0.ɵɵelementStart(4, "div");
-        ɵngcc0.ɵɵelementStart(5, "div", 4);
-        ɵngcc0.ɵɵelementStart(6, "div", 5);
-        ɵngcc0.ɵɵlistener("click", function PickerComponent_Template_div_click_6_listener() { return ctx.cancel(); });
-        ɵngcc0.ɵɵtext(7);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(8, "div", 6);
-        ɵngcc0.ɵɵtext(9);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(10, "div", 7);
-        ɵngcc0.ɵɵlistener("click", function PickerComponent_Template_div_click_10_listener() { return ctx.ok(); });
-        ɵngcc0.ɵɵtext(11);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(12, "div", 8, 9);
-        ɵngcc0.ɵɵtemplate(14, PickerComponent_div_14_Template, 5, 3, "div", 10);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.options.mask);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("am-picker-popup am-picker-popup-wrap ", ctx.transitionName, "");
-        ɵngcc0.ɵɵadvance(6);
-        ɵngcc0.ɵɵtextInterpolate1(" ", ctx.options.dismissText, " ");
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.options.title);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵtextInterpolate(ctx.options.okText);
-        ɵngcc0.ɵɵadvance(3);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.dataForRender);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgForOf, ɵngcc1.NgStyle], encapsulation: 2 });
+PickerComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Picker',
+                template: "<div *ngIf=\"options.mask\" class=\"am-picker-popup-mask {{ maskTransitionName }}\" (click)=\"cancel()\"></div>\n<div class=\"am-picker-popup am-picker-popup-wrap {{ transitionName }}\" style=\" min-height: 280px\">\n  <div class=\"am-picker-popup-content\">\n    <div class=\"am-picker-popup-body\">\n      <div>\n        <div class=\"am-picker-popup-header\">\n          <div class=\"am-picker-popup-item am-picker-popup-header-left\" (click)=\"cancel()\">\n            {{ options.dismissText }}\n          </div>\n          <div class=\"am-picker-popup-item am-picker-popup-title\">{{ options.title }}</div>\n          <div class=\"am-picker-popup-item am-picker-popup-header-right\" (click)=\"ok()\">{{ options.okText }}</div>\n        </div>\n        <div class=\"am-picker\" style=\"flex-direction: row; align-items: center;\" #picker>\n          <div *ngFor=\"let item of dataForRender; let i = index\" class=\"am-picker-col\">\n            <div class=\"am-picker-col-indicator \" style=\"top: 102px;\" [ngStyle]=\"options.indicatorStyle\"></div>\n            <div class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\" id=\"{{ i }}\"></div>\n            <div class=\"am-picker-col-content\">\n              <div *ngFor=\"let val of item; let i = index\" class=\"am-picker-col-item\" id=\"{{ i }}\">\n                {{ val.label ? val.label : val }}\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 PickerComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: PickerOptions },
@@ -16633,38 +10511,6 @@ PickerComponent.propDecorators = {
     panmove: [{ type: HostListener, args: ['mousemove', ['$event'],] }, { type: HostListener, args: ['touchmove', ['$event'],] }],
     panend: [{ type: HostListener, args: ['mouseup', ['$event'],] }, { type: HostListener, args: ['mouseleave', ['$event'],] }, { type: HostListener, args: ['touchend', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Picker',
-                template: "<div *ngIf=\"options.mask\" class=\"am-picker-popup-mask {{ maskTransitionName }}\" (click)=\"cancel()\"></div>\n<div class=\"am-picker-popup am-picker-popup-wrap {{ transitionName }}\" style=\" min-height: 280px\">\n  <div class=\"am-picker-popup-content\">\n    <div class=\"am-picker-popup-body\">\n      <div>\n        <div class=\"am-picker-popup-header\">\n          <div class=\"am-picker-popup-item am-picker-popup-header-left\" (click)=\"cancel()\">\n            {{ options.dismissText }}\n          </div>\n          <div class=\"am-picker-popup-item am-picker-popup-title\">{{ options.title }}</div>\n          <div class=\"am-picker-popup-item am-picker-popup-header-right\" (click)=\"ok()\">{{ options.okText }}</div>\n        </div>\n        <div class=\"am-picker\" style=\"flex-direction: row; align-items: center;\" #picker>\n          <div *ngFor=\"let item of dataForRender; let i = index\" class=\"am-picker-col\">\n            <div class=\"am-picker-col-indicator \" style=\"top: 102px;\" [ngStyle]=\"options.indicatorStyle\"></div>\n            <div class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\" id=\"{{ i }}\"></div>\n            <div class=\"am-picker-col-content\">\n              <div *ngFor=\"let val of item; let i = index\" class=\"am-picker-col-item\" id=\"{{ i }}\">\n                {{ val.label ? val.label : val }}\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: PickerOptions }, { type: LocaleProviderService }]; }, { panstart: [{
-            type: HostListener,
-            args: ['mousedown', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }], panmove: [{
-            type: HostListener,
-            args: ['mousemove', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchmove', ['$event']]
-        }], panend: [{
-            type: HostListener,
-            args: ['mouseup', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['mouseleave', ['$event']]
-        }, {
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }], _picker: [{
-            type: ViewChild,
-            args: ['picker', { read: ViewContainerRef, static: true }]
-        }] }); })();
 
 class PickerDirective {
     constructor(_viewContainerRef, _elm, _defaultOptions, _cfr, _renderer, _zone) {
@@ -16827,16 +10673,18 @@ class PickerDirective {
         return true;
     }
 }
-PickerDirective.ɵfac = function PickerDirective_Factory(t) { return new (t || PickerDirective)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ViewContainerRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(PickerOptions), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ComponentFactoryResolver), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.Renderer2), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.NgZone)); };
-PickerDirective.ɵdir = ɵngcc0.ɵɵdefineDirective({ type: PickerDirective, selectors: [["", "Picker", ""], ["", "nzm-picker", ""]], hostBindings: function PickerDirective_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("click", function PickerDirective_click_HostBindingHandler() { return ctx.togglePicker(); });
-    } }, inputs: { disabled: "disabled", data: "data", cols: "cols", mask: "mask", title: "title", visible: "visible", okText: "okText", dismissText: "dismissText", cascade: "cascade", appendToBody: "appendToBody", indicatorStyle: "indicatorStyle" }, outputs: { onVisibleChange: "onVisibleChange", onPickerChange: "onPickerChange", onDismiss: "onDismiss" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => PickerDirective),
-                multi: true
-            }
-        ]), ɵngcc0.ɵɵNgOnChangesFeature] });
+PickerDirective.decorators = [
+    { type: Directive, args: [{
+                selector: '[Picker], [nzm-picker]',
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => PickerDirective),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 PickerDirective.ctorParameters = () => [
     { type: ViewContainerRef },
     { type: ElementRef },
@@ -16862,50 +10710,6 @@ PickerDirective.propDecorators = {
     onDismiss: [{ type: Output }],
     togglePicker: [{ type: HostListener, args: ['click',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerDirective, [{
-        type: Directive,
-        args: [{
-                selector: '[Picker], [nzm-picker]',
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => PickerDirective),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ViewContainerRef }, { type: ɵngcc0.ElementRef }, { type: PickerOptions }, { type: ɵngcc0.ComponentFactoryResolver }, { type: ɵngcc0.Renderer2 }, { type: ɵngcc0.NgZone }]; }, { onVisibleChange: [{
-            type: Output
-        }], onPickerChange: [{
-            type: Output
-        }], onDismiss: [{
-            type: Output
-        }], togglePicker: [{
-            type: HostListener,
-            args: ['click']
-        }], disabled: [{
-            type: Input
-        }], data: [{
-            type: Input
-        }], cols: [{
-            type: Input
-        }], mask: [{
-            type: Input
-        }], title: [{
-            type: Input
-        }], visible: [{
-            type: Input
-        }], okText: [{
-            type: Input
-        }], dismissText: [{
-            type: Input
-        }], cascade: [{
-            type: Input
-        }], appendToBody: [{
-            type: Input
-        }], indicatorStyle: [{
-            type: Input
-        }] }); })();
 
 class PickerService extends PopupService {
     constructor() {
@@ -16943,28 +10747,20 @@ class PickerService extends PopupService {
         this.hidePopup();
     }
 }
-PickerService.ɵfac = function PickerService_Factory(t) { return ɵPickerService_BaseFactory(t || PickerService); };
-PickerService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: PickerService, factory: PickerService.ɵfac });
-const ɵPickerService_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(PickerService);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerService, [{
-        type: Injectable
-    }], null, null); })();
+PickerService.decorators = [
+    { type: Injectable }
+];
 
 class PickerModule {
 }
-PickerModule.ɵfac = function PickerModule_Factory(t) { return new (t || PickerModule)(); };
-PickerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PickerModule });
-PickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [PickerOptions, PopupService, PickerService], imports: [[CommonModule, OverlayModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PickerModule, { declarations: function () { return [PickerComponent, PickerDirective]; }, imports: function () { return [CommonModule, OverlayModule]; }, exports: function () { return [PickerComponent, PickerDirective]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerModule, [{
-        type: NgModule,
-        args: [{
+PickerModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, OverlayModule],
                 exports: [PickerComponent, PickerDirective],
                 declarations: [PickerComponent, PickerDirective],
                 providers: [PickerOptions, PopupService, PickerService]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class PickerViewComponent extends PickerComponent {
     constructor() {
@@ -17023,32 +10819,8 @@ class PickerViewComponent extends PickerComponent {
         this.reloadPicker();
     }
 }
-PickerViewComponent.ɵfac = function PickerViewComponent_Factory(t) { return ɵPickerViewComponent_BaseFactory(t || PickerViewComponent); };
-PickerViewComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: PickerViewComponent, selectors: [["PickerView"], ["nzm-picker-view"]], inputs: { data: "data", cols: "cols", indicatorStyle: "indicatorStyle", itemStyle: "itemStyle", cascade: "cascade" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => PickerViewComponent),
-                multi: true
-            }
-        ]), ɵngcc0.ɵɵInheritDefinitionFeature, ɵngcc0.ɵɵNgOnChangesFeature], decls: 3, vars: 1, consts: [[1, "am-picker", 2, "flex-direction", "row", "align-items", "center"], ["picker", ""], ["class", "am-picker-col", 4, "ngFor", "ngForOf"], [1, "am-picker-col"], [1, "am-picker-col-indicator", 3, "ngStyle"], ["indicator", ""], [1, "am-picker-col-mask", 2, "background-size", "100% 102px", 3, "id"], [1, "am-picker-col-content"], ["class", "am-picker-col-item", 3, "id", "ngStyle", 4, "ngFor", "ngForOf"], [1, "am-picker-col-item", 3, "id", "ngStyle"]], template: function PickerViewComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0, 1);
-        ɵngcc0.ɵɵtemplate(2, PickerViewComponent_div_2_Template, 6, 3, "div", 2);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.dataForRender);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgStyle], encapsulation: 2 });
-PickerViewComponent.propDecorators = {
-    data: [{ type: Input }],
-    cols: [{ type: Input }],
-    cascade: [{ type: Input }],
-    indicatorStyle: [{ type: Input }],
-    itemStyle: [{ type: Input }]
-};
-const ɵPickerViewComponent_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactory(PickerViewComponent);
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerViewComponent, [{
-        type: Component,
-        args: [{
+PickerViewComponent.decorators = [
+    { type: Component, args: [{
                 selector: 'PickerView, nzm-picker-view',
                 template: "<div #picker class=\"am-picker\" style=\"flex-direction: row; align-items: center;\">\n  <div *ngFor=\"let item of dataForRender; let i = index\" class=\"am-picker-col\">\n    <div #indicator class=\"am-picker-col-indicator \" [ngStyle]=\"indicatorStyle\"></div>\n    <div id=\"{{ i }}\" class=\"am-picker-col-mask\" style=\"background-size: 100% 102px;\"></div>\n    <div class=\"am-picker-col-content\">\n      <div *ngFor=\"let val of item; let i = index\" id=\"{{ i }}\" class=\"am-picker-col-item\" [ngStyle]=\"itemStyle\">\n        {{ val.label ? val.label : val }}\n      </div>\n    </div>\n  </div>\n</div>\n",
                 encapsulation: ViewEncapsulation.None,
@@ -17059,33 +10831,25 @@ const ɵPickerViewComponent_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInherited
                         multi: true
                     }
                 ]
-            }]
-    }], null, { data: [{
-            type: Input
-        }], cols: [{
-            type: Input
-        }], indicatorStyle: [{
-            type: Input
-        }], itemStyle: [{
-            type: Input
-        }], cascade: [{
-            type: Input
-        }] }); })();
+            },] }
+];
+PickerViewComponent.propDecorators = {
+    data: [{ type: Input }],
+    cols: [{ type: Input }],
+    cascade: [{ type: Input }],
+    indicatorStyle: [{ type: Input }],
+    itemStyle: [{ type: Input }]
+};
 
 class PickerViewModule {
 }
-PickerViewModule.ɵfac = function PickerViewModule_Factory(t) { return new (t || PickerViewModule)(); };
-PickerViewModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PickerViewModule });
-PickerViewModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[FormsModule, CommonModule, PickerModule, LocaleProviderModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PickerViewModule, { declarations: function () { return [PickerViewComponent]; }, imports: function () { return [FormsModule, CommonModule, PickerModule, LocaleProviderModule]; }, exports: function () { return [PickerViewComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerViewModule, [{
-        type: NgModule,
-        args: [{
+PickerViewModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [FormsModule, CommonModule, PickerModule, LocaleProviderModule],
                 exports: [PickerViewComponent],
                 declarations: [PickerViewComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ImagePickerComponent {
     constructor() {
@@ -17302,21 +11066,12 @@ class ImagePickerComponent {
         reader.readAsArrayBuffer(file.slice(0, 64 * 1024));
     }
 }
-ImagePickerComponent.ɵfac = function ImagePickerComponent_Factory(t) { return new (t || ImagePickerComponent)(); };
-ImagePickerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ImagePickerComponent, selectors: [["ImagePicker"], ["nzm-image-picker"]], viewQuery: function ImagePickerComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c37, 1, ViewContainerRef);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx._fileSelectorInput = _t.first);
-    } }, inputs: { capture: "capture", disableDelete: "disableDelete", files: "files", accept: "accept", length: "length", multiple: "multiple", selectable: "selectable" }, outputs: { onFail: "onFail", onChange: "onChange", onImageClick: "onImageClick", onAddImageClick: "onAddImageClick" }, decls: 2, vars: 4, consts: [["role", "group"], [4, "ngFor", "ngForOf"], [3, "class", 4, "ngIf"], ["role", "button", "aria-label", "Choose and add image", 3, "class", "click", 4, "ngIf"], ["role", "button", "aria-label", "Click and Remove this image", 3, "class", "click", 4, "ngIf"], ["role", "button", "aria-label", "Image can be clicked", 3, "ngStyle", "click"], ["role", "button", "aria-label", "Click and Remove this image", 3, "click"], ["role", "button", "aria-label", "Choose and add image", 3, "click"], ["type", "file", 3, "accept", "multiple", "change"], ["fileSelectorInput", ""]], template: function ImagePickerComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ImagePickerComponent_Flex_1_Template, 2, 1, "Flex", 1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-list");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.flexEl);
-    } }, directives: [ɵngcc1.NgForOf, FlexComponent, FlexItemComponent, ɵngcc1.NgIf, ɵngcc1.NgStyle], encapsulation: 2 });
+ImagePickerComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'ImagePicker, nzm-image-picker',
+                template: "<div class=\"{{ prefixCls }}-list\" role=\"group\">\n  <Flex *ngFor=\"let rowItem of flexEl; let i = index\">\n    <FlexItem *ngFor=\"let item of rowItem; let j = index\">\n      <div *ngIf=\"item && 'img' === item.type && item.backgroundImage\" class=\"{{ prefixCls }}-item\">\n        <div\n          role=\"button\"\n          *ngIf=\"!disableDelete\"\n          aria-label=\"Click and Remove this image\"\n          class=\"{{ prefixCls }}-item-remove\"\n          (click)=\"removeImage(i * length + j)\"\n        ></div>\n        <div\n          role=\"button\"\n          aria-label=\"Image can be clicked\"\n          class=\"{{ prefixCls }}-item-content\"\n          [ngStyle]=\"{ 'background-image': item.backgroundImage, transform: item.transform }\"\n          (click)=\"imageClick(i * length + j)\"\n        ></div>\n      </div>\n      <div\n        role=\"button\"\n        aria-label=\"Choose and add image\"\n        *ngIf=\"item && 'select' === item.type\"\n        class=\"{{ prefixCls }}-item {{ prefixCls }}-upload-btn\"\n        (click)=\"addImageClick($event)\"\n      >\n        <input\n          #fileSelectorInput\n          type=\"file\"\n          [accept]=\"accept\"\n          [multiple]=\"multiple\"\n          [attr.capture]=\"capture ? capture : null\"\n          (change)=\"fileChange($event)\"\n        />\n      </div>\n      <div *ngIf=\"item && 'white' === item.type\" class=\"{{ prefixCls }}-item-white\"></div>\n    </FlexItem>\n  </Flex>\n</div>\n"
+            },] }
+];
 ImagePickerComponent.ctorParameters = () => [];
 ImagePickerComponent.propDecorators = {
     _fileSelectorInput: [{ type: ViewChild, args: ['fileSelectorInput', { read: ViewContainerRef },] }],
@@ -17332,53 +11087,16 @@ ImagePickerComponent.propDecorators = {
     onImageClick: [{ type: Output }],
     onAddImageClick: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ImagePickerComponent, [{
-        type: Component,
-        args: [{
-                selector: 'ImagePicker, nzm-image-picker',
-                template: "<div class=\"{{ prefixCls }}-list\" role=\"group\">\n  <Flex *ngFor=\"let rowItem of flexEl; let i = index\">\n    <FlexItem *ngFor=\"let item of rowItem; let j = index\">\n      <div *ngIf=\"item && 'img' === item.type && item.backgroundImage\" class=\"{{ prefixCls }}-item\">\n        <div\n          role=\"button\"\n          *ngIf=\"!disableDelete\"\n          aria-label=\"Click and Remove this image\"\n          class=\"{{ prefixCls }}-item-remove\"\n          (click)=\"removeImage(i * length + j)\"\n        ></div>\n        <div\n          role=\"button\"\n          aria-label=\"Image can be clicked\"\n          class=\"{{ prefixCls }}-item-content\"\n          [ngStyle]=\"{ 'background-image': item.backgroundImage, transform: item.transform }\"\n          (click)=\"imageClick(i * length + j)\"\n        ></div>\n      </div>\n      <div\n        role=\"button\"\n        aria-label=\"Choose and add image\"\n        *ngIf=\"item && 'select' === item.type\"\n        class=\"{{ prefixCls }}-item {{ prefixCls }}-upload-btn\"\n        (click)=\"addImageClick($event)\"\n      >\n        <input\n          #fileSelectorInput\n          type=\"file\"\n          [accept]=\"accept\"\n          [multiple]=\"multiple\"\n          [attr.capture]=\"capture ? capture : null\"\n          (change)=\"fileChange($event)\"\n        />\n      </div>\n      <div *ngIf=\"item && 'white' === item.type\" class=\"{{ prefixCls }}-item-white\"></div>\n    </FlexItem>\n  </Flex>\n</div>\n"
-            }]
-    }], function () { return []; }, { capture: [{
-            type: Input
-        }], disableDelete: [{
-            type: Input
-        }], onFail: [{
-            type: Output
-        }], onChange: [{
-            type: Output
-        }], onImageClick: [{
-            type: Output
-        }], onAddImageClick: [{
-            type: Output
-        }], files: [{
-            type: Input
-        }], accept: [{
-            type: Input
-        }], length: [{
-            type: Input
-        }], multiple: [{
-            type: Input
-        }], selectable: [{
-            type: Input
-        }], _fileSelectorInput: [{
-            type: ViewChild,
-            args: ['fileSelectorInput', { read: ViewContainerRef }]
-        }] }); })();
 
 class ImagePickerModule {
 }
-ImagePickerModule.ɵfac = function ImagePickerModule_Factory(t) { return new (t || ImagePickerModule)(); };
-ImagePickerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ImagePickerModule });
-ImagePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FlexModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ImagePickerModule, { declarations: function () { return [ImagePickerComponent]; }, imports: function () { return [CommonModule, FlexModule]; }, exports: function () { return [ImagePickerComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ImagePickerModule, [{
-        type: NgModule,
-        args: [{
+ImagePickerModule.decorators = [
+    { type: NgModule, args: [{
                 declarations: [ImagePickerComponent],
                 exports: [ImagePickerComponent],
                 imports: [CommonModule, FlexModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class ResultComponent {
     constructor() {
@@ -17423,34 +11141,13 @@ class ResultComponent {
         return false;
     }
 }
-ResultComponent.ɵfac = function ResultComponent_Factory(t) { return new (t || ResultComponent)(); };
-ResultComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ResultComponent, selectors: [["Result"], ["nzm-result"]], hostVars: 3, hostBindings: function ResultComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵattribute("role", ctx.role);
-        ɵngcc0.ɵɵclassProp("am-result", ctx.amResult);
-    } }, inputs: { title: "title", message: "message", imgUrl: "imgUrl", buttonText: "buttonText", buttonType: "buttonType", img: "img" }, outputs: { onButtonClick: "onButtonClick" }, decls: 7, vars: 7, consts: [[3, "class", 4, "ngIf"], [3, "class", "ngStyle", 4, "ngIf"], [3, "ngClass"], [4, "ngIf"], [3, "ngTemplateOutlet"], [3, "ngStyle"], ["Button", "", 3, "type", "click"]], template: function ResultComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, ResultComponent_div_0_Template, 2, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, ResultComponent_div_1_Template, 1, 6, "div", 1);
-        ɵngcc0.ɵɵtemplate(2, ResultComponent_div_2_Template, 3, 5, "div", 0);
-        ɵngcc0.ɵɵelementStart(3, "div", 2);
-        ɵngcc0.ɵɵtemplate(4, ResultComponent_4_Template, 1, 1, undefined, 3);
-        ɵngcc0.ɵɵtemplate(5, ResultComponent_span_5_Template, 2, 1, "span", 3);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(6, ResultComponent_div_6_Template, 3, 5, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.img);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.img && ctx.imgUrl);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.title);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.prefixCls + "-message");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.isMessageString);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.isMessageString);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.buttonText);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgTemplateOutlet, ɵngcc1.NgStyle], encapsulation: 2 });
+ResultComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Result, nzm-result',
+                template: "<div *ngIf=\"img\" class=\"{{ prefixCls }}-pic\">\n  <ng-template [ngTemplateOutlet]=\"img\"></ng-template>\n</div>\n<div *ngIf=\"!img && imgUrl\" class=\"{{ prefixCls }}-pic\" [ngStyle]=\"{ backgroundImage: 'url(' + imgUrl + ')' }\"></div>\n<div *ngIf=\"title\" class=\"{{ prefixCls }}-title\">\n  <ng-template *ngIf=\"!isTitleString\" [ngTemplateOutlet]=\"title\"></ng-template>\n  <span *ngIf=\"isTitleString\">{{ title }}</span>\n</div>\n<div [ngClass]=\"prefixCls + '-message'\">\n  <ng-template *ngIf=\"!isMessageString\" [ngTemplateOutlet]=\"message\"></ng-template>\n  <span *ngIf=\"isMessageString\">{{ message }}</span>\n</div>\n<div *ngIf=\"buttonText\" class=\"{{ prefixCls }}-button\">\n  <a Button [type]=\"buttonType\" (click)=\"buttonClick($event)\">\n    {{ buttonText }}\n  </a>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 ResultComponent.ctorParameters = () => [];
 ResultComponent.propDecorators = {
     title: [{ type: Input }],
@@ -17463,49 +11160,16 @@ ResultComponent.propDecorators = {
     role: [{ type: HostBinding, args: ['attr.role',] }],
     amResult: [{ type: HostBinding, args: ['class.am-result',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ResultComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Result, nzm-result',
-                template: "<div *ngIf=\"img\" class=\"{{ prefixCls }}-pic\">\n  <ng-template [ngTemplateOutlet]=\"img\"></ng-template>\n</div>\n<div *ngIf=\"!img && imgUrl\" class=\"{{ prefixCls }}-pic\" [ngStyle]=\"{ backgroundImage: 'url(' + imgUrl + ')' }\"></div>\n<div *ngIf=\"title\" class=\"{{ prefixCls }}-title\">\n  <ng-template *ngIf=\"!isTitleString\" [ngTemplateOutlet]=\"title\"></ng-template>\n  <span *ngIf=\"isTitleString\">{{ title }}</span>\n</div>\n<div [ngClass]=\"prefixCls + '-message'\">\n  <ng-template *ngIf=\"!isMessageString\" [ngTemplateOutlet]=\"message\"></ng-template>\n  <span *ngIf=\"isMessageString\">{{ message }}</span>\n</div>\n<div *ngIf=\"buttonText\" class=\"{{ prefixCls }}-button\">\n  <a Button [type]=\"buttonType\" (click)=\"buttonClick($event)\">\n    {{ buttonText }}\n  </a>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { onButtonClick: [{
-            type: Output
-        }], role: [{
-            type: HostBinding,
-            args: ['attr.role']
-        }], amResult: [{
-            type: HostBinding,
-            args: ['class.am-result']
-        }], title: [{
-            type: Input
-        }], message: [{
-            type: Input
-        }], imgUrl: [{
-            type: Input
-        }], buttonText: [{
-            type: Input
-        }], buttonType: [{
-            type: Input
-        }], img: [{
-            type: Input
-        }] }); })();
 
 class ResultModule {
 }
-ResultModule.ɵfac = function ResultModule_Factory(t) { return new (t || ResultModule)(); };
-ResultModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ResultModule });
-ResultModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ResultModule, { declarations: function () { return [ResultComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [ResultComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ResultModule, [{
-        type: NgModule,
-        args: [{
+ResultModule.decorators = [
+    { type: NgModule, args: [{
                 declarations: [ResultComponent],
                 exports: [ResultComponent],
                 imports: [CommonModule, IconModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class RangeComponent {
     constructor(_elf) {
@@ -17738,36 +11402,19 @@ class RangeComponent {
         this.sliderStart = sliderCoords.left;
     }
 }
-RangeComponent.ɵfac = function RangeComponent_Factory(t) { return new (t || RangeComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-RangeComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: RangeComponent, selectors: [["Range"], ["nzm-range"]], hostVars: 2, hostBindings: function RangeComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-slider-wrapper", ctx.amWrapper);
-    } }, inputs: { min: "min", max: "max", step: "step", value: "value", defaultValue: "defaultValue", disabled: "disabled", marks: "marks", dots: "dots", included: "included", count: "count", allowCross: "allowCross", pushable: "pushable", handleStyle: "handleStyle", trackStyle: "trackStyle", railStyle: "railStyle" }, outputs: { onChange: "onChange", onAfterChange: "onAfterChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => RangeComponent),
-                multi: true
-            }
-        ])], decls: 6, vars: 16, consts: [[1, "am-slider", 3, "ngClass"], [1, "am-slider-rail", 3, "ngStyle"], [3, "className", "included", "style", "offset", "length", 4, "ngFor", "ngForOf"], [3, "max", "min", "dots", "step", "marks", "upperBound", "lowerBound"], [3, "max", "min", "maxBound", "minBound", "value", "step", "disabled", "sliderLength", "sliderStart", "handleStyle", "onChange", "onAfterChange", 4, "ngFor", "ngForOf"], [3, "max", "min", "marks", "upperBound", "lowerBound"], [3, "className", "included", "offset", "length"], [3, "max", "min", "maxBound", "minBound", "value", "step", "disabled", "sliderLength", "sliderStart", "handleStyle", "onChange", "onAfterChange"]], template: function RangeComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵelement(1, "div", 1);
-        ɵngcc0.ɵɵtemplate(2, RangeComponent_SliderTrack_2_Template, 1, 6, "SliderTrack", 2);
-        ɵngcc0.ɵɵelement(3, "SliderSteps", 3);
-        ɵngcc0.ɵɵtemplate(4, RangeComponent_SliderHandle_4_Template, 1, 10, "SliderHandle", 4);
-        ɵngcc0.ɵɵelement(5, "SliderMarks", 5);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngClass", ctx.sliderCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.railStyle);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.offset);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("max", ctx.max)("min", ctx.min)("dots", ctx.dots)("step", ctx.step)("marks", ctx.marks)("upperBound", ctx.upperBound)("lowerBound", ctx.lowerBound);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.value);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("max", ctx.max)("min", ctx.min)("marks", ctx.marks)("upperBound", ctx.upperBound)("lowerBound", ctx.lowerBound);
-    } }, directives: function () { return [ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc1.NgForOf, SliderStepsComponent, SliderMarksComponent, SliderTrackComponent, SliderHandleComponent]; }, encapsulation: 2 });
+RangeComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Range , nzm-range',
+                template: "<div class=\"am-slider\" [ngClass]=\"sliderCls\">\n  <div class=\"am-slider-rail\" [ngStyle]=\"railStyle\"></div>\n  <SliderTrack\n    *ngFor=\"let off of offset; let i = index\"\n    [className]=\"'am-slider-track'\"\n    [included]=\"included\"\n    [style]=\"trackStyle[i]\"\n    [offset]=\"off\"\n    [length]=\"length[i]\"\n  ></SliderTrack>\n  <SliderSteps\n    [max]=\"max\"\n    [min]=\"min\"\n    [dots]=\"dots\"\n    [step]=\"step\"\n    [marks]=\"marks\"\n    [upperBound]=\"upperBound\"\n    [lowerBound]=\"lowerBound\"\n  ></SliderSteps>\n  <SliderHandle\n    *ngFor=\"let val of value; let i = index\"\n    [max]=\"max\"\n    [min]=\"min\"\n    [maxBound]=\"maxBound[i]\"\n    [minBound]=\"minBound[i]\"\n    [value]=\"val\"\n    [step]=\"step\"\n    [disabled]=\"disabled\"\n    [sliderLength]=\"sliderLength\"\n    [sliderStart]=\"sliderStart\"\n    [handleStyle]=\"handleStyle[i]\"\n    (onChange)=\"handleChange($event, i)\"\n    (onAfterChange)=\"handleAfterChange($event, i)\"\n  ></SliderHandle>\n  <SliderMarks\n    [max]=\"max\"\n    [min]=\"min\"\n    [marks]=\"marks\"\n    [upperBound]=\"upperBound\"\n    [lowerBound]=\"lowerBound\"\n  ></SliderMarks>\n</div>\n",
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => RangeComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 RangeComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -17791,57 +11438,6 @@ RangeComponent.propDecorators = {
     onAfterChange: [{ type: Output }],
     amWrapper: [{ type: HostBinding, args: ['class.am-slider-wrapper',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RangeComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Range , nzm-range',
-                template: "<div class=\"am-slider\" [ngClass]=\"sliderCls\">\n  <div class=\"am-slider-rail\" [ngStyle]=\"railStyle\"></div>\n  <SliderTrack\n    *ngFor=\"let off of offset; let i = index\"\n    [className]=\"'am-slider-track'\"\n    [included]=\"included\"\n    [style]=\"trackStyle[i]\"\n    [offset]=\"off\"\n    [length]=\"length[i]\"\n  ></SliderTrack>\n  <SliderSteps\n    [max]=\"max\"\n    [min]=\"min\"\n    [dots]=\"dots\"\n    [step]=\"step\"\n    [marks]=\"marks\"\n    [upperBound]=\"upperBound\"\n    [lowerBound]=\"lowerBound\"\n  ></SliderSteps>\n  <SliderHandle\n    *ngFor=\"let val of value; let i = index\"\n    [max]=\"max\"\n    [min]=\"min\"\n    [maxBound]=\"maxBound[i]\"\n    [minBound]=\"minBound[i]\"\n    [value]=\"val\"\n    [step]=\"step\"\n    [disabled]=\"disabled\"\n    [sliderLength]=\"sliderLength\"\n    [sliderStart]=\"sliderStart\"\n    [handleStyle]=\"handleStyle[i]\"\n    (onChange)=\"handleChange($event, i)\"\n    (onAfterChange)=\"handleAfterChange($event, i)\"\n  ></SliderHandle>\n  <SliderMarks\n    [max]=\"max\"\n    [min]=\"min\"\n    [marks]=\"marks\"\n    [upperBound]=\"upperBound\"\n    [lowerBound]=\"lowerBound\"\n  ></SliderMarks>\n</div>\n",
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => RangeComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { onChange: [{
-            type: Output
-        }], onAfterChange: [{
-            type: Output
-        }], amWrapper: [{
-            type: HostBinding,
-            args: ['class.am-slider-wrapper']
-        }], min: [{
-            type: Input
-        }], max: [{
-            type: Input
-        }], step: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], marks: [{
-            type: Input
-        }], dots: [{
-            type: Input
-        }], included: [{
-            type: Input
-        }], count: [{
-            type: Input
-        }], allowCross: [{
-            type: Input
-        }], pushable: [{
-            type: Input
-        }], handleStyle: [{
-            type: Input
-        }], trackStyle: [{
-            type: Input
-        }], railStyle: [{
-            type: Input
-        }] }); })();
 
 class SliderComponent {
     constructor(_elf) {
@@ -18000,39 +11596,20 @@ class SliderComponent {
         this._ngModelOnTouched = fn;
     }
 }
-SliderComponent.ɵfac = function SliderComponent_Factory(t) { return new (t || SliderComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-SliderComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SliderComponent, selectors: [["Slider"], ["nzm-slider"]], hostVars: 2, hostBindings: function SliderComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-slider-wrapper", ctx.amSliderWrapper);
-    } }, inputs: { min: "min", max: "max", step: "step", value: "value", defaultValue: "defaultValue", disabled: "disabled", marks: "marks", dots: "dots", included: "included", handleStyle: "handleStyle", trackStyle: "trackStyle", railStyle: "railStyle" }, outputs: { onAfterChange: "onAfterChange", onChange: "onChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => SliderComponent),
-                multi: true
-            }
-        ])], decls: 6, vars: 30, consts: [[1, "am-slider", 3, "ngClass"], [1, "am-slider-rail", 3, "ngStyle"], [3, "className", "offset", "length", "included"], [3, "max", "min", "dots", "step", "marks", "lowerBound", "upperBound", "included"], [3, "max", "min", "value", "step", "disabled", "handleStyle", "sliderStart", "sliderLength", "onChange", "onAfterChange"], [3, "max", "min", "marks", "lowerBound", "upperBound", "included"]], template: function SliderComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵelement(1, "div", 1);
-        ɵngcc0.ɵɵelement(2, "SliderTrack", 2);
-        ɵngcc0.ɵɵelement(3, "SliderSteps", 3);
-        ɵngcc0.ɵɵelementStart(4, "SliderHandle", 4);
-        ɵngcc0.ɵɵlistener("onChange", function SliderComponent_Template_SliderHandle_onChange_4_listener($event) { return ctx.handleChange($event); })("onAfterChange", function SliderComponent_Template_SliderHandle_onAfterChange_4_listener($event) { return ctx.handleAfterChange($event); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelement(5, "SliderMarks", 5);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngClass", ctx.sliderCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.railStyle);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵstyleMap(ctx.trackStyle);
-        ɵngcc0.ɵɵproperty("className", "am-slider-track")("offset", ctx.offset)("length", ctx.length)("included", ctx.included);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("max", ctx.max)("min", ctx.min)("dots", ctx.dots)("step", ctx.step)("marks", ctx.marks)("lowerBound", ctx.min)("upperBound", ctx.value)("included", ctx.included);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("max", ctx.max)("min", ctx.min)("value", ctx.value)("step", ctx.step)("disabled", ctx.disabled)("handleStyle", ctx.handleStyle)("sliderStart", ctx.sliderStart)("sliderLength", ctx.sliderLength);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("max", ctx.max)("min", ctx.min)("marks", ctx.marks)("lowerBound", ctx.min)("upperBound", ctx.value)("included", ctx.included);
-    } }, directives: function () { return [ɵngcc1.NgClass, ɵngcc1.NgStyle, SliderTrackComponent, SliderStepsComponent, SliderHandleComponent, SliderMarksComponent]; }, encapsulation: 2 });
+SliderComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Slider , nzm-slider',
+                template: "<div class=\"am-slider\" [ngClass]=\"sliderCls\">\n  <div class=\"am-slider-rail\" [ngStyle]=\"railStyle\"></div>\n  <SliderTrack\n    [className]=\"'am-slider-track'\"\n    [style]=\"trackStyle\"\n    [offset]=\"offset\"\n    [length]=\"length\"\n    [included]=\"included\"\n  ></SliderTrack>\n  <SliderSteps\n    [max]=\"max\"\n    [min]=\"min\"\n    [dots]=\"dots\"\n    [step]=\"step\"\n    [marks]=\"marks\"\n    [lowerBound]=\"min\"\n    [upperBound]=\"value\"\n    [included]=\"included\"\n  ></SliderSteps>\n  <SliderHandle\n    [max]=\"max\"\n    [min]=\"min\"\n    [value]=\"value\"\n    [step]=\"step\"\n    [disabled]=\"disabled\"\n    [handleStyle]=\"handleStyle\"\n    [sliderStart]=\"sliderStart\"\n    [sliderLength]=\"sliderLength\"\n    (onChange)=\"handleChange($event)\"\n    (onAfterChange)=\"handleAfterChange($event)\"\n  ></SliderHandle>\n  <SliderMarks\n    [max]=\"max\"\n    [min]=\"min\"\n    [marks]=\"marks\"\n    [lowerBound]=\"min\"\n    [upperBound]=\"value\"\n    [included]=\"included\"\n  ></SliderMarks>\n</div>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => SliderComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 SliderComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -18053,52 +11630,6 @@ SliderComponent.propDecorators = {
     onChange: [{ type: Output }],
     amSliderWrapper: [{ type: HostBinding, args: ['class.am-slider-wrapper',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Slider , nzm-slider',
-                template: "<div class=\"am-slider\" [ngClass]=\"sliderCls\">\n  <div class=\"am-slider-rail\" [ngStyle]=\"railStyle\"></div>\n  <SliderTrack\n    [className]=\"'am-slider-track'\"\n    [style]=\"trackStyle\"\n    [offset]=\"offset\"\n    [length]=\"length\"\n    [included]=\"included\"\n  ></SliderTrack>\n  <SliderSteps\n    [max]=\"max\"\n    [min]=\"min\"\n    [dots]=\"dots\"\n    [step]=\"step\"\n    [marks]=\"marks\"\n    [lowerBound]=\"min\"\n    [upperBound]=\"value\"\n    [included]=\"included\"\n  ></SliderSteps>\n  <SliderHandle\n    [max]=\"max\"\n    [min]=\"min\"\n    [value]=\"value\"\n    [step]=\"step\"\n    [disabled]=\"disabled\"\n    [handleStyle]=\"handleStyle\"\n    [sliderStart]=\"sliderStart\"\n    [sliderLength]=\"sliderLength\"\n    (onChange)=\"handleChange($event)\"\n    (onAfterChange)=\"handleAfterChange($event)\"\n  ></SliderHandle>\n  <SliderMarks\n    [max]=\"max\"\n    [min]=\"min\"\n    [marks]=\"marks\"\n    [lowerBound]=\"min\"\n    [upperBound]=\"value\"\n    [included]=\"included\"\n  ></SliderMarks>\n</div>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => SliderComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { onAfterChange: [{
-            type: Output
-        }], onChange: [{
-            type: Output
-        }], amSliderWrapper: [{
-            type: HostBinding,
-            args: ['class.am-slider-wrapper']
-        }], min: [{
-            type: Input
-        }], max: [{
-            type: Input
-        }], step: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], defaultValue: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], marks: [{
-            type: Input
-        }], dots: [{
-            type: Input
-        }], included: [{
-            type: Input
-        }], handleStyle: [{
-            type: Input
-        }], trackStyle: [{
-            type: Input
-        }], railStyle: [{
-            type: Input
-        }] }); })();
 
 class SliderHandleComponent {
     constructor(_elf, _sanitizer) {
@@ -18287,15 +11818,13 @@ class SliderHandleComponent {
         document.removeEventListener('mouseup', this.mouseUp, false);
     }
 }
-SliderHandleComponent.ɵfac = function SliderHandleComponent_Factory(t) { return new (t || SliderHandleComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc4.DomSanitizer)); };
-SliderHandleComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SliderHandleComponent, selectors: [["SliderHandle"], ["nzm-slider-handle"]], hostBindings: function SliderHandleComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("touchstart", function SliderHandleComponent_touchstart_HostBindingHandler($event) { return ctx.panstart($event); })("touchmove", function SliderHandleComponent_touchmove_HostBindingHandler($event) { return ctx.panmove($event); })("touchend", function SliderHandleComponent_touchend_HostBindingHandler($event) { return ctx.panend($event); });
-    } }, inputs: { min: "min", max: "max", minBound: "minBound", maxBound: "maxBound", step: "step", value: "value", disabled: "disabled", sliderLength: "sliderLength", sliderStart: "sliderStart", handleStyle: "handleStyle" }, outputs: { onChange: "onChange", onAfterChange: "onAfterChange" }, decls: 1, vars: 3, consts: [["role", "slider", 1, "am-slider-handle", 3, "ngStyle"]], template: function SliderHandleComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelement(0, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵstyleProp("left", ctx.left, "%");
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.handleStyle);
-    } }, directives: [ɵngcc1.NgStyle], encapsulation: 2 });
+SliderHandleComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SliderHandle, nzm-slider-handle',
+                template: "<div role=\"slider\" class=\"am-slider-handle\" [ngStyle]=\"handleStyle\" [style.left.%]=\"left\"></div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 SliderHandleComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: DomSanitizer }
@@ -18317,49 +11846,6 @@ SliderHandleComponent.propDecorators = {
     panmove: [{ type: HostListener, args: ['touchmove', ['$event'],] }],
     panend: [{ type: HostListener, args: ['touchend', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderHandleComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SliderHandle, nzm-slider-handle',
-                template: "<div role=\"slider\" class=\"am-slider-handle\" [ngStyle]=\"handleStyle\" [style.left.%]=\"left\"></div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc4.DomSanitizer }]; }, { onChange: [{
-            type: Output
-        }], onAfterChange: [{
-            type: Output
-        }], min: [{
-            type: Input
-        }], max: [{
-            type: Input
-        }], minBound: [{
-            type: Input
-        }], maxBound: [{
-            type: Input
-        }], step: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], sliderLength: [{
-            type: Input
-        }], sliderStart: [{
-            type: Input
-        }], handleStyle: [{
-            type: Input
-        }], 
-    /* 手势操作 */
-    panstart: [{
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }], panmove: [{
-            type: HostListener,
-            args: ['touchmove', ['$event']]
-        }], panend: [{
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }] }); })();
 
 class SliderMarksComponent {
     constructor(_elf) {
@@ -18475,14 +11961,13 @@ class SliderMarksComponent {
         this.setMarksLable();
     }
 }
-SliderMarksComponent.ɵfac = function SliderMarksComponent_Factory(t) { return new (t || SliderMarksComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-SliderMarksComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SliderMarksComponent, selectors: [["SliderMarks"], ["nzm-slider-marks"]], hostVars: 2, hostBindings: function SliderMarksComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.class);
-    } }, inputs: { min: "min", max: "max", marks: "marks", included: "included", upperBound: "upperBound", lowerBound: "lowerBound" }, outputs: { onChange: "onChange", onAfterChange: "onAfterChange" }, decls: 1, vars: 1, consts: [[3, "ngClass", "ngStyle", 4, "ngFor", "ngForOf"], [3, "ngClass", "ngStyle"]], template: function SliderMarksComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, SliderMarksComponent_span_0_Template, 1, 2, "span", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.markArray);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+SliderMarksComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SliderMarks, nzm-slider-marks',
+                template: "<span *ngFor=\"let item of markArray\" [ngClass]=\"item.className\" [ngStyle]=\"item.style\"> </span>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 SliderMarksComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -18497,32 +11982,6 @@ SliderMarksComponent.propDecorators = {
     onAfterChange: [{ type: Output }],
     class: [{ type: HostBinding }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderMarksComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SliderMarks, nzm-slider-marks',
-                template: "<span *ngFor=\"let item of markArray\" [ngClass]=\"item.className\" [ngStyle]=\"item.style\"> </span>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { onChange: [{
-            type: Output
-        }], onAfterChange: [{
-            type: Output
-        }], min: [{
-            type: Input
-        }], max: [{
-            type: Input
-        }], marks: [{
-            type: Input
-        }], included: [{
-            type: Input
-        }], upperBound: [{
-            type: Input
-        }], lowerBound: [{
-            type: Input
-        }], class: [{
-            type: HostBinding
-        }] }); })();
 
 class SliderStepsComponent {
     constructor(_elf) {
@@ -18625,14 +12084,13 @@ class SliderStepsComponent {
         this.getSteps(points);
     }
 }
-SliderStepsComponent.ɵfac = function SliderStepsComponent_Factory(t) { return new (t || SliderStepsComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-SliderStepsComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SliderStepsComponent, selectors: [["SliderSteps"], ["nzm-slider-steps"]], hostVars: 2, hostBindings: function SliderStepsComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.class);
-    } }, inputs: { min: "min", max: "max", marks: "marks", step: "step", included: "included", dots: "dots", upperBound: "upperBound", lowerBound: "lowerBound" }, decls: 1, vars: 1, consts: [[3, "ngClass", "ngStyle", 4, "ngFor", "ngForOf"], [3, "ngClass", "ngStyle"]], template: function SliderStepsComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, SliderStepsComponent_span_0_Template, 1, 2, "span", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.stepArray);
-    } }, directives: [ɵngcc1.NgForOf, ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+SliderStepsComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SliderSteps, nzm-slider-steps',
+                template: "<span *ngFor=\"let item of stepArray\" [ngClass]=\"item.stepClass\" [ngStyle]=\"item.stepStyle\"> </span>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 SliderStepsComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -18647,32 +12105,6 @@ SliderStepsComponent.propDecorators = {
     lowerBound: [{ type: Input }],
     class: [{ type: HostBinding }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderStepsComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SliderSteps, nzm-slider-steps',
-                template: "<span *ngFor=\"let item of stepArray\" [ngClass]=\"item.stepClass\" [ngStyle]=\"item.stepStyle\"> </span>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { min: [{
-            type: Input
-        }], max: [{
-            type: Input
-        }], marks: [{
-            type: Input
-        }], step: [{
-            type: Input
-        }], included: [{
-            type: Input
-        }], dots: [{
-            type: Input
-        }], upperBound: [{
-            type: Input
-        }], lowerBound: [{
-            type: Input
-        }], class: [{
-            type: HostBinding
-        }] }); })();
 
 class SliderTrackComponent {
     constructor(_elf, _sanitizer) {
@@ -18710,12 +12142,13 @@ class SliderTrackComponent {
         this.elStyle = Object.assign(Object.assign({}, this._style), positonStyle);
     }
 }
-SliderTrackComponent.ɵfac = function SliderTrackComponent_Factory(t) { return new (t || SliderTrackComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef), ɵngcc0.ɵɵdirectiveInject(ɵngcc4.DomSanitizer)); };
-SliderTrackComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SliderTrackComponent, selectors: [["SliderTrack"], ["nzm-slider-track"]], inputs: { className: "className", included: "included", offset: "offset", length: "length", style: "style" }, features: [ɵngcc0.ɵɵNgOnChangesFeature], decls: 1, vars: 1, consts: [[3, "ngClass", "ngStyle", 4, "ngIf"], [3, "ngClass", "ngStyle"]], template: function SliderTrackComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵtemplate(0, SliderTrackComponent_div_0_Template, 1, 2, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", ctx.included);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgStyle], encapsulation: 2 });
+SliderTrackComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SliderTrack, nzm-slider-track',
+                template: "<div *ngIf=\"included\" [ngClass]=\"className\" [ngStyle]=\"elStyle\"></div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 SliderTrackComponent.ctorParameters = () => [
     { type: ElementRef },
     { type: DomSanitizer }
@@ -18727,34 +12160,11 @@ SliderTrackComponent.propDecorators = {
     length: [{ type: Input }],
     style: [{ type: Input }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderTrackComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SliderTrack, nzm-slider-track',
-                template: "<div *ngIf=\"included\" [ngClass]=\"className\" [ngStyle]=\"elStyle\"></div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }, { type: ɵngcc4.DomSanitizer }]; }, { className: [{
-            type: Input
-        }], included: [{
-            type: Input
-        }], offset: [{
-            type: Input
-        }], length: [{
-            type: Input
-        }], style: [{
-            type: Input
-        }] }); })();
 
 class SliderModule {
 }
-SliderModule.ɵfac = function SliderModule_Factory(t) { return new (t || SliderModule)(); };
-SliderModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SliderModule });
-SliderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SliderModule, { declarations: function () { return [SliderComponent, SliderHandleComponent, SliderMarksComponent, SliderStepsComponent, SliderTrackComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SliderComponent, SliderHandleComponent, SliderMarksComponent, SliderStepsComponent, SliderTrackComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderModule, [{
-        type: NgModule,
-        args: [{
+SliderModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [SliderComponent, SliderHandleComponent, SliderMarksComponent, SliderStepsComponent, SliderTrackComponent],
                 declarations: [
                     SliderComponent,
@@ -18764,23 +12174,18 @@ SliderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
                     SliderTrackComponent
                 ],
                 imports: [CommonModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class RangeModule {
 }
-RangeModule.ɵfac = function RangeModule_Factory(t) { return new (t || RangeModule)(); };
-RangeModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: RangeModule });
-RangeModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, SliderModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(RangeModule, { declarations: function () { return [RangeComponent]; }, imports: function () { return [CommonModule, SliderModule]; }, exports: function () { return [RangeComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RangeModule, [{
-        type: NgModule,
-        args: [{
+RangeModule.decorators = [
+    { type: NgModule, args: [{
                 exports: [RangeComponent],
                 declarations: [RangeComponent],
                 imports: [CommonModule, SliderModule]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class PaginationComponent {
     constructor(_localeProviderService) {
@@ -18830,22 +12235,13 @@ class PaginationComponent {
         this._unsubscribe$.complete();
     }
 }
-PaginationComponent.ɵfac = function PaginationComponent_Factory(t) { return new (t || PaginationComponent)(ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-PaginationComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: PaginationComponent, selectors: [["Pagination"], ["nzm-pagination"]], inputs: { mode: "mode", current: "current", total: "total", simple: "simple", disabled: "disabled", locale: "locale" }, outputs: { onChange: "onChange" }, decls: 4, vars: 7, consts: [[4, "ngIf"], [3, "class", 4, "ngIf"], ["Button", "", 3, "inline", "disabled", "onClick"], ["aria-live", "assertive", 3, "class", 4, "ngIf"], [3, "ngTemplateOutlet"], ["aria-live", "assertive"], [1, "active"], [3, "class", 4, "ngFor", "ngForOf"]], template: function PaginationComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "div");
-        ɵngcc0.ɵɵtemplate(1, PaginationComponent_Flex_1_Template, 10, 17, "Flex", 0);
-        ɵngcc0.ɵɵtemplate(2, PaginationComponent_div_2_Template, 6, 5, "div", 1);
-        ɵngcc0.ɵɵtemplate(3, PaginationComponent_div_3_Template, 2, 4, "div", 1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMapInterpolate2("", ctx.prefixCls, " ", ctx.prefixCls, "-align-center");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.mode === "button");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.mode === "number");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.mode === "pointer");
-    } }, directives: [ɵngcc1.NgIf, FlexComponent, FlexItemComponent, ButtonComponent, ɵngcc1.NgTemplateOutlet, ɵngcc1.NgForOf], encapsulation: 2 });
+PaginationComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Pagination, nzm-pagination',
+                template: "<div class=\"{{ prefixCls }} {{ prefixCls }}-align-center\">\n  <Flex *ngIf=\"mode === 'button'\">\n    <FlexItem class=\"{{ prefixCls }}-wrap-btn {{ prefixCls }}-wrap-btn-prev\">\n      <a Button [inline]=\"true\" [disabled]=\"current <= 1 || disabled\" (onClick)=\"onClick(current - 1)\">\n        <ng-container *ngIf=\"!isTemplateRef(locale.prevText)\">\n          {{ locale.prevText }}\n        </ng-container>\n        <ng-template *ngIf=\"isTemplateRef(locale.prevText)\" [ngTemplateOutlet]=\"locale.prevText\"></ng-template>\n      </a>\n    </FlexItem>\n    <FlexItem class=\"{{ prefixCls }}-wrap\" aria-live=\"assertive\" *ngIf=\"!simple\">\n      <span class=\"active\">{{ current }}</span\n      >/\n      <span>{{ total }}</span>\n    </FlexItem>\n    <FlexItem class=\"{{ prefixCls }}-wrap-btn {{ prefixCls }}-wrap-btn-next\">\n      <a Button [inline]=\"true\" [disabled]=\"current >= total || disabled\" (onClick)=\"onClick(current + 1)\">\n        <ng-container *ngIf=\"!isTemplateRef(locale.nextText)\">\n          {{ locale.nextText }}\n        </ng-container>\n        <ng-template *ngIf=\"isTemplateRef(locale.nextText)\" [ngTemplateOutlet]=\"locale.nextText\"></ng-template>\n      </a>\n    </FlexItem>\n  </Flex>\n\n  <div class=\"{{ prefixCls }}-wrap\" *ngIf=\"mode === 'number'\">\n    <span class=\"active\">{{ current }}</span\n    >/<span>{{ total }}</span>\n  </div>\n\n  <div class=\"{{ prefixCls }}-wrap\" *ngIf=\"mode === 'pointer'\">\n    <div\n      *ngFor=\"let number of getNumber(total); let i = index\"\n      class=\"{{ prefixCls }}-wrap-dot {{ current === i + 1 ? prefixCls + '-wrap-dot-active' : '' }}\"\n    >\n      <span></span>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 PaginationComponent.ctorParameters = () => [
     { type: LocaleProviderService }
 ];
@@ -18858,43 +12254,16 @@ PaginationComponent.propDecorators = {
     locale: [{ type: Input }],
     onChange: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PaginationComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Pagination, nzm-pagination',
-                template: "<div class=\"{{ prefixCls }} {{ prefixCls }}-align-center\">\n  <Flex *ngIf=\"mode === 'button'\">\n    <FlexItem class=\"{{ prefixCls }}-wrap-btn {{ prefixCls }}-wrap-btn-prev\">\n      <a Button [inline]=\"true\" [disabled]=\"current <= 1 || disabled\" (onClick)=\"onClick(current - 1)\">\n        <ng-container *ngIf=\"!isTemplateRef(locale.prevText)\">\n          {{ locale.prevText }}\n        </ng-container>\n        <ng-template *ngIf=\"isTemplateRef(locale.prevText)\" [ngTemplateOutlet]=\"locale.prevText\"></ng-template>\n      </a>\n    </FlexItem>\n    <FlexItem class=\"{{ prefixCls }}-wrap\" aria-live=\"assertive\" *ngIf=\"!simple\">\n      <span class=\"active\">{{ current }}</span\n      >/\n      <span>{{ total }}</span>\n    </FlexItem>\n    <FlexItem class=\"{{ prefixCls }}-wrap-btn {{ prefixCls }}-wrap-btn-next\">\n      <a Button [inline]=\"true\" [disabled]=\"current >= total || disabled\" (onClick)=\"onClick(current + 1)\">\n        <ng-container *ngIf=\"!isTemplateRef(locale.nextText)\">\n          {{ locale.nextText }}\n        </ng-container>\n        <ng-template *ngIf=\"isTemplateRef(locale.nextText)\" [ngTemplateOutlet]=\"locale.nextText\"></ng-template>\n      </a>\n    </FlexItem>\n  </Flex>\n\n  <div class=\"{{ prefixCls }}-wrap\" *ngIf=\"mode === 'number'\">\n    <span class=\"active\">{{ current }}</span\n    >/<span>{{ total }}</span>\n  </div>\n\n  <div class=\"{{ prefixCls }}-wrap\" *ngIf=\"mode === 'pointer'\">\n    <div\n      *ngFor=\"let number of getNumber(total); let i = index\"\n      class=\"{{ prefixCls }}-wrap-dot {{ current === i + 1 ? prefixCls + '-wrap-dot-active' : '' }}\"\n    >\n      <span></span>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: LocaleProviderService }]; }, { mode: [{
-            type: Input
-        }], current: [{
-            type: Input
-        }], total: [{
-            type: Input
-        }], simple: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], locale: [{
-            type: Input
-        }] }); })();
 
 class PaginationModule {
 }
-PaginationModule.ɵfac = function PaginationModule_Factory(t) { return new (t || PaginationModule)(); };
-PaginationModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PaginationModule });
-PaginationModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, ButtonModule, FlexModule, IconModule, LocaleProviderModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PaginationModule, { declarations: function () { return [PaginationComponent]; }, imports: function () { return [CommonModule, ButtonModule, FlexModule, IconModule, LocaleProviderModule]; }, exports: function () { return [PaginationComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PaginationModule, [{
-        type: NgModule,
-        args: [{
+PaginationModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, ButtonModule, FlexModule, IconModule, LocaleProviderModule],
                 declarations: [PaginationComponent],
                 exports: [PaginationComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class TagComponent {
     constructor() {
@@ -18961,13 +12330,13 @@ class TagComponent {
         this.setClassMap();
     }
 }
-TagComponent.ɵfac = function TagComponent_Factory(t) { return new (t || TagComponent)(); };
-TagComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: TagComponent, selectors: [["Tag"], ["nzm-tag"]], inputs: { small: "small", closable: "closable", selected: "selected", disabled: "disabled" }, outputs: { onChange: "onChange", onClose: "onClose", afterClose: "afterClose" }, ngContentSelectors: _c0, decls: 1, vars: 1, consts: [[3, "ngClass", "click", 4, "ngIf"], [3, "ngClass", "click"], ["role", "button", "aria-label", "remove tag", 3, "class", "click", 4, "ngIf"], ["role", "button", "aria-label", "remove tag", 3, "click"], ["aria-hidden", "true", 3, "type", "size"]], template: function TagComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, TagComponent_div_0_Template, 4, 5, "div", 0);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", !ctx.closed);
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, IconComponent], encapsulation: 2 });
+TagComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Tag, nzm-tag',
+                template: "<div *ngIf=\"!closed\" [ngClass]=\"wrapCls\" (click)=\"onClick()\">\n  <div class=\"{{ prefixCls }}-text\">\n    <ng-content></ng-content>\n  </div>\n  <div\n    *ngIf=\"closable && !disabled && !small\"\n    role=\"button\"\n    class=\"{{ prefixCls }}-close\"\n    aria-label=\"remove tag\"\n    (click)=\"onTagClose()\"\n  >\n    <Icon aria-hidden=\"true\" [type]=\"'cross-circle'\" [size]=\"'xs'\"></Icon>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 TagComponent.ctorParameters = () => [];
 TagComponent.propDecorators = {
     small: [{ type: Input }],
@@ -18978,43 +12347,16 @@ TagComponent.propDecorators = {
     onClose: [{ type: Output }],
     afterClose: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TagComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Tag, nzm-tag',
-                template: "<div *ngIf=\"!closed\" [ngClass]=\"wrapCls\" (click)=\"onClick()\">\n  <div class=\"{{ prefixCls }}-text\">\n    <ng-content></ng-content>\n  </div>\n  <div\n    *ngIf=\"closable && !disabled && !small\"\n    role=\"button\"\n    class=\"{{ prefixCls }}-close\"\n    aria-label=\"remove tag\"\n    (click)=\"onTagClose()\"\n  >\n    <Icon aria-hidden=\"true\" [type]=\"'cross-circle'\" [size]=\"'xs'\"></Icon>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { onChange: [{
-            type: Output
-        }], onClose: [{
-            type: Output
-        }], afterClose: [{
-            type: Output
-        }], small: [{
-            type: Input
-        }], closable: [{
-            type: Input
-        }], selected: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }] }); })();
 
 class TagModule {
 }
-TagModule.ɵfac = function TagModule_Factory(t) { return new (t || TagModule)(); };
-TagModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TagModule });
-TagModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TagModule, { declarations: function () { return [TagComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [TagComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TagModule, [{
-        type: NgModule,
-        args: [{
+TagModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule],
                 declarations: [TagComponent],
                 exports: [TagComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class MenuComponent {
     constructor(_localeProviderService) {
@@ -19165,34 +12507,13 @@ class MenuComponent {
         this._unsubscribe$.complete();
     }
 }
-MenuComponent.ɵfac = function MenuComponent_Factory(t) { return new (t || MenuComponent)(ɵngcc0.ɵɵdirectiveInject(LocaleProviderService)); };
-MenuComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: MenuComponent, selectors: [["Menu"], ["nzm-menu"]], inputs: { level: "level", value: "value", height: "height", multiSelect: "multiSelect", data: "data" }, outputs: { onChange: "onChange", onOk: "onOk", onCancel: "onCancel" }, decls: 6, vars: 21, consts: [[3, "ngStyle", "direction", "align"], [3, "align"], [4, "ngIf"], ["role", "tabpanel", "aria-hidden", "false"], [3, "subMenuPrefixCls", "radioPrefixCls", "subMenuData", "selItem", "showSelect", "multiSelect", "onSel"], [3, "class", 4, "ngIf"], ["role", "tablist"], ["role", "tab", 3, "className", "click", 4, "ngFor", "ngForOf"], ["role", "tab", 3, "className", "click"], ["Button", "", 3, "className", "inline", "onClick"], ["Button", "", 3, "className", "inline", "type", "onClick"]], template: function MenuComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "Flex", 0);
-        ɵngcc0.ɵɵelementStart(1, "Flex", 1);
-        ɵngcc0.ɵɵtemplate(2, MenuComponent_FlexItem_2_Template, 3, 1, "FlexItem", 2);
-        ɵngcc0.ɵɵelementStart(3, "FlexItem", 3);
-        ɵngcc0.ɵɵelementStart(4, "SubMenu", 4);
-        ɵngcc0.ɵɵlistener("onSel", function MenuComponent_Template_SubMenu_onSel_4_listener($event) { return ctx.onClickSubMenuItem($event); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(5, MenuComponent_div_5_Template, 5, 10, "div", 5);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.prefixCls);
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.heightStyle)("direction", "column")("align", "stretch");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMap(ctx.menuSelectContanerPrefixCls);
-        ɵngcc0.ɵɵproperty("align", "start");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.level == 2);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.menuSelectContanerPrefixCls, "-submenu");
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("subMenuPrefixCls", ctx.subMenuPrefixCls)("radioPrefixCls", ctx.radioPrefixCls)("subMenuData", ctx.subMenuData)("selItem", ctx.subSelInitItem)("showSelect", ctx.showSelect)("multiSelect", ctx.multiSelect);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.multiSelect);
-    } }, directives: function () { return [FlexComponent, ɵngcc1.NgStyle, ɵngcc1.NgIf, FlexItemComponent, SubMenuComponent, ListComponent, ɵngcc1.NgForOf, ListItemComponent, ButtonComponent]; }, encapsulation: 2 });
+MenuComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Menu, nzm-menu',
+                template: "<Flex class=\"{{ prefixCls }}\" [ngStyle]=\"heightStyle\" [direction]=\"'column'\" [align]=\"'stretch'\">\n  <Flex class=\"{{ menuSelectContanerPrefixCls }}\" [align]=\"'start'\">\n    <FlexItem *ngIf=\"level == 2\">\n      <List role=\"tablist\">\n        <ListItem\n          role=\"tab\"\n          *ngFor=\"let dataItem of data; let i = index\"\n          [className]=\"getClass(dataItem)\"\n          (click)=\"onClickFirstLevelItem(dataItem)\"\n        >\n          {{ dataItem.label }}\n        </ListItem>\n      </List>\n    </FlexItem>\n\n    <FlexItem role=\"tabpanel\" aria-hidden=\"false\" class=\"{{ menuSelectContanerPrefixCls }}-submenu\">\n      <SubMenu\n        [subMenuPrefixCls]=\"subMenuPrefixCls\"\n        [radioPrefixCls]=\"radioPrefixCls\"\n        [subMenuData]=\"subMenuData\"\n        [selItem]=\"subSelInitItem\"\n        [showSelect]=\"showSelect\"\n        [multiSelect]=\"multiSelect\"\n        (onSel)=\"onClickSubMenuItem($event)\"\n      >\n      </SubMenu>\n    </FlexItem>\n  </Flex>\n\n  <div *ngIf=\"multiSelect\" class=\"{{ multiSelectMenuBtnsCls }}\">\n    <a Button [className]=\"'am-multi-select-btns-btn'\" [inline]=\"true\" (onClick)=\"onMenuCancel()\">\n      {{ locale.cancelText }}\n    </a>\n    <a Button [className]=\"'am-multi-select-btns-btn'\" [inline]=\"true\" [type]=\"'primary'\" (onClick)=\"onMenuOk()\">\n      {{ locale.okText }}\n    </a>\n  </div>\n</Flex>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 MenuComponent.ctorParameters = () => [
     { type: LocaleProviderService }
 ];
@@ -19206,30 +12527,6 @@ MenuComponent.propDecorators = {
     onOk: [{ type: Output }],
     onCancel: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MenuComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Menu, nzm-menu',
-                template: "<Flex class=\"{{ prefixCls }}\" [ngStyle]=\"heightStyle\" [direction]=\"'column'\" [align]=\"'stretch'\">\n  <Flex class=\"{{ menuSelectContanerPrefixCls }}\" [align]=\"'start'\">\n    <FlexItem *ngIf=\"level == 2\">\n      <List role=\"tablist\">\n        <ListItem\n          role=\"tab\"\n          *ngFor=\"let dataItem of data; let i = index\"\n          [className]=\"getClass(dataItem)\"\n          (click)=\"onClickFirstLevelItem(dataItem)\"\n        >\n          {{ dataItem.label }}\n        </ListItem>\n      </List>\n    </FlexItem>\n\n    <FlexItem role=\"tabpanel\" aria-hidden=\"false\" class=\"{{ menuSelectContanerPrefixCls }}-submenu\">\n      <SubMenu\n        [subMenuPrefixCls]=\"subMenuPrefixCls\"\n        [radioPrefixCls]=\"radioPrefixCls\"\n        [subMenuData]=\"subMenuData\"\n        [selItem]=\"subSelInitItem\"\n        [showSelect]=\"showSelect\"\n        [multiSelect]=\"multiSelect\"\n        (onSel)=\"onClickSubMenuItem($event)\"\n      >\n      </SubMenu>\n    </FlexItem>\n  </Flex>\n\n  <div *ngIf=\"multiSelect\" class=\"{{ multiSelectMenuBtnsCls }}\">\n    <a Button [className]=\"'am-multi-select-btns-btn'\" [inline]=\"true\" (onClick)=\"onMenuCancel()\">\n      {{ locale.cancelText }}\n    </a>\n    <a Button [className]=\"'am-multi-select-btns-btn'\" [inline]=\"true\" [type]=\"'primary'\" (onClick)=\"onMenuOk()\">\n      {{ locale.okText }}\n    </a>\n  </div>\n</Flex>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: LocaleProviderService }]; }, { level: [{
-            type: Input
-        }], value: [{
-            type: Input
-        }], height: [{
-            type: Input
-        }], multiSelect: [{
-            type: Input
-        }], onChange: [{
-            type: Output
-        }], onOk: [{
-            type: Output
-        }], onCancel: [{
-            type: Output
-        }], data: [{
-            type: Input
-        }] }); })();
 
 class SubMenuComponent {
     constructor() {
@@ -19272,16 +12569,13 @@ class SubMenuComponent {
         });
     }
 }
-SubMenuComponent.ɵfac = function SubMenuComponent_Factory(t) { return new (t || SubMenuComponent)(); };
-SubMenuComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SubMenuComponent, selectors: [["SubMenu"], ["nzm-sub-menu"]], inputs: { subMenuPrefixCls: "subMenuPrefixCls", subMenuData: "subMenuData", multiSelect: "multiSelect", radioPrefixCls: "radioPrefixCls", showSelect: "showSelect", selItem: "selItem" }, outputs: { onSel: "onSel" }, features: [ɵngcc0.ɵɵNgOnChangesFeature], decls: 2, vars: 4, consts: [[2, "padding", "0"], ["key", "i", 3, "className", "extra", 4, "ngFor", "ngForOf"], ["key", "i", 3, "className", "extra"], ["extra", ""], ["Radio", "", 3, "checked", "disabled", "onChange", 4, "ngIf"], ["Checkbox", "", 3, "checked", "disabled", "onChange", 4, "ngIf"], ["Radio", "", 3, "checked", "disabled", "onChange"], ["Checkbox", "", 3, "checked", "disabled", "onChange"]], template: function SubMenuComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵelementStart(0, "List", 0);
-        ɵngcc0.ɵɵtemplate(1, SubMenuComponent_ListItem_1_Template, 4, 3, "ListItem", 1);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassMap(ctx.subMenuPrefixCls);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngForOf", ctx.subMenuData);
-    } }, directives: [ListComponent, ɵngcc1.NgForOf, ListItemComponent, ɵngcc1.NgIf, RadioComponent, CheckboxComponent], encapsulation: 2 });
+SubMenuComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SubMenu, nzm-sub-menu',
+                template: "<List class=\"{{ subMenuPrefixCls }}\" style=\"padding: 0\">\n  <ListItem\n    *ngFor=\"let dataItem of subMenuData; let i = index\"\n    key=\"i\"\n    [className]=\"getClass(dataItem)\"\n    [extra]=\"extra\"\n  >\n    {{ dataItem.label }}\n\n    <ng-template #extra>\n      <label\n        Radio\n        *ngIf=\"!multiSelect\"\n        [checked]=\"dataItem.checked\"\n        [disabled]=\"dataItem.disabled\"\n        (onChange)=\"onClick(dataItem)\"\n      >\n      </label>\n      <label\n        Checkbox\n        *ngIf=\"multiSelect\"\n        [checked]=\"dataItem.checked\"\n        [disabled]=\"dataItem.disabled\"\n        (onChange)=\"onClick(dataItem)\"\n      >\n      </label>\n    </ng-template>\n  </ListItem>\n</List>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 SubMenuComponent.ctorParameters = () => [];
 SubMenuComponent.propDecorators = {
     onSel: [{ type: Output }],
@@ -19292,47 +12586,11 @@ SubMenuComponent.propDecorators = {
     subMenuData: [{ type: Input }],
     multiSelect: [{ type: Input }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SubMenuComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SubMenu, nzm-sub-menu',
-                template: "<List class=\"{{ subMenuPrefixCls }}\" style=\"padding: 0\">\n  <ListItem\n    *ngFor=\"let dataItem of subMenuData; let i = index\"\n    key=\"i\"\n    [className]=\"getClass(dataItem)\"\n    [extra]=\"extra\"\n  >\n    {{ dataItem.label }}\n\n    <ng-template #extra>\n      <label\n        Radio\n        *ngIf=\"!multiSelect\"\n        [checked]=\"dataItem.checked\"\n        [disabled]=\"dataItem.disabled\"\n        (onChange)=\"onClick(dataItem)\"\n      >\n      </label>\n      <label\n        Checkbox\n        *ngIf=\"multiSelect\"\n        [checked]=\"dataItem.checked\"\n        [disabled]=\"dataItem.disabled\"\n        (onChange)=\"onClick(dataItem)\"\n      >\n      </label>\n    </ng-template>\n  </ListItem>\n</List>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { onSel: [{
-            type: Output
-        }], subMenuPrefixCls: [{
-            type: Input
-        }], subMenuData: [{
-            type: Input
-        }], multiSelect: [{
-            type: Input
-        }], radioPrefixCls: [{
-            type: Input
-        }], showSelect: [{
-            type: Input
-        }], selItem: [{
-            type: Input
-        }] }); })();
 
 class MenuModule {
 }
-MenuModule.ɵfac = function MenuModule_Factory(t) { return new (t || MenuModule)(); };
-MenuModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: MenuModule });
-MenuModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[
-            CommonModule,
-            FlexModule,
-            ListModule,
-            RadioModule,
-            CheckboxModule,
-            ButtonModule,
-            LocaleProviderModule,
-            FormsModule
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(MenuModule, { declarations: function () { return [MenuComponent, SubMenuComponent]; }, imports: function () { return [CommonModule, FlexModule, ListModule, RadioModule, CheckboxModule, ButtonModule, LocaleProviderModule, FormsModule]; }, exports: function () { return [MenuComponent, SubMenuComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MenuModule, [{
-        type: NgModule,
-        args: [{
+MenuModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [
                     CommonModule,
                     FlexModule,
@@ -19345,8 +12603,8 @@ MenuModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[
                 ],
                 exports: [MenuComponent, SubMenuComponent],
                 declarations: [MenuComponent, SubMenuComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class DrawerComponent {
     constructor(_el) {
@@ -19603,34 +12861,13 @@ class DrawerComponent {
         this.update();
     }
 }
-DrawerComponent.ɵfac = function DrawerComponent_Factory(t) { return new (t || DrawerComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-DrawerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DrawerComponent, selectors: [["Drawer"], ["nzm-drawer"]], hostVars: 14, hostBindings: function DrawerComponent_HostBindings(rf, ctx) { if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-drawer", ctx.am)("am-drawer-left", ctx.left)("am-drawer-right", ctx.right)("am-drawer-top", ctx.top)("am-drawer-bottom", ctx.bottom)("am-drawer-docked", ctx.dockedCls)("am-drawer-open", ctx.openCls);
-    } }, inputs: { sidebarStyle: "sidebarStyle", contentStyle: "contentStyle", overlayStyle: "overlayStyle", dragHandleStyle: "dragHandleStyle", transitions: "transitions", touch: "touch", enableDragHandle: "enableDragHandle", dragToggleDistance: "dragToggleDistance", docked: "docked", open: "open", position: "position", sidebar: "sidebar" }, outputs: { onOpenChange: "onOpenChange" }, features: [ɵngcc0.ɵɵNgOnChangesFeature], ngContentSelectors: _c0, decls: 6, vars: 11, consts: [["id", "sidebar", 1, "am-drawer-sidebar", 3, "ngStyle"], [3, "ngTemplateOutlet"], ["role", "presentation", "ref", "overlay", 3, "ngStyle", "click"], ["ref", "content", 3, "ngStyle"], ["id", "dragHandle", 3, "class", "ngStyle", "touchstart", "touchmove", "touchend", "touchcancle", 4, "ngIf"], ["id", "dragHandle", 3, "ngStyle", "touchstart", "touchmove", "touchend", "touchcancle"]], template: function DrawerComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, DrawerComponent_ng_template_1_Template, 0, 0, "ng-template", 1);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(2, "div", 2);
-        ɵngcc0.ɵɵlistener("click", function DrawerComponent_Template_div_click_2_listener() { return ctx.onOverlayClicked(); });
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(3, "div", 3);
-        ɵngcc0.ɵɵtemplate(4, DrawerComponent_div_4_Template, 1, 4, "div", 4);
-        ɵngcc0.ɵɵprojection(5);
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.sidebarStyleFinal);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx.sidebar);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-overlay");
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.overlayStyleFinal);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵclassMapInterpolate1("", ctx.prefixCls, "-content");
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.contentStyleFinal);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.touch && ctx.touchSupported && !ctx.open && !ctx.docked && ctx.enableDragHandle);
-    } }, directives: [ɵngcc1.NgStyle, ɵngcc1.NgTemplateOutlet, ɵngcc1.NgIf], encapsulation: 2 });
+DrawerComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'Drawer, nzm-drawer',
+                template: "<div class=\"am-drawer-sidebar\" [ngStyle]=\"sidebarStyleFinal\" id=\"sidebar\">\n  <ng-template [ngTemplateOutlet]=\"sidebar\"></ng-template>\n</div>\n<div\n  role=\"presentation\"\n  class=\"{{ prefixCls }}-overlay\"\n  ref=\"overlay\"\n  [ngStyle]=\"overlayStyleFinal\"\n  (click)=\"onOverlayClicked()\"\n></div>\n<div class=\"{{ prefixCls }}-content\" [ngStyle]=\"contentStyleFinal\" ref=\"content\">\n  <div\n    *ngIf=\"touch && touchSupported && !open && !docked && enableDragHandle\"\n    id=\"dragHandle\"\n    class=\"{{ prefixCls }}-draghandle\"\n    [ngStyle]=\"dragHandleStyle\"\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd()\"\n    (touchcancle)=\"onTouchEnd()\"\n  ></div>\n  <ng-content></ng-content>\n</div>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 DrawerComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -19656,76 +12893,16 @@ DrawerComponent.propDecorators = {
     dockedCls: [{ type: HostBinding, args: ['class.am-drawer-docked',] }],
     openCls: [{ type: HostBinding, args: ['class.am-drawer-open',] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DrawerComponent, [{
-        type: Component,
-        args: [{
-                selector: 'Drawer, nzm-drawer',
-                template: "<div class=\"am-drawer-sidebar\" [ngStyle]=\"sidebarStyleFinal\" id=\"sidebar\">\n  <ng-template [ngTemplateOutlet]=\"sidebar\"></ng-template>\n</div>\n<div\n  role=\"presentation\"\n  class=\"{{ prefixCls }}-overlay\"\n  ref=\"overlay\"\n  [ngStyle]=\"overlayStyleFinal\"\n  (click)=\"onOverlayClicked()\"\n></div>\n<div class=\"{{ prefixCls }}-content\" [ngStyle]=\"contentStyleFinal\" ref=\"content\">\n  <div\n    *ngIf=\"touch && touchSupported && !open && !docked && enableDragHandle\"\n    id=\"dragHandle\"\n    class=\"{{ prefixCls }}-draghandle\"\n    [ngStyle]=\"dragHandleStyle\"\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd()\"\n    (touchcancle)=\"onTouchEnd()\"\n  ></div>\n  <ng-content></ng-content>\n</div>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { sidebarStyle: [{
-            type: Input
-        }], contentStyle: [{
-            type: Input
-        }], overlayStyle: [{
-            type: Input
-        }], dragHandleStyle: [{
-            type: Input
-        }], transitions: [{
-            type: Input
-        }], touch: [{
-            type: Input
-        }], enableDragHandle: [{
-            type: Input
-        }], dragToggleDistance: [{
-            type: Input
-        }], onOpenChange: [{
-            type: Output
-        }], am: [{
-            type: HostBinding,
-            args: ['class.am-drawer']
-        }], left: [{
-            type: HostBinding,
-            args: ['class.am-drawer-left']
-        }], right: [{
-            type: HostBinding,
-            args: ['class.am-drawer-right']
-        }], top: [{
-            type: HostBinding,
-            args: ['class.am-drawer-top']
-        }], bottom: [{
-            type: HostBinding,
-            args: ['class.am-drawer-bottom']
-        }], dockedCls: [{
-            type: HostBinding,
-            args: ['class.am-drawer-docked']
-        }], openCls: [{
-            type: HostBinding,
-            args: ['class.am-drawer-open']
-        }], docked: [{
-            type: Input
-        }], open: [{
-            type: Input
-        }], position: [{
-            type: Input
-        }], sidebar: [{
-            type: Input
-        }] }); })();
 
 class DrawerModule {
 }
-DrawerModule.ɵfac = function DrawerModule_Factory(t) { return new (t || DrawerModule)(); };
-DrawerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: DrawerModule });
-DrawerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(DrawerModule, { declarations: function () { return [DrawerComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [DrawerComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DrawerModule, [{
-        type: NgModule,
-        args: [{
+DrawerModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 declarations: [DrawerComponent],
                 exports: [DrawerComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class SwipeActionComponent {
     constructor() {
@@ -19844,28 +13021,13 @@ class SwipeActionComponent {
         document.body.removeEventListener('touchstart', this.onCloseSwipe, true);
     }
 }
-SwipeActionComponent.ɵfac = function SwipeActionComponent_Factory(t) { return new (t || SwipeActionComponent)(); };
-SwipeActionComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: SwipeActionComponent, selectors: [["SwipeAction"], ["nzm-swipe-action"]], viewQuery: function SwipeActionComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c40, 1);
-        ɵngcc0.ɵɵviewQuery(_c41, 1);
-        ɵngcc0.ɵɵviewQuery(_c42, 1);
-        ɵngcc0.ɵɵviewQuery(_c43, 1);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.leftBtnRef = _t.first);
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.rightBtnRef = _t.first);
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.content = _t.first);
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.cover = _t.first);
-    } }, inputs: { left: "left", right: "right", autoClose: "autoClose", disabled: "disabled" }, outputs: { onOpen: "onOpen", onClose: "onClose" }, ngContentSelectors: _c0, decls: 4, vars: 2, consts: [[3, "ngClass", 4, "ngIf"], [3, "class", 4, "ngIf"], ["content", ""], [3, "ngClass"], ["coverRef", ""], [3, "touchstart", "touchmove", "touchend"], ["contentRef", ""], [3, "ngTemplateOutlet"], ["leftBtnRef", ""], ["role", "button", 3, "class", "ngStyle", "click", 4, "ngFor", "ngForOf"], ["role", "button", 3, "ngStyle", "click"], ["rightBtnRef", ""]], template: function SwipeActionComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵtemplate(0, SwipeActionComponent_div_0_Template, 8, 10, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, SwipeActionComponent_div_1_Template, 3, 4, "div", 1);
-        ɵngcc0.ɵɵtemplate(2, SwipeActionComponent_ng_template_2_Template, 1, 0, "ng-template", null, 2, ɵngcc0.ɵɵtemplateRefExtractor);
-    } if (rf & 2) {
-        ɵngcc0.ɵɵproperty("ngIf", (ctx.left.length != 0 || ctx.right.length != 0) && !ctx.disabled);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", !((ctx.left.length != 0 || ctx.right.length != 0) && !ctx.disabled));
-    } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgClass, ɵngcc1.NgTemplateOutlet, ɵngcc1.NgForOf, ɵngcc1.NgStyle], encapsulation: 2 });
+SwipeActionComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'SwipeAction, nzm-swipe-action',
+                template: "<div *ngIf=\"(left.length != 0 || right.length != 0) && !disabled\" [ngClass]=\"wrapCls\">\n  <div class=\"{{ prefixCls }}-cover\" #coverRef></div>\n  <div *ngIf=\"left && left.length > 0\" class=\"{{ prefixCls }}-actions {{ prefixCls }}-actions-left\" #leftBtnRef>\n    <div\n      *ngFor=\"let btn of left\"\n      class=\"{{ prefixCls }}-btn {{ btn.className }}\"\n      [ngStyle]=\"btn.style\"\n      role=\"button\"\n      (click)=\"onBtnClick($event, btn)\"\n    >\n      <div class=\"{{ prefixCls }}-btn-text\">\n        {{ btn.text || 'Click' }}\n      </div>\n    </div>\n  </div>\n  <div *ngIf=\"right && right.length > 0\" class=\"{{ prefixCls }}-actions {{ prefixCls }}-actions-right\" #rightBtnRef>\n    <div\n      *ngFor=\"let btn of right\"\n      class=\"{{ prefixCls }}-btn {{ btn.className }}\"\n      [ngStyle]=\"btn.style\"\n      role=\"button\"\n      (click)=\"onBtnClick($event, btn)\"\n    >\n      <div class=\"{{ prefixCls }}-btn-text\">\n        {{ btn.text || 'Click' }}\n      </div>\n    </div>\n  </div>\n  <div\n    class=\"{{ prefixCls }}-content\"\n    #contentRef\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd($event)\"\n  >\n    <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n  </div>\n</div>\n<div *ngIf=\"!((left.length != 0 || right.length != 0) && !disabled)\" class=\"{{ prefixCls }}-content\" #contentRef>\n  <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n</div>\n\n<ng-template #content>\n  <ng-content></ng-content>\n</ng-template>\n",
+                encapsulation: ViewEncapsulation.None
+            },] }
+];
 SwipeActionComponent.ctorParameters = () => [];
 SwipeActionComponent.propDecorators = {
     leftBtnRef: [{ type: ViewChild, args: ['leftBtnRef',] }],
@@ -19879,54 +13041,17 @@ SwipeActionComponent.propDecorators = {
     onOpen: [{ type: Output }],
     onClose: [{ type: Output }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwipeActionComponent, [{
-        type: Component,
-        args: [{
-                selector: 'SwipeAction, nzm-swipe-action',
-                template: "<div *ngIf=\"(left.length != 0 || right.length != 0) && !disabled\" [ngClass]=\"wrapCls\">\n  <div class=\"{{ prefixCls }}-cover\" #coverRef></div>\n  <div *ngIf=\"left && left.length > 0\" class=\"{{ prefixCls }}-actions {{ prefixCls }}-actions-left\" #leftBtnRef>\n    <div\n      *ngFor=\"let btn of left\"\n      class=\"{{ prefixCls }}-btn {{ btn.className }}\"\n      [ngStyle]=\"btn.style\"\n      role=\"button\"\n      (click)=\"onBtnClick($event, btn)\"\n    >\n      <div class=\"{{ prefixCls }}-btn-text\">\n        {{ btn.text || 'Click' }}\n      </div>\n    </div>\n  </div>\n  <div *ngIf=\"right && right.length > 0\" class=\"{{ prefixCls }}-actions {{ prefixCls }}-actions-right\" #rightBtnRef>\n    <div\n      *ngFor=\"let btn of right\"\n      class=\"{{ prefixCls }}-btn {{ btn.className }}\"\n      [ngStyle]=\"btn.style\"\n      role=\"button\"\n      (click)=\"onBtnClick($event, btn)\"\n    >\n      <div class=\"{{ prefixCls }}-btn-text\">\n        {{ btn.text || 'Click' }}\n      </div>\n    </div>\n  </div>\n  <div\n    class=\"{{ prefixCls }}-content\"\n    #contentRef\n    (touchstart)=\"onTouchStart($event)\"\n    (touchmove)=\"onTouchMove($event)\"\n    (touchend)=\"onTouchEnd($event)\"\n  >\n    <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n  </div>\n</div>\n<div *ngIf=\"!((left.length != 0 || right.length != 0) && !disabled)\" class=\"{{ prefixCls }}-content\" #contentRef>\n  <ng-template [ngTemplateOutlet]=\"content\"></ng-template>\n</div>\n\n<ng-template #content>\n  <ng-content></ng-content>\n</ng-template>\n",
-                encapsulation: ViewEncapsulation.None
-            }]
-    }], function () { return []; }, { left: [{
-            type: Input
-        }], right: [{
-            type: Input
-        }], autoClose: [{
-            type: Input
-        }], disabled: [{
-            type: Input
-        }], onOpen: [{
-            type: Output
-        }], onClose: [{
-            type: Output
-        }], leftBtnRef: [{
-            type: ViewChild,
-            args: ['leftBtnRef']
-        }], rightBtnRef: [{
-            type: ViewChild,
-            args: ['rightBtnRef']
-        }], content: [{
-            type: ViewChild,
-            args: ['contentRef']
-        }], cover: [{
-            type: ViewChild,
-            args: ['coverRef']
-        }] }); })();
 
 class SwipeActionModule {
 }
-SwipeActionModule.ɵfac = function SwipeActionModule_Factory(t) { return new (t || SwipeActionModule)(); };
-SwipeActionModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SwipeActionModule });
-SwipeActionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SwipeActionModule, { declarations: function () { return [SwipeActionComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SwipeActionComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwipeActionModule, [{
-        type: NgModule,
-        args: [{
+SwipeActionModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 exports: [SwipeActionComponent],
                 declarations: [SwipeActionComponent],
                 providers: []
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class PullToRefreshComponent {
     constructor(ele) {
@@ -20191,44 +13316,20 @@ class PullToRefreshComponent {
         this._ngModelOnTouched = fn;
     }
 }
-PullToRefreshComponent.ɵfac = function PullToRefreshComponent_Factory(t) { return new (t || PullToRefreshComponent)(ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
-PullToRefreshComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: PullToRefreshComponent, selectors: [["PullToRefresh"], ["nzm-pull-to-refresh"]], viewQuery: function PullToRefreshComponent_Query(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵviewQuery(_c44, 3, ViewContainerRef);
-    } if (rf & 2) {
-        let _t;
-        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx._pullToRefresh = _t.first);
-    } }, hostVars: 8, hostBindings: function PullToRefreshComponent_HostBindings(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵlistener("touchstart", function PullToRefreshComponent_touchstart_HostBindingHandler($event) { return ctx.touchstart($event); })("touchmove", function PullToRefreshComponent_touchmove_HostBindingHandler($event) { return ctx.touchmove($event); })("touchend", function PullToRefreshComponent_touchend_HostBindingHandler($event) { return ctx.touchend($event); })("touchcancel", function PullToRefreshComponent_touchcancel_HostBindingHandler() { return ctx.touchcancel(); })("scroll", function PullToRefreshComponent_scroll_HostBindingHandler($event) { return ctx.scroll($event); });
-    } if (rf & 2) {
-        ɵngcc0.ɵɵclassProp("am-pull-to-refresh", ctx.refresh)("super-container", ctx.container)("am-pull-to-refresh-up", ctx.refreshUp)("am-pull-to-refresh-down", ctx.refreshDown);
-    } }, inputs: { distanceToRefresh: "distanceToRefresh", damping: "damping", endReachedRefresh: "endReachedRefresh", refreshing: "refreshing", direction: "direction", headerIndicator: "headerIndicator", footerIndicator: "footerIndicator" }, outputs: { onRefresh: "onRefresh" }, features: [ɵngcc0.ɵɵProvidersFeature([
-            {
-                provide: NG_VALUE_ACCESSOR,
-                useExisting: forwardRef(() => PullToRefreshComponent),
-                multi: true
-            }
-        ])], ngContentSelectors: _c0, decls: 8, vars: 5, consts: [[1, "am-pull-to-refresh-content-wrapper"], [1, "am-pull-to-refresh-content", 3, "ngClass", "ngStyle"], ["class", "am-pull-to-refresh-indicator am-pull-to-refresh-header-indicator", 4, "ngIf"], ["pullToRefresh", ""], ["class", "am-pull-to-refresh-indicator am-pull-to-refresh-footer-indicator", 4, "ngIf"], [1, "am-pull-to-refresh-indicator", "am-pull-to-refresh-header-indicator"], [4, "ngIf"], [3, "ngTemplateOutlet"], [1, "am-pull-to-refresh-indicator", "am-pull-to-refresh-footer-indicator"]], template: function PullToRefreshComponent_Template(rf, ctx) { if (rf & 1) {
-        ɵngcc0.ɵɵprojectionDef();
-        ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵelementStart(1, "div", 1);
-        ɵngcc0.ɵɵtemplate(2, PullToRefreshComponent_div_2_Template, 3, 2, "div", 2);
-        ɵngcc0.ɵɵelementStart(3, "div", null, 3);
-        ɵngcc0.ɵɵprojection(5);
-        ɵngcc0.ɵɵtemplate(6, PullToRefreshComponent_div_6_Template, 3, 2, "div", 4);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(7, PullToRefreshComponent_div_7_Template, 3, 2, "div", 4);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-    } if (rf & 2) {
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngClass", ctx.transtionCls)("ngStyle", ctx.style);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.refreshDown);
-        ɵngcc0.ɵɵadvance(4);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.direction === "down" && ctx.endReachedRefresh);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.refreshUp);
-    } }, directives: [ɵngcc1.NgClass, ɵngcc1.NgStyle, ɵngcc1.NgIf, ɵngcc1.NgTemplateOutlet], encapsulation: 2 });
+PullToRefreshComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'PullToRefresh, nzm-pull-to-refresh',
+                template: "<div class=\"am-pull-to-refresh-content-wrapper\">\n  <div class=\"am-pull-to-refresh-content\" [ngClass]=\"transtionCls\" [ngStyle]=\"style\">\n    <div *ngIf=\"refreshDown\" class=\"am-pull-to-refresh-indicator am-pull-to-refresh-header-indicator\">\n      <ng-template\n        *ngIf=\"isTemplateRef(headerIndicator[state.currentState])\"\n        [ngTemplateOutlet]=\"headerIndicator[state.currentState]\"\n      ></ng-template>\n      <ng-container *ngIf=\"!isTemplateRef(headerIndicator[state.currentState])\">{{\n        headerIndicator[state.currentState]\n      }}</ng-container>\n    </div>\n    <div #pullToRefresh>\n      <ng-content></ng-content>\n      <div\n        *ngIf=\"direction === 'down' && endReachedRefresh\"\n        class=\"am-pull-to-refresh-indicator am-pull-to-refresh-footer-indicator\"\n      >\n        <ng-template\n          *ngIf=\"isTemplateRef(footerIndicator[state.currentState])\"\n          [ngTemplateOutlet]=\"footerIndicator[state.currentState]\"\n        ></ng-template>\n        <ng-container *ngIf=\"!isTemplateRef(footerIndicator[state.currentState])\">{{\n          footerIndicator[state.currentState]\n        }}</ng-container>\n      </div>\n    </div>\n    <div *ngIf=\"refreshUp\" class=\"am-pull-to-refresh-indicator am-pull-to-refresh-footer-indicator\">\n      <ng-template\n        *ngIf=\"isTemplateRef(footerIndicator[state.currentState])\"\n        [ngTemplateOutlet]=\"footerIndicator[state.currentState]\"\n      ></ng-template>\n      <ng-container *ngIf=\"!isTemplateRef(footerIndicator[state.currentState])\">{{\n        footerIndicator[state.currentState]\n      }}</ng-container>\n    </div>\n  </div>\n</div>\n",
+                encapsulation: ViewEncapsulation.None,
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => PullToRefreshComponent),
+                        multi: true
+                    }
+                ]
+            },] }
+];
 PullToRefreshComponent.ctorParameters = () => [
     { type: ElementRef }
 ];
@@ -20252,82 +13353,16 @@ PullToRefreshComponent.propDecorators = {
     touchcancel: [{ type: HostListener, args: ['touchcancel',] }],
     scroll: [{ type: HostListener, args: ['scroll', ['$event'],] }]
 };
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PullToRefreshComponent, [{
-        type: Component,
-        args: [{
-                selector: 'PullToRefresh, nzm-pull-to-refresh',
-                template: "<div class=\"am-pull-to-refresh-content-wrapper\">\n  <div class=\"am-pull-to-refresh-content\" [ngClass]=\"transtionCls\" [ngStyle]=\"style\">\n    <div *ngIf=\"refreshDown\" class=\"am-pull-to-refresh-indicator am-pull-to-refresh-header-indicator\">\n      <ng-template\n        *ngIf=\"isTemplateRef(headerIndicator[state.currentState])\"\n        [ngTemplateOutlet]=\"headerIndicator[state.currentState]\"\n      ></ng-template>\n      <ng-container *ngIf=\"!isTemplateRef(headerIndicator[state.currentState])\">{{\n        headerIndicator[state.currentState]\n      }}</ng-container>\n    </div>\n    <div #pullToRefresh>\n      <ng-content></ng-content>\n      <div\n        *ngIf=\"direction === 'down' && endReachedRefresh\"\n        class=\"am-pull-to-refresh-indicator am-pull-to-refresh-footer-indicator\"\n      >\n        <ng-template\n          *ngIf=\"isTemplateRef(footerIndicator[state.currentState])\"\n          [ngTemplateOutlet]=\"footerIndicator[state.currentState]\"\n        ></ng-template>\n        <ng-container *ngIf=\"!isTemplateRef(footerIndicator[state.currentState])\">{{\n          footerIndicator[state.currentState]\n        }}</ng-container>\n      </div>\n    </div>\n    <div *ngIf=\"refreshUp\" class=\"am-pull-to-refresh-indicator am-pull-to-refresh-footer-indicator\">\n      <ng-template\n        *ngIf=\"isTemplateRef(footerIndicator[state.currentState])\"\n        [ngTemplateOutlet]=\"footerIndicator[state.currentState]\"\n      ></ng-template>\n      <ng-container *ngIf=\"!isTemplateRef(footerIndicator[state.currentState])\">{{\n        footerIndicator[state.currentState]\n      }}</ng-container>\n    </div>\n  </div>\n</div>\n",
-                encapsulation: ViewEncapsulation.None,
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => PullToRefreshComponent),
-                        multi: true
-                    }
-                ]
-            }]
-    }], function () { return [{ type: ɵngcc0.ElementRef }]; }, { distanceToRefresh: [{
-            type: Input
-        }], damping: [{
-            type: Input
-        }], endReachedRefresh: [{
-            type: Input
-        }], refreshing: [{
-            type: Input
-        }], onRefresh: [{
-            type: Output
-        }], refresh: [{
-            type: HostBinding,
-            args: ['class.am-pull-to-refresh']
-        }], container: [{
-            type: HostBinding,
-            args: ['class.super-container']
-        }], refreshUp: [{
-            type: HostBinding,
-            args: ['class.am-pull-to-refresh-up']
-        }], refreshDown: [{
-            type: HostBinding,
-            args: ['class.am-pull-to-refresh-down']
-        }], direction: [{
-            type: Input
-        }], headerIndicator: [{
-            type: Input
-        }], footerIndicator: [{
-            type: Input
-        }], touchstart: [{
-            type: HostListener,
-            args: ['touchstart', ['$event']]
-        }], touchmove: [{
-            type: HostListener,
-            args: ['touchmove', ['$event']]
-        }], touchend: [{
-            type: HostListener,
-            args: ['touchend', ['$event']]
-        }], touchcancel: [{
-            type: HostListener,
-            args: ['touchcancel']
-        }], scroll: [{
-            type: HostListener,
-            args: ['scroll', ['$event']]
-        }], _pullToRefresh: [{
-            type: ViewChild,
-            args: ['pullToRefresh', { read: ViewContainerRef, static: true }]
-        }] }); })();
 
 class PullToRefreshModule {
 }
-PullToRefreshModule.ɵfac = function PullToRefreshModule_Factory(t) { return new (t || PullToRefreshModule)(); };
-PullToRefreshModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PullToRefreshModule });
-PullToRefreshModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule, FormsModule, ReactiveFormsModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PullToRefreshModule, { declarations: function () { return [PullToRefreshComponent]; }, imports: function () { return [CommonModule, IconModule, FormsModule, ReactiveFormsModule]; }, exports: function () { return [PullToRefreshComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PullToRefreshModule, [{
-        type: NgModule,
-        args: [{
+PullToRefreshModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule, FormsModule, ReactiveFormsModule],
                 exports: [PullToRefreshComponent],
                 declarations: [PullToRefreshComponent]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 class NgZorroAntdMobileModule {
     static forRoot() {
@@ -20336,13 +13371,8 @@ class NgZorroAntdMobileModule {
         };
     }
 }
-NgZorroAntdMobileModule.ɵfac = function NgZorroAntdMobileModule_Factory(t) { return new (t || NgZorroAntdMobileModule)(); };
-NgZorroAntdMobileModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NgZorroAntdMobileModule });
-NgZorroAntdMobileModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [ActivityIndicatorModule, CardModule, TabsModule, TabBarModule, ButtonModule, SwitchModule, SearchBarModule, StepperModule, StepsModule, CheckboxModule, ProgressModule, SegmentedControlModule, BadgeModule, CarouselModule, ActionSheetModule, AccordionModule, NoticeBarModule, IconModule, ToastModule, RadioModule, ModalModule, PopoverModule, PopoverItemModule, NavBarModule, ListModule, CalendarModule, InputItemModule, FlexModule, GridModule, RangeModule, SliderModule, TextareaItemModule, NgZorroAntdMobilePipesModule, PickerModule, PickerViewModule, ImagePickerModule, ResultModule, WhiteSpaceModule, WingBlankModule, LocaleProviderModule, NgZorroAntdMobilePipesModule, PaginationModule, TagModule, MenuModule, DatePickerModule, DatePickerViewModule, DrawerModule, PullToRefreshModule, SwipeActionModule] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NgZorroAntdMobileModule, { exports: [ActivityIndicatorModule, CardModule, TabsModule, TabBarModule, ButtonModule, SwitchModule, SearchBarModule, StepperModule, StepsModule, CheckboxModule, ProgressModule, SegmentedControlModule, BadgeModule, CarouselModule, ActionSheetModule, AccordionModule, NoticeBarModule, IconModule, ToastModule, RadioModule, ModalModule, PopoverModule, PopoverItemModule, NavBarModule, ListModule, CalendarModule, InputItemModule, FlexModule, GridModule, RangeModule, SliderModule, TextareaItemModule, NgZorroAntdMobilePipesModule, PickerModule, PickerViewModule, ImagePickerModule, ResultModule, WhiteSpaceModule, WingBlankModule, LocaleProviderModule, NgZorroAntdMobilePipesModule, PaginationModule, TagModule, MenuModule, DatePickerModule, DatePickerViewModule, DrawerModule, PullToRefreshModule, SwipeActionModule] }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgZorroAntdMobileModule, [{
-        type: NgModule,
-        args: [{
+NgZorroAntdMobileModule.decorators = [
+    { type: NgModule, args: [{
                 providers: [],
                 exports: [
                     ActivityIndicatorModule,
@@ -20395,13 +13425,12 @@ NgZorroAntdMobileModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], impo
                     PullToRefreshModule,
                     SwipeActionModule
                 ]
-            }]
-    }], null, null); })();
+            },] }
+];
 
 /**
  * Generated bundle index. Do not edit.
  */
 
 export { AccordionComponent, AccordionGroupComponent, AccordionModule, AccordionService, Action, ActionSheetService as ActionSheet, ActionSheetComponent, ActionSheetModule, ActionSheetOptions, ActionSheetRef, ActionSheetService, ActionSheetWithOptions, ActivityIndicatorComponent, ActivityIndicatorModule, AgreeItemComponent, AlertOptions, BadgeComponent, BadgeModule, BriefComponent, ButtonComponent, ButtonModule, CalendarComponent, CalendarConfirmPanelComponent, CalendarDatePickerComponent, CalendarHeaderComponent, CalendarModule, CalendarShortcutPanelComponent, CalendarSingleMonthComponent, CalendarTimePickerComponent, CalendarWeekPanelComponent, CardBodyComponent, CardComponent, CardFooterComponent, CardHeaderComponent, CardModule, CarouselComponent, CarouselModule, CarouselSlideComponent, CheckboxComponent, CheckboxItemComponent, CheckboxModule, CustomInputComponent, CustomInputService, CustomKeyboardComponent, DateModels, DatePickerComponent, DatePickerDirective, DatePickerModule, DatePickerOptions, DatePickerViewComponent, DatePickerViewModule, DefaultTabBarComponent, DotIndicatorComponent, DrawerComponent, DrawerModule, FlexComponent, FlexItemComponent, FlexModule, GridComponent, GridModule, IconComponent, IconModule, ImagePickerComponent, ImagePickerModule, InputItemComponent, InputItemModule, LOCAL_PROVIDER_TOKEN, ListComponent, ListItemComponent, ListModule, LocaleProviderModule, LocaleProviderPipe, LocaleProviderService, MenuComponent, MenuModule, ModalService as Modal, ModalBaseOptions, ModalComponent, ModalModule, ModalOptions, ModalRef, ModalService, ModalServiceComponent, NavBarComponent, NavBarModule, NgZorroAntdMobileModule, NgZorroAntdMobilePipesModule, NoticeBarComponent, NoticeBarModule, PaginationComponent, PaginationModule, PickerService as Picker, PickerComponent, PickerDirective, PickerModule, PickerOptions, PickerRef, PickerService, PickerViewComponent, PickerViewModule, PopoverComponent, PopoverComponentOptions, PopoverDirective, PopoverItemComponent, PopoverItemModule, PopoverModule, PopoverOptions, PopoverOptionsFactory, ProgressComponent, ProgressModule, PullToRefreshComponent, PullToRefreshModule, RadioComponent, RadioItemComponent, RadioItemGroupComponent, RadioModule, RangeComponent, RangeModule, ResultComponent, ResultModule, SafeHTMLPipe, SearchBarComponent, SearchBarModule, SegmentedControlComponent, SegmentedControlModule, ShareActionSheetWithOptions, ShareOption, SliderComponent, SliderHandleComponent, SliderMarksComponent, SliderModule, SliderStepsComponent, SliderTrackComponent, StepComponent, StepDirectionEnum, StepStatusEnum, StepperComponent, StepperModule, StepsComponent, StepsModule, SubMenuComponent, SwipeActionComponent, SwipeActionModule, SwitchComponent, SwitchModule, TabBarComponent, TabBarItemComponent, TabBarModule, TabPaneBodyComponent, TabPaneComponent, TabsComponent, TabsModule, TagComponent, TagModule, TextareaItemComponent, TextareaItemModule, ToastService as Toast, ToastComponent, ToastModule, ToastOptions, ToastService, WhiteSpaceComponent, WhiteSpaceModule, WingBlankComponent, WingBlankModule, da_DK, en_US, formatDate, mergeDateTime, ru_RU, sv_SE, zh_CN, RADIO_ITEM_GROUP_VALUE_ACCESSOR as ɵa, NZ_BUTTON_DIRECTIVES as ɵb, LOCALE_PROVIDER_SERVICE_FACTORY as ɵc, LOCALE_PROVIDER_SERVICE_PROVIDER as ɵd, IconHandler as ɵe, TouchFeedbackModule as ɵf, TouchFeedbackDirective as ɵg, PopupService as ɵh, CalendarDatePickerBaseComponent as ɵi };
-
 //# sourceMappingURL=ng-zorro-antd-mobile.js.map

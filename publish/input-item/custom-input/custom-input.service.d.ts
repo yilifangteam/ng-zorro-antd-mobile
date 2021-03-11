@@ -1,6 +1,5 @@
 import { ComponentRef, ComponentFactory, ApplicationRef, ComponentFactoryResolver } from '@angular/core';
 import { CustomKeyboardComponent } from '../custom-keyboard/custom-keyboard.component';
-import * as ɵngcc0 from '@angular/core';
 export declare class CustomInputService {
     private _appRef;
     private _cfr;
@@ -14,8 +13,4 @@ export declare class CustomInputService {
     static getShowStatus(): boolean;
     static showKeyboard(): void;
     static hideKeyboard(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<CustomInputService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<CustomInputService>;
 }
-
-//# sourceMappingURL=custom-input.service.d.ts.map

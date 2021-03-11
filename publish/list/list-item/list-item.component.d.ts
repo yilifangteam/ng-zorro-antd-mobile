@@ -1,5 +1,4 @@
 import { OnInit, TemplateRef, EventEmitter, OnDestroy } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class ListItemComponent implements OnInit, OnDestroy {
     defaultProps: {
         prefixCls: string;
@@ -59,8 +58,4 @@ export declare class ListItemComponent implements OnInit, OnDestroy {
     onItemClick(ev: any): void;
     ngOnInit(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ListItemComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ListItemComponent, "ListItem, nzm-list-item", never, { "extra": "extra"; "extraTip": "extraTip"; "className": "className"; "arrow": "arrow"; "multipleLine": "multipleLine"; "error": "error"; "wrap": "wrap"; "align": "align"; "platform": "platform"; "disabled": "disabled"; "thumb": "thumb"; }, { "onClick": "onClick"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=list-item.component.d.ts.map

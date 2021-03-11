@@ -3,7 +3,6 @@ import { Subject } from 'rxjs';
 import { LocaleProviderService } from '../locale-provider/locale-provider.service';
 import { DatePickerOptions } from './date-picker-options.provider';
 import { ToastService } from '../toast/toast.service';
-import * as ɵngcc0 from '@angular/core';
 export declare type DateMode = 'date' | 'time' | 'datetime' | 'year' | 'month';
 export declare class DatePickerComponent implements OnInit, OnDestroy, AfterViewInit {
     elementRef: ElementRef;
@@ -75,8 +74,4 @@ export declare class DatePickerComponent implements OnInit, OnDestroy, AfterView
     ngOnInit(): void;
     ngAfterViewInit(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatePickerComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<DatePickerComponent, "DatePicker, nzm-date-picker", never, {}, {}, never, never>;
 }
-
-//# sourceMappingURL=date-picker.component.d.ts.map

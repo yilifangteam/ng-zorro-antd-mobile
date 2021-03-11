@@ -1,6 +1,5 @@
 import { EventEmitter, OnChanges } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import * as ɵngcc0 from '@angular/core';
 export declare class StepperComponent implements OnChanges, ControlValueAccessor {
     prefixCls: string;
     upDisableCls: object;
@@ -52,8 +51,4 @@ export declare class StepperComponent implements OnChanges, ControlValueAccessor
     times(num1: number, num2: number): number;
     floatToFixed(num: number): number;
     strip(num: number, precision?: number): number;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<StepperComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<StepperComponent, "Stepper, nzm-stepper", never, { "max": "max"; "min": "min"; "value": "value"; "step": "step"; "defaultValue": "defaultValue"; "disabled": "disabled"; "readOnly": "readOnly"; "showNumber": "showNumber"; }, { "onChange": "onChange"; }, never, never>;
 }
-
-//# sourceMappingURL=stepper.component.d.ts.map

@@ -2,7 +2,6 @@ import { OnInit, NgZone, Renderer2, OnChanges, OnDestroy, ElementRef, EventEmitt
 import { PickerComponent } from './picker.component';
 import { PickerOptions } from './picker-options.provider';
 import { ControlValueAccessor } from '@angular/forms';
-import * as ɵngcc0 from '@angular/core';
 export declare class PickerDirective implements OnDestroy, OnInit, OnChanges, ControlValueAccessor {
     private _viewContainerRef;
     private _elm;
@@ -43,8 +42,4 @@ export declare class PickerDirective implements OnDestroy, OnInit, OnChanges, Co
     registerOnTouched(fn: () => void): void;
     setDisabledState(isDisabled: boolean): void;
     isPickerDataEqual(data1: any, data2: any): any;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<PickerDirective, never>;
-    static ɵdir: ɵngcc0.ɵɵDirectiveDefWithMeta<PickerDirective, "[Picker], [nzm-picker]", never, { "disabled": "disabled"; "data": "data"; "cols": "cols"; "mask": "mask"; "title": "title"; "visible": "visible"; "okText": "okText"; "dismissText": "dismissText"; "cascade": "cascade"; "appendToBody": "appendToBody"; "indicatorStyle": "indicatorStyle"; }, { "onVisibleChange": "onVisibleChange"; "onPickerChange": "onPickerChange"; "onDismiss": "onDismiss"; }, never>;
 }
-
-//# sourceMappingURL=picker.directive.d.ts.map

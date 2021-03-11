@@ -2,7 +2,6 @@ import { ComponentRef, ComponentFactory, ApplicationRef } from '@angular/core';
 import { ActionSheetComponent } from './action-sheet.component';
 import { ActionCallBack, ActionSheetOptions, ActionSheetWithOptions, ShareActionSheetWithOptions } from './action-sheet-options.provider';
 import { PopupService } from '../core/services/popup.service';
-import * as ɵngcc0 from '@angular/core';
 export declare class ActionSheetService extends PopupService {
     compRef: ComponentRef<any>;
     _actionSheetCompFactory: ComponentFactory<ActionSheetComponent>;
@@ -16,7 +15,4 @@ export declare class ActionSheetService extends PopupService {
     showActionSheetWithOptions(config: ActionSheetWithOptions, callback?: ActionCallBack): ActionSheetComponent<any, any>;
     showShareActionSheetWithOptions(config: ShareActionSheetWithOptions, callback?: ActionCallBack): ActionSheetComponent<any, any>;
     close(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ActionSheetService, never>;
 }
-
-//# sourceMappingURL=action-sheet.service.d.ts.map

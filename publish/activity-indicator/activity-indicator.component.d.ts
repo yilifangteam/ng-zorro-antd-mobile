@@ -1,5 +1,4 @@
 import { OnInit } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class ActivityIndicatorComponent implements OnInit {
     prefixCls: string;
     spinnerClass: object;
@@ -21,8 +20,4 @@ export declare class ActivityIndicatorComponent implements OnInit {
     constructor();
     setClass(): void;
     ngOnInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ActivityIndicatorComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ActivityIndicatorComponent, "ActivityIndicator , nzm-ctivity-indicator", never, { "animating": "animating"; "size": "size"; "toast": "toast"; "text": "text"; }, {}, never, never>;
 }
-
-//# sourceMappingURL=activity-indicator.component.d.ts.map

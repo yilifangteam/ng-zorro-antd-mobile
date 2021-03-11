@@ -3,7 +3,6 @@ import { ControlValueAccessor } from '@angular/forms';
 import { CalendarPropsType } from './calendar.props.component';
 import { LocaleProviderService } from '../locale-provider/locale-provider.service';
 import { CalendarDatePickerComponent } from './datepicker/datepicker.component';
-import * as ɵngcc0 from '@angular/core';
 export { CalendarPropsType };
 export interface CalendarStateType {
     showTimePicker: boolean;
@@ -73,8 +72,4 @@ export declare class CalendarComponent implements ControlValueAccessor, OnInit, 
     ngOnDestroy(): void;
     private onChangeFn;
     private onTouchFn;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<CalendarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CalendarComponent, "Calendar, nzm-calendar", never, { "locale": "locale"; "defaultTimeValue": "defaultTimeValue"; "prefixCls": "prefixCls"; "enterDirection": "enterDirection"; "visible": "visible"; "getDateExtra": "getDateExtra"; "defaultDate": "defaultDate"; "minDate": "minDate"; "maxDate": "maxDate"; "pickTime": "pickTime"; "type": "type"; "showShortcut": "showShortcut"; "rowSize": "rowSize"; "infinite": "infinite"; "defaultValue": "defaultValue"; "onSelect": "onSelect"; }, { "onCancel": "onCancel"; "onConfirm": "onConfirm"; "onSelectHasDisableDate": "onSelectHasDisableDate"; }, never, never>;
 }
-
-//# sourceMappingURL=calendar.component.d.ts.map

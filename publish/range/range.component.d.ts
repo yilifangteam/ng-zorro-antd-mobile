@@ -1,6 +1,5 @@
 import { OnInit, EventEmitter, ElementRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import * as ɵngcc0 from '@angular/core';
 export declare class RangeComponent implements OnInit, ControlValueAccessor {
     private _elf;
     prefixCls: string;
@@ -73,8 +72,4 @@ export declare class RangeComponent implements OnInit, ControlValueAccessor {
     registerOnChange(fn: (value: number[]) => void): void;
     registerOnTouched(fn: (value: number) => void): void;
     ngOnInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<RangeComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<RangeComponent, "Range , nzm-range", never, { "min": "min"; "max": "max"; "step": "step"; "value": "value"; "defaultValue": "defaultValue"; "disabled": "disabled"; "marks": "marks"; "dots": "dots"; "included": "included"; "count": "count"; "allowCross": "allowCross"; "pushable": "pushable"; "handleStyle": "handleStyle"; "trackStyle": "trackStyle"; "railStyle": "railStyle"; }, { "onChange": "onChange"; "onAfterChange": "onAfterChange"; }, never, never>;
 }
-
-//# sourceMappingURL=range.component.d.ts.map

@@ -1,5 +1,4 @@
 import { TemplateRef, EventEmitter } from '@angular/core';
-import * as ɵngcc0 from '@angular/core';
 export declare class NavBarComponent {
     defaultProps: {
         prefixCls: string;
@@ -26,8 +25,4 @@ export declare class NavBarComponent {
     amNavbardark: any;
     constructor();
     click(event: any): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NavBarComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NavBarComponent, "Navbar, nzm-nav-bar", never, { "mode": "mode"; "icon": "icon"; "leftContent": "leftContent"; "rightContent": "rightContent"; }, { "onLeftClick": "onLeftClick"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=nav-bar.component.d.ts.map

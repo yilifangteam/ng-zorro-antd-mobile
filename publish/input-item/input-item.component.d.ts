@@ -2,7 +2,6 @@ import { AfterViewInit, EventEmitter, OnInit, Renderer2, ElementRef, TemplateRef
 import { ControlValueAccessor } from '@angular/forms';
 import { isTemplateRef } from '../core/util/check';
 import { NzmInputType } from './input-item.definitions';
-import * as ɵngcc0 from '@angular/core';
 export declare class InputItemComponent implements OnInit, AfterViewInit, ControlValueAccessor {
     private element;
     private render;
@@ -105,8 +104,4 @@ export declare class InputItemComponent implements OnInit, AfterViewInit, Contro
     registerOnTouched(fn: any): void;
     ngOnInit(): void;
     ngAfterViewInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<InputItemComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<InputItemComponent, "InputItem, nzm-input-item", never, { "compositionFilter": "compositionFilter"; "nzRequired": "nzRequired"; "type": "type"; "value": "value"; "defaultValue": "defaultValue"; "placeholder": "placeholder"; "editable": "editable"; "disabled": "disabled"; "clear": "clear"; "maxLength": "maxLength"; "error": "error"; "extra": "extra"; "labelNumber": "labelNumber"; "updatePlaceholder": "updatePlaceholder"; "prefixListCls": "prefixListCls"; "name": "name"; "moneyKeyboardAlign": "moneyKeyboardAlign"; "locale": "locale"; "fontColor": "fontColor"; "focus": "focus"; "content": "content"; }, { "onChange": "onChange"; "onBlur": "onBlur"; "onFocus": "onFocus"; "onErrorClick": "onErrorClick"; "onExtraClick": "onExtraClick"; }, never, never>;
 }
-
-//# sourceMappingURL=input-item.component.d.ts.map

@@ -1,7 +1,6 @@
 import { EventEmitter, ViewContainerRef, ComponentRef, OnDestroy, ElementRef, OnInit, ComponentFactoryResolver, Renderer2, TemplateRef, OnChanges, SimpleChanges } from '@angular/core';
 import { PopoverComponent } from './popover.component';
 import { PopoverOptions } from './popover-options.provider';
-import * as ɵngcc0 from '@angular/core';
 export declare class PopoverDirective implements OnInit, OnChanges, OnDestroy {
     private _viewContainerRef;
     private _elm;
@@ -31,8 +30,4 @@ export declare class PopoverDirective implements OnInit, OnChanges, OnDestroy {
     private showPopover;
     private positionPopover;
     private hidePopover;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<PopoverDirective, never>;
-    static ɵdir: ɵngcc0.ɵɵDirectiveDefWithMeta<PopoverDirective, "[Popover], [nzm-popover]", never, { "mask": "mask"; "showArrow": "showArrow"; "visible": "visible"; "placement": "placement"; "overlay": "overlay"; "appendToBody": "appendToBody"; "className": "className"; "autoClose": "autoClose"; }, { "onVisibleChange": "onVisibleChange"; "onSelect": "onSelect"; }, never>;
 }
-
-//# sourceMappingURL=popover.directive.d.ts.map
