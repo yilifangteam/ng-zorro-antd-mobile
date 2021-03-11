@@ -25,10 +25,13 @@ export declare class ListItemComponent implements OnInit, OnDestroy {
     private _disabled;
     private _className;
     private _active;
+    private _extraTip;
     get extra(): string | TemplateRef<any>;
     get extra_component(): boolean;
     get extra_title(): string;
     set extra(value: string | TemplateRef<any>);
+    set extraTip(v: string);
+    get extraTip(): string;
     set className(value: any);
     get arrow(): string;
     set arrow(value: string);

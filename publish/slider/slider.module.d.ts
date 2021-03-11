@@ -6,6 +6,7 @@ import * as ɵngcc4 from './slider-steps/slider-steps.component';
 import * as ɵngcc5 from './slider-track/slider-track.component';
 import * as ɵngcc6 from '@angular/common';
 export declare class SliderModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<SliderModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<SliderModule, [typeof ɵngcc1.SliderComponent, typeof ɵngcc2.SliderHandleComponent, typeof ɵngcc3.SliderMarksComponent, typeof ɵngcc4.SliderStepsComponent, typeof ɵngcc5.SliderTrackComponent], [typeof ɵngcc6.CommonModule], [typeof ɵngcc1.SliderComponent, typeof ɵngcc2.SliderHandleComponent, typeof ɵngcc3.SliderMarksComponent, typeof ɵngcc4.SliderStepsComponent, typeof ɵngcc5.SliderTrackComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<SliderModule>;
 }

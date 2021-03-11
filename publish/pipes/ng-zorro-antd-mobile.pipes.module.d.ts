@@ -1,6 +1,7 @@
 import * as ɵngcc0 from '@angular/core';
 import * as ɵngcc1 from './save-html';
 export declare class NgZorroAntdMobilePipesModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgZorroAntdMobilePipesModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<NgZorroAntdMobilePipesModule, [typeof ɵngcc1.SafeHTMLPipe], never, [typeof ɵngcc1.SafeHTMLPipe]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<NgZorroAntdMobilePipesModule>;
 }

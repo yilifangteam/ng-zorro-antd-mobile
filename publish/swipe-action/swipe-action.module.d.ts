@@ -2,6 +2,7 @@ import * as ɵngcc0 from '@angular/core';
 import * as ɵngcc1 from './swipe-action.component';
 import * as ɵngcc2 from '@angular/common';
 export declare class SwipeActionModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<SwipeActionModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<SwipeActionModule, [typeof ɵngcc1.SwipeActionComponent], [typeof ɵngcc2.CommonModule], [typeof ɵngcc1.SwipeActionComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<SwipeActionModule>;
 }

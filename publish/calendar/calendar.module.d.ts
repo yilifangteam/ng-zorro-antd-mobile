@@ -12,6 +12,7 @@ import * as ɵngcc10 from '../icon/icon.module';
 import * as ɵngcc11 from '../date-picker-view/date-picker-view.module';
 import * as ɵngcc12 from '../locale-provider/locale-provider.module';
 export declare class CalendarModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<CalendarModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<CalendarModule, [typeof ɵngcc1.CalendarComponent, typeof ɵngcc2.CalendarHeaderComponent, typeof ɵngcc3.CalendarWeekPanelComponent, typeof ɵngcc4.CalendarDatePickerComponent, typeof ɵngcc5.CalendarTimePickerComponent, typeof ɵngcc6.CalendarSingleMonthComponent, typeof ɵngcc7.CalendarConfirmPanelComponent, typeof ɵngcc8.CalendarShortcutPanelComponent], [typeof ɵngcc9.CommonModule, typeof ɵngcc10.IconModule, typeof ɵngcc11.DatePickerViewModule, typeof ɵngcc12.LocaleProviderModule], [typeof ɵngcc1.CalendarComponent, typeof ɵngcc2.CalendarHeaderComponent, typeof ɵngcc3.CalendarWeekPanelComponent, typeof ɵngcc4.CalendarDatePickerComponent, typeof ɵngcc5.CalendarTimePickerComponent, typeof ɵngcc6.CalendarSingleMonthComponent, typeof ɵngcc7.CalendarConfirmPanelComponent, typeof ɵngcc8.CalendarShortcutPanelComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<CalendarModule>;
 }

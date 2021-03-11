@@ -2,19 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IconModule } from '../icon/icon.module';
 import { NavBarComponent } from './nav-bar.component';
-import * as ɵngcc0 from '@angular/core';
 export class NavBarModule {
 }
-NavBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NavBarModule });
-NavBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function NavBarModule_Factory(t) { return new (t || NavBarModule)(); }, imports: [[CommonModule, IconModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NavBarModule, { declarations: function () { return [NavBarComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [NavBarComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NavBarModule, [{
-        type: NgModule,
-        args: [{
+NavBarModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule, IconModule],
                 exports: [NavBarComponent],
                 declarations: [NavBarComponent]
-            }]
-    }], null, null); })();
-
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF2LWJhci5tb2R1bGUuanMiLCJzb3VyY2VzIjpbIi4uLy4uL2NvbXBvbmVudHMvbmF2LWJhci9uYXYtYmFyLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0scUJBQXFCLENBQUM7QUFDakQsT0FBTyxFQUFFLGVBQWUsRUFBRSxNQUFNLHFCQUFxQixDQUFDOztBQU90RCxNQUFNLE9BQU8sWUFBWTtBQUFHO3dDQUwzQixRQUFRLFNBQUM7TUFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDLGtCQUNuQyxPQUFPLEVBQUUsQ0FBQyxlQUFlLENBQUMsa0JBQzFCLFlBQVksRUFBRSxDQUFDLGVBQWUsQ0FBQyxjQUNoQzs7Ozs7Ozs7OzBCQUNJO0FBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IEljb25Nb2R1bGUgfSBmcm9tICcuLi9pY29uL2ljb24ubW9kdWxlJztcbmltcG9ydCB7IE5hdkJhckNvbXBvbmVudCB9IGZyb20gJy4vbmF2LWJhci5jb21wb25lbnQnO1xuXG5ATmdNb2R1bGUoe1xuICBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlLCBJY29uTW9kdWxlXSxcbiAgZXhwb3J0czogW05hdkJhckNvbXBvbmVudF0sXG4gIGRlY2xhcmF0aW9uczogW05hdkJhckNvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgTmF2QmFyTW9kdWxlIHt9XG4iXX0=
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF2LWJhci5tb2R1bGUuanMiLCJzb3VyY2VSb290IjoiLi4vLi4vY29tcG9uZW50cy8iLCJzb3VyY2VzIjpbIm5hdi1iYXIvbmF2LWJhci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDL0MsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLHFCQUFxQixDQUFDO0FBQ2pELE9BQU8sRUFBRSxlQUFlLEVBQUUsTUFBTSxxQkFBcUIsQ0FBQztBQU90RCxNQUFNLE9BQU8sWUFBWTs7O1lBTHhCLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDO2dCQUNuQyxPQUFPLEVBQUUsQ0FBQyxlQUFlLENBQUM7Z0JBQzFCLFlBQVksRUFBRSxDQUFDLGVBQWUsQ0FBQzthQUNoQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgSWNvbk1vZHVsZSB9IGZyb20gJy4uL2ljb24vaWNvbi5tb2R1bGUnO1xuaW1wb3J0IHsgTmF2QmFyQ29tcG9uZW50IH0gZnJvbSAnLi9uYXYtYmFyLmNvbXBvbmVudCc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIEljb25Nb2R1bGVdLFxuICBleHBvcnRzOiBbTmF2QmFyQ29tcG9uZW50XSxcbiAgZGVjbGFyYXRpb25zOiBbTmF2QmFyQ29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBOYXZCYXJNb2R1bGUge31cbiJdfQ==

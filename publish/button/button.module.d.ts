@@ -7,6 +7,7 @@ import * as ɵngcc5 from '../white-space/white-space.module';
 import * as ɵngcc6 from '../list/list.module';
 export declare const NZ_BUTTON_DIRECTIVES: Array<any>;
 export declare class ButtonModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<ButtonModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<ButtonModule, [typeof ɵngcc1.ButtonComponent], [typeof ɵngcc2.CommonModule, typeof ɵngcc3.IconModule, typeof ɵngcc4.WingBlankModule, typeof ɵngcc5.WhiteSpaceModule, typeof ɵngcc6.ListModule], [typeof ɵngcc1.ButtonComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<ButtonModule>;
 }

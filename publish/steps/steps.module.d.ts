@@ -5,6 +5,7 @@ import * as ɵngcc3 from '@angular/common';
 import * as ɵngcc4 from '@angular/forms';
 import * as ɵngcc5 from '../icon/icon.module';
 export declare class StepsModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<StepsModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<StepsModule, [typeof ɵngcc1.StepsComponent, typeof ɵngcc2.StepComponent], [typeof ɵngcc3.CommonModule, typeof ɵngcc4.FormsModule, typeof ɵngcc5.IconModule], [typeof ɵngcc1.StepsComponent, typeof ɵngcc2.StepComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<StepsModule>;
 }

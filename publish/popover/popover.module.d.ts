@@ -5,6 +5,7 @@ import * as ɵngcc2 from './popover.component';
 import * as ɵngcc3 from '@angular/common';
 export declare function PopoverOptionsFactory(userOptions: PopoverOptions): PopoverOptions;
 export declare class PopoverModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<PopoverModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<PopoverModule, [typeof ɵngcc1.PopoverDirective, typeof ɵngcc2.PopoverComponent], [typeof ɵngcc3.CommonModule], [typeof ɵngcc1.PopoverDirective, typeof ɵngcc2.PopoverComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<PopoverModule>;
 }

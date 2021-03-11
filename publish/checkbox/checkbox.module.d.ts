@@ -6,6 +6,7 @@ import * as ɵngcc4 from '@angular/common';
 import * as ɵngcc5 from '@angular/forms';
 import * as ɵngcc6 from '../list/list.module';
 export declare class CheckboxModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<CheckboxModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<CheckboxModule, [typeof ɵngcc1.CheckboxComponent, typeof ɵngcc2.CheckboxItemComponent, typeof ɵngcc3.AgreeItemComponent], [typeof ɵngcc4.CommonModule, typeof ɵngcc5.FormsModule, typeof ɵngcc6.ListModule], [typeof ɵngcc1.CheckboxComponent, typeof ɵngcc2.CheckboxItemComponent, typeof ɵngcc3.AgreeItemComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<CheckboxModule>;
 }

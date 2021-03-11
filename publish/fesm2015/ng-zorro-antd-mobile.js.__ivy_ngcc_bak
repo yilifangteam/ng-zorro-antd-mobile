@@ -1705,6 +1705,7 @@ class ListItemComponent {
         this._disabled = false;
         this._className = '';
         this._active = false;
+        this._extraTip = '';
         this.onClick = new EventEmitter();
     }
     get extra() {
@@ -1725,6 +1726,12 @@ class ListItemComponent {
             this._extra_component = false;
             this._extra_title = value;
         }
+    }
+    set extraTip(v) {
+        this._extraTip = v;
+    }
+    get extraTip() {
+        return this._extraTip;
     }
     set className(value) {
         this._className = value;
@@ -1899,13 +1906,14 @@ class ListItemComponent {
 ListItemComponent.decorators = [
     { type: Component, args: [{
                 selector: 'ListItem, nzm-list-item',
-                template: "<div *ngIf=\"thumb_src && !thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <img src=\"{{ thumb_src }}\" />\n</div>\n<div *ngIf=\"thumb && thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <ng-template [ngTemplateOutlet]=\"thumb\"></ng-template>\n</div>\n<div [ngClass]=\"lineCls\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <ng-content></ng-content>\n  </div>\n  <div\n    *ngIf=\"extra_title && !extra_component\"\n    class=\"{{ defaultProps.prefixCls }}-extra\"\n    [innerHTML]=\"extra_title\"\n  ></div>\n  <div *ngIf=\"extra && extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\">\n    <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n  <div *ngIf=\"arrow\" [ngClass]=\"arrowCls\" aria-hidden=\"true\"></div>\n</div>\n<div [ngClass]=\"rippleCls\" [ngStyle]=\"defaultProps.rippleStyle\"></div>\n",
+                template: "<div *ngIf=\"thumb_src && !thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <img src=\"{{ thumb_src }}\" />\n</div>\n<div *ngIf=\"thumb && thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <ng-template [ngTemplateOutlet]=\"thumb\"></ng-template>\n</div>\n<div [ngClass]=\"lineCls\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <ng-content></ng-content>\n  </div>\n  <div *ngIf=\"extra_title && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extra_title\">\n  </div>\n  <div *ngIf=\"extra && extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\">\n    <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n  <div *ngIf=\"!extra && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extraTip\">\n\n  </div>\n  <div *ngIf=\"arrow\" [ngClass]=\"arrowCls\" aria-hidden=\"true\"></div>\n</div>\n<div [ngClass]=\"rippleCls\" [ngStyle]=\"defaultProps.rippleStyle\"></div>",
                 encapsulation: ViewEncapsulation.None
             },] }
 ];
 ListItemComponent.ctorParameters = () => [];
 ListItemComponent.propDecorators = {
     extra: [{ type: Input }],
+    extraTip: [{ type: Input }],
     className: [{ type: Input }],
     arrow: [{ type: Input }],
     multipleLine: [{ type: Input }],

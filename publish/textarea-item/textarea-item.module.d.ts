@@ -3,6 +3,7 @@ import * as ɵngcc1 from './textarea-item.component';
 import * as ɵngcc2 from '@angular/common';
 import * as ɵngcc3 from '@angular/forms';
 export declare class TextareaItemModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<TextareaItemModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<TextareaItemModule, [typeof ɵngcc1.TextareaItemComponent], [typeof ɵngcc2.CommonModule, typeof ɵngcc3.FormsModule], [typeof ɵngcc1.TextareaItemComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<TextareaItemModule>;
 }

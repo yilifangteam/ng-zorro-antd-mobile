@@ -408,10 +408,17 @@ function ListItemComponent_div_6_Template(rf, ctx) { if (rf & 1) {
     ɵngcc0.ɵɵproperty("ngTemplateOutlet", ctx_r3.extra);
 } }
 function ListItemComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelement(0, "div", 8);
+    ɵngcc0.ɵɵelement(0, "div", 7);
 } if (rf & 2) {
     const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("ngClass", ctx_r4.arrowCls);
+    ɵngcc0.ɵɵclassMapInterpolate1("", ctx_r4.defaultProps.prefixCls, "-extra");
+    ɵngcc0.ɵɵproperty("innerHTML", ctx_r4.extraTip, ɵngcc0.ɵɵsanitizeHtml);
+} }
+function ListItemComponent_div_8_Template(rf, ctx) { if (rf & 1) {
+    ɵngcc0.ɵɵelement(0, "div", 8);
+} if (rf & 2) {
+    const ctx_r5 = ɵngcc0.ɵɵnextContext();
+    ɵngcc0.ɵɵproperty("ngClass", ctx_r5.arrowCls);
 } }
 const _c7 = ["search"];
 const _c8 = function (a0) { return { visibility: a0 }; };
@@ -3004,8 +3011,9 @@ ActivityIndicatorComponent.propDecorators = {
 
 class ActivityIndicatorModule {
 }
+ActivityIndicatorModule.ɵfac = function ActivityIndicatorModule_Factory(t) { return new (t || ActivityIndicatorModule)(); };
 ActivityIndicatorModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ActivityIndicatorModule });
-ActivityIndicatorModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ActivityIndicatorModule_Factory(t) { return new (t || ActivityIndicatorModule)(); }, imports: [[CommonModule, FormsModule]] });
+ActivityIndicatorModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ActivityIndicatorModule, { declarations: function () { return [ActivityIndicatorComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [ActivityIndicatorComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ActivityIndicatorModule, [{
         type: NgModule,
@@ -3203,8 +3211,9 @@ CardFooterComponent.propDecorators = {
 
 class CardModule {
 }
+CardModule.ɵfac = function CardModule_Factory(t) { return new (t || CardModule)(); };
 CardModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CardModule });
-CardModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function CardModule_Factory(t) { return new (t || CardModule)(); }, imports: [[CommonModule]] });
+CardModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CardModule, { declarations: function () { return [CardComponent, CardHeaderComponent, CardBodyComponent, CardFooterComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [CardComponent, CardHeaderComponent, CardBodyComponent, CardFooterComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CardModule, [{
         type: NgModule,
@@ -3378,8 +3387,9 @@ BadgeComponent.propDecorators = {
 
 class BadgeModule {
 }
+BadgeModule.ɵfac = function BadgeModule_Factory(t) { return new (t || BadgeModule)(); };
 BadgeModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: BadgeModule });
-BadgeModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function BadgeModule_Factory(t) { return new (t || BadgeModule)(); }, imports: [[CommonModule, FormsModule]] });
+BadgeModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(BadgeModule, { declarations: function () { return [BadgeComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [BadgeComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(BadgeModule, [{
         type: NgModule,
@@ -4588,8 +4598,9 @@ CustomInputComponent.propDecorators = {
 
 class InputItemModule {
 }
+InputItemModule.ɵfac = function InputItemModule_Factory(t) { return new (t || InputItemModule)(); };
 InputItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: InputItemModule });
-InputItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function InputItemModule_Factory(t) { return new (t || InputItemModule)(); }, imports: [[CommonModule, FormsModule, ReactiveFormsModule]] });
+InputItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, ReactiveFormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(InputItemModule, { declarations: function () { return [InputItemComponent, CustomKeyboardComponent, CustomInputComponent]; }, imports: function () { return [CommonModule, FormsModule, ReactiveFormsModule]; }, exports: function () { return [InputItemComponent, CustomKeyboardComponent, CustomInputComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(InputItemModule, [{
         type: NgModule,
@@ -4962,8 +4973,9 @@ IconComponent.propDecorators = {
 
 class IconModule {
 }
+IconModule.ɵfac = function IconModule_Factory(t) { return new (t || IconModule)(); };
 IconModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: IconModule });
-IconModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function IconModule_Factory(t) { return new (t || IconModule)(); }, imports: [[CommonModule]] });
+IconModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(IconModule, { declarations: function () { return [IconComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [IconComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(IconModule, [{
         type: NgModule,
@@ -5030,8 +5042,9 @@ WingBlankComponent.propDecorators = {
 
 class WingBlankModule {
 }
+WingBlankModule.ɵfac = function WingBlankModule_Factory(t) { return new (t || WingBlankModule)(); };
 WingBlankModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: WingBlankModule });
-WingBlankModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function WingBlankModule_Factory(t) { return new (t || WingBlankModule)(); }, imports: [[CommonModule]] });
+WingBlankModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(WingBlankModule, { declarations: function () { return [WingBlankComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [WingBlankComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(WingBlankModule, [{
         type: NgModule,
@@ -5108,8 +5121,9 @@ WhiteSpaceComponent.propDecorators = {
 
 class WhiteSpaceModule {
 }
+WhiteSpaceModule.ɵfac = function WhiteSpaceModule_Factory(t) { return new (t || WhiteSpaceModule)(); };
 WhiteSpaceModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: WhiteSpaceModule });
-WhiteSpaceModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function WhiteSpaceModule_Factory(t) { return new (t || WhiteSpaceModule)(); }, imports: [[CommonModule]] });
+WhiteSpaceModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(WhiteSpaceModule, { declarations: function () { return [WhiteSpaceComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [WhiteSpaceComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(WhiteSpaceModule, [{
         type: NgModule,
@@ -5240,6 +5254,7 @@ class ListItemComponent {
         this._disabled = false;
         this._className = '';
         this._active = false;
+        this._extraTip = '';
         this.onClick = new EventEmitter();
     }
     get extra() {
@@ -5260,6 +5275,12 @@ class ListItemComponent {
             this._extra_component = false;
             this._extra_title = value;
         }
+    }
+    set extraTip(v) {
+        this._extraTip = v;
+    }
+    get extraTip() {
+        return this._extraTip;
     }
     set className(value) {
         this._className = value;
@@ -5436,7 +5457,7 @@ ListItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ListItemComponent,
         ɵngcc0.ɵɵlistener("click", function ListItemComponent_click_HostBindingHandler($event) { return ctx.click($event); })("touchstart", function ListItemComponent_touchstart_HostBindingHandler() { return ctx.start(); })("touchmove", function ListItemComponent_touchmove_HostBindingHandler() { return ctx.move(); })("touchend", function ListItemComponent_touchend_HostBindingHandler() { return ctx.end(); })("mousedown", function ListItemComponent_mousedown_HostBindingHandler() { return ctx.mouse_start(); })("mouseup", function ListItemComponent_mouseup_HostBindingHandler() { return ctx.mouse_end(); });
     } if (rf & 2) {
         ɵngcc0.ɵɵclassMap(ctx.bingClassName);
-    } }, inputs: { extra: "extra", className: "className", arrow: "arrow", multipleLine: "multipleLine", error: "error", wrap: "wrap", align: "align", platform: "platform", disabled: "disabled", thumb: "thumb" }, outputs: { onClick: "onClick" }, ngContentSelectors: _c0, decls: 9, vars: 11, consts: [[3, "class", 4, "ngIf"], [3, "ngClass"], [3, "class", "innerHTML", 4, "ngIf"], ["aria-hidden", "true", 3, "ngClass", 4, "ngIf"], [3, "ngClass", "ngStyle"], [3, "src"], [3, "ngTemplateOutlet"], [3, "innerHTML"], ["aria-hidden", "true", 3, "ngClass"]], template: function ListItemComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { extra: "extra", extraTip: "extraTip", className: "className", arrow: "arrow", multipleLine: "multipleLine", error: "error", wrap: "wrap", align: "align", platform: "platform", disabled: "disabled", thumb: "thumb" }, outputs: { onClick: "onClick" }, ngContentSelectors: _c0, decls: 10, vars: 12, consts: [[3, "class", 4, "ngIf"], [3, "ngClass"], [3, "class", "innerHTML", 4, "ngIf"], ["aria-hidden", "true", 3, "ngClass", 4, "ngIf"], [3, "ngClass", "ngStyle"], [3, "src"], [3, "ngTemplateOutlet"], [3, "innerHTML"], ["aria-hidden", "true", 3, "ngClass"]], template: function ListItemComponent_Template(rf, ctx) { if (rf & 1) {
         ɵngcc0.ɵɵprojectionDef();
         ɵngcc0.ɵɵtemplate(0, ListItemComponent_div_0_Template, 2, 4, "div", 0);
         ɵngcc0.ɵɵtemplate(1, ListItemComponent_div_1_Template, 2, 4, "div", 0);
@@ -5446,9 +5467,10 @@ ListItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ListItemComponent,
         ɵngcc0.ɵɵelementEnd();
         ɵngcc0.ɵɵtemplate(5, ListItemComponent_div_5_Template, 1, 4, "div", 2);
         ɵngcc0.ɵɵtemplate(6, ListItemComponent_div_6_Template, 2, 4, "div", 0);
-        ɵngcc0.ɵɵtemplate(7, ListItemComponent_div_7_Template, 1, 1, "div", 3);
+        ɵngcc0.ɵɵtemplate(7, ListItemComponent_div_7_Template, 1, 4, "div", 2);
+        ɵngcc0.ɵɵtemplate(8, ListItemComponent_div_8_Template, 1, 1, "div", 3);
         ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelement(8, "div", 4);
+        ɵngcc0.ɵɵelement(9, "div", 4);
     } if (rf & 2) {
         ɵngcc0.ɵɵproperty("ngIf", ctx.thumb_src && !ctx.thumb_component);
         ɵngcc0.ɵɵadvance(1);
@@ -5462,6 +5484,8 @@ ListItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ListItemComponent,
         ɵngcc0.ɵɵadvance(1);
         ɵngcc0.ɵɵproperty("ngIf", ctx.extra && ctx.extra_component);
         ɵngcc0.ɵɵadvance(1);
+        ɵngcc0.ɵɵproperty("ngIf", !ctx.extra && !ctx.extra_component);
+        ɵngcc0.ɵɵadvance(1);
         ɵngcc0.ɵɵproperty("ngIf", ctx.arrow);
         ɵngcc0.ɵɵadvance(1);
         ɵngcc0.ɵɵproperty("ngClass", ctx.rippleCls)("ngStyle", ctx.defaultProps.rippleStyle);
@@ -5469,6 +5493,7 @@ ListItemComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: ListItemComponent,
 ListItemComponent.ctorParameters = () => [];
 ListItemComponent.propDecorators = {
     extra: [{ type: Input }],
+    extraTip: [{ type: Input }],
     className: [{ type: Input }],
     arrow: [{ type: Input }],
     multipleLine: [{ type: Input }],
@@ -5491,12 +5516,14 @@ ListItemComponent.propDecorators = {
         type: Component,
         args: [{
                 selector: 'ListItem, nzm-list-item',
-                template: "<div *ngIf=\"thumb_src && !thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <img src=\"{{ thumb_src }}\" />\n</div>\n<div *ngIf=\"thumb && thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <ng-template [ngTemplateOutlet]=\"thumb\"></ng-template>\n</div>\n<div [ngClass]=\"lineCls\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <ng-content></ng-content>\n  </div>\n  <div\n    *ngIf=\"extra_title && !extra_component\"\n    class=\"{{ defaultProps.prefixCls }}-extra\"\n    [innerHTML]=\"extra_title\"\n  ></div>\n  <div *ngIf=\"extra && extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\">\n    <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n  <div *ngIf=\"arrow\" [ngClass]=\"arrowCls\" aria-hidden=\"true\"></div>\n</div>\n<div [ngClass]=\"rippleCls\" [ngStyle]=\"defaultProps.rippleStyle\"></div>\n",
+                template: "<div *ngIf=\"thumb_src && !thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <img src=\"{{ thumb_src }}\" />\n</div>\n<div *ngIf=\"thumb && thumb_component\" class=\"{{ defaultProps.prefixCls }}-thumb\">\n  <ng-template [ngTemplateOutlet]=\"thumb\"></ng-template>\n</div>\n<div [ngClass]=\"lineCls\">\n  <div class=\"{{ defaultProps.prefixCls }}-content\">\n    <ng-content></ng-content>\n  </div>\n  <div *ngIf=\"extra_title && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extra_title\">\n  </div>\n  <div *ngIf=\"extra && extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\">\n    <ng-template [ngTemplateOutlet]=\"extra\"></ng-template>\n  </div>\n  <div *ngIf=\"!extra && !extra_component\" class=\"{{ defaultProps.prefixCls }}-extra\" [innerHTML]=\"extraTip\">\n\n  </div>\n  <div *ngIf=\"arrow\" [ngClass]=\"arrowCls\" aria-hidden=\"true\"></div>\n</div>\n<div [ngClass]=\"rippleCls\" [ngStyle]=\"defaultProps.rippleStyle\"></div>",
                 encapsulation: ViewEncapsulation.None
             }]
     }], function () { return []; }, { onClick: [{
             type: Output
         }], extra: [{
+            type: Input
+        }], extraTip: [{
             type: Input
         }], className: [{
             type: Input
@@ -5566,8 +5593,9 @@ BriefComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: BriefComponent, selec
 
 class ListModule {
 }
+ListModule.ɵfac = function ListModule_Factory(t) { return new (t || ListModule)(); };
 ListModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ListModule });
-ListModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ListModule_Factory(t) { return new (t || ListModule)(); }, imports: [[CommonModule, FormsModule]] });
+ListModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ListModule, { declarations: function () { return [ListComponent, ListItemComponent, BriefComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [ListComponent, ListItemComponent, BriefComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ListModule, [{
         type: NgModule,
@@ -5581,8 +5609,9 @@ ListModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ListModule_Fac
 const NZ_BUTTON_DIRECTIVES = [ButtonComponent];
 class ButtonModule {
 }
+ButtonModule.ɵfac = function ButtonModule_Factory(t) { return new (t || ButtonModule)(); };
 ButtonModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ButtonModule });
-ButtonModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ButtonModule_Factory(t) { return new (t || ButtonModule)(); }, imports: [[CommonModule, IconModule, WingBlankModule, WhiteSpaceModule, ListModule]] });
+ButtonModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule, WingBlankModule, WhiteSpaceModule, ListModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ButtonModule, { declarations: function () { return [ButtonComponent]; }, imports: function () { return [CommonModule, IconModule, WingBlankModule, WhiteSpaceModule, ListModule]; }, exports: function () { return [ButtonComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ButtonModule, [{
         type: NgModule,
@@ -5737,8 +5766,9 @@ SwitchComponent.propDecorators = {
 
 class SwitchModule {
 }
+SwitchModule.ɵfac = function SwitchModule_Factory(t) { return new (t || SwitchModule)(); };
 SwitchModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SwitchModule });
-SwitchModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SwitchModule_Factory(t) { return new (t || SwitchModule)(); }, imports: [[CommonModule, WingBlankModule]] });
+SwitchModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, WingBlankModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SwitchModule, { declarations: function () { return [SwitchComponent]; }, imports: function () { return [CommonModule, WingBlankModule]; }, exports: function () { return [SwitchComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwitchModule, [{
         type: NgModule,
@@ -6132,8 +6162,9 @@ LocaleProviderPipe.ctorParameters = () => [
 const ɵ0$1 = zh_CN;
 class LocaleProviderModule {
 }
+LocaleProviderModule.ɵfac = function LocaleProviderModule_Factory(t) { return new (t || LocaleProviderModule)(); };
 LocaleProviderModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: LocaleProviderModule });
-LocaleProviderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function LocaleProviderModule_Factory(t) { return new (t || LocaleProviderModule)(); }, providers: [{ provide: LOCAL_PROVIDER_TOKEN, useValue: ɵ0$1 }, LOCALE_PROVIDER_SERVICE_PROVIDER], imports: [[]] });
+LocaleProviderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [{ provide: LOCAL_PROVIDER_TOKEN, useValue: ɵ0$1 }, LOCALE_PROVIDER_SERVICE_PROVIDER], imports: [[]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(LocaleProviderModule, { declarations: [LocaleProviderPipe], exports: [LocaleProviderPipe] }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(LocaleProviderModule, [{
         type: NgModule,
@@ -6147,8 +6178,9 @@ LocaleProviderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function Loca
 
 class SearchBarModule {
 }
+SearchBarModule.ɵfac = function SearchBarModule_Factory(t) { return new (t || SearchBarModule)(); };
 SearchBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SearchBarModule });
-SearchBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SearchBarModule_Factory(t) { return new (t || SearchBarModule)(); }, imports: [[CommonModule, FormsModule, LocaleProviderModule]] });
+SearchBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, LocaleProviderModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SearchBarModule, { declarations: function () { return [SearchBarComponent]; }, imports: function () { return [CommonModule, FormsModule, LocaleProviderModule]; }, exports: function () { return [SearchBarComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SearchBarModule, [{
         type: NgModule,
@@ -6450,8 +6482,9 @@ StepperComponent.propDecorators = {
 
 class StepperModule {
 }
+StepperModule.ɵfac = function StepperModule_Factory(t) { return new (t || StepperModule)(); };
 StepperModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: StepperModule });
-StepperModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function StepperModule_Factory(t) { return new (t || StepperModule)(); }, imports: [[CommonModule, FormsModule, IconModule]] });
+StepperModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, IconModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(StepperModule, { declarations: function () { return [StepperComponent]; }, imports: function () { return [CommonModule, FormsModule, IconModule]; }, exports: function () { return [StepperComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepperModule, [{
         type: NgModule,
@@ -6781,8 +6814,9 @@ StepsComponent.propDecorators = {
 
 class StepsModule {
 }
+StepsModule.ɵfac = function StepsModule_Factory(t) { return new (t || StepsModule)(); };
 StepsModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: StepsModule });
-StepsModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function StepsModule_Factory(t) { return new (t || StepsModule)(); }, imports: [[CommonModule, FormsModule, IconModule]] });
+StepsModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, IconModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(StepsModule, { declarations: function () { return [StepsComponent, StepComponent]; }, imports: function () { return [CommonModule, FormsModule, IconModule]; }, exports: function () { return [StepsComponent, StepComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(StepsModule, [{
         type: NgModule,
@@ -7527,8 +7561,9 @@ DotIndicatorComponent.propDecorators = {
 
 class CarouselModule {
 }
+CarouselModule.ɵfac = function CarouselModule_Factory(t) { return new (t || CarouselModule)(); };
 CarouselModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CarouselModule });
-CarouselModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function CarouselModule_Factory(t) { return new (t || CarouselModule)(); }, imports: [[CommonModule]] });
+CarouselModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CarouselModule, { declarations: function () { return [CarouselComponent, CarouselSlideComponent, DotIndicatorComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [CarouselComponent, CarouselSlideComponent, DotIndicatorComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CarouselModule, [{
         type: NgModule,
@@ -7848,8 +7883,9 @@ CheckboxItemComponent.propDecorators = {
 
 class CheckboxModule {
 }
+CheckboxModule.ɵfac = function CheckboxModule_Factory(t) { return new (t || CheckboxModule)(); };
 CheckboxModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CheckboxModule });
-CheckboxModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function CheckboxModule_Factory(t) { return new (t || CheckboxModule)(); }, imports: [[CommonModule, FormsModule, ListModule]] });
+CheckboxModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, ListModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CheckboxModule, { declarations: function () { return [CheckboxComponent, CheckboxItemComponent, AgreeItemComponent]; }, imports: function () { return [CommonModule, FormsModule, ListModule]; }, exports: function () { return [CheckboxComponent, CheckboxItemComponent, AgreeItemComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CheckboxModule, [{
         type: NgModule,
@@ -8159,8 +8195,9 @@ RadioItemGroupComponent.propDecorators = {
 
 class RadioModule {
 }
+RadioModule.ɵfac = function RadioModule_Factory(t) { return new (t || RadioModule)(); };
 RadioModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: RadioModule });
-RadioModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function RadioModule_Factory(t) { return new (t || RadioModule)(); }, imports: [[CommonModule, FormsModule, ListModule]] });
+RadioModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule, ListModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(RadioModule, { declarations: function () { return [RadioComponent, RadioItemComponent, RadioItemGroupComponent]; }, imports: function () { return [CommonModule, FormsModule, ListModule]; }, exports: function () { return [RadioComponent, RadioItemComponent, RadioItemGroupComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RadioModule, [{
         type: NgModule,
@@ -8273,8 +8310,9 @@ ProgressComponent.propDecorators = {
 
 class ProgressModule {
 }
+ProgressModule.ɵfac = function ProgressModule_Factory(t) { return new (t || ProgressModule)(); };
 ProgressModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ProgressModule });
-ProgressModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ProgressModule_Factory(t) { return new (t || ProgressModule)(); }, imports: [[CommonModule]] });
+ProgressModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ProgressModule, { declarations: function () { return [ProgressComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [ProgressComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ProgressModule, [{
         type: NgModule,
@@ -8616,8 +8654,9 @@ AccordionComponent.propDecorators = {
 
 class AccordionModule {
 }
+AccordionModule.ɵfac = function AccordionModule_Factory(t) { return new (t || AccordionModule)(); };
 AccordionModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: AccordionModule });
-AccordionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function AccordionModule_Factory(t) { return new (t || AccordionModule)(); }, imports: [[CommonModule, WhiteSpaceModule]] });
+AccordionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, WhiteSpaceModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(AccordionModule, { declarations: function () { return [AccordionComponent, AccordionGroupComponent]; }, imports: function () { return [CommonModule, WhiteSpaceModule]; }, exports: function () { return [AccordionComponent, AccordionGroupComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(AccordionModule, [{
         type: NgModule,
@@ -8785,8 +8824,9 @@ NoticeBarComponent.propDecorators = {
 
 class NoticeBarModule {
 }
+NoticeBarModule.ɵfac = function NoticeBarModule_Factory(t) { return new (t || NoticeBarModule)(); };
 NoticeBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NoticeBarModule });
-NoticeBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function NoticeBarModule_Factory(t) { return new (t || NoticeBarModule)(); }, providers: [], imports: [[IconModule, CommonModule, FormsModule]] });
+NoticeBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[IconModule, CommonModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NoticeBarModule, { declarations: function () { return [NoticeBarComponent]; }, imports: function () { return [IconModule, CommonModule, FormsModule]; }, exports: function () { return [NoticeBarComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NoticeBarModule, [{
         type: NgModule,
@@ -9048,8 +9088,9 @@ ToastService.ctorParameters = () => [
 
 class ToastModule {
 }
+ToastModule.ɵfac = function ToastModule_Factory(t) { return new (t || ToastModule)(); };
 ToastModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ToastModule });
-ToastModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ToastModule_Factory(t) { return new (t || ToastModule)(); }, providers: [ToastService], imports: [[CommonModule, IconModule, WingBlankModule]] });
+ToastModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [ToastService], imports: [[CommonModule, IconModule, WingBlankModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ToastModule, { declarations: function () { return [ToastComponent]; }, imports: function () { return [CommonModule, IconModule, WingBlankModule]; }, exports: function () { return [ToastComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ToastModule, [{
         type: NgModule,
@@ -9738,8 +9779,9 @@ function getFooter(actions) {
 
 class ModalModule {
 }
+ModalModule.ɵfac = function ModalModule_Factory(t) { return new (t || ModalModule)(); };
 ModalModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ModalModule });
-ModalModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ModalModule_Factory(t) { return new (t || ModalModule)(); }, providers: [AlertOptions, ModalService, PopupService], imports: [[
+ModalModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [AlertOptions, ModalService, PopupService], imports: [[
             CommonModule,
             ListModule,
             WingBlankModule,
@@ -10209,8 +10251,9 @@ function PopoverOptionsFactory(userOptions) {
 }
 class PopoverModule {
 }
+PopoverModule.ɵfac = function PopoverModule_Factory(t) { return new (t || PopoverModule)(); };
 PopoverModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PopoverModule });
-PopoverModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PopoverModule_Factory(t) { return new (t || PopoverModule)(); }, imports: [[CommonModule]] });
+PopoverModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PopoverModule, { declarations: function () { return [PopoverDirective, PopoverComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [PopoverDirective, PopoverComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverModule, [{
         type: NgModule,
@@ -10355,8 +10398,9 @@ NavBarComponent.propDecorators = {
 
 class NavBarModule {
 }
+NavBarModule.ɵfac = function NavBarModule_Factory(t) { return new (t || NavBarModule)(); };
 NavBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NavBarModule });
-NavBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function NavBarModule_Factory(t) { return new (t || NavBarModule)(); }, imports: [[CommonModule, IconModule]] });
+NavBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NavBarModule, { declarations: function () { return [NavBarComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [NavBarComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NavBarModule, [{
         type: NgModule,
@@ -13275,8 +13319,9 @@ DatePickerDirective.propDecorators = {
 
 class DatePickerModule {
 }
+DatePickerModule.ɵfac = function DatePickerModule_Factory(t) { return new (t || DatePickerModule)(); };
 DatePickerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: DatePickerModule });
-DatePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function DatePickerModule_Factory(t) { return new (t || DatePickerModule)(); }, providers: [DatePickerOptions], imports: [[CommonModule, LocaleProviderModule, ToastModule, FormsModule]] });
+DatePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [DatePickerOptions], imports: [[CommonModule, LocaleProviderModule, ToastModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(DatePickerModule, { declarations: function () { return [DatePickerComponent, DatePickerDirective]; }, imports: function () { return [CommonModule, LocaleProviderModule, ToastModule, FormsModule]; }, exports: function () { return [DatePickerComponent, DatePickerDirective]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerModule, [{
         type: NgModule,
@@ -13290,8 +13335,9 @@ DatePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function DatePick
 
 class DatePickerViewModule {
 }
+DatePickerViewModule.ɵfac = function DatePickerViewModule_Factory(t) { return new (t || DatePickerViewModule)(); };
 DatePickerViewModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: DatePickerViewModule });
-DatePickerViewModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function DatePickerViewModule_Factory(t) { return new (t || DatePickerViewModule)(); }, imports: [[CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule]] });
+DatePickerViewModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(DatePickerViewModule, { declarations: function () { return [DatePickerViewComponent]; }, imports: function () { return [CommonModule, DatePickerModule, LocaleProviderModule, ToastModule, FormsModule]; }, exports: function () { return [DatePickerViewComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DatePickerViewModule, [{
         type: NgModule,
@@ -13669,8 +13715,9 @@ CalendarShortcutPanelComponent.propDecorators = {
 
 class CalendarModule {
 }
+CalendarModule.ɵfac = function CalendarModule_Factory(t) { return new (t || CalendarModule)(); };
 CalendarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: CalendarModule });
-CalendarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function CalendarModule_Factory(t) { return new (t || CalendarModule)(); }, imports: [[CommonModule, IconModule, DatePickerViewModule, LocaleProviderModule]] });
+CalendarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule, DatePickerViewModule, LocaleProviderModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(CalendarModule, { declarations: function () { return [CalendarComponent, CalendarHeaderComponent, CalendarWeekPanelComponent, CalendarDatePickerComponent, CalendarTimePickerComponent, CalendarSingleMonthComponent, CalendarConfirmPanelComponent, CalendarShortcutPanelComponent]; }, imports: function () { return [CommonModule, IconModule, DatePickerViewModule, LocaleProviderModule]; }, exports: function () { return [CalendarComponent, CalendarHeaderComponent, CalendarWeekPanelComponent, CalendarDatePickerComponent, CalendarTimePickerComponent, CalendarSingleMonthComponent, CalendarConfirmPanelComponent, CalendarShortcutPanelComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CalendarModule, [{
         type: NgModule,
@@ -13808,8 +13855,9 @@ PopoverItemComponent.propDecorators = {
 
 class PopoverItemModule {
 }
+PopoverItemModule.ɵfac = function PopoverItemModule_Factory(t) { return new (t || PopoverItemModule)(); };
 PopoverItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PopoverItemModule });
-PopoverItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PopoverItemModule_Factory(t) { return new (t || PopoverItemModule)(); }, imports: [[CommonModule, IconModule]] });
+PopoverItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PopoverItemModule, { declarations: function () { return [PopoverItemComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [PopoverItemComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PopoverItemModule, [{
         type: NgModule,
@@ -14081,8 +14129,9 @@ FlexItemComponent.propDecorators = {
 
 class FlexModule {
 }
+FlexModule.ɵfac = function FlexModule_Factory(t) { return new (t || FlexModule)(); };
 FlexModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: FlexModule });
-FlexModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function FlexModule_Factory(t) { return new (t || FlexModule)(); }, imports: [[CommonModule]] });
+FlexModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(FlexModule, { declarations: function () { return [FlexComponent, FlexItemComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [FlexComponent, FlexItemComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(FlexModule, [{
         type: NgModule,
@@ -14393,8 +14442,9 @@ TouchFeedbackDirective.propDecorators = {
 
 class TouchFeedbackModule {
 }
+TouchFeedbackModule.ɵfac = function TouchFeedbackModule_Factory(t) { return new (t || TouchFeedbackModule)(); };
 TouchFeedbackModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TouchFeedbackModule });
-TouchFeedbackModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function TouchFeedbackModule_Factory(t) { return new (t || TouchFeedbackModule)(); }, imports: [[CommonModule]] });
+TouchFeedbackModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TouchFeedbackModule, { declarations: function () { return [TouchFeedbackDirective]; }, imports: function () { return [CommonModule]; }, exports: function () { return [TouchFeedbackDirective]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TouchFeedbackModule, [{
         type: NgModule,
@@ -14425,8 +14475,9 @@ SafeHTMLPipe.ctorParameters = () => [
 
 class NgZorroAntdMobilePipesModule {
 }
+NgZorroAntdMobilePipesModule.ɵfac = function NgZorroAntdMobilePipesModule_Factory(t) { return new (t || NgZorroAntdMobilePipesModule)(); };
 NgZorroAntdMobilePipesModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NgZorroAntdMobilePipesModule });
-NgZorroAntdMobilePipesModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function NgZorroAntdMobilePipesModule_Factory(t) { return new (t || NgZorroAntdMobilePipesModule)(); }, imports: [[]] });
+NgZorroAntdMobilePipesModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NgZorroAntdMobilePipesModule, { declarations: [SafeHTMLPipe], exports: [SafeHTMLPipe] }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgZorroAntdMobilePipesModule, [{
         type: NgModule,
@@ -14439,8 +14490,9 @@ NgZorroAntdMobilePipesModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: funct
 
 class GridModule {
 }
+GridModule.ɵfac = function GridModule_Factory(t) { return new (t || GridModule)(); };
 GridModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: GridModule });
-GridModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function GridModule_Factory(t) { return new (t || GridModule)(); }, imports: [[FlexModule, IconModule, CommonModule, CarouselModule, TouchFeedbackModule, NgZorroAntdMobilePipesModule]] });
+GridModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[FlexModule, IconModule, CommonModule, CarouselModule, TouchFeedbackModule, NgZorroAntdMobilePipesModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(GridModule, { declarations: function () { return [GridComponent]; }, imports: function () { return [FlexModule, IconModule, CommonModule, CarouselModule, TouchFeedbackModule, NgZorroAntdMobilePipesModule]; }, exports: function () { return [GridComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(GridModule, [{
         type: NgModule,
@@ -14718,8 +14770,9 @@ const ɵActionSheetService_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedF
 
 class ActionSheetModule {
 }
+ActionSheetModule.ɵfac = function ActionSheetModule_Factory(t) { return new (t || ActionSheetModule)(); };
 ActionSheetModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ActionSheetModule });
-ActionSheetModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ActionSheetModule_Factory(t) { return new (t || ActionSheetModule)(); }, providers: [PopupService, ActionSheetService], imports: [[
+ActionSheetModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [PopupService, ActionSheetService], imports: [[
             CommonModule,
             OverlayModule,
             NgZorroAntdMobilePipesModule,
@@ -14819,8 +14872,9 @@ SegmentedControlComponent.propDecorators = {
 
 class SegmentedControlModule {
 }
+SegmentedControlModule.ɵfac = function SegmentedControlModule_Factory(t) { return new (t || SegmentedControlModule)(); };
 SegmentedControlModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SegmentedControlModule });
-SegmentedControlModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SegmentedControlModule_Factory(t) { return new (t || SegmentedControlModule)(); }, imports: [[CommonModule]] });
+SegmentedControlModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SegmentedControlModule, { declarations: function () { return [SegmentedControlComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SegmentedControlComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SegmentedControlModule, [{
         type: NgModule,
@@ -15221,8 +15275,9 @@ TextareaItemComponent.propDecorators = {
 
 class TextareaItemModule {
 }
+TextareaItemModule.ɵfac = function TextareaItemModule_Factory(t) { return new (t || TextareaItemModule)(); };
 TextareaItemModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TextareaItemModule });
-TextareaItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function TextareaItemModule_Factory(t) { return new (t || TextareaItemModule)(); }, imports: [[CommonModule, FormsModule]] });
+TextareaItemModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TextareaItemModule, { declarations: function () { return [TextareaItemComponent]; }, imports: function () { return [CommonModule, FormsModule]; }, exports: function () { return [TextareaItemComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TextareaItemModule, [{
         type: NgModule,
@@ -15995,8 +16050,9 @@ DefaultTabBarComponent.propDecorators = {
 
 class TabsModule {
 }
+TabsModule.ɵfac = function TabsModule_Factory(t) { return new (t || TabsModule)(); };
 TabsModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TabsModule });
-TabsModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function TabsModule_Factory(t) { return new (t || TabsModule)(); }, providers: [], imports: [[CommonModule, ObserversModule]] });
+TabsModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule, ObserversModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TabsModule, { declarations: function () { return [TabPaneComponent, TabsComponent, TabPaneBodyComponent, DefaultTabBarComponent]; }, imports: function () { return [CommonModule, ObserversModule]; }, exports: function () { return [TabPaneComponent, TabsComponent, TabPaneBodyComponent, DefaultTabBarComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabsModule, [{
         type: NgModule,
@@ -16193,8 +16249,9 @@ TabBarComponent.propDecorators = {
 
 class TabBarModule {
 }
+TabBarModule.ɵfac = function TabBarModule_Factory(t) { return new (t || TabBarModule)(); };
 TabBarModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TabBarModule });
-TabBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function TabBarModule_Factory(t) { return new (t || TabBarModule)(); }, providers: [], imports: [[CommonModule, TabsModule, BadgeModule]] });
+TabBarModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule, TabsModule, BadgeModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TabBarModule, { declarations: function () { return [TabBarComponent, TabBarItemComponent]; }, imports: function () { return [CommonModule, TabsModule, BadgeModule]; }, exports: function () { return [TabBarComponent, TabBarItemComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TabBarModule, [{
         type: NgModule,
@@ -16895,8 +16952,9 @@ const ɵPickerService_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInheritedFactor
 
 class PickerModule {
 }
+PickerModule.ɵfac = function PickerModule_Factory(t) { return new (t || PickerModule)(); };
 PickerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PickerModule });
-PickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PickerModule_Factory(t) { return new (t || PickerModule)(); }, providers: [PickerOptions, PopupService, PickerService], imports: [[CommonModule, OverlayModule]] });
+PickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [PickerOptions, PopupService, PickerService], imports: [[CommonModule, OverlayModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PickerModule, { declarations: function () { return [PickerComponent, PickerDirective]; }, imports: function () { return [CommonModule, OverlayModule]; }, exports: function () { return [PickerComponent, PickerDirective]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerModule, [{
         type: NgModule,
@@ -17016,8 +17074,9 @@ const ɵPickerViewComponent_BaseFactory = /*@__PURE__*/ ɵngcc0.ɵɵgetInherited
 
 class PickerViewModule {
 }
+PickerViewModule.ɵfac = function PickerViewModule_Factory(t) { return new (t || PickerViewModule)(); };
 PickerViewModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PickerViewModule });
-PickerViewModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PickerViewModule_Factory(t) { return new (t || PickerViewModule)(); }, imports: [[FormsModule, CommonModule, PickerModule, LocaleProviderModule]] });
+PickerViewModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[FormsModule, CommonModule, PickerModule, LocaleProviderModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PickerViewModule, { declarations: function () { return [PickerViewComponent]; }, imports: function () { return [FormsModule, CommonModule, PickerModule, LocaleProviderModule]; }, exports: function () { return [PickerViewComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PickerViewModule, [{
         type: NgModule,
@@ -17308,8 +17367,9 @@ ImagePickerComponent.propDecorators = {
 
 class ImagePickerModule {
 }
+ImagePickerModule.ɵfac = function ImagePickerModule_Factory(t) { return new (t || ImagePickerModule)(); };
 ImagePickerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ImagePickerModule });
-ImagePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ImagePickerModule_Factory(t) { return new (t || ImagePickerModule)(); }, imports: [[CommonModule, FlexModule]] });
+ImagePickerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, FlexModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ImagePickerModule, { declarations: function () { return [ImagePickerComponent]; }, imports: function () { return [CommonModule, FlexModule]; }, exports: function () { return [ImagePickerComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ImagePickerModule, [{
         type: NgModule,
@@ -17434,8 +17494,9 @@ ResultComponent.propDecorators = {
 
 class ResultModule {
 }
+ResultModule.ɵfac = function ResultModule_Factory(t) { return new (t || ResultModule)(); };
 ResultModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ResultModule });
-ResultModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ResultModule_Factory(t) { return new (t || ResultModule)(); }, imports: [[CommonModule, IconModule]] });
+ResultModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(ResultModule, { declarations: function () { return [ResultComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [ResultComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ResultModule, [{
         type: NgModule,
@@ -18687,8 +18748,9 @@ SliderTrackComponent.propDecorators = {
 
 class SliderModule {
 }
+SliderModule.ɵfac = function SliderModule_Factory(t) { return new (t || SliderModule)(); };
 SliderModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SliderModule });
-SliderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SliderModule_Factory(t) { return new (t || SliderModule)(); }, imports: [[CommonModule]] });
+SliderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SliderModule, { declarations: function () { return [SliderComponent, SliderHandleComponent, SliderMarksComponent, SliderStepsComponent, SliderTrackComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SliderComponent, SliderHandleComponent, SliderMarksComponent, SliderStepsComponent, SliderTrackComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SliderModule, [{
         type: NgModule,
@@ -18707,8 +18769,9 @@ SliderModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SliderModule
 
 class RangeModule {
 }
+RangeModule.ɵfac = function RangeModule_Factory(t) { return new (t || RangeModule)(); };
 RangeModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: RangeModule });
-RangeModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function RangeModule_Factory(t) { return new (t || RangeModule)(); }, imports: [[CommonModule, SliderModule]] });
+RangeModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, SliderModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(RangeModule, { declarations: function () { return [RangeComponent]; }, imports: function () { return [CommonModule, SliderModule]; }, exports: function () { return [RangeComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(RangeModule, [{
         type: NgModule,
@@ -18820,8 +18883,9 @@ PaginationComponent.propDecorators = {
 
 class PaginationModule {
 }
+PaginationModule.ɵfac = function PaginationModule_Factory(t) { return new (t || PaginationModule)(); };
 PaginationModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PaginationModule });
-PaginationModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PaginationModule_Factory(t) { return new (t || PaginationModule)(); }, imports: [[CommonModule, ButtonModule, FlexModule, IconModule, LocaleProviderModule]] });
+PaginationModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, ButtonModule, FlexModule, IconModule, LocaleProviderModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PaginationModule, { declarations: function () { return [PaginationComponent]; }, imports: function () { return [CommonModule, ButtonModule, FlexModule, IconModule, LocaleProviderModule]; }, exports: function () { return [PaginationComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PaginationModule, [{
         type: NgModule,
@@ -18939,8 +19003,9 @@ TagComponent.propDecorators = {
 
 class TagModule {
 }
+TagModule.ɵfac = function TagModule_Factory(t) { return new (t || TagModule)(); };
 TagModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: TagModule });
-TagModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function TagModule_Factory(t) { return new (t || TagModule)(); }, imports: [[CommonModule, IconModule]] });
+TagModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(TagModule, { declarations: function () { return [TagComponent]; }, imports: function () { return [CommonModule, IconModule]; }, exports: function () { return [TagComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(TagModule, [{
         type: NgModule,
@@ -19252,8 +19317,9 @@ SubMenuComponent.propDecorators = {
 
 class MenuModule {
 }
+MenuModule.ɵfac = function MenuModule_Factory(t) { return new (t || MenuModule)(); };
 MenuModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: MenuModule });
-MenuModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function MenuModule_Factory(t) { return new (t || MenuModule)(); }, imports: [[
+MenuModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[
             CommonModule,
             FlexModule,
             ListModule,
@@ -19648,8 +19714,9 @@ DrawerComponent.propDecorators = {
 
 class DrawerModule {
 }
+DrawerModule.ɵfac = function DrawerModule_Factory(t) { return new (t || DrawerModule)(); };
 DrawerModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: DrawerModule });
-DrawerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function DrawerModule_Factory(t) { return new (t || DrawerModule)(); }, imports: [[CommonModule]] });
+DrawerModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(DrawerModule, { declarations: function () { return [DrawerComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [DrawerComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(DrawerModule, [{
         type: NgModule,
@@ -19847,8 +19914,9 @@ SwipeActionComponent.propDecorators = {
 
 class SwipeActionModule {
 }
+SwipeActionModule.ɵfac = function SwipeActionModule_Factory(t) { return new (t || SwipeActionModule)(); };
 SwipeActionModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SwipeActionModule });
-SwipeActionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SwipeActionModule_Factory(t) { return new (t || SwipeActionModule)(); }, providers: [], imports: [[CommonModule]] });
+SwipeActionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SwipeActionModule, { declarations: function () { return [SwipeActionComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SwipeActionComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwipeActionModule, [{
         type: NgModule,
@@ -20248,8 +20316,9 @@ PullToRefreshComponent.propDecorators = {
 
 class PullToRefreshModule {
 }
+PullToRefreshModule.ɵfac = function PullToRefreshModule_Factory(t) { return new (t || PullToRefreshModule)(); };
 PullToRefreshModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: PullToRefreshModule });
-PullToRefreshModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function PullToRefreshModule_Factory(t) { return new (t || PullToRefreshModule)(); }, imports: [[CommonModule, IconModule, FormsModule, ReactiveFormsModule]] });
+PullToRefreshModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule, IconModule, FormsModule, ReactiveFormsModule]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(PullToRefreshModule, { declarations: function () { return [PullToRefreshComponent]; }, imports: function () { return [CommonModule, IconModule, FormsModule, ReactiveFormsModule]; }, exports: function () { return [PullToRefreshComponent]; } }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(PullToRefreshModule, [{
         type: NgModule,
@@ -20267,8 +20336,9 @@ class NgZorroAntdMobileModule {
         };
     }
 }
+NgZorroAntdMobileModule.ɵfac = function NgZorroAntdMobileModule_Factory(t) { return new (t || NgZorroAntdMobileModule)(); };
 NgZorroAntdMobileModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: NgZorroAntdMobileModule });
-NgZorroAntdMobileModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function NgZorroAntdMobileModule_Factory(t) { return new (t || NgZorroAntdMobileModule)(); }, providers: [], imports: [ActivityIndicatorModule, CardModule, TabsModule, TabBarModule, ButtonModule, SwitchModule, SearchBarModule, StepperModule, StepsModule, CheckboxModule, ProgressModule, SegmentedControlModule, BadgeModule, CarouselModule, ActionSheetModule, AccordionModule, NoticeBarModule, IconModule, ToastModule, RadioModule, ModalModule, PopoverModule, PopoverItemModule, NavBarModule, ListModule, CalendarModule, InputItemModule, FlexModule, GridModule, RangeModule, SliderModule, TextareaItemModule, NgZorroAntdMobilePipesModule, PickerModule, PickerViewModule, ImagePickerModule, ResultModule, WhiteSpaceModule, WingBlankModule, LocaleProviderModule, NgZorroAntdMobilePipesModule, PaginationModule, TagModule, MenuModule, DatePickerModule, DatePickerViewModule, DrawerModule, PullToRefreshModule, SwipeActionModule] });
+NgZorroAntdMobileModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [ActivityIndicatorModule, CardModule, TabsModule, TabBarModule, ButtonModule, SwitchModule, SearchBarModule, StepperModule, StepsModule, CheckboxModule, ProgressModule, SegmentedControlModule, BadgeModule, CarouselModule, ActionSheetModule, AccordionModule, NoticeBarModule, IconModule, ToastModule, RadioModule, ModalModule, PopoverModule, PopoverItemModule, NavBarModule, ListModule, CalendarModule, InputItemModule, FlexModule, GridModule, RangeModule, SliderModule, TextareaItemModule, NgZorroAntdMobilePipesModule, PickerModule, PickerViewModule, ImagePickerModule, ResultModule, WhiteSpaceModule, WingBlankModule, LocaleProviderModule, NgZorroAntdMobilePipesModule, PaginationModule, TagModule, MenuModule, DatePickerModule, DatePickerViewModule, DrawerModule, PullToRefreshModule, SwipeActionModule] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NgZorroAntdMobileModule, { exports: [ActivityIndicatorModule, CardModule, TabsModule, TabBarModule, ButtonModule, SwitchModule, SearchBarModule, StepperModule, StepsModule, CheckboxModule, ProgressModule, SegmentedControlModule, BadgeModule, CarouselModule, ActionSheetModule, AccordionModule, NoticeBarModule, IconModule, ToastModule, RadioModule, ModalModule, PopoverModule, PopoverItemModule, NavBarModule, ListModule, CalendarModule, InputItemModule, FlexModule, GridModule, RangeModule, SliderModule, TextareaItemModule, NgZorroAntdMobilePipesModule, PickerModule, PickerViewModule, ImagePickerModule, ResultModule, WhiteSpaceModule, WingBlankModule, LocaleProviderModule, NgZorroAntdMobilePipesModule, PaginationModule, TagModule, MenuModule, DatePickerModule, DatePickerViewModule, DrawerModule, PullToRefreshModule, SwipeActionModule] }); })();
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgZorroAntdMobileModule, [{
         type: NgModule,

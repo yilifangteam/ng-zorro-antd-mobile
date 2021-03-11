@@ -10,6 +10,7 @@ import * as ɵngcc8 from '../button/button.module';
 import * as ɵngcc9 from '../locale-provider/locale-provider.module';
 import * as ɵngcc10 from '@angular/forms';
 export declare class MenuModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<MenuModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<MenuModule, [typeof ɵngcc1.MenuComponent, typeof ɵngcc2.SubMenuComponent], [typeof ɵngcc3.CommonModule, typeof ɵngcc4.FlexModule, typeof ɵngcc5.ListModule, typeof ɵngcc6.RadioModule, typeof ɵngcc7.CheckboxModule, typeof ɵngcc8.ButtonModule, typeof ɵngcc9.LocaleProviderModule, typeof ɵngcc10.FormsModule], [typeof ɵngcc1.MenuComponent, typeof ɵngcc2.SubMenuComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<MenuModule>;
 }

@@ -9,6 +9,7 @@ import * as ɵngcc7 from '../input-item/input-item.module';
 import * as ɵngcc8 from '@angular/forms';
 import * as ɵngcc9 from '@angular/cdk/overlay';
 export declare class ModalModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<ModalModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<ModalModule, [typeof ɵngcc1.ModalComponent, typeof ɵngcc1.ModalServiceComponent], [typeof ɵngcc2.CommonModule, typeof ɵngcc3.ListModule, typeof ɵngcc4.WingBlankModule, typeof ɵngcc5.WhiteSpaceModule, typeof ɵngcc6.ButtonModule, typeof ɵngcc7.InputItemModule, typeof ɵngcc8.FormsModule, typeof ɵngcc8.ReactiveFormsModule, typeof ɵngcc9.OverlayModule], [typeof ɵngcc1.ModalComponent, typeof ɵngcc1.ModalServiceComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<ModalModule>;
 }

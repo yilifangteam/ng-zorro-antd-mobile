@@ -6,6 +6,7 @@ import * as ɵngcc4 from '../flex/flex.module';
 import * as ɵngcc5 from '../icon/icon.module';
 import * as ɵngcc6 from '../locale-provider/locale-provider.module';
 export declare class PaginationModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<PaginationModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<PaginationModule, [typeof ɵngcc1.PaginationComponent], [typeof ɵngcc2.CommonModule, typeof ɵngcc3.ButtonModule, typeof ɵngcc4.FlexModule, typeof ɵngcc5.IconModule, typeof ɵngcc6.LocaleProviderModule], [typeof ɵngcc1.PaginationComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<PaginationModule>;
 }

@@ -3,6 +3,7 @@ import * as ɵngcc1 from './badge.component';
 import * as ɵngcc2 from '@angular/common';
 import * as ɵngcc3 from '@angular/forms';
 export declare class BadgeModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<BadgeModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<BadgeModule, [typeof ɵngcc1.BadgeComponent], [typeof ɵngcc2.CommonModule, typeof ɵngcc3.FormsModule], [typeof ɵngcc1.BadgeComponent]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<BadgeModule>;
 }

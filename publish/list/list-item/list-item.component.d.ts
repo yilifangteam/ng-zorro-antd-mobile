@@ -26,10 +26,13 @@ export declare class ListItemComponent implements OnInit, OnDestroy {
     private _disabled;
     private _className;
     private _active;
+    private _extraTip;
     get extra(): string | TemplateRef<any>;
     get extra_component(): boolean;
     get extra_title(): string;
     set extra(value: string | TemplateRef<any>);
+    set extraTip(v: string);
+    get extraTip(): string;
     set className(value: any);
     get arrow(): string;
     set arrow(value: string);
@@ -57,7 +60,7 @@ export declare class ListItemComponent implements OnInit, OnDestroy {
     ngOnInit(): void;
     ngOnDestroy(): void;
     static ɵfac: ɵngcc0.ɵɵFactoryDef<ListItemComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ListItemComponent, "ListItem, nzm-list-item", never, { "extra": "extra"; "className": "className"; "arrow": "arrow"; "multipleLine": "multipleLine"; "error": "error"; "wrap": "wrap"; "align": "align"; "platform": "platform"; "disabled": "disabled"; "thumb": "thumb"; }, { "onClick": "onClick"; }, never, ["*"]>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<ListItemComponent, "ListItem, nzm-list-item", never, { "extra": "extra"; "extraTip": "extraTip"; "className": "className"; "arrow": "arrow"; "multipleLine": "multipleLine"; "error": "error"; "wrap": "wrap"; "align": "align"; "platform": "platform"; "disabled": "disabled"; "thumb": "thumb"; }, { "onClick": "onClick"; }, never, ["*"]>;
 }
 
 //# sourceMappingURL=list-item.component.d.ts.map

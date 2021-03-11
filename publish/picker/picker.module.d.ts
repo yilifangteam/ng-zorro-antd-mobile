@@ -4,6 +4,7 @@ import * as ɵngcc2 from './picker.directive';
 import * as ɵngcc3 from '@angular/common';
 import * as ɵngcc4 from '@angular/cdk/overlay';
 export declare class PickerModule {
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<PickerModule, never>;
     static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<PickerModule, [typeof ɵngcc1.PickerComponent, typeof ɵngcc2.PickerDirective], [typeof ɵngcc3.CommonModule, typeof ɵngcc4.OverlayModule], [typeof ɵngcc1.PickerComponent, typeof ɵngcc2.PickerDirective]>;
     static ɵinj: ɵngcc0.ɵɵInjectorDef<PickerModule>;
 }

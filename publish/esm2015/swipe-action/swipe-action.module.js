@@ -1,20 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SwipeActionComponent } from './swipe-action.component';
-import * as ɵngcc0 from '@angular/core';
 export class SwipeActionModule {
 }
-SwipeActionModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: SwipeActionModule });
-SwipeActionModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function SwipeActionModule_Factory(t) { return new (t || SwipeActionModule)(); }, providers: [], imports: [[CommonModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(SwipeActionModule, { declarations: function () { return [SwipeActionComponent]; }, imports: function () { return [CommonModule]; }, exports: function () { return [SwipeActionComponent]; } }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SwipeActionModule, [{
-        type: NgModule,
-        args: [{
+SwipeActionModule.decorators = [
+    { type: NgModule, args: [{
                 imports: [CommonModule],
                 exports: [SwipeActionComponent],
                 declarations: [SwipeActionComponent],
                 providers: []
-            }]
-    }], null, null); })();
-
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3dpcGUtYWN0aW9uLm1vZHVsZS5qcyIsInNvdXJjZXMiOlsiLi4vLi4vY29tcG9uZW50cy9zd2lwZS1hY3Rpb24vc3dpcGUtYWN0aW9uLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUsb0JBQW9CLEVBQUUsTUFBTSwwQkFBMEIsQ0FBQzs7QUFRaEUsTUFBTSxPQUFPLGlCQUFpQjtBQUFHOzZDQU5oQyxRQUFRLFNBQUM7Q0FDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLENBQUMsa0JBQ3ZCLE9BQU8sRUFBRSxDQUFDLG9CQUFvQixDQUFDLGtCQUMvQixZQUFZLEVBQUUsQ0FBQyxvQkFBb0IsQ0FBQyxrQkFDcEMsU0FBUyxFQUFFLEVBQUUsY0FDZDs7Ozs7Ozs7OzswQkFDSTtBQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBTd2lwZUFjdGlvbkNvbXBvbmVudCB9IGZyb20gJy4vc3dpcGUtYWN0aW9uLmNvbXBvbmVudCc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGVdLFxuICBleHBvcnRzOiBbU3dpcGVBY3Rpb25Db21wb25lbnRdLFxuICBkZWNsYXJhdGlvbnM6IFtTd2lwZUFjdGlvbkNvbXBvbmVudF0sXG4gIHByb3ZpZGVyczogW11cbn0pXG5leHBvcnQgY2xhc3MgU3dpcGVBY3Rpb25Nb2R1bGUge31cbiJdfQ==
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3dpcGUtYWN0aW9uLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIuLi8uLi9jb21wb25lbnRzLyIsInNvdXJjZXMiOlsic3dpcGUtYWN0aW9uL3N3aXBlLWFjdGlvbi5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDL0MsT0FBTyxFQUFFLG9CQUFvQixFQUFFLE1BQU0sMEJBQTBCLENBQUM7QUFRaEUsTUFBTSxPQUFPLGlCQUFpQjs7O1lBTjdCLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLENBQUM7Z0JBQ3ZCLE9BQU8sRUFBRSxDQUFDLG9CQUFvQixDQUFDO2dCQUMvQixZQUFZLEVBQUUsQ0FBQyxvQkFBb0IsQ0FBQztnQkFDcEMsU0FBUyxFQUFFLEVBQUU7YUFDZCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgU3dpcGVBY3Rpb25Db21wb25lbnQgfSBmcm9tICcuL3N3aXBlLWFjdGlvbi5jb21wb25lbnQnO1xuXG5ATmdNb2R1bGUoe1xuICBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlXSxcbiAgZXhwb3J0czogW1N3aXBlQWN0aW9uQ29tcG9uZW50XSxcbiAgZGVjbGFyYXRpb25zOiBbU3dpcGVBY3Rpb25Db21wb25lbnRdLFxuICBwcm92aWRlcnM6IFtdXG59KVxuZXhwb3J0IGNsYXNzIFN3aXBlQWN0aW9uTW9kdWxlIHt9XG4iXX0=
