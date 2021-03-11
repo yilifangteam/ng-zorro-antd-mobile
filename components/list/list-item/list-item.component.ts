@@ -43,6 +43,7 @@ export class ListItemComponent implements OnInit, OnDestroy {
   private _disabled: boolean = false;
   private _className: string = '';
   private _active: boolean = false;
+  private _extraTip: string = '';
 
   @Input()
   get extra() {
@@ -63,6 +64,15 @@ export class ListItemComponent implements OnInit, OnDestroy {
       this._extra_title = <string>value;
     }
   }
+
+  @Input()
+  set extraTip(v: string) {
+    this._extraTip = v;
+  }
+  get extraTip() {
+    return this._extraTip;
+  }
+
   @Input()
   set className(value) {
     this._className = value;
