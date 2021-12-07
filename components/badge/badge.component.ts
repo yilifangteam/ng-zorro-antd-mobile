@@ -9,7 +9,7 @@ export class BadgeComponent implements OnChanges, OnInit, AfterViewInit {
   scrollNumberCls: object = {};
   style: object = {};
 
-  private _text: string;
+  private _text: string | number;
   private _setClass: string;
   private _size: string = 'small';
   private _dot: boolean = false;
@@ -24,10 +24,10 @@ export class BadgeComponent implements OnChanges, OnInit, AfterViewInit {
     this.setCls();
   }
   @Input()
-  get text(): string {
+  get text(): string | number {
     return this._text;
   }
-  set text(v: string) {
+  set text(v: string | number) {
     this._text = v;
     this.setCls();
   }

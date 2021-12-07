@@ -126,7 +126,8 @@ export class ImagePickerComponent {
     this._files.push({
       type: 'img',
       url: imgItem.url,
-      orientation: imgItem.orientation
+      orientation: imgItem.orientation,
+      originalFile: imgItem.file
     });
     this.sortItem();
     this.onChange.emit({
